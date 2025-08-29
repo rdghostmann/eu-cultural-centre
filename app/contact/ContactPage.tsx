@@ -211,7 +211,7 @@ export default function ContactPage() {
 						viewport={{ once: true }}
 						transition={{ duration: 0.8 }}
 					>
-						<div className="w-full max-w-2xl rounded-lg overflow-hidden shadow-lg border border-[#68b684]/30 mx-auto">
+						<div className="w-full max-w-4xl rounded-lg overflow-hidden shadow-lg border border-[#68b684]/30 mx-auto">
 							<iframe
 								title="ECC Nigeria Location"
 								src="https://www.google.com/maps?q=47+Damaturu+Crescent,+Garki+Mall,+FCT,+Abuja&output=embed"
