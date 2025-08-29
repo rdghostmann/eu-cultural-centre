@@ -58,7 +58,7 @@ export function Navigation() {
 
   return (
     <motion.header
-      className="z-50 w-full border-b bg-gradient-to-br from-[#f8fafc] via-[#e0e7ef] to-[#dbeafe] dark:from-[#181f2a] dark:via-[#205375] dark:to-[#68b684] backdrop-blur supports-[backdrop-filter]:bg-white/60"
+      className="relative top-0 z-50 w-full border-b bg-gradient-to-br from-[#f8fafc] via-[#e0e7ef] to-[#dbeafe] dark:from-[#181f2a] dark:via-[#205375] dark:to-[#68b684] backdrop-blur supports-[backdrop-filter]:bg-white/60"
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.5 }}
@@ -96,7 +96,7 @@ export function Navigation() {
         </motion.div>
 
         {/* Desktop Navigation */}
-        <NavigationMenu className="hidden lg:flex">
+        <NavigationMenu className="hidden lg:flex z-40">
           <NavigationMenuList>
             <NavigationMenuItem>
               <motion.div whileHover={{ scale: 1.05 }}>
