@@ -92,7 +92,7 @@ export default function HeaderSlider2({
 
         <motion.h1
           variants={staggerItem}
-          className="text-3xl sm:text-4xl lg:text-6xl font-extrabold mb-4 leading-tight drop-shadow-[0_8px_32px_rgba(0,0,0,0.7)]"
+          className="text-2xl sm:text-4xl lg:text-6xl font-extrabold mb-4 leading-tight drop-shadow-[0_8px_32px_rgba(0,0,0,0.7)]"
         >
           {slide.title}
           <motion.span
