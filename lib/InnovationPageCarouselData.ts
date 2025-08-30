@@ -66,54 +66,54 @@ export const InnovationPageCarouselData: Slide[] = [
     primaryLink: { href: "/#programs", text: "Join Platform" },
     secondaryLink: { href: "/contact", text: "Learn More" },
   },
-  {
-    image: "/images/innovation6.jpg",
-    badge: "Digital Storytelling",
-    title: "Stories,",
-    subtitle: "Reimagined",
-    description:
-      "Empowering creators to share stories in digital, interactive, and impactful formats for global audiences.",
-    primaryLink: { href: "/#programs", text: "Share Story" },
-    secondaryLink: { href: "/contact", text: "Learn More" },
-  },
-  {
-    image: "/images/innovation7.jpg",
-    badge: "Cross-Border Labs",
-    title: "Collaborate,",
-    subtitle: "Innovate Together",
-    description:
-      "Bringing innovators from Africa and Europe together to co-create solutions for cultural exchange.",
-    primaryLink: { href: "/#programs", text: "Join Lab" },
-    secondaryLink: { href: "/contact", text: "Collaborate" },
-  },
-  {
-    image: "/images/innovation8.jpg",
-    badge: "Tech for Good",
-    title: "Innovation,",
-    subtitle: "With Purpose",
-    description:
-      "Harnessing technology to solve cultural and social challenges, ensuring meaningful and inclusive impact.",
-    primaryLink: { href: "/#programs", text: "Support Cause" },
-    secondaryLink: { href: "/contact", text: "Learn More" },
-  },
-  {
-    image: "/images/innovation9.jpg",
-    badge: "Future Media",
-    title: "Next-Gen Media,",
-    subtitle: "Next-Gen Culture",
-    description:
-      "Exploring the future of broadcasting, AI, and media tech to expand cultural reach worldwide.",
-    primaryLink: { href: "/#programs", text: "Explore Media" },
-    secondaryLink: { href: "/contact", text: "Learn More" },
-  },
-  {
-    image: "/images/innovation10.jpg",
-    badge: "Global Creativity",
-    title: "One Culture,",
-    subtitle: "Connected Globally",
-    description:
-      "Creating global opportunities where innovation and creativity unite communities across continents.",
-    primaryLink: { href: "/#programs", text: "Join Movement" },
-    secondaryLink: { href: "/contact", text: "Learn More" },
-  },
+  // {
+  //   image: "/images/innovation6.jpg",
+  //   badge: "Digital Storytelling",
+  //   title: "Stories,",
+  //   subtitle: "Reimagined",
+  //   description:
+  //     "Empowering creators to share stories in digital, interactive, and impactful formats for global audiences.",
+  //   primaryLink: { href: "/#programs", text: "Share Story" },
+  //   secondaryLink: { href: "/contact", text: "Learn More" },
+  // },
+  // {
+  //   image: "/images/innovation7.jpg",
+  //   badge: "Cross-Border Labs",
+  //   title: "Collaborate,",
+  //   subtitle: "Innovate Together",
+  //   description:
+  //     "Bringing innovators from Africa and Europe together to co-create solutions for cultural exchange.",
+  //   primaryLink: { href: "/#programs", text: "Join Lab" },
+  //   secondaryLink: { href: "/contact", text: "Collaborate" },
+  // },
+  // {
+  //   image: "/images/innovation8.jpg",
+  //   badge: "Tech for Good",
+  //   title: "Innovation,",
+  //   subtitle: "With Purpose",
+  //   description:
+  //     "Harnessing technology to solve cultural and social challenges, ensuring meaningful and inclusive impact.",
+  //   primaryLink: { href: "/#programs", text: "Support Cause" },
+  //   secondaryLink: { href: "/contact", text: "Learn More" },
+  // },
+  // {
+  //   image: "/images/innovation9.jpg",
+  //   badge: "Future Media",
+  //   title: "Next-Gen Media,",
+  //   subtitle: "Next-Gen Culture",
+  //   description:
+  //     "Exploring the future of broadcasting, AI, and media tech to expand cultural reach worldwide.",
+  //   primaryLink: { href: "/#programs", text: "Explore Media" },
+  //   secondaryLink: { href: "/contact", text: "Learn More" },
+  // },
+  // {
+  //   image: "/images/innovation10.jpg",
+  //   badge: "Global Creativity",
+  //   title: "One Culture,",
+  //   subtitle: "Connected Globally",
+  //   description:
+  //     "Creating global opportunities where innovation and creativity unite communities across continents.",
+  //   primaryLink: { href: "/#programs", text: "Join Movement" },
+  //   secondaryLink: { href: "/contact", text: "Learn More" },
+  // },
 ];

@@ -241,8 +241,6 @@ export default function AboutPage() {
 				</div>
 			</section>
 
-
-
 			{/* Values Section */}
 			<section className="py-20 bg-gradient-to-br from-[#181f2a] via-[#205375] to-[#68b684]" ref={valuesRef}>
 				<div className="container mx-auto">

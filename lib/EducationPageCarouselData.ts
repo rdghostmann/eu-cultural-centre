@@ -66,54 +66,54 @@ export const EducationPageCarouselData: Slide[] = [
     primaryLink: { href: "/contact", text: "Start Learning" },
     secondaryLink: { href: "/contact", text: "Learn More" },
   },
-  {
-    image: "/images/education6.jpg",
-    badge: "Youth Empowerment",
-    title: "Educate Youth,",
-    subtitle: "Shape the Future",
-    description:
-      "Encouraging youth leadership through mentorship, innovation, and education.",
-    primaryLink: { href: "/contact", text: "Empower Youth" },
-    secondaryLink: { href: "/contact", text: "Learn More" },
-  },
-  {
-    image: "/images/education7.jpg",
-    badge: "Professional Growth",
-    title: "Train Today,",
-    subtitle: "Lead Tomorrow",
-    description:
-      "Supporting continuous professional development for a global workforce.",
-    primaryLink: { href: "/contact", text: "Join Training" },
-    secondaryLink: { href: "/contact", text: "Learn More" },
-  },
-  {
-    image: "/images/education8.jpg",
-    badge: "STEM Innovation",
-    title: "Science & Tech,",
-    subtitle: "For Global Impact",
-    description:
-      "Promoting STEM education to drive innovation and sustainable development.",
-    primaryLink: { href: "/contact", text: "Support STEM" },
-    secondaryLink: { href: "/contact", text: "Learn More" },
-  },
-  {
-    image: "/images/education9.jpg",
-    badge: "Cultural Exchange in Learning",
-    title: "Diverse Classrooms,",
-    subtitle: "Inclusive Futures",
-    description:
-      "Integrating cultural understanding into education for global citizenship.",
-    primaryLink: { href: "/contact", text: "Join the Exchange" },
-    secondaryLink: { href: "/contact", text: "Learn More" },
-  },
-  {
-    image: "/images/education10.jpg",
-    badge: "Global Knowledge • Shared Futures",
-    title: "United by,",
-    subtitle: "Education",
-    description:
-      "Collaborating across borders to build an educated, connected, and sustainable future.",
-    primaryLink: { href: "/contact", text: "Connect With Us" },
-    secondaryLink: { href: "/contact", text: "Learn More" },
-  },
+  // {
+  //   image: "/images/education6.jpg",
+  //   badge: "Youth Empowerment",
+  //   title: "Educate Youth,",
+  //   subtitle: "Shape the Future",
+  //   description:
+  //     "Encouraging youth leadership through mentorship, innovation, and education.",
+  //   primaryLink: { href: "/contact", text: "Empower Youth" },
+  //   secondaryLink: { href: "/contact", text: "Learn More" },
+  // },
+  // {
+  //   image: "/images/education7.jpg",
+  //   badge: "Professional Growth",
+  //   title: "Train Today,",
+  //   subtitle: "Lead Tomorrow",
+  //   description:
+  //     "Supporting continuous professional development for a global workforce.",
+  //   primaryLink: { href: "/contact", text: "Join Training" },
+  //   secondaryLink: { href: "/contact", text: "Learn More" },
+  // },
+  // {
+  //   image: "/images/education8.jpg",
+  //   badge: "STEM Innovation",
+  //   title: "Science & Tech,",
+  //   subtitle: "For Global Impact",
+  //   description:
+  //     "Promoting STEM education to drive innovation and sustainable development.",
+  //   primaryLink: { href: "/contact", text: "Support STEM" },
+  //   secondaryLink: { href: "/contact", text: "Learn More" },
+  // },
+  // {
+  //   image: "/images/education9.jpg",
+  //   badge: "Cultural Exchange in Learning",
+  //   title: "Diverse Classrooms,",
+  //   subtitle: "Inclusive Futures",
+  //   description:
+  //     "Integrating cultural understanding into education for global citizenship.",
+  //   primaryLink: { href: "/contact", text: "Join the Exchange" },
+  //   secondaryLink: { href: "/contact", text: "Learn More" },
+  // },
+  // {
+  //   image: "/images/education10.jpg",
+  //   badge: "Global Knowledge • Shared Futures",
+  //   title: "United by,",
+  //   subtitle: "Education",
+  //   description:
+  //     "Collaborating across borders to build an educated, connected, and sustainable future.",
+  //   primaryLink: { href: "/contact", text: "Connect With Us" },
+  //   secondaryLink: { href: "/contact", text: "Learn More" },
+  // },
 ];

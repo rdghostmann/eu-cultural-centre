@@ -86,34 +86,34 @@ export const EventsPageCarouselData: Slide[] = [
     primaryLink: { href: "/contact", text: "Visit Exhibition" },
     secondaryLink: { href: "/contact", text: "Learn More" },
   },
-  {
-    image: "/images/events8.jpg",
-    badge: "Music & Dance",
-    title: "Feel the Rhythm,",
-    subtitle: "Share the Beat",
-    description:
-      "Live performances connecting people through music, dance, and shared artistic experiences.",
-    primaryLink: { href: "/contact", text: "Book Tickets" },
-    secondaryLink: { href: "/contact", text: "Learn More" },
-  },
-  {
-    image: "/images/events9.jpg",
-    badge: "Community Gatherings",
-    title: "Stronger Together,",
-    subtitle: "Through Community",
-    description:
-      "Local and regional gatherings that build lasting connections across cultures.",
-    primaryLink: { href: "/contact", text: "Join a Gathering" },
-    secondaryLink: { href: "/contact", text: "Learn More" },
-  },
-  {
-    image: "/images/events10.jpg",
-    badge: "Global Connections",
-    title: "One World,",
-    subtitle: "Shared Future",
-    description:
-      "Uniting people worldwide through cultural events and cross-border collaborations.",
-    primaryLink: { href: "/contact", text: "Connect With Us" },
-    secondaryLink: { href: "/contact", text: "Learn More" },
-  },
+  // {
+  //   image: "/images/events8.jpg",
+  //   badge: "Music & Dance",
+  //   title: "Feel the Rhythm,",
+  //   subtitle: "Share the Beat",
+  //   description:
+  //     "Live performances connecting people through music, dance, and shared artistic experiences.",
+  //   primaryLink: { href: "/contact", text: "Book Tickets" },
+  //   secondaryLink: { href: "/contact", text: "Learn More" },
+  // },
+  // {
+  //   image: "/images/events9.jpg",
+  //   badge: "Community Gatherings",
+  //   title: "Stronger Together,",
+  //   subtitle: "Through Community",
+  //   description:
+  //     "Local and regional gatherings that build lasting connections across cultures.",
+  //   primaryLink: { href: "/contact", text: "Join a Gathering" },
+  //   secondaryLink: { href: "/contact", text: "Learn More" },
+  // },
+  // {
+  //   image: "/images/events10.jpg",
+  //   badge: "Global Connections",
+  //   title: "One World,",
+  //   subtitle: "Shared Future",
+  //   description:
+  //     "Uniting people worldwide through cultural events and cross-border collaborations.",
+  //   primaryLink: { href: "/contact", text: "Connect With Us" },
+  //   secondaryLink: { href: "/contact", text: "Learn More" },
+  // },
 ];
