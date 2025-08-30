@@ -12,7 +12,7 @@ import ScrollToTopButton from "@/components/ScrollToTopButton/ScrollToTopButton"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "European Cultural Center Nigeria",
+  title: "European Cultural Centre Nigeria",
   description:"Bridging cultures, fostering understanding, and promoting cooperation between Europe and Nigeria through education, arts, and cultural exchange.",
     icons: {
     icon: "/favicon.png",
