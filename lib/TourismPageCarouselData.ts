@@ -66,54 +66,54 @@ export const TourismPageCarouselData: Slide[] = [
     primaryLink: { href: "/#programs", text: "See Community Tours" },
     secondaryLink: { href: "/contact", text: "Support Locals" },
   },
-  {
-    image: "/images/tourism6.jpg",
-    badge: "Culinary Tourism",
-    title: "Taste,",
-    subtitle: "Nigeria’s Flavors",
-    description:
-      "Discover authentic Nigerian cuisine through culinary tours, food festivals, and local dining experiences.",
-    primaryLink: { href: "/#programs", text: "Food Experiences" },
-    secondaryLink: { href: "/contact", text: "Join a Tour" },
-  },
-  {
-    image: "/images/tourism7.jpg",
-    badge: "Youth & Travel",
-    title: "Inspiring Youth,",
-    subtitle: "Through Exploration",
-    description:
-      "Providing opportunities for young people to explore new cultures, broaden horizons, and build networks.",
-    primaryLink: { href: "/#programs", text: "Youth Travel" },
-    secondaryLink: { href: "/contact", text: "Get Involved" },
-  },
-  {
-    image: "/images/tourism8.jpg",
-    badge: "Festivals & Events",
-    title: "Celebrate,",
-    subtitle: "Cultural Vibrance",
-    description:
-      "Promoting local and international cultural festivals that highlight Nigeria’s diverse heritage and creativity.",
-    primaryLink: { href: "/#programs", text: "View Events" },
-    secondaryLink: { href: "/contact", text: "Attend With Us" },
-  },
-  {
-    image: "/images/tourism9.jpg",
-    badge: "Cross-Border Travel",
-    title: "Connecting,",
-    subtitle: "Africa & Europe",
-    description:
-      "Building tourism partnerships that create meaningful cross-border cultural and travel experiences.",
-    primaryLink: { href: "/#programs", text: "Explore Partnerships" },
-    secondaryLink: { href: "/contact", text: "Collaborate" },
-  },
-  {
-    image: "/images/tourism10.jpg",
-    badge: "Global Tourism Cooperation",
-    title: "Travel,",
-    subtitle: "Without Borders",
-    description:
-      "Promoting international cooperation in tourism to strengthen cultural diplomacy and global understanding.",
-    primaryLink: { href: "/#programs", text: "Join Journeys" },
-    secondaryLink: { href: "/contact", text: "Partner With Us"},
-  }
+  // {
+  //   image: "/images/tourism6.jpg",
+  //   badge: "Culinary Tourism",
+  //   title: "Taste,",
+  //   subtitle: "Nigeria’s Flavors",
+  //   description:
+  //     "Discover authentic Nigerian cuisine through culinary tours, food festivals, and local dining experiences.",
+  //   primaryLink: { href: "/#programs", text: "Food Experiences" },
+  //   secondaryLink: { href: "/contact", text: "Join a Tour" },
+  // },
+  // {
+  //   image: "/images/tourism7.jpg",
+  //   badge: "Youth & Travel",
+  //   title: "Inspiring Youth,",
+  //   subtitle: "Through Exploration",
+  //   description:
+  //     "Providing opportunities for young people to explore new cultures, broaden horizons, and build networks.",
+  //   primaryLink: { href: "/#programs", text: "Youth Travel" },
+  //   secondaryLink: { href: "/contact", text: "Get Involved" },
+  // },
+  // {
+  //   image: "/images/tourism8.jpg",
+  //   badge: "Festivals & Events",
+  //   title: "Celebrate,",
+  //   subtitle: "Cultural Vibrance",
+  //   description:
+  //     "Promoting local and international cultural festivals that highlight Nigeria’s diverse heritage and creativity.",
+  //   primaryLink: { href: "/#programs", text: "View Events" },
+  //   secondaryLink: { href: "/contact", text: "Attend With Us" },
+  // },
+  // {
+  //   image: "/images/tourism9.jpg",
+  //   badge: "Cross-Border Travel",
+  //   title: "Connecting,",
+  //   subtitle: "Africa & Europe",
+  //   description:
+  //     "Building tourism partnerships that create meaningful cross-border cultural and travel experiences.",
+  //   primaryLink: { href: "/#programs", text: "Explore Partnerships" },
+  //   secondaryLink: { href: "/contact", text: "Collaborate" },
+  // },
+  // {
+  //   image: "/images/tourism10.jpg",
+  //   badge: "Global Tourism Cooperation",
+  //   title: "Travel,",
+  //   subtitle: "Without Borders",
+  //   description:
+  //     "Promoting international cooperation in tourism to strengthen cultural diplomacy and global understanding.",
+  //   primaryLink: { href: "/#programs", text: "Join Journeys" },
+  //   secondaryLink: { href: "/contact", text: "Partner With Us"},
+  // }
 ]

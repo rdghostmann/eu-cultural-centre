@@ -53,7 +53,7 @@ export default function HeaderSlider({
   const slide = images[currentSlide];
 
   return (
-    <div className="relative w-full h-[calc(100vh-144px)] bg-purple-900 rounded-l-lg overflow-hidden">
+    <div className="relative w-full h-[calc(100vh-215px)] lg:h-[calc(100vh-144px)] bg-purple-900 overflow-hidden">
       {/* Background slides */}
       <div className="absolute inset-0">
         {images.map((item, index) => (
@@ -92,7 +92,7 @@ export default function HeaderSlider({
 
         <motion.h1
           variants={staggerItem}
-          className="text-3xl sm:text-4xl lg:text-6xl font-extrabold mb-4 leading-tight drop-shadow-[0_8px_32px_rgba(0,0,0,0.7)]"
+          className="text-2xl sm:text-4xl lg:text-6xl font-extrabold mb-4 leading-tight drop-shadow-[0_8px_32px_rgba(0,0,0,0.7)]"
         >
           {slide.title}
           <motion.span
@@ -165,14 +165,14 @@ export default function HeaderSlider({
       {/* Navigation Arrows */}
       <button
         onClick={prevSlide}
-        className="absolute left-2 sm:left-4 top-1/2 transform -translate-y-1/2 text-white/75 hover:text-white transition-colors"
+        className="hidden absolute left-2 sm:left-4 top-1/2 transform -translate-y-1/2 text-white/75 hover:text-white transition-colors"
         aria-label="Previous slide"
       >
         <ChevronLeft className="w-8 h-8" />
       </button>
       <button
         onClick={nextSlide}
-        className="absolute right-2 sm:right-4 top-1/2 transform -translate-y-1/2 text-white/75 hover:text-white transition-colors"
+        className="hidden absolute right-2 sm:right-4 top-1/2 transform -translate-y-1/2 text-white/75 hover:text-white transition-colors"
         aria-label="Next slide"
       >
         <ChevronRight className="w-8 h-8" />

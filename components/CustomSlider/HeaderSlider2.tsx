@@ -53,7 +53,7 @@ export default function HeaderSlider2({
   const slide = images[currentSlide];
 
   return (
-    <div className="relative w-full h-[calc(100vh-144px)] bg-purple-900 rounded-l-lg overflow-hidden">
+    <div className="relative w-full h-[calc(100vh-304px)] lg:h-[calc(100vh-144px)] bg-purple-900 rounded-l-lg overflow-hidden">
       {/* Background slides */}
       <div className="absolute inset-0">
         {images.map((item, index) => (

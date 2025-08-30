@@ -56,64 +56,64 @@ export const LanguageCoursePageCarouselData: Slide[] = [
     primaryLink: { href: "/#programs", text: "Join Workshops" },
     secondaryLink: { href: "/contact", text: "Learn More" },
   },
-  {
-    image: "/images/language5.jpg",
-    badge: "Digital Learning",
-    title: "Languages,",
-    subtitle: "Anywhere, Anytime",
-    description:
-      "Providing online and blended courses accessible to learners across Europe, Africa, and beyond.",
-    primaryLink: { href: "/#programs", text: "Start Online" },
-    secondaryLink: { href: "/contact", text: "Learn More" },
-  },
-  {
-    image: "/images/language6.jpg",
-    badge: "Youth Empowerment",
-    title: "Young Voices,",
-    subtitle: "Global Futures",
-    description:
-      "Equipping young people with language skills to thrive in global education and careers.",
-    primaryLink: { href: "/#programs", text: "Youth Courses" },
-    secondaryLink: { href: "/contact", text: "Learn More" },
-  },
-  {
-    image: "/images/language7.jpg",
-    badge: "Professional Training",
-    title: "Languages,",
-    subtitle: "For Careers",
-    description:
-      "Specialized courses for professionals to strengthen international communication and workplace success.",
-    primaryLink: { href: "/#programs", text: "View Training" },
-    secondaryLink: { href: "/contact", text: "Enroll Now" },
-  },
-  {
-    image: "/images/language8.jpg",
-    badge: "Heritage & Identity",
-    title: "Preserve,",
-    subtitle: "Cultural Roots",
-    description:
-      "Supporting heritage language learning to keep cultural identity alive across generations.",
-    primaryLink: { href: "/#programs", text: "Preserve Heritage" },
-    secondaryLink: { href: "/contact", text: "Learn More" },
-  },
-  {
-    image: "/images/language9.jpg",
-    badge: "Language & Technology",
-    title: "AI Tools,",
-    subtitle: "Smarter Learning",
-    description:
-      "Leveraging digital platforms, apps, and AI to make language learning engaging and effective.",
-    primaryLink: { href: "/#programs", text: "Try Tools" },
-    secondaryLink: { href: "/contact", text: "Learn More" },
-  },
-  {
-    image: "/images/language10.jpg",
-    badge: "Global Citizenship",
-    title: "Languages,",
-    subtitle: "For a Shared Future",
-    description:
-      "Building global citizens who connect, collaborate, and thrive through multilingual communication.",
-    primaryLink: { href: "/#programs", text: "Join Movement" },
-    secondaryLink: { href: "/contact", text: "Learn More" },
-  },
+  // {
+  //   image: "/images/language5.jpg",
+  //   badge: "Digital Learning",
+  //   title: "Languages,",
+  //   subtitle: "Anywhere, Anytime",
+  //   description:
+  //     "Providing online and blended courses accessible to learners across Europe, Africa, and beyond.",
+  //   primaryLink: { href: "/#programs", text: "Start Online" },
+  //   secondaryLink: { href: "/contact", text: "Learn More" },
+  // },
+  // {
+  //   image: "/images/language6.jpg",
+  //   badge: "Youth Empowerment",
+  //   title: "Young Voices,",
+  //   subtitle: "Global Futures",
+  //   description:
+  //     "Equipping young people with language skills to thrive in global education and careers.",
+  //   primaryLink: { href: "/#programs", text: "Youth Courses" },
+  //   secondaryLink: { href: "/contact", text: "Learn More" },
+  // },
+  // {
+  //   image: "/images/language7.jpg",
+  //   badge: "Professional Training",
+  //   title: "Languages,",
+  //   subtitle: "For Careers",
+  //   description:
+  //     "Specialized courses for professionals to strengthen international communication and workplace success.",
+  //   primaryLink: { href: "/#programs", text: "View Training" },
+  //   secondaryLink: { href: "/contact", text: "Enroll Now" },
+  // },
+  // {
+  //   image: "/images/language8.jpg",
+  //   badge: "Heritage & Identity",
+  //   title: "Preserve,",
+  //   subtitle: "Cultural Roots",
+  //   description:
+  //     "Supporting heritage language learning to keep cultural identity alive across generations.",
+  //   primaryLink: { href: "/#programs", text: "Preserve Heritage" },
+  //   secondaryLink: { href: "/contact", text: "Learn More" },
+  // },
+  // {
+  //   image: "/images/language9.jpg",
+  //   badge: "Language & Technology",
+  //   title: "AI Tools,",
+  //   subtitle: "Smarter Learning",
+  //   description:
+  //     "Leveraging digital platforms, apps, and AI to make language learning engaging and effective.",
+  //   primaryLink: { href: "/#programs", text: "Try Tools" },
+  //   secondaryLink: { href: "/contact", text: "Learn More" },
+  // },
+  // {
+  //   image: "/images/language10.jpg",
+  //   badge: "Global Citizenship",
+  //   title: "Languages,",
+  //   subtitle: "For a Shared Future",
+  //   description:
+  //     "Building global citizens who connect, collaborate, and thrive through multilingual communication.",
+  //   primaryLink: { href: "/#programs", text: "Join Movement" },
+  //   secondaryLink: { href: "/contact", text: "Learn More" },
+  // },
 ];

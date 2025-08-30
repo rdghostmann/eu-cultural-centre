@@ -46,74 +46,74 @@ export const ResearchPageCarouselData: Slide[] = [
     primaryLink: { href: "/#programs", text: "Read Reports" },
     secondaryLink: { href: "/contact", text: "Contribute Research" },
   },
-  {
-    image: "/images/research4.jpg",
-    badge: "Heritage & Preservation",
-    title: "Protecting,",
-    subtitle: "Shared History",
-    description:
-      "Research that safeguards cultural heritage while promoting innovation in conservation methods.",
-    primaryLink: { href: "/#programs", text: "View Projects" },
-    secondaryLink: { href: "/contact", text: "Join Efforts" },
-  },
-  {
-    image: "/images/research5.jpg",
-    badge: "Innovation & Culture",
-    title: "Researching,",
-    subtitle: "Future Solutions",
-    description:
-      "Exploring how technology and innovation can support cultural sustainability and collaboration.",
-    primaryLink: { href: "/#programs", text: "Explore Innovation" },
-    secondaryLink: { href: "/contact", text: "Collaborate" },
-  },
-  {
-    image: "/images/research6.jpg",
-    badge: "Youth & Education",
-    title: "Empowering Youth,",
-    subtitle: "Through Knowledge",
-    description:
-      "Encouraging youth-driven research and academic collaboration across Europe and Africa.",
-    primaryLink: { href: "/#programs", text: "See Initiatives" },
-    secondaryLink: { href: "/contact", text: "Get Involved" },
-  },
-  {
-    image: "/images/research7.jpg",
-    badge: "Cross-Border Studies",
-    title: "Connecting Regions,",
-    subtitle: "Through Data",
-    description:
-      "Promoting joint research projects that link African and European institutions and scholars.",
-    primaryLink: { href: "/#programs", text: "Discover Research" },
-    secondaryLink: { href: "/contact", text: "Collaborate" },
-  },
-  {
-    image: "/images/research8.jpg",
-    badge: "Social Innovation",
-    title: "Culture,",
-    subtitle: "As a Solution",
-    description:
-      "Investigating how cultural initiatives contribute to solving pressing social and environmental challenges.",
-    primaryLink: { href: "/#programs", text: "Learn More" },
-    secondaryLink: { href: "/contact", text: "Support Research" },
-  },
-  {
-    image: "/images/research9.jpg",
-    badge: "Knowledge Sharing",
-    title: "Research,",
-    subtitle: "Made Accessible",
-    description:
-      "Ensuring research outputs are open, accessible, and impactful for communities and policymakers alike.",
-    primaryLink: { href: "/#programs", text: "Access Resources" },
-    secondaryLink: { href: "/contact", text: "Publish With Us" },
-  },
-  {
-    image: "/images/research10.jpg",
-    badge: "Global Cooperation",
-    title: "Knowledge,",
-    subtitle: "Without Borders",
-    description:
-      "Building networks of scholars and cultural actors who collaborate internationally for shared solutions.",
-    primaryLink: { href: "/#programs", text: "Join Networks" },
-    secondaryLink: { href: "/contact", text: "Learn More" },
-  },
+  // {
+  //   image: "/images/research4.jpg",
+  //   badge: "Heritage & Preservation",
+  //   title: "Protecting,",
+  //   subtitle: "Shared History",
+  //   description:
+  //     "Research that safeguards cultural heritage while promoting innovation in conservation methods.",
+  //   primaryLink: { href: "/#programs", text: "View Projects" },
+  //   secondaryLink: { href: "/contact", text: "Join Efforts" },
+  // },
+  // {
+  //   image: "/images/research5.jpg",
+  //   badge: "Innovation & Culture",
+  //   title: "Researching,",
+  //   subtitle: "Future Solutions",
+  //   description:
+  //     "Exploring how technology and innovation can support cultural sustainability and collaboration.",
+  //   primaryLink: { href: "/#programs", text: "Explore Innovation" },
+  //   secondaryLink: { href: "/contact", text: "Collaborate" },
+  // },
+  // {
+  //   image: "/images/research6.jpg",
+  //   badge: "Youth & Education",
+  //   title: "Empowering Youth,",
+  //   subtitle: "Through Knowledge",
+  //   description:
+  //     "Encouraging youth-driven research and academic collaboration across Europe and Africa.",
+  //   primaryLink: { href: "/#programs", text: "See Initiatives" },
+  //   secondaryLink: { href: "/contact", text: "Get Involved" },
+  // },
+  // {
+  //   image: "/images/research7.jpg",
+  //   badge: "Cross-Border Studies",
+  //   title: "Connecting Regions,",
+  //   subtitle: "Through Data",
+  //   description:
+  //     "Promoting joint research projects that link African and European institutions and scholars.",
+  //   primaryLink: { href: "/#programs", text: "Discover Research" },
+  //   secondaryLink: { href: "/contact", text: "Collaborate" },
+  // },
+  // {
+  //   image: "/images/research8.jpg",
+  //   badge: "Social Innovation",
+  //   title: "Culture,",
+  //   subtitle: "As a Solution",
+  //   description:
+  //     "Investigating how cultural initiatives contribute to solving pressing social and environmental challenges.",
+  //   primaryLink: { href: "/#programs", text: "Learn More" },
+  //   secondaryLink: { href: "/contact", text: "Support Research" },
+  // },
+  // {
+  //   image: "/images/research9.jpg",
+  //   badge: "Knowledge Sharing",
+  //   title: "Research,",
+  //   subtitle: "Made Accessible",
+  //   description:
+  //     "Ensuring research outputs are open, accessible, and impactful for communities and policymakers alike.",
+  //   primaryLink: { href: "/#programs", text: "Access Resources" },
+  //   secondaryLink: { href: "/contact", text: "Publish With Us" },
+  // },
+  // {
+  //   image: "/images/research10.jpg",
+  //   badge: "Global Cooperation",
+  //   title: "Knowledge,",
+  //   subtitle: "Without Borders",
+  //   description:
+  //     "Building networks of scholars and cultural actors who collaborate internationally for shared solutions.",
+  //   primaryLink: { href: "/#programs", text: "Join Networks" },
+  //   secondaryLink: { href: "/contact", text: "Learn More" },
+  // },
 ];
