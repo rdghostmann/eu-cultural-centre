@@ -20,12 +20,15 @@ import {
 	Target,
 	HeartIcon,
 	EyeIcon,
+	ArrowRight,
 } from "lucide-react"; import { fadeInUp, staggerContainer, staggerItem } from "@/lib/animations"
 import { useScrollAnimation } from "@/hooks/use-scroll-animation"
 import HeaderSlider from "@/components/CustomSlider/HeaderSlider"
 import CTASection from "@/components/CTASection/CTASection"
 import Partners from "@/components/Partners/Partners"
 import { AboutPageCarouselData } from "@/lib/AboutPageCarouselData"
+import Image from "next/image";
+import missionImage from "../../public/front-page1.jpg"
 
 const values = [
 	{
@@ -143,154 +146,218 @@ export default function AboutPage() {
 
 			{/* Mission, Vision, Impact */}
 			<section className="py-20 bg-gradient-to-br from-[#f8fafc] via-[#e0e7ef] to-[#dbeafe]">
-				<div className="container mx-auto">
+				<div className="container mx-auto p-5">
 					<motion.div
-						className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-16 px-4 lg:px-10"
+						// className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-16 px-4 lg:px-10"
+						className="w-full"
 						variants={staggerContainer}
 						initial="hidden"
 						whileInView="visible"
 						viewport={{ once: true }}
 					>
-						{/* Mission - Full Row */}
-						<motion.div
-							variants={staggerItem}
-							whileHover={hoverLift}
-							className="lg:col-span-2"
-						>
-							<Card className="h-full text-center bg-white/80 border border-[#68b684]/30 shadow-xl rounded-2xl backdrop-blur-md">
-								<CardHeader>
-									<motion.div
-										className="mx-auto p-3 bg-[#205375]/10 rounded-full w-fit mb-4"
-										whileHover={{ scale: 1.1, rotate: 360 }}
-										transition={{ duration: 0.5 }}
+						{/* Mission Section */}
+						<section className="bg-transparent py-16 px-4">
+							<div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12">
+
+								{/* Image / Illustration */}
+								<motion.div
+									className="hidden md:block md:w-1/2 mb-8 md:mb-0"
+									initial={{ opacity: 0, x: -50 }}
+									animate={{ opacity: 1, x: 0 }}
+									transition={{ duration: 0.6 }}
+								>
+									<Image
+										src={missionImage} // 🔄 Replace with relevant cultural exchange / community image
+										alt="European Cultural Centre Mission"
+										// width="600"
+										// height="500"
+										width={600}
+										height={500}
+										className="rounded-2xl shadow-lg object-cover"
+									/>
+								</motion.div>
+
+								{/* Text Content */}
+								<motion.div
+									className="md:w-1/2"
+									initial={{ opacity: 0, y: 50 }}
+									animate={{ opacity: 1, y: 0 }}
+									transition={{ duration: 0.6, delay: 0.2 }}
+								>
+									<div className="flex items-center space-x-3 mb-6">
+										<motion.div
+											className="p-2 bg-[#205375]/10 rounded-full w-fit mb-4"
+											whileHover={{ scale: 1.1, rotate: 360 }}
+											transition={{ duration: 0.5 }}
+										>
+											<Target className="h-8 w-8 text-[#205375]" />
+										</motion.div>
+										<h2 className="text-3xl lg:text-4xl font-bold text-[#205375] mb-4">
+											Our Mission
+										</h2>
+									</div>
+
+									<p className="text-gray-600 mb-4 leading-relaxed">
+										The <span className="font-semibold">European Cultural Centre Nigeria/West Africa</span>
+										is a non-profit institution and serves as the umbrella for promoting diverse European cultures and fostering meaningful cultural exchange in collaboration with our partners.
+									</p>
+
+									<p className="text-gray-600 mb-4 leading-relaxed">
+										We connect more than
+										through cultural exchanges and advocate for the vital role of culture in international relations.
+
+										We bring European cultural collaboration to life connecting more than
+										<span className=""> </span>
+
+										through cultural exchanges and advocate for a prominent role of culture in international relations.
+
+
+									</p>
+
+									<p className="text-gray-600 mb-6 leading-relaxed">
+										Our Centre provides a dynamic platform for <span className="font-semibold">knowledge sharing,
+											capacity building, and exchange programs</span> — linking Nigeria, Africa, Europe,
+										and the wider global community.
+									</p>
+
+									<motion.button
+										className="hidden bg-[#68b684] text-white px-6 py-3 rounded-full hover:bg-[#205375] transition duration-300  items-center font-medium shadow-lg"
+										whileHover={{ scale: 1.05 }}
+										whileTap={{ scale: 0.95 }}
 									>
-										<Target className="h-8 w-8 text-[#205375]" />
-									</motion.div>
-									<CardTitle className="text-2xl text-[#205375]">Our Mission</CardTitle>
-								</CardHeader>
-								<CardContent className="px-2 lg:px-7">
-									<p className="text-gray-600 mb-3">
-										The European Cultural Centre Nigeria/West Africa is a non-profit institution and serves as
-										the umbrella for promoting diverse European cultures and fostering meaningful cultural
-										exchange in collaboration with our partners.
-									</p>
-									<p className="text-gray-600 mb-3">
-										We bring European cultural collaboration to life connecting more than 27 European
-										countries with Africa through cultural exchanges and advocate for a prominent role of
-										culture in international relations.
-									</p>
-									<p className="text-gray-600 mb-3">
-										The European Cultural Centre Nigeria/West Africa provides a dynamic platform for knowledge
-										sharing and capacity building through exchange programs connecting Nigeria, Africa, Europe,
-										and the broader global community
-									</p>
-								</CardContent>
-							</Card>
-						</motion.div>
+										<span className="mr-2">Learn More About Our Work</span>
+										<ArrowRight className="h-5 w-5" />
+									</motion.button>
+								</motion.div>
+							</div>
+						</section>
 
 						{/* Vision */}
-						<motion.div variants={staggerItem} whileHover={hoverLift}>
-							<Card className="h-full text-center bg-white/80 border border-[#68b684]/30 shadow-xl rounded-2xl backdrop-blur-md">
-								<CardHeader>
-									<motion.div
-										className="mx-auto p-3 bg-[#68b684]/10 rounded-full w-fit mb-4"
-										whileHover={{ scale: 1.1, rotate: 360 }}
-										transition={{ duration: 0.5 }}
-									>
-										<EyeIcon className="h-8 w-8 text-[#68b684]" />
-									</motion.div>
-									<CardTitle className="text-2xl text-[#205375]">Our Vision</CardTitle>
-								</CardHeader>
-								<CardContent className="px-2 lg:px-7">
+						<section className="bg-transparent py-16 px-4">
+							<div className="max-w-6xl mx-auto flex flex-col md:flex-row-reverse items-center gap-12">
+
+								{/* Image / Illustration */}
+								<motion.div
+									className="hidden md:block md:w-1/2 mb-8 md:mb-0"
+									initial={{ opacity: 0, x: -50 }}
+									animate={{ opacity: 1, x: 0 }}
+									transition={{ duration: 0.6 }}
+								>
+									<Image
+										src="/images/mission.jpg" // 🔄 Replace with relevant cultural exchange / community image
+										alt="European Cultural Centre Mission"
+										width={600}
+										height={500}
+										className="rounded-2xl shadow-lg object-cover"
+									/>
+								</motion.div>
+
+								{/* Text Content */}
+								<motion.div
+									className="md:w-1/2"
+									initial={{ opacity: 0, y: 50 }}
+									animate={{ opacity: 1, y: 0 }}
+									transition={{ duration: 0.6, delay: 0.2 }}
+								>
+									<div className="flex items-center space-x-3 mb-6">
+										<motion.div
+											className="p-2 bg-[#205375]/10 rounded-full w-fit mb-4"
+											whileHover={{ scale: 1.1, rotate: 360 }}
+											transition={{ duration: 0.5 }}
+										>
+											<EyeIcon className="h-8 w-8 text-[#68b684]" />
+										</motion.div>
+										<h2 className="text-3xl lg:text-4xl font-bold text-[#205375] mb-4">
+											Our Vision
+										</h2>
+									</div>
+
 									<p className="text-gray-600 pb-3">
-										Through culture, education, innovation, and cultural exchange, the European Cultural
-										Centre Nigeria/West Africa strives to build trust and mutual understanding between
+										Through culture, education, innovation, and cultural exchange, the
+										<span className="font-semibold">European Cultural Centre Nigeria/West Africa</span> strives to build trust and mutual understanding between
 										European countries and Africa as a whole.
 									</p>
+
 									<p className="text-gray-600 pb-3">
 										We are dedicated to making culture a key element in international relations. We work
 										through fair partnerships, grounded in mutual listening, learning, and action engaging in
 										cultural exchanges and joint capacity-building efforts both locally and internationally.
 									</p>
-								</CardContent>
-							</Card>
-						</motion.div>
+
+									<motion.button
+										className="hidden bg-[#68b684] text-white px-6 py-3 rounded-full hover:bg-[#205375] transition duration-300  items-center font-medium shadow-lg"
+										whileHover={{ scale: 1.05 }}
+										whileTap={{ scale: 0.95 }}
+									>
+										<span className="mr-2">Learn More About Our Work</span>
+										<ArrowRight className="h-5 w-5" />
+									</motion.button>
+								</motion.div>
+							</div>
+						</section>
+
+
+
 
 						{/* Values */}
-						<motion.div variants={staggerItem} whileHover={hoverLift}>
-							<Card className="h-full text-center bg-white/80 border border-[#68b684]/30 shadow-xl rounded-2xl backdrop-blur-md">
-								<CardHeader>
-									<motion.div
-										className="mx-auto p-3 bg-[#8F770A]/10 rounded-full w-fit mb-4"
-										whileHover={{ scale: 1.1, rotate: 360 }}
-										transition={{ duration: 0.5 }}
-									>
+						<section className="bg-transparent py-16 px-4">
+							<div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12">
+
+								{/* Image / Illustration */}
+								<motion.div
+									className="hidden md:block md:w-1/2 mb-8 md:mb-0"
+									initial={{ opacity: 0, x: -50 }}
+									animate={{ opacity: 1, x: 0 }}
+									transition={{ duration: 0.6 }}
+								>
+									<Image
+										src="/images/mission.jpg" // 🔄 Replace with relevant cultural exchange / community image
+										alt="European Cultural Centre Mission"
+										width={600}
+										height={500}
+										className="rounded-2xl shadow-lg object-cover"
+									/>
+								</motion.div>
+
+								{/* Text Content */}
+								<motion.div
+									className="md:w-1/2"
+									initial={{ opacity: 0, y: 50 }}
+									animate={{ opacity: 1, y: 0 }}
+									transition={{ duration: 0.6, delay: 0.2 }}
+								>
+									<div className="flex items-center space-x-3 mb-6">
+										<motion.div
+											className="p-2 bg-[#205375]/10 rounded-full w-fit mb-4"
+											whileHover={{ scale: 1.1, rotate: 360 }}
+											transition={{ duration: 0.5 }}
+										>
 										<HeartIcon className="h-8 w-8 text-[#8F770A]" />
-									</motion.div>
-									<CardTitle className="text-2xl text-[#205375]">Our Values</CardTitle>
-								</CardHeader>
-								<CardContent>
-									<p className="text-gray-600">
+										</motion.div>
+										<h2 className="text-3xl lg:text-4xl font-bold text-[#205375] mb-4">
+											Our Values
+										</h2>
+									</div>
+
+								<p className="text-gray-600">
 										We believe that culture is a vital force for inclusive growth, mutual understanding, and
 										sustainable development locally, across Africa, and around the world.
 									</p>
-								</CardContent>
-							</Card>
-						</motion.div>
-					</motion.div>
-				</div>
-			</section>
 
-			{/* Values Section */}
-			<section className="py-20 bg-gradient-to-br from-[#181f2a] via-[#205375] to-[#68b684]" ref={valuesRef}>
-				<div className="container mx-auto">
-					<motion.div
-						className="text-center mb-16 px-4"
-						variants={fadeInUp}
-						initial="hidden"
-						animate={valuesInView ? "visible" : "hidden"}
-					>
-						<h2 className="text-3xl lg:text-4xl font-bold text-[#68b684] mb-4">Our Values & Areas of Impact</h2>
-						<p className="text-xl text-gray-200 max-w-3xl mx-auto mb-8">
-							The core principles that guide our work and shape our approach to cultural cooperation.
-						</p>
+									<motion.button
+										className="hidden bg-[#68b684] text-white px-6 py-3 rounded-full hover:bg-[#205375] transition duration-300  items-center font-medium shadow-lg"
+										whileHover={{ scale: 1.05 }}
+										whileTap={{ scale: 0.95 }}
+									>
+										<span className="mr-2">Learn More About Our Work</span>
+										<ArrowRight className="h-5 w-5" />
+									</motion.button>
+								</motion.div>
+							</div>
+						</section>
+					
 					</motion.div>
-					<motion.div
-						className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-12 px-7 lg:px-10"
-						variants={staggerContainer}
-						initial="hidden"
-						animate={valuesInView ? "visible" : "hidden"}
-					>
-						{values.map((value, index) => (
-							<motion.div key={index} variants={staggerItem} whileHover={hoverLift}>
-								<Card className="h-full bg-[#1a2332]/80 border border-[#205375]/40 shadow-xl rounded-2xl backdrop-blur-md">
-									<CardContent className="p-6">
-										<div className="flex items-center space-x-4">
-											<motion.div
-												className="p-3 bg-[#205375]/10 rounded-lg text-[#68b684]"
-												whileHover={{ scale: 1.1, rotate: 360 }}
-												transition={{ duration: 0.5 }}
-											>
-												{value.icon}
-											</motion.div>
-											<div>
-												<h3 className="text-xl font-bold text-white mb-2">{value.title}</h3>
-												<p className="text-gray-200">{value.description}</p>
-											</div>
-										</div>
-									</CardContent>
-								</Card>
-							</motion.div>
-						))}
-					</motion.div>
-					<motion.div
-						className="max-w-2xl mx-auto"
-						initial={{ opacity: 0, y: 20 }}
-						animate={valuesInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
-						transition={{ delay: 0.2 }}
-					>
 
-					</motion.div>
 				</div>
 			</section>
 
