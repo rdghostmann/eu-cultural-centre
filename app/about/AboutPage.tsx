@@ -145,7 +145,7 @@ export default function AboutPage() {
 			<section className="py-20 bg-gradient-to-br from-[#f8fafc] via-[#e0e7ef] to-[#dbeafe]">
 				<div className="container mx-auto">
 					<motion.div
-						className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-16 px-7 lg:px-10"
+						className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-16 px-4 lg:px-10"
 						variants={staggerContainer}
 						initial="hidden"
 						whileInView="visible"
