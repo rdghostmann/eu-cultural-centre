@@ -66,7 +66,7 @@ export default function ContactPage() {
 				/>
 				<div className="container mx-auto relative z-10 flex flex-col items-center" ref={heroRef}>
 					<motion.div
-						className="max-w-4xl mx-auto w-full text-center"
+						className="max-w-4xl mx-auto px-4 w-full text-center"
 						variants={staggerContainer}
 						initial="hidden"
 						animate={heroInView ? "visible" : "hidden"}
@@ -106,28 +106,28 @@ export default function ContactPage() {
 									<form className="space-y-6">
 										<div className="grid grid-cols-2 gap-4">
 											<motion.div whileFocus={{ scale: 1.02 }}>
-												<Input placeholder="First Name" className="w-full" />
+												<Input className="w-full text-xs lg:text-xl" placeholder="First Name"  />
 											</motion.div>
 											<motion.div whileFocus={{ scale: 1.02 }}>
-												<Input placeholder="Last Name" className="w-full" />
+												<Input className="w-full text-xs lg:text-xl" placeholder="Last Name"  />
 											</motion.div>
 										</div>
 										<motion.div whileFocus={{ scale: 1.02 }}>
-											<Input type="email" placeholder="Email Address" className="w-full" />
+											<Input className="w-full text-xs lg:text-xl" type="email" placeholder="Email Address"  />
 										</motion.div>
 										<motion.div whileFocus={{ scale: 1.02 }}>
-											<Input placeholder="Phone Number" className="w-full" />
+											<Input className="w-full text-xs lg:text-xl" placeholder="Phone Number"  />
 										</motion.div>
 										<motion.div whileFocus={{ scale: 1.02 }}>
 											<Select>
-												<SelectTrigger className="w-full p-3 border border-[#68b684] rounded-md focus:ring-2 focus:ring-[#68b684] focus:border-transparent">
+												<SelectTrigger className="text-xs lg:text-xl w-full p-3 border border-[#68b684] rounded-md focus:ring-2 focus:ring-[#68b684] focus:border-transparent">
 													<SelectValue placeholder="Select Department" />
 												</SelectTrigger>
 												<SelectContent>
 													{departments
 														.sort((a, b) => a.name.localeCompare(b.name))
 														.map((dept, index) => (
-															<SelectItem key={index} value={dept.email}>
+															<SelectItem className="text-xs lg:text-lg" key={index} value={dept.email}>
 																{dept.name}
 															</SelectItem>
 														))}
@@ -135,7 +135,7 @@ export default function ContactPage() {
 											</Select>
 										</motion.div>
 										<motion.div whileFocus={{ scale: 1.02 }}>
-											<Textarea placeholder="Your Message" className="w-full min-h-[120px]" />
+											<Textarea placeholder="Your Message" className="w-full text-xs lg:text-xl min-h-[120px]" />
 										</motion.div>
 										<motion.div whileHover={hoverScale} whileTap={{ scale: 0.95 }}>
 											<Button className="w-full bg-[#68b684] hover:bg-[#205375] text-white font-semibold">

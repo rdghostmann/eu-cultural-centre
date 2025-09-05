@@ -25,7 +25,7 @@ const footerLinks = {
   "About ECC": [
     { name: "Our Mission", href: "/about" },
     { name: "Annual Reports", href: "/about#reports" },
-    { name: "Careers", href: "/about#careers" },
+    { name: "Careers", href: "/contact" },
   ],
   Programs: [
     { name: "Education & Exchange", href: "/education" },
@@ -88,10 +88,10 @@ export function Footer() {
           animate={footerInView ? "visible" : "hidden"}
         >
           {/* Main Footer */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 mb-14">
+          <div className="grid grid-cols-1 sm:grid-cols-4 md:grid-cols-4 gap-5 mb-14">
             
             {/* Brand & Contact */}
-            <motion.div className="lg:col-span-2" variants={staggerItem}>
+            <motion.div className="md:col-span-1 lg:col-span-2" variants={staggerItem}>
               <div className="flex items-center space-x-3 mb-7">
                 <motion.div
                   className="size-14 rounded-full bg-[#205375] flex items-center justify-center shadow-lg overflow-hidden"
@@ -106,7 +106,7 @@ export function Footer() {
                     className="w-full h-full object-contain"
                   />
                 </motion.div>
-                <span className="font-bold text-lg leading-snug">
+                <span className="text-[#8F770A] font-bold text-lg leading-snug">
                   European Cultural <br /> Center Nigeria
                 </span>
               </div>
@@ -118,15 +118,15 @@ export function Footer() {
               <div className="space-y-3 text-sm">
                 <motion.div className="flex items-center gap-3" whileHover={{ x: 5 }}>
                   <Mail className="h-5 w-5 text-[#8F770A]" />
-                  <span>{CONTACT_INFO.email}</span>
+                  <span className="text-white ">{CONTACT_INFO.email}</span>
                 </motion.div>
                 <motion.div className="flex items-center gap-3" whileHover={{ x: 5 }}>
                   <Phone className="h-5 w-5 text-[#8F770A]" />
-                  <span>{CONTACT_INFO.phone}</span>
+                  <span className="text-white ">{CONTACT_INFO.phone}</span>
                 </motion.div>
                 <motion.div className="flex items-center gap-3" whileHover={{ x: 5 }}>
                   <MapPin className="h-5 w-5 text-[#8F770A]" />
-                  <span>{CONTACT_INFO.address}</span>
+                  <span className="text-white ">{CONTACT_INFO.address}</span>
                 </motion.div>
               </div>
             </motion.div>
@@ -140,7 +140,7 @@ export function Footer() {
                     <motion.li key={index} variants={staggerItem}>
                       <Link
                         href={link.href}
-                        className="relative group text-sm hover:text-[#8F770A] transition-colors"
+                        className="relative group text-sm text-white hover:text-[#8F770A] transition-colors"
                       >
                         {link.name}
                         <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#8F770A] group-hover:w-full transition-all duration-300"></span>
@@ -211,10 +211,10 @@ export function Footer() {
 
           {/* Bottom Bar */}
           <motion.div
-            className="mt-10 pt-6 border-t border-white/10 dark:border-[#205375]/40 flex flex-col lg:flex-row justify-between items-center text-sm text-gray-400"
+            className="mt-10 pt-6 pb-10 lg:pb-20 border-t border-white/10 dark:border-[#205375]/40 flex flex-col lg:flex-row justify-between items-center text-sm text-gray-400"
             variants={staggerItem}
           >
-            <div>© {new Date().getFullYear()} European Cultural Center Nigeria. All rights reserved.</div>
+            <div className="text-center">© {new Date().getFullYear()} European Cultural Center Nigeria. All rights reserved.</div>
             <div className="flex gap-6 mt-3 lg:mt-0">
               <Link href="/terms" className="hover:text-[#68b684]">Terms</Link>
               <Link href="/privacy" className="hover:text-[#68b684]">Privacy</Link>

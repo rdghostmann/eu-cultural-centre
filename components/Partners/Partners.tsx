@@ -32,18 +32,16 @@ const partners = [
   { name: "Federal Ministry Women Affairs", logo: "/partners/fed-ministry-women-affairs.jpg", link: "#" },
   { name: "FMACTE", logo: "/partners/FMACTE.jpg", link: "#" },
   { name: "Gate of Nations", logo: "/partners/gate-of-nations.jpg", link: "#" },
-  { name: "German Cooperation (Alt)", logo: "/partners/german-cooperation (2).jpg", link: "#" },
-  { name: "German Cooperation", logo: "/partners/german-cooperation.jpg", link: "#" },
   { name: "Government of Cross River", logo: "/partners/government-of-cross-river.jpg", link: "#" },
   { name: "IMG-20250815-WA0195", logo: "/partners/IMG-20250815-WA0195.jpg", link: "#" },
 ]
 
 // 👉 duplicate items for seamless infinite scroll
-const infinitePartners = [...partners, ...partners, ]
+const infinitePartners = [...partners ]
 
 const Partners = () => {
   return (
-    <section className="relative py-20 bg-gradient-to-br from-[#f5f5dc] via-[#b0c4de] to-[#f5f5dc] overflow-hidden">
+    <section id="partners" className="relative py-20 bg-gradient-to-br from-[#f5f5dc] via-[#b0c4de] to-[#f5f5dc] overflow-hidden">
       {/* fade edges */}
       <div className="pointer-events-none absolute inset-y-0 left-0 w-20 bg-gradient-to-r from-[#b0c4de] to-transparent z-10" />
       <div className="pointer-events-none absolute inset-y-0 right-0 w-20 bg-gradient-to-l from-[#b0c4de] to-transparent z-10" />
@@ -91,7 +89,7 @@ const Partners = () => {
               key={idx}
               className="basis-1/2 md:basis-1/3 lg:basis-auto flex justify-center"
             >
-              <span className="flex items-center justify-center bg-white p-3 rounded-lg shadow-lg h-fit md:h-40 w-full max-w-[200px]">
+              <span className="flex items-center justify-center border bg-white p-3 rounded-lg shadow-lg h-fit md:h-40 w-full max-w-[200px]">
                 <Image
                   src={partner.logo}
                   alt={partner.name}

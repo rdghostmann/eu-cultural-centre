@@ -16,7 +16,7 @@ export type Slide = {
 
 export const AboutPageCarouselData: Slide[] = [
   {
-    image: "/images/slider1.png",
+    image: "/images/slider1.jpg",
     badge: "Connecting Cultures",
     title: "Join Our Network,",
     subtitle: "Transform Communities",

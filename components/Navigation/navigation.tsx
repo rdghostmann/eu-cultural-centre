@@ -151,7 +151,7 @@ export function Navigation() {
                     <motion.div key={tour.href} whileHover={{ x: 5 }} transition={{ duration: 0.2 }}>
                       <Link
                         href={tour.href}
-                        className="flex items-center space-x-3 rounded-md p-3 text-sm font-medium transition-colors hover:text-[#205375] dark:hover:text-[#8F770A]"
+                        className="flex items-center space-x-3 rounded-md text-sm font-medium transition-colors hover:text-[#205375] dark:hover:text-[#8F770A]"
                       >
                         <span className="p-2 rounded-full bg-gray-200 dark:bg-gray-700 transition-colors group-hover:bg-[#68b684]/20">
                           <tour.icon className="h-4 w-4 text-gray-600 group-hover:text-[#205375] dark:group-hover:text-[#8F770A]" />
@@ -245,14 +245,17 @@ export function Navigation() {
                     <AccordionItem value="areas">
                       <AccordionTrigger>Areas of Work</AccordionTrigger>
                       <AccordionContent>
-                        <div className="flex flex-col space-y-2 pl-4">
+                        <div className="flex flex-col space-y-2">
                           {areasOfWork.map((area) => (
                             <Link
                               key={area.href}
                               href={area.href}
                               onClick={() => setIsOpen(false)}
-                              className="text-sm text-muted-foreground hover:text-[#205375] dark:hover:text-[#8F770A]"
+                              className="flex items-center space-x-3 rounded-md p-0 text-sm font-medium transition-colors hover:text-[#205375] dark:hover:text-[#8F770A]"
                             >
+                              <span className="p-2 rounded-full bg-gray-200 dark:bg-gray-700 transition-colors group-hover:bg-[#68b684]/20">
+                                <area.icon className="h-4 w-4 text-gray-600 group-hover:text-[#205375] dark:group-hover:text-[#8F770A]" />
+                              </span>
                               {area.title}
                             </Link>
                           ))}
@@ -263,14 +266,17 @@ export function Navigation() {
                     <AccordionItem value="tours">
                       <AccordionTrigger>Tours & Exchanges</AccordionTrigger>
                       <AccordionContent>
-                        <div className="flex flex-col space-y-2 pl-4">
+                        <div className="flex flex-col space-y-2 p-0">
                           {tours.map((tour) => (
                             <Link
                               key={tour.href}
                               href={tour.href}
                               onClick={() => setIsOpen(false)}
-                              className="text-sm text-muted-foreground hover:text-[#205375] dark:hover:text-[#8F770A]"
+                        className="flex items-center space-x-3 rounded-md text-sm font-medium transition-colors hover:text-[#205375] dark:hover:text-[#8F770A]"
                             >
+                               <span className="p-2 rounded-full bg-gray-200 dark:bg-gray-700 transition-colors group-hover:bg-[#68b684]/20">
+                          <tour.icon className="h-4 w-4 text-gray-600 group-hover:text-[#205375] dark:group-hover:text-[#8F770A]" />
+                        </span>
                               {tour.title}
                             </Link>
                           ))}
