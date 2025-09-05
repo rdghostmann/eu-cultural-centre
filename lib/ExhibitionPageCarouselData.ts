@@ -17,7 +17,7 @@ export type Slide = {
 
 export const ExhibitionPageCarouselData: Slide[] = [
   {
-    image: "/images/exhibition1.jpg",
+    image: "/images/exhibition-1.png",
     badge: "Art & Exhibitions",
     title: "Celebrate Creativity,",
     subtitle: "Across Borders",
@@ -27,7 +27,7 @@ export const ExhibitionPageCarouselData: Slide[] = [
     secondaryLink: { href: "/contact", text: "Host an Exhibition" },
   },
   {
-    image: "/images/exhibition2.jpg",
+    image: "/images/exhibition2.png",
     badge: "Visual Arts",
     title: "Masterpieces,",
     subtitle: "On Display",
@@ -37,7 +37,7 @@ export const ExhibitionPageCarouselData: Slide[] = [
     secondaryLink: { href: "/contact", text: "Learn More" },
   },
   {
-    image: "/images/exhibition3.jpg",
+    image: "/images/exhibition3.png",
     badge: "Cultural Heritage",
     title: "Preserving History,",
     subtitle: "For Tomorrow",
@@ -47,7 +47,7 @@ export const ExhibitionPageCarouselData: Slide[] = [
     secondaryLink: { href: "/contact", text: "Support Preservation" },
   },
   {
-    image: "/images/exhibition4.jpg",
+    image: "/images/exhibition4.png",
     badge: "Photography",
     title: "Through the Lens,",
     subtitle: "Stories Untold",
@@ -57,7 +57,7 @@ export const ExhibitionPageCarouselData: Slide[] = [
     secondaryLink: { href: "/contact", text: "Learn More" },
   },
   {
-    image: "/images/exhibition5.jpg",
+    image: "/images/exhibition5.png",
     badge: "Sculpture & Installations",
     title: "Art in Form,",
     subtitle: "And Space",
@@ -67,7 +67,7 @@ export const ExhibitionPageCarouselData: Slide[] = [
     secondaryLink: { href: "/contact", text: "Learn More" },
   },
   {
-    image: "/images/exhibition6.jpg",
+    image: "/images/exhibition6.png",
     badge: "Innovation & Design",
     title: "Future of Art,",
     subtitle: "Meets Technology",
@@ -76,44 +76,44 @@ export const ExhibitionPageCarouselData: Slide[] = [
     primaryLink: { href: "/contact", text: "Experience Innovation" },
     secondaryLink: { href: "/contact", text: "Learn More" },
   },
-  // {
-  //   image: "/images/exhibition7.jpg",
-  //   badge: "Fashion & Textiles",
-  //   title: "Weaving Culture,",
-  //   subtitle: "Into Fashion",
-  //   description:
-  //     "Textile and fashion showcases that celebrate cultural identity and sustainable design.",
-  //   primaryLink: { href: "/contact", text: "Explore Fashion" },
-  //   secondaryLink: { href: "/contact", text: "Learn More" },
-  // },
-  // {
-  //   image: "/images/exhibition8.jpg",
-  //   badge: "Youth & Emerging Artists",
-  //   title: "Young Voices,",
-  //   subtitle: "Bold Visions",
-  //   description:
-  //     "Supporting emerging talent through exhibitions that give young artists a global platform.",
-  //   primaryLink: { href: "/contact", text: "Support Youth Art" },
-  //   secondaryLink: { href: "/contact", text: "Learn More" },
-  // },
-  // {
-  //   image: "/images/exhibition9.jpg",
-  //   badge: "Cultural Exchange",
-  //   title: "Shared Stories,",
-  //   subtitle: "Global Impact",
-  //   description:
-  //     "Exhibitions that connect communities and promote dialogue through cultural narratives.",
-  //   primaryLink: { href: "/contact", text: "Join Exchange" },
-  //   secondaryLink: { href: "/contact", text: "Learn More" },
-  // },
-  // {
-  //   image: "/images/exhibition10.jpg",
-  //   badge: "Global Collaboration",
-  //   title: "Art Unites,",
-  //   subtitle: "The World",
-  //   description:
-  //     "Collaborative exhibitions where artists from different continents create shared works of art.",
-  //   primaryLink: { href: "/contact", text: "Connect With Us" },
-  //   secondaryLink: { href: "/contact", text: "Learn More" },
-  // },
+  {
+    image: "/images/exhibition7.png",
+    badge: "Fashion & Textiles",
+    title: "Weaving Culture,",
+    subtitle: "Into Fashion",
+    description:
+      "Textile and fashion showcases that celebrate cultural identity and sustainable design.",
+    primaryLink: { href: "/contact", text: "Explore Fashion" },
+    secondaryLink: { href: "/contact", text: "Learn More" },
+  },
+  {
+    image: "/images/exhibition8.png",
+    badge: "Youth & Emerging Artists",
+    title: "Young Voices,",
+    subtitle: "Bold Visions",
+    description:
+      "Supporting emerging talent through exhibitions that give young artists a global platform.",
+    primaryLink: { href: "/contact", text: "Support Youth Art" },
+    secondaryLink: { href: "/contact", text: "Learn More" },
+  },
+  {
+    image: "/images/exhibition9.png",
+    badge: "Cultural Exchange",
+    title: "Shared Stories,",
+    subtitle: "Global Impact",
+    description:
+      "Exhibitions that connect communities and promote dialogue through cultural narratives.",
+    primaryLink: { href: "/contact", text: "Join Exchange" },
+    secondaryLink: { href: "/contact", text: "Learn More" },
+  },
+  {
+    image: "/images/exhibition10.png",
+    badge: "Global Collaboration",
+    title: "Art Unites,",
+    subtitle: "The World",
+    description:
+      "Collaborative exhibitions where artists from different continents create shared works of art.",
+    primaryLink: { href: "/contact", text: "Connect With Us" },
+    secondaryLink: { href: "/contact", text: "Learn More" },
+  },
 ];

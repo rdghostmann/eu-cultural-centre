@@ -17,7 +17,7 @@ export type Slide = {
 
 export const TourismPageCarouselData: Slide[] = [
   {
-    image: "/images/tourism1.jpg",
+    image: "/tourism/tourism-slide-1.png",
     badge: "Tourism • Culture • Adventure",
     title: "Discover Unique,",
     subtitle: "Journeys With ECC Nigeria",
@@ -27,7 +27,7 @@ export const TourismPageCarouselData: Slide[] = [
     secondaryLink: { href: "/about", text: "Learn More" },
   },
   {
-    image: "/images/tourism2.jpg",
+    image: "/tourism/tourism-slide-2.png",
     badge: "Eco-Tourism",
     title: "Sustainable Travel,",
     subtitle: "That Preserves Nature",
@@ -37,7 +37,7 @@ export const TourismPageCarouselData: Slide[] = [
     secondaryLink: { href: "/contact", text: "Join Us" },
   },
   {
-    image: "/images/tourism3.jpg",
+    image: "/tourism/tourism-slide-3.png",
     badge: "Cultural Heritage",
     title: "Experience,",
     subtitle: "Nigeria’s Rich History",
@@ -47,7 +47,7 @@ export const TourismPageCarouselData: Slide[] = [
     secondaryLink: { href: "/contact", text: "Start Your Journey" },
   },
   {
-    image: "/images/tourism4.jpg",
+    image: "/tourism/tourism-slide-4.png",
     badge: "Adventure Travel",
     title: "Thrill,",
     subtitle: "In Every Journey",
@@ -57,7 +57,7 @@ export const TourismPageCarouselData: Slide[] = [
     secondaryLink: { href: "/contact", text: "Book Now" },
   },
   {
-    image: "/images/tourism5.jpg",
+    image: "/tourism/tourism-slide-5.png",
     badge: "Community Tourism",
     title: "Travel,",
     subtitle: "That Gives Back",
@@ -66,28 +66,28 @@ export const TourismPageCarouselData: Slide[] = [
     primaryLink: { href: "/#programs", text: "See Community Tours" },
     secondaryLink: { href: "/contact", text: "Support Locals" },
   },
+  {
+    image: "/tourism/tourism-slide-6.png",
+    badge: "Culinary Tourism",
+    title: "Taste,",
+    subtitle: "Nigeria’s Flavors",
+    description:
+      "Discover authentic Nigerian cuisine through culinary tours, food festivals, and local dining experiences.",
+    primaryLink: { href: "/#programs", text: "Food Experiences" },
+    secondaryLink: { href: "/contact", text: "Join a Tour" },
+  },
+  {
+    image: "/tourism/tourism-slide-7.png",
+    badge: "Youth & Travel",
+    title: "Inspiring Youth,",
+    subtitle: "Through Exploration",
+    description:
+      "Providing opportunities for young people to explore new cultures, broaden horizons, and build networks.",
+    primaryLink: { href: "/#programs", text: "Youth Travel" },
+    secondaryLink: { href: "/contact", text: "Get Involved" },
+  },
   // {
-  //   image: "/images/tourism6.jpg",
-  //   badge: "Culinary Tourism",
-  //   title: "Taste,",
-  //   subtitle: "Nigeria’s Flavors",
-  //   description:
-  //     "Discover authentic Nigerian cuisine through culinary tours, food festivals, and local dining experiences.",
-  //   primaryLink: { href: "/#programs", text: "Food Experiences" },
-  //   secondaryLink: { href: "/contact", text: "Join a Tour" },
-  // },
-  // {
-  //   image: "/images/tourism7.jpg",
-  //   badge: "Youth & Travel",
-  //   title: "Inspiring Youth,",
-  //   subtitle: "Through Exploration",
-  //   description:
-  //     "Providing opportunities for young people to explore new cultures, broaden horizons, and build networks.",
-  //   primaryLink: { href: "/#programs", text: "Youth Travel" },
-  //   secondaryLink: { href: "/contact", text: "Get Involved" },
-  // },
-  // {
-  //   image: "/images/tourism8.jpg",
+  //   image: "/tourism/tourism-slide-8.png",
   //   badge: "Festivals & Events",
   //   title: "Celebrate,",
   //   subtitle: "Cultural Vibrance",
@@ -97,7 +97,7 @@ export const TourismPageCarouselData: Slide[] = [
   //   secondaryLink: { href: "/contact", text: "Attend With Us" },
   // },
   // {
-  //   image: "/images/tourism9.jpg",
+  //   image: "/tourism/tourism-slide-9.png",
   //   badge: "Cross-Border Travel",
   //   title: "Connecting,",
   //   subtitle: "Africa & Europe",
@@ -107,7 +107,7 @@ export const TourismPageCarouselData: Slide[] = [
   //   secondaryLink: { href: "/contact", text: "Collaborate" },
   // },
   // {
-  //   image: "/images/tourism10.jpg",
+  //   image: "/tourism/tourism-slide-10.png",
   //   badge: "Global Tourism Cooperation",
   //   title: "Travel,",
   //   subtitle: "Without Borders",

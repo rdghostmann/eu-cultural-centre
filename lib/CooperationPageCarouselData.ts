@@ -17,7 +17,7 @@ export type Slide = {
 
 export const CooperationPageCarouselData: Slide[] = [
   {
-    image: "/images/cooperation1.jpg",
+    image: "/people-to-people-cooperation/people-to-people -cooperation-slide1.png",
     badge: "People-to-People Cooperation",
     title: "Strengthen Partnerships,",
     subtitle: "Across Borders",
@@ -27,7 +27,7 @@ export const CooperationPageCarouselData: Slide[] = [
     secondaryLink: { href: "/contact", text: "Learn More" },
   },
   {
-    image: "/images/cooperation2.jpg",
+    image: "/people-to-people-cooperation/people-to-people -cooperation-slide9.png",
     badge: "Cultural Diplomacy",
     title: "Dialogue Through,",
     subtitle: "Art and Culture",
@@ -36,18 +36,18 @@ export const CooperationPageCarouselData: Slide[] = [
     primaryLink: { href: "/contact", text: "Join the Dialogue" },
     secondaryLink: { href: "/contact", text: "Learn More" },
   },
+  {
+    image: "/people-to-people-cooperation/people-to-people -cooperation-slide7.png",
+    badge: "Educational Collaboration",
+    title: "Expand Knowledge,",
+    subtitle: "Through Partnerships",
+    description:
+      "Encouraging student exchange, joint research, and capacity-building initiatives worldwide.",
+    primaryLink: { href: "/contact", text: "Support Education" },
+    secondaryLink: { href: "/contact", text: "Learn More" },
+  },
   // {
-  //   image: "/images/cooperation3.jpg",
-  //   badge: "Educational Collaboration",
-  //   title: "Expand Knowledge,",
-  //   subtitle: "Through Partnerships",
-  //   description:
-  //     "Encouraging student exchange, joint research, and capacity-building initiatives worldwide.",
-  //   primaryLink: { href: "/contact", text: "Support Education" },
-  //   secondaryLink: { href: "/contact", text: "Learn More" },
-  // },
-  // {
-  //   image: "/images/cooperation4.jpg",
+  //   image: "/people-to-people-cooperation/people-to-people -cooperation-slide1.png",
   //   badge: "Health & Wellbeing",
   //   title: "Improve Healthcare,",
   //   subtitle: "Together",
@@ -57,7 +57,7 @@ export const CooperationPageCarouselData: Slide[] = [
   //   secondaryLink: { href: "/contact", text: "Learn More" },
   // },
   // {
-  //   image: "/images/cooperation5.jpg",
+  //   image: "/people-to-people-cooperation/people-to-people -cooperation-slide1.png",
   //   badge: "Youth Empowerment",
   //   title: "Inspire Young Leaders,",
   //   subtitle: "Shape Tomorrow",
@@ -67,7 +67,7 @@ export const CooperationPageCarouselData: Slide[] = [
   //   secondaryLink: { href: "/contact", text: "Learn More" },
   // },
   // {
-  //   image: "/images/cooperation6.jpg",
+  //   image: "/people-to-people-cooperation/people-to-people -cooperation-slide1.png",
   //   badge: "Sustainable Development",
   //   title: "Cooperate for,",
   //   subtitle: "A Greener Future",
@@ -77,7 +77,7 @@ export const CooperationPageCarouselData: Slide[] = [
   //   secondaryLink: { href: "/contact", text: "Learn More" },
   // },
   // {
-  //   image: "/images/cooperation7.jpg",
+  //   image: "/people-to-people-cooperation/people-to-people -cooperation-slide1.png",
   //   badge: "Innovation & Technology",
   //   title: "Bridge Innovation,",
   //   subtitle: "Across Continents",
@@ -87,7 +87,7 @@ export const CooperationPageCarouselData: Slide[] = [
   //   secondaryLink: { href: "/contact", text: "Learn More" },
   // },
   // {
-  //   image: "/images/cooperation8.jpg",
+  //   image: "/people-to-people-cooperation/people-to-people -cooperation-slide1.png",
   //   badge: "Women in Leadership",
   //   title: "Empower Women,",
   //   subtitle: "Drive Change",
@@ -97,7 +97,7 @@ export const CooperationPageCarouselData: Slide[] = [
   //   secondaryLink: { href: "/contact", text: "Learn More" },
   // },
   // {
-  //   image: "/images/cooperation9.jpg",
+  //   image: "/people-to-people-cooperation/people-to-people -cooperation-slide1.png",
   //   badge: "Intercultural Understanding",
   //   title: "Celebrate Diversity,",
   //   subtitle: "Foster Peace",
@@ -107,7 +107,7 @@ export const CooperationPageCarouselData: Slide[] = [
   //   secondaryLink: { href: "/contact", text: "Learn More" },
   // },
   // {
-  //   image: "/images/cooperation10.jpg",
+  //   image: "/people-to-people-cooperation/people-to-people -cooperation-slide1.png",
   //   badge: "Global Cooperation • Shared Futures",
   //   title: "United Communities,",
   //   subtitle: "Stronger Together",

@@ -17,7 +17,7 @@ export type Slide = {
 
 export const InclusionPageCarouselData: Slide[] = [
   {
-    image: "/images/inclusion1.jpg",
+    image: "/inclusion-accessibility/inclusion-&-accessebility-slide(1).png",
     badge: "Inclusion & Accessibility",
     title: "Creating Inclusive,",
     subtitle: "Experiences for All",
@@ -27,7 +27,7 @@ export const InclusionPageCarouselData: Slide[] = [
     secondaryLink: { href: "/contact", text: "Request Support" },
   },
   {
-    image: "/images/inclusion2.jpg",
+    image: "/inclusion-accessibility/inclusion-&-accessebility-slide(4).png",
     badge: "Equal Opportunities",
     title: "Breaking Barriers,",
     subtitle: "Building Futures",
@@ -37,7 +37,7 @@ export const InclusionPageCarouselData: Slide[] = [
     secondaryLink: { href: "/contact", text: "Learn More" },
   },
   {
-    image: "/images/inclusion3.jpg",
+    image: "/inclusion-accessibility/inclusion-&-accessebility-slide(2).png",
     badge: "Accessible Design",
     title: "Design for All,",
     subtitle: "Participation for All",
@@ -47,7 +47,7 @@ export const InclusionPageCarouselData: Slide[] = [
     secondaryLink: { href: "/contact", text: "Learn More" },
   },
   {
-    image: "/images/inclusion4.jpg",
+    image: "/inclusion-accessibility/inclusion-&-accessebility-slide(3).png",
     badge: "Cultural Exchange",
     title: "Diverse Voices,",
     subtitle: "Shared Experiences",
@@ -57,7 +57,7 @@ export const InclusionPageCarouselData: Slide[] = [
     secondaryLink: { href: "/contact", text: "Learn More" },
   },
   {
-    image: "/images/inclusion5.jpg",
+    image: "/inclusion-accessibility/inclusion-&-accessebility-slide(5).png",
     badge: "Education for All",
     title: "Accessible Learning,",
     subtitle: "Empowered Communities",
@@ -67,7 +67,7 @@ export const InclusionPageCarouselData: Slide[] = [
     secondaryLink: { href: "/contact", text: "Learn More" },
   },
   {
-    image: "/images/inclusion6.jpg",
+    image: "/inclusion-accessibility/inclusion-&-accessebility-slide(6).png",
     badge: "Support Systems",
     title: "Together,",
     subtitle: "We Thrive",
@@ -77,7 +77,7 @@ export const InclusionPageCarouselData: Slide[] = [
     secondaryLink: { href: "/contact", text: "Learn More" },
   },
   // {
-  //   image: "/images/inclusion7.jpg",
+  //   image: "/inclusion-accessibility/inclusion7.jpg",
   //   badge: "Community Engagement",
   //   title: "Inclusive Communities,",
   //   subtitle: "Stronger Together",
@@ -87,7 +87,7 @@ export const InclusionPageCarouselData: Slide[] = [
   //   secondaryLink: { href: "/contact", text: "Learn More" },
   // },
   // {
-  //   image: "/images/inclusion8.jpg",
+  //   image: "/inclusion-accessibility/inclusion8.jpg",
   //   badge: "Diversity & Equity",
   //   title: "Celebrating Diversity,",
   //   subtitle: "Ensuring Equity",
@@ -97,7 +97,7 @@ export const InclusionPageCarouselData: Slide[] = [
   //   secondaryLink: { href: "/contact", text: "Learn More" },
   // },
   // {
-  //   image: "/images/inclusion9.jpg",
+  //   image: "/inclusion-accessibility/inclusion9.jpg",
   //   badge: "Innovation for Access",
   //   title: "Technology,",
   //   subtitle: "For Inclusion",
@@ -107,7 +107,7 @@ export const InclusionPageCarouselData: Slide[] = [
   //   secondaryLink: { href: "/contact", text: "Learn More" },
   // },
   // {
-  //   image: "/images/inclusion10.jpg",
+  //   image: "/inclusion-accessibility/inclusion10.jpg",
   //   badge: "Global Inclusion",
   //   title: "One World,",
   //   subtitle: "Inclusive Future",

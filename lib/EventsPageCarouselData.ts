@@ -17,7 +17,7 @@ export type Slide = {
 
 export const EventsPageCarouselData: Slide[] = [
   {
-    image: "/images/events1.jpg",
+    image: "/events/event1.png",
     badge: "Events & Calendar",
     title: "Discover Amazing,",
     subtitle: "Cultural Events",
@@ -27,7 +27,7 @@ export const EventsPageCarouselData: Slide[] = [
     secondaryLink: { href: "/contact", text: "Host an Event" },
   },
   {
-    image: "/images/events2.jpg",
+    image: "/events/event2.png",
     badge: "Festivals & Celebrations",
     title: "Celebrate Culture,",
     subtitle: "Embrace Diversity",
@@ -37,7 +37,7 @@ export const EventsPageCarouselData: Slide[] = [
     secondaryLink: { href: "/contact", text: "Learn More" },
   },
   {
-    image: "/images/events3.jpg",
+    image: "/events/event11.png",
     badge: "Educational Workshops",
     title: "Learn Together,",
     subtitle: "Grow Together",
@@ -47,7 +47,7 @@ export const EventsPageCarouselData: Slide[] = [
     secondaryLink: { href: "/contact", text: "Learn More" },
   },
   {
-    image: "/images/events4.jpg",
+    image: "/events/event4.png",
     badge: "Sports & Games",
     title: "Play Fair,",
     subtitle: "Build Unity",
@@ -57,7 +57,7 @@ export const EventsPageCarouselData: Slide[] = [
     secondaryLink: { href: "/contact", text: "Learn More" },
   },
   {
-    image: "/images/events5.jpg",
+    image: "/events/event5.png",
     badge: "Diplomatic Forums",
     title: "Dialogue,",
     subtitle: "For Cooperation",
@@ -67,7 +67,7 @@ export const EventsPageCarouselData: Slide[] = [
     secondaryLink: { href: "/contact", text: "Learn More" },
   },
   {
-    image: "/images/events6.jpg",
+    image: "/events/event6.png",
     badge: "Youth Conferences",
     title: "Inspire Youth,",
     subtitle: "Shape Tomorrow",
@@ -77,7 +77,7 @@ export const EventsPageCarouselData: Slide[] = [
     secondaryLink: { href: "/contact", text: "Learn More" },
   },
   {
-    image: "/images/events7.jpg",
+    image: "/events/event7.png",
     badge: "Art Exhibitions",
     title: "Visual Arts,",
     subtitle: "Without Borders",
@@ -86,34 +86,34 @@ export const EventsPageCarouselData: Slide[] = [
     primaryLink: { href: "/contact", text: "Visit Exhibition" },
     secondaryLink: { href: "/contact", text: "Learn More" },
   },
-  // {
-  //   image: "/images/events8.jpg",
-  //   badge: "Music & Dance",
-  //   title: "Feel the Rhythm,",
-  //   subtitle: "Share the Beat",
-  //   description:
-  //     "Live performances connecting people through music, dance, and shared artistic experiences.",
-  //   primaryLink: { href: "/contact", text: "Book Tickets" },
-  //   secondaryLink: { href: "/contact", text: "Learn More" },
-  // },
-  // {
-  //   image: "/images/events9.jpg",
-  //   badge: "Community Gatherings",
-  //   title: "Stronger Together,",
-  //   subtitle: "Through Community",
-  //   description:
-  //     "Local and regional gatherings that build lasting connections across cultures.",
-  //   primaryLink: { href: "/contact", text: "Join a Gathering" },
-  //   secondaryLink: { href: "/contact", text: "Learn More" },
-  // },
-  // {
-  //   image: "/images/events10.jpg",
-  //   badge: "Global Connections",
-  //   title: "One World,",
-  //   subtitle: "Shared Future",
-  //   description:
-  //     "Uniting people worldwide through cultural events and cross-border collaborations.",
-  //   primaryLink: { href: "/contact", text: "Connect With Us" },
-  //   secondaryLink: { href: "/contact", text: "Learn More" },
-  // },
+  {
+    image: "/events/event8.png",
+    badge: "Music & Dance",
+    title: "Feel the Rhythm,",
+    subtitle: "Share the Beat",
+    description:
+      "Live performances connecting people through music, dance, and shared artistic experiences.",
+    primaryLink: { href: "/contact", text: "Book Tickets" },
+    secondaryLink: { href: "/contact", text: "Learn More" },
+  },
+  {
+    image: "/events/event9.png",
+    badge: "Community Gatherings",
+    title: "Stronger Together,",
+    subtitle: "Through Community",
+    description:
+      "Local and regional gatherings that build lasting connections across cultures.",
+    primaryLink: { href: "/contact", text: "Join a Gathering" },
+    secondaryLink: { href: "/contact", text: "Learn More" },
+  },
+  {
+    image: "/events/event10.png",
+    badge: "Global Connections",
+    title: "One World,",
+    subtitle: "Shared Future",
+    description:
+      "Uniting people worldwide through cultural events and cross-border collaborations.",
+    primaryLink: { href: "/contact", text: "Connect With Us" },
+    secondaryLink: { href: "/contact", text: "Learn More" },
+  },
 ];

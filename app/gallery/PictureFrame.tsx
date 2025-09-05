@@ -9,12 +9,14 @@ interface Image {
 }
 
 interface PictureFrameProps {
+  categoryTitle?: string;
   images: Image[];
   activeIndex: number;
   setActiveIndex: (index: number | null) => void;
 }
 
 export default function PictureFrame({
+  categoryTitle,
   images,
   activeIndex,
   setActiveIndex,
@@ -30,6 +32,8 @@ export default function PictureFrame({
   };
 
   return (
+   <>
+   <h4 className="text-left font-semibold">{categoryTitle}</h4>
     <div className="fixed inset-0 bg-black/80 flex items-center justify-center z-50">
       <div className="relative max-w-3xl w-full px-4">
         {/* Close Button */}
@@ -63,5 +67,6 @@ export default function PictureFrame({
         </button>
       </div>
     </div>
+   </>
   );
 }

@@ -17,7 +17,7 @@ export type Slide = {
 
 export const SportPageCarouselData: Slide[] = [
   {
-    image: "/images/sport1.jpg",
+    image: "/sports/sports-slide-1.png",
     badge: "Sports, Tourism & Events",
     title: "Sports as a Bridge,",
     subtitle: "Between Cultures",
@@ -27,7 +27,7 @@ export const SportPageCarouselData: Slide[] = [
     secondaryLink: { href: "/contact", text: "Join an Event" },
   },
   {
-    image: "/images/sport2.jpg",
+    image: "/sports/sports-slide-2.png",
     badge: "Youth Empowerment",
     title: "Inspiring Youth,",
     subtitle: "Through Sports",
@@ -37,7 +37,7 @@ export const SportPageCarouselData: Slide[] = [
     secondaryLink: { href: "/contact", text: "Get Involved" },
   },
   {
-    image: "/images/sport3.jpg",
+    image: "/sports/sports-slide-3.png",
     badge: "Cultural Exchange",
     title: "Travel,",
     subtitle: "With Purpose",
@@ -47,7 +47,7 @@ export const SportPageCarouselData: Slide[] = [
     secondaryLink: { href: "/contact", text: "Join Now" },
   },
   {
-    image: "/images/sport4.jpg",
+    image: "/sports/sports-slide-2.png",
     badge: "Global Events",
     title: "Competitions,",
     subtitle: "That Unite",
@@ -57,7 +57,7 @@ export const SportPageCarouselData: Slide[] = [
     secondaryLink: { href: "/contact", text: "Participate" },
   },
   // {
-  //   image: "/images/sport5.jpg",
+  //   image: "/sports/sports-slide-5.png",
   //   badge: "Wellbeing & Health",
   //   title: "Active Lifestyles,",
   //   subtitle: "For All",
@@ -67,7 +67,7 @@ export const SportPageCarouselData: Slide[] = [
   //   secondaryLink: { href: "/contact", text: "Learn More" },
   // },
   // {
-  //   image: "/images/sport6.jpg",
+  //   image: "/sports/sports-slide-6.png",
   //   badge: "Inclusivity in Sports",
   //   title: "Equal Access,",
   //   subtitle: "For Everyone",
@@ -77,7 +77,7 @@ export const SportPageCarouselData: Slide[] = [
   //   secondaryLink: { href: "/contact", text: "Support Inclusion" },
   // },
   // {
-  //   image: "/images/sport7.jpg",
+  //   image: "/sports/sports-slide-7.png",
   //   badge: "Tourism Development",
   //   title: "Culture,",
   //   subtitle: "Through Travel",
@@ -87,7 +87,7 @@ export const SportPageCarouselData: Slide[] = [
   //   secondaryLink: { href: "/contact", text: "Partner With Us" },
   // },
   // {
-  //   image: "/images/sport8.jpg",
+  //   image: "/sports/sports-slide-8.png",
   //   badge: "Peace & Unity",
   //   title: "Games,",
   //   subtitle: "For Harmony",
@@ -97,7 +97,7 @@ export const SportPageCarouselData: Slide[] = [
   //   secondaryLink: { href: "/contact", text: "Join the Movement" },
   // },
   // {
-  //   image: "/images/sport9.jpg",
+  //   image: "/sports/sports-slide-9.png",
   //   badge: "Skills Development",
   //   title: "Sports,",
   //   subtitle: "For Careers",
@@ -107,7 +107,7 @@ export const SportPageCarouselData: Slide[] = [
   //   secondaryLink: { href: "/contact", text: "Start Now" },
   // },
   // {
-  //   image: "/images/sport10.jpg",
+  //   image: "/sports/sports-slide-10.png",
   //   badge: "Global Cooperation",
   //   title: "United,",
   //   subtitle: "Through Sports",

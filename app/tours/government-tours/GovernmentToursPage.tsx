@@ -71,7 +71,7 @@ export default function GovernmentToursPage() {
             <section className="relative bg-gradient-to-br from-gray-700 via-gray-700 to-gray-900 text-white py-20">
                 <motion.div
                     className="absolute inset-0 bg-black/30"
-                    initial={{ opacity: 0 }}
+                    initial={{ opacity: 1 }}
                     animate={{ opacity: 1 }}
                     transition={{ duration: 1 }}
                 />
@@ -104,11 +104,11 @@ export default function GovernmentToursPage() {
                             Government Tours
                         </Badge>
 
-                        <h1 className="text-4xl lg:text-5xl font-bold mb-6">
+                        <h1 className="px-2 sm:px-0 text-3xl sm:text-4xl lg:text-5xl font-bold mb-6">
                             Cultural Diplomacy & Official Delegations
                         </h1>
 
-                        <p className="text-xl mb-8 text-gray-200 max-w-3xl">
+                        <p className="px-2 sm:px-0 text-xl mb-8 text-gray-200 max-w-3xl">
                             Professional protocol support and cultural programming for government delegations, diplomatic missions,
                             and high-level official visits promoting international cooperation.
                         </p>
@@ -137,10 +137,10 @@ export default function GovernmentToursPage() {
             </section>
 
             {/* Quick Info */}
-            <section className="py-12 bg-ecc-beige">
+            <section className="py-12 ">
                 <div className="container mx-auto">
                     <motion.div
-                        className="grid md:grid-cols-4 gap-6"
+                        className="grid grid-cols-2 sm:grid-cols-4 gap-6 sm:gap-8"
                         variants={staggerContainer}
                         initial="hidden"
                         whileInView="visible"
@@ -153,22 +153,23 @@ export default function GovernmentToursPage() {
                             { icon: Award, title: "Experience", value: "15+ years" },
                         ].map((item, index) => (
                             <motion.div
+                                key={index}
                                 ref={heroRef}
                                 variants={scrollVariants}
                                 initial="hidden"
                                 animate={heroInView ? "visible" : "hidden"}
-                                className="text-center"
+                                className="text-center flex flex-col items-center"
                             >
 
                                 <motion.div
-                                    className="inline-flex items-center justify-center w-12 h-12 bg-ecc-blue rounded-full mb-3"
+                                    className="inline-flex items-center justify-center w-12 h-12 sm:w-14 sm:h-14 bg-gradient-to-br from-gray-600 via-cyan-600 to-blue-700 rounded-full mb-3 sm:mb-4"
                                     whileHover={{ rotate: 360 }}
                                     transition={{ duration: 0.5, ease: "easeInOut" }}
                                 >
                                     <item.icon className="h-6 w-6 text-white" />
                                 </motion.div>
 
-                                <h3 className="font-semibold text-ecc-slate mb-2">{item.title}</h3>
+                                <h3 className="font-semibold text-gray-600 mb-2">{item.title}</h3>
                                 <p className="text-gray-600">{item.value}</p>
                             </motion.div>
 
@@ -179,25 +180,25 @@ export default function GovernmentToursPage() {
 
             {/* Services Section */}
             <section id="services" className="py-20" ref={servicesRef}>
-                <div className="container mx-auto">
+                <div className="container mx-auto ">
                     {/* Section Header */}
                     <motion.div
                         variants={scrollVariants}
                         initial="hidden"
                         animate={servicesInView ? "visible" : "hidden"}
-                        className="text-center mb-16"
+                        className="text-center py-5 mb-16 px-4 bg-gradient-to-br from-teal-600 via-cyan-600 to-blue-700"
                     >
-                        <h2 className="text-3xl lg:text-4xl font-bold text-ecc-slate mb-4">
+                        <h2 className="text-3xl lg:text-4xl font-bold text-slate-800 mb-4">
                             Our Diplomatic Services
                         </h2>
-                        <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                        <p className="text-xl text-white max-w-3xl mx-auto">
                             Comprehensive support for government delegations with cultural programming and protocol expertise.
                         </p>
                     </motion.div>
 
                     {/* Service Cards */}
                     <motion.div
-                        className="grid lg:grid-cols-3 gap-8"
+                        className="grid lg:grid-cols-3 gap-8 px-7"
                         variants={staggerContainer}
                         initial="hidden"
                         animate={servicesInView ? "visible" : "hidden"}
@@ -252,7 +253,7 @@ export default function GovernmentToursPage() {
             <section className="py-20 bg-gray-50" ref={itineraryRef}>
                 <div className="container mx-auto">
                     <motion.div
-                        className="text-center mb-16"
+                        className="text-center mb-16 px-4"
                         variants={fadeInUp}
                         initial="hidden"
                         animate={itineraryInView ? "visible" : "hidden"}
@@ -264,7 +265,7 @@ export default function GovernmentToursPage() {
                     </motion.div>
 
                     <motion.div
-                        className="space-y-6"
+                        className="container mx-auto space-y-6 px-4"
                         variants={staggerContainer}
                         initial="hidden"
                         animate={itineraryInView ? "visible" : "hidden"}
@@ -272,17 +273,17 @@ export default function GovernmentToursPage() {
                         {itinerary.map((phase, index) => (
                             <motion.div key={index} variants={staggerItem} whileHover={{ x: 5 }}>
                                 <Card className="overflow-hidden">
-                                    <CardHeader className="bg-ecc-blue/5">
+                                    <CardHeader className="bg-gradient-to-br from-teal-600 via-cyan-600 to-blue-700">
                                         <div className="flex items-center space-x-3">
                                             <motion.div
-                                                className="w-8 h-8 bg-ecc-blue rounded-full flex items-center justify-center"
+                                                className="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center"
                                                 whileHover={{ scale: 1.2 }}
                                             >
-                                                <span className="border size-5 p-4 flex items-center justify-center rounded-full text-center text-sm font-bold">{index + 1}</span>
+                                                <span className="border text-white size-5 p-4 flex items-center justify-center rounded-full text-center text-sm font-bold">{index + 1}</span>
                                             </motion.div>
                                             <div>
                                                 <CardTitle className="text-ecc-slate">{phase.day}</CardTitle>
-                                                <CardDescription className="text-lg font-medium">{phase.title}</CardDescription>
+                                                <CardDescription className="text-lg text-white font-medium">{phase.title}</CardDescription>
                                             </div>
                                         </div>
                                     </CardHeader>
@@ -310,55 +311,6 @@ export default function GovernmentToursPage() {
             </section>
 
             {/* CTA Section */}
-            <section className="py-20 bg-slate-400 text-white">
-                <div className="container mx-auto px-4 text-center">
-                    <motion.div
-                        initial={{ opacity: 0, y: 50 }}
-                        whileInView={{ opacity: 1, y: 0 }}
-                        viewport={{ once: true }}
-                        transition={{ duration: 0.8 }}
-                    >
-                        <h2 className="text-3xl lg:text-4xl font-bold mb-6">
-                            Ready to Arrange Your Delegation?
-                        </h2>
-                        <p className="text-xl mb-8 text-gray-200 max-w-2xl mx-auto">
-                            Contact our diplomatic services team to plan your next cultural diplomacy mission or official visit.
-                        </p>
-
-                        {/* Button Group with Stagger Animation */}
-                        <motion.div
-                            className="flex flex-col sm:flex-row gap-4 justify-center"
-                            variants={staggerContainer}
-                            initial="hidden"
-                            whileInView="visible"
-                            viewport={{ once: true }}
-                        >
-                            {/* Arrange Delegation Button */}
-                            <motion.div variants={staggerItem} whileHover={hoverScale} whileTap={{ scale: 0.95 }}>
-                                <Button asChild size="lg" className="bg-ecc-green hover:bg-ecc-green/90">
-                                    <Link href="/contact">
-                                        Arrange a Delegation
-                                        <ArrowRight className="ml-2 h-5 w-5" />
-                                    </Link>
-                                </Button>
-                            </motion.div>
-
-                            {/* Request Information Button */}
-                            <motion.div variants={staggerItem} whileHover={hoverScale} whileTap={{ scale: 0.95 }}>
-                                <Button
-                                    asChild
-                                    size="lg"
-                                    variant="outline"
-                                    className="border-white text-white hover:bg-white hover:text-ecc-slate bg-transparent"
-                                >
-                                    <Link href="/contact">Request Information</Link>
-                                </Button>
-                            </motion.div>
-                        </motion.div>
-                    </motion.div>
-                </div>
-            </section>
-
             <CTASection
                 title="Ready to Arrange Your Delegation?"
                 description="Contact our diplomatic services team to plan your next cultural diplomacy mission or official government visit. We provide full protocol support and tailored cultural programs for delegations."
@@ -367,8 +319,6 @@ export default function GovernmentToursPage() {
                 secondaryLabel="Request Information"
                 secondaryHref="/contact"
             />
-
-
 
         </div>
     )

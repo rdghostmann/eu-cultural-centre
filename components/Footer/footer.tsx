@@ -170,13 +170,13 @@ export function Footer() {
                 <Input
                   type="email"
                   placeholder="Enter your email"
-                  className="flex-1 bg-transparent border-[#68b684] text-white placeholder-gray-400 focus:border-[#8F770A] rounded-l-lg"
+                  className="flex-1 bg-transparent border-[#68b684] text-white placeholder-gray-400 focus:border-[#8F770A] rounded-none rounded-s-lg"
                   required
                 />
                 <motion.div whileHover={hoverScale} whileTap={{ scale: 0.95 }}>
                   <Button
                     type="submit"
-                    className="bg-[#8F770A] hover:bg-[#68b684] rounded-r-lg px-5"
+                    className="bg-[#8F770A] hover:bg-[#68b684] rounded-none rounded-e-lg px-5"
                   >
                     <Send className="h-5 w-5" />
                   </Button>
