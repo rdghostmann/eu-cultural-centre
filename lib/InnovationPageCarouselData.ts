@@ -17,7 +17,7 @@ export type Slide = {
 
 export const InnovationPageCarouselData: Slide[] = [
   {
-    image: "/images/innovation1.jpg",
+    image: "/inclusion-accessibility/inclusion-&-accessebility-slide(1).png",
     badge: "Innovation & New Media",
     title: "Innovating Culture,",
     subtitle: "Through Technology",
@@ -27,7 +27,7 @@ export const InnovationPageCarouselData: Slide[] = [
     secondaryLink: { href: "/contact", text: "Join the Lab" },
   },
   {
-    image: "/images/innovation2.jpg",
+    image: "/inclusion-accessibility/inclusion-&-accessebility-slide(1).png",
     badge: "Creative Startups",
     title: "Empowering Creators,",
     subtitle: "Fueling Innovation",
@@ -37,7 +37,7 @@ export const InnovationPageCarouselData: Slide[] = [
     secondaryLink: { href: "/contact", text: "Learn More" },
   },
   {
-    image: "/images/innovation3.jpg",
+    image: "/inclusion-accessibility/inclusion-&-accessebility-slide(1).png",
     badge: "Digital Heritage",
     title: "Preserving History,",
     subtitle: "In Digital Form",
@@ -47,7 +47,7 @@ export const InnovationPageCarouselData: Slide[] = [
     secondaryLink: { href: "/contact", text: "Contribute" },
   },
   {
-    image: "/images/innovation4.jpg",
+    image: "/inclusion-accessibility/inclusion-&-accessebility-slide(1).png",
     badge: "Virtual Reality",
     title: "Immersive Worlds,",
     subtitle: "Cultural Journeys",
@@ -56,16 +56,16 @@ export const InnovationPageCarouselData: Slide[] = [
     primaryLink: { href: "/#programs", text: "Try VR Tours" },
     secondaryLink: { href: "/contact", text: "Learn More" },
   },
-  {
-    image: "/images/innovation5.jpg",
-    badge: "Media Platforms",
-    title: "Connecting Voices,",
-    subtitle: "Through New Media",
-    description:
-      "Building innovative platforms that amplify diverse voices and expand cultural narratives globally.",
-    primaryLink: { href: "/#programs", text: "Join Platform" },
-    secondaryLink: { href: "/contact", text: "Learn More" },
-  },
+  // {
+  //   image: "/images/innovation5.jpg",
+  //   badge: "Media Platforms",
+  //   title: "Connecting Voices,",
+  //   subtitle: "Through New Media",
+  //   description:
+  //     "Building innovative platforms that amplify diverse voices and expand cultural narratives globally.",
+  //   primaryLink: { href: "/#programs", text: "Join Platform" },
+  //   secondaryLink: { href: "/contact", text: "Learn More" },
+  // },
   // {
   //   image: "/images/innovation6.jpg",
   //   badge: "Digital Storytelling",

@@ -17,7 +17,7 @@ export type Slide = {
 
 export const EducationPageCarouselData: Slide[] = [
   {
-    image: "/images/education1.jpg",
+    image: "/school-exchange-tours/school-exchange-tours-slide1.png",
     badge: "Education & Knowledge Exchange",
     title: "Transforming Lives,",
     subtitle: "Through Learning",
@@ -27,7 +27,7 @@ export const EducationPageCarouselData: Slide[] = [
     secondaryLink: { href: "/contact", text: "Apply Now" },
   },
   {
-    image: "/images/education2.jpg",
+    image: "/school-exchange-tours/school-exchange-tours-slide2.png",
     badge: "Student Exchange",
     title: "Study Abroad,",
     subtitle: "Expand Horizons",
@@ -37,7 +37,7 @@ export const EducationPageCarouselData: Slide[] = [
     secondaryLink: { href: "/contact", text: "Learn More" },
   },
   {
-    image: "/images/education3.jpg",
+    image: "/school-exchange-tours/school-exchange-tours-slide3.png",
     badge: "Research Collaboration",
     title: "Innovate Together,",
     subtitle: "Advance Knowledge",
@@ -47,7 +47,7 @@ export const EducationPageCarouselData: Slide[] = [
     secondaryLink: { href: "/contact", text: "Learn More" },
   },
   {
-    image: "/images/education4.jpg",
+    image: "/school-exchange-tours/school-exchange-tours-slide4.png",
     badge: "Capacity Building",
     title: "Strengthen Skills,",
     subtitle: "Empower Communities",
@@ -56,18 +56,18 @@ export const EducationPageCarouselData: Slide[] = [
     primaryLink: { href: "/contact", text: "Support Capacity Building" },
     secondaryLink: { href: "/contact", text: "Learn More" },
   },
-  {
-    image: "/images/education5.jpg",
-    badge: "Digital Learning",
-    title: "E-Learning,",
-    subtitle: "Without Borders",
-    description:
-      "Expanding access to quality education through digital platforms and tools.",
-    primaryLink: { href: "/contact", text: "Start Learning" },
-    secondaryLink: { href: "/contact", text: "Learn More" },
-  },
   // {
-  //   image: "/images/education6.jpg",
+  //   image: "/school-exchange-tours/school-exchange-tours-slide5.png",
+  //   badge: "Digital Learning",
+  //   title: "E-Learning,",
+  //   subtitle: "Without Borders",
+  //   description:
+  //     "Expanding access to quality education through digital platforms and tools.",
+  //   primaryLink: { href: "/contact", text: "Start Learning" },
+  //   secondaryLink: { href: "/contact", text: "Learn More" },
+  // },
+  // {
+  //   image: "/school-exchange-tours/education6.jpg",
   //   badge: "Youth Empowerment",
   //   title: "Educate Youth,",
   //   subtitle: "Shape the Future",
@@ -77,7 +77,7 @@ export const EducationPageCarouselData: Slide[] = [
   //   secondaryLink: { href: "/contact", text: "Learn More" },
   // },
   // {
-  //   image: "/images/education7.jpg",
+  //   image: "/school-exchange-tours/education7.jpg",
   //   badge: "Professional Growth",
   //   title: "Train Today,",
   //   subtitle: "Lead Tomorrow",
@@ -87,7 +87,7 @@ export const EducationPageCarouselData: Slide[] = [
   //   secondaryLink: { href: "/contact", text: "Learn More" },
   // },
   // {
-  //   image: "/images/education8.jpg",
+  //   image: "/school-exchange-tours/education8.jpg",
   //   badge: "STEM Innovation",
   //   title: "Science & Tech,",
   //   subtitle: "For Global Impact",
@@ -97,7 +97,7 @@ export const EducationPageCarouselData: Slide[] = [
   //   secondaryLink: { href: "/contact", text: "Learn More" },
   // },
   // {
-  //   image: "/images/education9.jpg",
+  //   image: "/school-exchange-tours/education9.jpg",
   //   badge: "Cultural Exchange in Learning",
   //   title: "Diverse Classrooms,",
   //   subtitle: "Inclusive Futures",
@@ -107,7 +107,7 @@ export const EducationPageCarouselData: Slide[] = [
   //   secondaryLink: { href: "/contact", text: "Learn More" },
   // },
   // {
-  //   image: "/images/education10.jpg",
+  //   image: "/school-exchange-tours/education10.jpg",
   //   badge: "Global Knowledge • Shared Futures",
   //   title: "United by,",
   //   subtitle: "Education",

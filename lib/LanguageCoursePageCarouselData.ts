@@ -17,7 +17,7 @@ export type Slide = {
 
 export const LanguageCoursePageCarouselData: Slide[] = [
   {
-    image: "/images/language1.jpg",
+    image: "/sample/banner-1.png",
     badge: "Language & Communication",
     title: "Learn Languages,",
     subtitle: "Connect Cultures",
@@ -27,7 +27,7 @@ export const LanguageCoursePageCarouselData: Slide[] = [
     secondaryLink: { href: "/contact", text: "Join Now" },
   },
   {
-    image: "/images/language2.jpg",
+    image: "/sample/banner-2png",
     badge: "Cultural Exchange",
     title: "Bridge Worlds,",
     subtitle: "Through Words",
@@ -37,7 +37,7 @@ export const LanguageCoursePageCarouselData: Slide[] = [
     secondaryLink: { href: "/contact", text: "Learn More" },
   },
   {
-    image: "/images/language3.jpg",
+    image: "/sample/banner-1.png",
     badge: "Multilingual Education",
     title: "One World,",
     subtitle: "Many Languages",
@@ -46,16 +46,16 @@ export const LanguageCoursePageCarouselData: Slide[] = [
     primaryLink: { href: "/#programs", text: "See Programs" },
     secondaryLink: { href: "/contact", text: "Join Community" },
   },
-  {
-    image: "/images/language4.jpg",
-    badge: "Interactive Learning",
-    title: "Engage,",
-    subtitle: "Learn Together",
-    description:
-      "Offering interactive courses and workshops that combine language learning with cultural immersion.",
-    primaryLink: { href: "/#programs", text: "Join Workshops" },
-    secondaryLink: { href: "/contact", text: "Learn More" },
-  },
+  // {
+  //   image: "/images/language4.jpg",
+  //   badge: "Interactive Learning",
+  //   title: "Engage,",
+  //   subtitle: "Learn Together",
+  //   description:
+  //     "Offering interactive courses and workshops that combine language learning with cultural immersion.",
+  //   primaryLink: { href: "/#programs", text: "Join Workshops" },
+  //   secondaryLink: { href: "/contact", text: "Learn More" },
+  // },
   // {
   //   image: "/images/language5.jpg",
   //   badge: "Digital Learning",

@@ -17,7 +17,7 @@ export type Slide = {
 
 export const ScholarshipPageCarouselData: Slide[] = [
   {
-    image: "/images/scholarship1.jpg",
+    image: "/sample/banner-1.png",
     badge: "Education • Opportunity • Future",
     title: "Scholarship Programs,",
     subtitle: "By ECC Nigeria",
@@ -27,7 +27,7 @@ export const ScholarshipPageCarouselData: Slide[] = [
     secondaryLink: { href: "/about", text: "Learn More" },
   },
   {
-    image: "/images/scholarship2.jpg",
+    image: "/sample/banner-1.png",
     badge: "Undergraduate Scholarships",
     title: "Supporting,",
     subtitle: "Young Scholars",

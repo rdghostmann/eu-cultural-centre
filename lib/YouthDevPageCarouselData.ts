@@ -17,7 +17,7 @@ export type Slide = {
 
 export const YouthDevPageCarouselData: Slide[] = [
   {
-    image: "/youth-development/youth-dev-1.jpg",
+    image: "/youth-development/youth-dev-1.png",
     badge: "Empower • Educate • Inspire",
     title: "Youth Development,",
     subtitle: "By ECC Nigeria",
@@ -27,7 +27,7 @@ export const YouthDevPageCarouselData: Slide[] = [
     secondaryLink: { href: "/about", text: "Learn More" },
   },
   {
-    image: "/youth-development/youth-dev-2.jpg",
+    image: "/youth-development/youth-dev-2.png",
     badge: "Leadership Training",
     title: "Shaping,",
     subtitle: "Future Leaders",
@@ -37,7 +37,7 @@ export const YouthDevPageCarouselData: Slide[] = [
     secondaryLink: { href: "/contact", text: "Join Us" },
   },
   {
-    image: "/youth-development/youth-dev-3.jpg",
+    image: "/youth-development/youth-dev-3.png",
     badge: "Education & Skills",
     title: "Knowledge,",
     subtitle: "That Transforms",
@@ -47,7 +47,7 @@ export const YouthDevPageCarouselData: Slide[] = [
     secondaryLink: { href: "/contact", text: "Enroll Now" },
   },
   {
-    image: "/youth-development/youth-dev-4.jpg",
+    image: "/youth-development/youth-dev-4.png",
     badge: "Entrepreneurship",
     title: "Innovate,",
     subtitle: "And Thrive",
@@ -57,7 +57,7 @@ export const YouthDevPageCarouselData: Slide[] = [
     secondaryLink: { href: "/contact", text: "Get Support" },
   },
   {
-    image: "/youth-development/youth-dev-5.jpg",
+    image: "/youth-development/youth-dev-5.png",
     badge: "Mentorship",
     title: "Guiding,",
     subtitle: "The Next Generation",
@@ -67,7 +67,7 @@ export const YouthDevPageCarouselData: Slide[] = [
     secondaryLink: { href: "/contact", text: "Become a Mentor" },
   },
   {
-    image: "/youth-development/youth-dev-6.jpg",
+    image: "/youth-development/youth-dev-6.png",
     badge: "Innovation & Technology",
     title: "Digital,",
     subtitle: "Empowerment",
@@ -77,7 +77,7 @@ export const YouthDevPageCarouselData: Slide[] = [
     secondaryLink: { href: "/contact", text: "Start Learning" },
   },
   {
-    image: "/youth-development/youth-dev-7.jpg",
+    image: "/youth-development/youth-dev-7.png",
     badge: "Community Service",
     title: "Building,",
     subtitle: "Together",
@@ -86,34 +86,34 @@ export const YouthDevPageCarouselData: Slide[] = [
     primaryLink: { href: "/#programs", text: "Volunteer" },
     secondaryLink: { href: "/contact", text: "Join a Project" },
   },
-  {
-    image: "/youth-development/youth-dev-8.jpg",
-    badge: "Cultural Exchange",
-    title: "Connect,",
-    subtitle: "Across Borders",
-    description:
-      "Promoting intercultural understanding and global citizenship through exchange programs.",
-    primaryLink: { href: "/#programs", text: "See Exchanges" },
-    secondaryLink: { href: "/contact", text: "Apply Now" },
-  },
-  {
-    image: "/youth-development/youth-dev-9.jpg",
-    badge: "Health & Wellbeing",
-    title: "Strong Minds,",
-    subtitle: "Healthy Futures",
-    description:
-      "Encouraging holistic wellbeing through sports, mental health programs, and active lifestyles.",
-    primaryLink: { href: "/#programs", text: "Health Initiatives" },
-    secondaryLink: { href: "/contact", text: "Get Support" },
-  },
-  {
-    image: "/youth-development/youth-dev-10.jpg",
-    badge: "Global Citizenship",
-    title: "Youth,",
-    subtitle: "For a Better World",
-    description:
-      "Equipping young people to become advocates of peace, sustainability, and positive global change.",
-    primaryLink: { href: "/#programs", text: "Join Movements" },
-    secondaryLink: { href: "/contact", text: "Partner With Us" },
-  },
+  // {
+  //   image: "/youth-development/youth-dev-8.png",
+  //   badge: "Cultural Exchange",
+  //   title: "Connect,",
+  //   subtitle: "Across Borders",
+  //   description:
+  //     "Promoting intercultural understanding and global citizenship through exchange programs.",
+  //   primaryLink: { href: "/#programs", text: "See Exchanges" },
+  //   secondaryLink: { href: "/contact", text: "Apply Now" },
+  // },
+  // {
+  //   image: "/youth-development/youth-dev-9.png",
+  //   badge: "Health & Wellbeing",
+  //   title: "Strong Minds,",
+  //   subtitle: "Healthy Futures",
+  //   description:
+  //     "Encouraging holistic wellbeing through sports, mental health programs, and active lifestyles.",
+  //   primaryLink: { href: "/#programs", text: "Health Initiatives" },
+  //   secondaryLink: { href: "/contact", text: "Get Support" },
+  // },
+  // {
+  //   image: "/youth-development/youth-dev-10.png",
+  //   badge: "Global Citizenship",
+  //   title: "Youth,",
+  //   subtitle: "For a Better World",
+  //   description:
+  //     "Equipping young people to become advocates of peace, sustainability, and positive global change.",
+  //   primaryLink: { href: "/#programs", text: "Join Movements" },
+  //   secondaryLink: { href: "/contact", text: "Partner With Us" },
+  // },
 ];

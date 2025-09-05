@@ -15,9 +15,9 @@ export type Slide = {
   subtitle: string;
 };
 
-export const ExhibitionPageCarouselData: Slide[] = [
+export const BannerCarouseldata: Slide[] = [
   {
-    image: "/arts/art-slide6.png",
+    image: "/sample/banner-1.png",
     badge: "Art & Exhibitions",
     title: "Celebrate Creativity,",
     subtitle: "Across Borders",
@@ -27,7 +27,7 @@ export const ExhibitionPageCarouselData: Slide[] = [
     secondaryLink: { href: "/contact", text: "Host an Exhibition" },
   },
   {
-    image: "/arts/art-slide7.png",
+    image: "/sample/banner-2.png",
     badge: "Visual Arts",
     title: "Masterpieces,",
     subtitle: "On Display",
@@ -37,7 +37,7 @@ export const ExhibitionPageCarouselData: Slide[] = [
     secondaryLink: { href: "/contact", text: "Learn More" },
   },
   {
-    image: "/arts/art-slide15.png",
+    image: "/sample/banner-1.png",
     badge: "Cultural Heritage",
     title: "Preserving History,",
     subtitle: "For Tomorrow",

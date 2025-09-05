@@ -17,7 +17,7 @@ export type Slide = {
 
 export const EnvironmentPageCarouselData: Slide[] = [
   {
-    image: "/images/environment1.jpg",
+    image: "/sample/banner-1.png",
     badge: "Environment & Climate Action",
     title: "Building a,",
     subtitle: "Sustainable Future",
@@ -27,7 +27,7 @@ export const EnvironmentPageCarouselData: Slide[] = [
     secondaryLink: { href: "/contact", text: "Join the Movement" },
   },
   {
-    image: "/images/environment2.jpg",
+    image: "/sample/banner-2.png",
     badge: "Renewable Energy",
     title: "Clean Energy,",
     subtitle: "For All",
@@ -37,7 +37,7 @@ export const EnvironmentPageCarouselData: Slide[] = [
     secondaryLink: { href: "/contact", text: "Learn More" },
   },
   {
-    image: "/images/environment3.jpg",
+    image: "/sample/banner-2.png",
     badge: "Climate Education",
     title: "Learn Green,",
     subtitle: "Act Green",

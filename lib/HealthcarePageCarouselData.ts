@@ -17,7 +17,7 @@ export type Slide = {
 
 export const HealthcarePageCarouselData: Slide[] = [
   {
-    image: "/images/healthcare1.jpg",
+    image: "/sample/banner-1.png",
     badge: "Telemedicine",
     title: "Healthcare,",
     subtitle: "Anywhere, Anytime",
@@ -27,7 +27,7 @@ export const HealthcarePageCarouselData: Slide[] = [
     secondaryLink: { href: "/contact", text: "Learn More" },
   },
   {
-    image: "/images/healthcare2.jpg",
+    image: "/sample/banner-1.png",
     badge: "Community Health",
     title: "Stronger Communities,",
     subtitle: "Healthier Lives",
@@ -37,7 +37,7 @@ export const HealthcarePageCarouselData: Slide[] = [
     secondaryLink: { href: "/contact", text: "Learn More" },
   },
   {
-    image: "/images/healthcare3.jpg",
+    image: "/sample/banner-1.png",
     badge: "Global Partnerships",
     title: "Collaborate,",
     subtitle: "For Better Health",
@@ -47,7 +47,7 @@ export const HealthcarePageCarouselData: Slide[] = [
     secondaryLink: { href: "/contact", text: "Learn More" },
   },
   {
-    image: "/images/healthcare4.jpg",
+    image: "/sample/banner-1.png",
     badge: "Medical Training",
     title: "Train Today,",
     subtitle: "Save Lives Tomorrow",
