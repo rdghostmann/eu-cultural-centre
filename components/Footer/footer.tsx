@@ -48,7 +48,7 @@ const footerLinks = {
 
 const socialLinks = [
   { name: "Facebook", icon: Facebook, href: "https://www.facebook.com/share/1Ax1H5XUsc/" },
-  { name: "Twitter", icon: Twitter, href: "https://x.com/eu_cultural" },
+  { name: "Twitter", icon: Twitter, href: "https://x.com/eu_cultural_c" },
   { name: "Instagram", icon: Instagram, href: "https://www.instagram.com/eu_cultural_centre" },
   { name: "YouTube", icon: Youtube, href: "https://youtube.com/@euculturalcentre" },
   {
