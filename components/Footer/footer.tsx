@@ -23,8 +23,8 @@ const CONTACT_INFO = {
 
 const footerLinks = {
   "About ECC": [
-    { name: "Our Mission", href: "/about" },
-    { name: "Annual Reports", href: "/about#reports" },
+    { name: "Our Mission", href: "/about#mission" },
+    { name: "Our Programs", href: "/#programs" },
     { name: "Careers", href: "/contact" },
   ],
   Programs: [
@@ -88,10 +88,10 @@ export function Footer() {
           animate={footerInView ? "visible" : "hidden"}
         >
           {/* Main Footer */}
-          <div className="grid grid-cols-1 sm:grid-cols-4 md:grid-cols-4 gap-5 mb-14">
-            
+          <div className="grid grid-cols-1 lg:grid-cols-5 gap-5 mb-14">
+
             {/* Brand & Contact */}
-            <motion.div className="md:col-span-1 lg:col-span-2" variants={staggerItem}>
+            <motion.div className="lg:col-span-1" variants={staggerItem}>
               <div className="flex items-center space-x-3 mb-7">
                 <motion.div
                   className="size-14 rounded-full bg-[#205375] flex items-center justify-center shadow-lg overflow-hidden"
@@ -106,16 +106,17 @@ export function Footer() {
                     className="w-full h-full object-contain"
                   />
                 </motion.div>
-                <span className="text-[#8F770A] font-bold text-lg leading-snug">
-                  European Cultural <br /> Center Nigeria
-                </span>
+                <Link href="/" className="text-decoration-none">
+                  <span className="text-[#8F770A] font-bold text-lg leading-snug">
+                    European Cultural <br /> Center Nigeria
+                  </span>
+                </Link>
               </div>
               <p className="text-sm text-gray-300 mb-6 leading-relaxed max-w-md">
                 Bridging cultures, fostering understanding, and promoting cooperation between Europe, Africa and the rest of the world through education, arts, and cultural exchange.
               </p>
-
               {/* Contact Info */}
-              <div className="space-y-3 text-sm">
+              <div className="flex flex-col md:justify-end space-y-3 text-sm">
                 <motion.div className="flex items-center gap-3" whileHover={{ x: 5 }}>
                   <Mail className="h-5 w-5 text-[#8F770A]" />
                   <span className="text-white ">{CONTACT_INFO.email}</span>
@@ -129,6 +130,7 @@ export function Footer() {
                   <span className="text-white ">{CONTACT_INFO.address}</span>
                 </motion.div>
               </div>
+
             </motion.div>
 
             {/* Footer Links */}
@@ -140,7 +142,7 @@ export function Footer() {
                     <motion.li key={index} variants={staggerItem}>
                       <Link
                         href={link.href}
-                        className="relative group text-sm text-white hover:text-[#8F770A] transition-colors"
+                        className="relative group text-sm text-white hover:text-[#205375] transition-colors"
                       >
                         {link.name}
                         <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#8F770A] group-hover:w-full transition-all duration-300"></span>
@@ -185,27 +187,32 @@ export function Footer() {
             </form>
 
             {/* Social Icons */}
-            <div className="flex md:justify-end space-x-4">
-              {socialLinks.map((social, index) => {
-                const Icon = social.icon
-                return (
-                  <motion.div
-                    key={index}
-                    whileHover={{ scale: 1.2, rotate: 10 }}
-                    whileTap={{ scale: 0.9 }}
-                  >
-                    <Link
-                      href={social.href}
-                      className="p-3 bg-[#1e293b] rounded-full text-[#68b684] hover:text-white hover:bg-[#8F770A] transition-all duration-300 shadow flex items-center justify-center"
-                      aria-label={social.name}
-                      target="_blank"
-                      rel="noopener noreferrer"
+            <div className="flex flex-col md:justify-end space-x-4">
+              <div className="flex md:justify-end space-x-4">
+                {socialLinks.map((social, index) => {
+                  const Icon = social.icon
+                  return (
+                    <motion.div
+                      key={index}
+                      whileHover={{ scale: 1.2, rotate: 10 }}
+                      whileTap={{ scale: 0.9 }}
                     >
-                      <Icon className="h-5 w-5" />
-                    </Link>
-                  </motion.div>
-                )
-              })}
+                      <Link
+                        href={social.href}
+                        className="p-3 bg-[#1e293b] rounded-full text-[#68b684] hover:text-white hover:bg-[#8F770A] transition-all duration-300 shadow flex items-center justify-center"
+                        aria-label={social.name}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <Icon className="h-5 w-5" />
+                      </Link>
+                    </motion.div>
+                  )
+                })}
+
+              </div>
+
+
             </div>
           </motion.div>
 
@@ -216,8 +223,8 @@ export function Footer() {
           >
             <div className="text-center">© {new Date().getFullYear()} European Cultural Center Nigeria. All rights reserved.</div>
             <div className="flex gap-6 mt-3 lg:mt-0">
-              <Link href="/terms" className="hover:text-[#68b684]">Terms</Link>
-              <Link href="/privacy" className="hover:text-[#68b684]">Privacy</Link>
+              <Link href="/termofuse" className="hover:text-[#68b684]">Terms of Use</Link>
+              <Link href="/privacypolicy" className="hover:text-[#68b684]">Privacy Policy</Link>
             </div>
           </motion.div>
         </motion.div>
