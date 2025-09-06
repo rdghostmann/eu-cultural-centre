@@ -119,15 +119,21 @@ export function Footer() {
               <div className="flex flex-col md:justify-end space-y-3 text-sm">
                 <motion.div className="flex items-center gap-3" whileHover={{ x: 5 }}>
                   <Mail className="h-5 w-5 text-[#8F770A]" />
-                  <span className="text-white ">{CONTACT_INFO.email}</span>
+                  <Link href={`mailto:${CONTACT_INFO.email}`} className="text-white hover:underline">
+                    Send Email
+                  </Link>
                 </motion.div>
                 <motion.div className="flex items-center gap-3" whileHover={{ x: 5 }}>
                   <Phone className="h-5 w-5 text-[#8F770A]" />
-                  <span className="text-white ">{CONTACT_INFO.phone}</span>
+                  <Link href={`tel:${CONTACT_INFO.phone}`} className="text-white hover:underline">
+                    {CONTACT_INFO.phone}
+                  </Link>
                 </motion.div>
                 <motion.div className="flex items-center gap-3" whileHover={{ x: 5 }}>
                   <MapPin className="h-5 w-5 text-[#8F770A]" />
-                  <span className="text-white ">{CONTACT_INFO.address}</span>
+                  <Link href="https://www.google.com/maps?q=47+Damaturu+Crescent,+Garki+Mall,+FCT,+Abuja&output=embed" className="text-white hover:underline">
+                    {CONTACT_INFO.address}
+                  </Link>
                 </motion.div>
               </div>
 
