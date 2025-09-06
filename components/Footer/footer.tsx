@@ -120,7 +120,7 @@ export function Footer() {
                 <motion.div className="flex items-center gap-3" whileHover={{ x: 5 }}>
                   <Mail className="h-5 w-5 text-[#8F770A]" />
                   <Link href={`mailto:${CONTACT_INFO.email}`} className="text-white hover:underline">
-                    Send Email
+                    {CONTACT_INFO.email}
                   </Link>
                 </motion.div>
                 <motion.div className="flex items-center gap-3" whileHover={{ x: 5 }}>
