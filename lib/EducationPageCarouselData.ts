@@ -47,7 +47,7 @@ export const EducationPageCarouselData: Slide[] = [
     secondaryLink: { href: "/contact", text: "Learn More" },
   },
   {
-    image: "/school-exchange-tours/school-exchange-tours-slide4.png",
+    image: "/school-exchange-tours/school-exchange-tours-slide1.png",
     badge: "Capacity Building",
     title: "Strengthen Skills,",
     subtitle: "Empower Communities",
