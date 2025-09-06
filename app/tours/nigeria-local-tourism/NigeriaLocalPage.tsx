@@ -9,6 +9,8 @@ import { ArrowRight, Camera, MapPin, Clock, Users, Star, Shield } from "lucide-r
 import { fadeInUp, staggerContainer, staggerItem } from "@/lib/animations"
 import { useScrollAnimation } from "@/hooks/use-scroll-animation"
 import CTASection from "@/components/CTASection/CTASection"
+import HeaderSlider2 from "@/components/CustomSlider/HeaderSlider2"
+import { NigerianDomesticTourData } from "@/lib/NigerianDomesticTour"
 
 // Nigeria Local Tourism Attractions
 const attractions = [
@@ -71,12 +73,12 @@ export default function NigeriaLocalTourismPage() {
   return (
     <div className="flex flex-col overflow-hidden bg-white">
       {/* Hero */}
-      <section className="relative bg-gradient-to-br from-green-700 via-emerald-600 to-amber-600 text-white py-12 px-4 sm:py-20 sm:px-6">
+      <section className="hidden relative bg-gradient-to-br from-green-700 via-emerald-600 to-amber-600 text-white py-12 px-4 sm:py-20 sm:px-6">
         <motion.div className="absolute inset-0 bg-black/30" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1 }} />
         <div className="relative z-10 max-w-2xl mx-auto sm:max-w-4xl" ref={heroRef}>
           <motion.div className="text-center" variants={staggerContainer} initial="hidden" animate={heroInView ? "visible" : "hidden"}>
             <motion.div variants={staggerItem}>
-              <Badge className="mb-4 bg-white/20 text-white border-white/30">Nigeria Local Tourism 2026</Badge>
+              <Badge className="mb-4 bg-white/20 text-white border-white/30">Nigeria Domestic Tourism 2026</Badge>
             </motion.div>
             <motion.h1 className="text-2xl sm:text-4xl font-bold mb-4" variants={staggerItem}>
               Explore Nigeria’s Hidden Gems & Cultural Wonders
@@ -96,6 +98,8 @@ export default function NigeriaLocalTourismPage() {
           </motion.div>
         </div>
       </section>
+      <HeaderSlider2 images={NigerianDomesticTourData} />
+
 
       {/* Attractions Section */}
       <section id="attractions" className="py-12 px-4 sm:py-20 sm:px-6" ref={toursRef}>
@@ -140,7 +144,7 @@ export default function NigeriaLocalTourismPage() {
         secondaryLabel="Request Custom Itinerary"
         secondaryHref="/contact"
       />
-      
+
     </div>
   )
 }

@@ -11,6 +11,8 @@ import { ArrowRight, Users, Shield, Globe, Calendar, Award, MapPin } from "lucid
 import { fadeInUp, staggerContainer, staggerItem, hoverScale, hoverLift } from "@/lib/animations"
 import { useScrollAnimation, scrollVariants } from "@/hooks/use-scroll-animation"
 import CTASection from '@/components/CTASection/CTASection'
+import HeaderSlider2 from '@/components/CustomSlider/HeaderSlider2'
+import { GovernmentTourData } from '@/lib/GovernmentTour'
 
 const services = [
     {
@@ -68,7 +70,7 @@ export default function GovernmentToursPage() {
     return (
         <div className="flex flex-col overflow-hidden">
             {/* Hero Section */}
-            <section className="relative bg-gradient-to-br from-gray-700 via-gray-700 to-gray-900 text-white py-20">
+            <section className="hidden relative bg-gradient-to-br from-gray-700 via-gray-700 to-gray-900 text-white py-20">
                 <motion.div
                     className="absolute inset-0 bg-black/30"
                     initial={{ opacity: 1 }}
@@ -135,6 +137,8 @@ export default function GovernmentToursPage() {
                     </motion.div>
                 </div>
             </section>
+            <HeaderSlider2 images={GovernmentTourData} />
+
 
             {/* Quick Info */}
             <section className="py-12 ">

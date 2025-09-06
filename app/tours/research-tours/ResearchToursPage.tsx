@@ -9,6 +9,8 @@ import { ArrowRight, BookOpen, Users, Clock, Award, Database, Microscope } from 
 import { fadeInUp, staggerContainer, staggerItem, hoverScale, hoverLift } from "@/lib/animations"
 import { useScrollAnimation } from "@/hooks/use-scroll-animation"
 import CTASection from "@/components/CTASection/CTASection"
+import HeaderSlider2 from "@/components/CustomSlider/HeaderSlider2"
+import { ResearchTourData } from "@/lib/ResearchTourData"
 
 const researchAreas = [
   {
@@ -62,7 +64,7 @@ export default function ResearchToursPage() {
   return (
     <div className="flex flex-col overflow-hidden">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-indigo-600 via-purple-600 to-blue-800 text-white py-12 px-4 sm:py-20 sm:px-6">
+      <section className="hidden relative bg-gradient-to-br from-indigo-600 via-purple-600 to-blue-800 text-white py-12 px-4 sm:py-20 sm:px-6">
         <motion.div className="absolute inset-0 bg-black/20" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1 }} />
         <div className="relative z-10 max-w-2xl mx-auto sm:max-w-4xl" ref={heroRef}>
           <motion.div className="text-center" variants={staggerContainer} initial="hidden" animate={heroInView ? "visible" : "hidden"}>
@@ -92,6 +94,8 @@ export default function ResearchToursPage() {
           </motion.div>
         </div>
       </section>
+      <HeaderSlider2 images={ResearchTourData} />
+
 
       {/* Quick Info */}
       <section className="py-8 px-4 sm:py-12 sm:px-6 bg-ecc-beige">

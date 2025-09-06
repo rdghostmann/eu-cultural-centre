@@ -9,6 +9,8 @@ import { ArrowRight, Camera, MapPin, Clock, Users, Star, Shield } from "lucide-r
 import { fadeInUp, staggerContainer, staggerItem, hoverScale, hoverLift } from "@/lib/animations"
 import { useScrollAnimation, scrollVariants } from "@/hooks/use-scroll-animation"
 import CTASection from "@/components/CTASection/CTASection"
+import HeaderSlider2 from "@/components/CustomSlider/HeaderSlider2"
+import { CulturalPageCarouselData } from "@/lib/CulturalPageCarouseData"
 
 const tourTypes = [
     {
@@ -91,7 +93,7 @@ export default function CulturalHeritageToursPage() {
     return (
         <div className="flex flex-col overflow-hidden">
             {/* Hero Section */}
-            <section className="relative bg-gradient-to-br from-amber-600 via-orange-600 to-red-700 text-white py-16 sm:py-20">
+            <section className="hidden relative bg-gradient-to-br from-amber-600 via-orange-600 to-red-700 text-white py-16 sm:py-20">
                 <motion.div
                     className="absolute inset-0 bg-black/20"
                     initial={{ opacity: 0 }}
@@ -168,6 +170,8 @@ export default function CulturalHeritageToursPage() {
                     </motion.div>
                 </div>
             </section>
+            <HeaderSlider2 images={CulturalPageCarouselData} />
+
 
             {/* Quick Info */}
             <section className="py-8 sm:py-12 bg-ecc-beige">
@@ -441,7 +445,7 @@ export default function CulturalHeritageToursPage() {
                 secondaryLabel="Custom Tour Request"
                 secondaryHref="/contact"
             />
-            
+
 
 
 

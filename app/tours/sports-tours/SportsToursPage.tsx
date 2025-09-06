@@ -9,6 +9,8 @@ import { ArrowRight, Trophy, Users, Calendar, MapPin, Star, Shield } from "lucid
 import { fadeInUp, staggerContainer, staggerItem, hoverScale, hoverLift } from "@/lib/animations"
 import { useScrollAnimation } from "@/hooks/use-scroll-animation"
 import CTASection from "@/components/CTASection/CTASection"
+import HeaderSlider2 from "@/components/CustomSlider/HeaderSlider2"
+import { SportsTourData } from "@/lib/SportsTourData"
 
 const sportsPrograms = [
   {
@@ -79,7 +81,7 @@ export default function SportsToursPage() {
   return (
     <div className="flex flex-col overflow-hidden">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-green-600 via-emerald-600 to-teal-700 text-white py-12 px-4 sm:py-20 sm:px-6">
+      <section className="hidden relative bg-gradient-to-br from-green-600 via-emerald-600 to-teal-700 text-white py-12 px-4 sm:py-20 sm:px-6">
         <motion.div className="absolute inset-0 bg-black/20" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1 }} />
         <div className="relative z-10 max-w-2xl mx-auto sm:max-w-4xl" ref={heroRef}>
           <motion.div className="text-center" variants={staggerContainer} initial="hidden" animate={heroInView ? "visible" : "hidden"}>
@@ -109,6 +111,8 @@ export default function SportsToursPage() {
           </motion.div>
         </div>
       </section>
+      <HeaderSlider2 images={SportsTourData} />
+
 
       {/* Quick Info */}
       <section className="py-12 bg-ecc-beige">
