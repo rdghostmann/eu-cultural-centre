@@ -15,6 +15,7 @@ import CTASection from "@/components/CTASection/CTASection"
 import PartnersSlider from "@/components/Partners/PartnersSlider"
 import { HomePageCarouselData } from "@/lib/HomePageCarouselData"
 import HeaderSlider from "@/components/CustomSlider/HeaderSlider"
+import Partners from "@/components/Partners/Partners"
 
 const areasOfWork = [
   { title: "Education & Knowledge Exchange", description: "Learning, capacity building and academic partnerships connecting continents.", icon: BookOpen, href: "/education" },
@@ -322,8 +323,8 @@ export default function HomePage() {
 
 
       {/* Partners */}
-      {/* <Partners /> */}
-      <PartnersSlider />
+      <Partners />
+      {/* <PartnersSlider /> */}
 
       {/* News & Research Publications */}
       <section

@@ -72,7 +72,7 @@ export default function ResearchToursPage() {
               <Badge className="mb-4 bg-white/20 text-white border-white/30">Research Tours</Badge>
             </motion.div>
             <motion.h1 className="text-2xl sm:text-4xl font-bold mb-4" variants={staggerItem}>
-              Academic Research & Scholarly Exchange
+              Academic Research & Exchange
             </motion.h1>
             <motion.p className="text-base sm:text-xl mb-6 text-indigo-100 max-w-xl mx-auto" variants={staggerItem}>
               Comprehensive research support for academics, scholars, and students conducting fieldwork, archival research, and cultural studies across Africa with expert local guidance.

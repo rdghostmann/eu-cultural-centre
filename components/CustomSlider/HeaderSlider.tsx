@@ -55,7 +55,7 @@ export default function HeaderSlider({
   const slide = images[currentSlide];
 
   return (
-    <div className="relative w-full h-[calc(100vh-215px)] lg:h-[calc(100vh-144px)] bg-purple-900 overflow-hidden flex flex-col">
+    <div className="relative w-full h-[calc(100vh-215px)] lg:h-[calc(100vh-144px)] bg-purple-700 overflow-hidden flex flex-col">
       {/* Background slides */}
       <div className="absolute inset-0">
         {images.map((item, index) => (
@@ -72,7 +72,7 @@ export default function HeaderSlider({
               priority={index === currentSlide}
               className="object-cover"
             />
-            <div className="absolute inset-0 bg-purple-900/50" />
+            <div className="absolute inset-0 " />
           </div>
         ))}
       </div>
