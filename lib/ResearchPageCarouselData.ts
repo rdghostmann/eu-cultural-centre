@@ -23,7 +23,7 @@ export const ResearchPageCarouselData: Slide[] = [
     subtitle: "Through Research",
     description:
       "Research and innovation that strengthens cultural sectors, informs policy decisions, and creates evidence-based solutions for cooperation between Europe and Africa.",
-    primaryLink: { href: "/programs", text: "Explore Research" },
+    primaryLink: { href: "#programs", text: "Explore Research" },
     secondaryLink: { href: "/contact", text: "Collaborate With Us" },
   },
   {
@@ -33,7 +33,7 @@ export const ResearchPageCarouselData: Slide[] = [
     subtitle: "For Decision Making",
     description:
       "Providing cultural policymakers with robust data and insights that guide impactful strategies across nations.",
-    primaryLink: { href: "/programs", text: "View Studies" },
+    primaryLink: { href: "#programs", text: "View Studies" },
     secondaryLink: { href: "/contact", text: "Partner With Us" },
   },
   {
@@ -43,7 +43,7 @@ export const ResearchPageCarouselData: Slide[] = [
     subtitle: "Cultural Value",
     description:
       "Analyzing the social and economic value of cultural sectors to demonstrate their role in sustainable development.",
-    primaryLink: { href: "/programs", text: "Read Reports" },
+    primaryLink: { href: "#programs", text: "Read Reports" },
     secondaryLink: { href: "/contact", text: "Contribute Research" },
   },
   // {
@@ -53,7 +53,7 @@ export const ResearchPageCarouselData: Slide[] = [
   //   subtitle: "Shared History",
   //   description:
   //     "Research that safeguards cultural heritage while promoting innovation in conservation methods.",
-  //   primaryLink: { href: "/programs", text: "View Projects" },
+  //   primaryLink: { href: "#programs", text: "View Projects" },
   //   secondaryLink: { href: "/contact", text: "Join Efforts" },
   // },
   // {
@@ -63,7 +63,7 @@ export const ResearchPageCarouselData: Slide[] = [
   //   subtitle: "Future Solutions",
   //   description:
   //     "Exploring how technology and innovation can support cultural sustainability and collaboration.",
-  //   primaryLink: { href: "/programs", text: "Explore Innovation" },
+  //   primaryLink: { href: "#programs", text: "Explore Innovation" },
   //   secondaryLink: { href: "/contact", text: "Collaborate" },
   // },
   // {
@@ -73,7 +73,7 @@ export const ResearchPageCarouselData: Slide[] = [
   //   subtitle: "Through Knowledge",
   //   description:
   //     "Encouraging youth-driven research and academic collaboration across Europe and Africa.",
-  //   primaryLink: { href: "/programs", text: "See Initiatives" },
+  //   primaryLink: { href: "#programs", text: "See Initiatives" },
   //   secondaryLink: { href: "/contact", text: "Get Involved" },
   // },
   // {
@@ -83,7 +83,7 @@ export const ResearchPageCarouselData: Slide[] = [
   //   subtitle: "Through Data",
   //   description:
   //     "Promoting joint research projects that link African and European institutions and scholars.",
-  //   primaryLink: { href: "/programs", text: "Discover Research" },
+  //   primaryLink: { href: "#programs", text: "Discover Research" },
   //   secondaryLink: { href: "/contact", text: "Collaborate" },
   // },
   // {
@@ -93,7 +93,7 @@ export const ResearchPageCarouselData: Slide[] = [
   //   subtitle: "As a Solution",
   //   description:
   //     "Investigating how cultural initiatives contribute to solving pressing social and environmental challenges.",
-  //   primaryLink: { href: "/programs", text: "Learn More" },
+  //   primaryLink: { href: "#programs", text: "Learn More" },
   //   secondaryLink: { href: "/contact", text: "Support Research" },
   // },
   // {
@@ -103,7 +103,7 @@ export const ResearchPageCarouselData: Slide[] = [
   //   subtitle: "Made Accessible",
   //   description:
   //     "Ensuring research outputs are open, accessible, and impactful for communities and policymakers alike.",
-  //   primaryLink: { href: "/programs", text: "Access Resources" },
+  //   primaryLink: { href: "#programs", text: "Access Resources" },
   //   secondaryLink: { href: "/contact", text: "Publish With Us" },
   // },
   // {
@@ -113,7 +113,7 @@ export const ResearchPageCarouselData: Slide[] = [
   //   subtitle: "Without Borders",
   //   description:
   //     "Building networks of scholars and cultural actors who collaborate internationally for shared solutions.",
-  //   primaryLink: { href: "/programs", text: "Join Networks" },
+  //   primaryLink: { href: "#programs", text: "Join Networks" },
   //   secondaryLink: { href: "/contact", text: "Learn More" },
   // },
 ];

@@ -33,7 +33,7 @@ export const ResearchTourData: Slide[] = [
     subtitle: "Learning Expeditions",
     description:
       "Transformative educational experiences that bring learning to life through immersive field studies, cultural exploration, and hands-on research opportunities for students and educators.",
-    primaryLink: { href: "/programs", text: "Explore Field Trips" },
+    primaryLink: { href: "#programs", text: "Explore Field Trips" },
     secondaryLink: { href: "/contact", text: "Plan a Studt Trip" },
   },
 ];

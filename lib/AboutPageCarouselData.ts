@@ -21,7 +21,7 @@ export const AboutPageCarouselData: Slide[] = [
     title: "Join Our Network,",
     subtitle: "Transform Communities",
     description: "Promoting intercultural dialogue between Africa, Europe, and the world.",
-    primaryLink: { href: "/programs", text: "Get Involved" },
+    primaryLink: { href: "#programs", text: "Get Involved" },
     secondaryLink: { href: "/contact", text: "Learn More" },
   },
   {
@@ -30,7 +30,7 @@ export const AboutPageCarouselData: Slide[] = [
     title: "Strengthen Partnerships,",
     subtitle: "Across Borders",
     description: "Creating sustainable cultural and educational partnerships worldwide.",
-    primaryLink: { href: "/programs", text: "Partner With Us" },
+    primaryLink: { href: "#programs", text: "Partner With Us" },
     secondaryLink: { href: "/contact", text: "Learn More" },
   },
   {
@@ -39,7 +39,7 @@ export const AboutPageCarouselData: Slide[] = [
     title: "Advance Understanding,",
     subtitle: "Through Culture",
     description: "Celebrating diversity and encouraging global intercultural dialogue.",
-    primaryLink: { href: "/programs", text: "Join the Dialogue" },
+    primaryLink: { href: "#programs", text: "Join the Dialogue" },
     secondaryLink: { href: "/contact", text: "Learn More" },
   },
   {
@@ -48,7 +48,7 @@ export const AboutPageCarouselData: Slide[] = [
     title: "Unite Through Art,",
     subtitle: "Inspire Generations",
     description: "Art as a bridge fostering creativity, empathy, and global exchange.",
-    primaryLink: { href: "/programs", text: "Explore With Us" },
+    primaryLink: { href: "#programs", text: "Explore With Us" },
     secondaryLink: { href: "/contact", text: "Learn More" },
   },
   // {
@@ -57,7 +57,7 @@ export const AboutPageCarouselData: Slide[] = [
   //   title: "Knowledge For All,",
   //   subtitle: "Global Learning",
   //   description: "Promoting cross-continental education for empowered communities.",
-  //   primaryLink: { href: "/programs", text: "Support Education" },
+  //   primaryLink: { href: "#programs", text: "Support Education" },
   //   secondaryLink: { href: "/contact", text: "Learn More" },
   // },
   // {
@@ -66,7 +66,7 @@ export const AboutPageCarouselData: Slide[] = [
   //   title: "Shape The Future,",
   //   subtitle: "Together",
   //   description: "Blending tradition with innovation to inspire cultural growth.",
-  //   primaryLink: { href: "/programs", text: "Get Involved" },
+  //   primaryLink: { href: "#programs", text: "Get Involved" },
   //   secondaryLink: { href: "/contact", text: "Learn More" },
   // },
   // {
@@ -75,7 +75,7 @@ export const AboutPageCarouselData: Slide[] = [
   //   title: "Celebrate Heritage,",
   //   subtitle: "Preserve Identity",
   //   description: "Protecting heritage while fostering inclusive global collaboration.",
-  //   primaryLink: { href: "/programs", text: "Preserve With Us" },
+  //   primaryLink: { href: "#programs", text: "Preserve With Us" },
   //   secondaryLink: { href: "/contact", text: "Learn More" },
   // },
   // {
@@ -84,7 +84,7 @@ export const AboutPageCarouselData: Slide[] = [
   //   title: "Building Bridges,",
   //   subtitle: "Connecting People",
   //   description: "Encouraging intercultural dialogue between Europe, Africa, and beyond.",
-  //   primaryLink: { href: "/programs", text: "Join the Conversation" },
+  //   primaryLink: { href: "#programs", text: "Join the Conversation" },
   //   secondaryLink: { href: "/contact", text: "Learn More" },
   // },
   // {
@@ -93,7 +93,7 @@ export const AboutPageCarouselData: Slide[] = [
   //   title: "Inspire Youth,",
   //   subtitle: "Shape Tomorrow",
   //   description: "Empowering youth with culture, education, and opportunities for change.",
-  //   primaryLink: { href: "/programs", text: "Support Youth" },
+  //   primaryLink: { href: "#programs", text: "Support Youth" },
   //   secondaryLink: { href: "/contact", text: "Learn More" },
   // },
   // {
@@ -102,7 +102,7 @@ export const AboutPageCarouselData: Slide[] = [
   //   title: "Global Connections,",
   //   subtitle: "Shared Futures",
   //   description: "Fostering a united future through creativity and collaboration.",
-  //   primaryLink: { href: "/programs", text: "Connect With Us" },
+  //   primaryLink: { href: "#programs", text: "Connect With Us" },
   //   secondaryLink: { href: "/contact", text: "Learn More" },
   // },
 ];

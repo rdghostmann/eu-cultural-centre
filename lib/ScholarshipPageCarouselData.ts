@@ -53,7 +53,7 @@ export const ScholarshipPageCarouselData: Slide[] = [
   //   subtitle: "Through Science",
   //   description:
   //     "Encouraging careers in science, technology, engineering, and mathematics through targeted scholarships.",
-  //   primaryLink: { href: "/programs", text: "STEM Opportunities" },
+  //   primaryLink: { href: "#programs", text: "STEM Opportunities" },
   //   secondaryLink: { href: "/contact", text: "Get Involved" },
   // },
   // {
@@ -63,7 +63,7 @@ export const ScholarshipPageCarouselData: Slide[] = [
   //   subtitle: "Across Borders",
   //   description:
   //     "Providing scholarships for cultural and academic exchange programs in Europe and Africa.",
-  //   primaryLink: { href: "/programs", text: "View Exchanges" },
+  //   primaryLink: { href: "#programs", text: "View Exchanges" },
   //   secondaryLink: { href: "/apply", text: "Apply Today" },
   // },
   // {
@@ -93,7 +93,7 @@ export const ScholarshipPageCarouselData: Slide[] = [
   //   subtitle: "Girls & Women",
   //   description:
   //     "Promoting gender equality by supporting women and girls in accessing quality education.",
-  //   primaryLink: { href: "/programs", text: "Women’s Initiatives" },
+  //   primaryLink: { href: "#programs", text: "Women’s Initiatives" },
   //   secondaryLink: { href: "/apply", text: "Join Now" },
   // },
   // {
@@ -113,7 +113,7 @@ export const ScholarshipPageCarouselData: Slide[] = [
   //   subtitle: "Without Borders",
   //   description:
   //     "Creating pathways for global learning through collaborations with universities and institutions worldwide.",
-  //   primaryLink: { href: "/programs", text: "Explore Partnerships" },
+  //   primaryLink: { href: "#programs", text: "Explore Partnerships" },
   //   secondaryLink: { href: "/contact", text: "Collaborate" },
   // },
 ];

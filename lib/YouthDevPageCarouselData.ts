@@ -23,7 +23,7 @@ export const YouthDevPageCarouselData: Slide[] = [
     subtitle: "By ECC Nigeria",
     description:
       "Building skills, confidence, and opportunities for the next generation of leaders.",
-    primaryLink: { href: "/programs", text: "Get Involved" },
+    primaryLink: { href: "#programs", text: "Get Involved" },
     secondaryLink: { href: "/about", text: "Learn More" },
   },
   {
@@ -33,7 +33,7 @@ export const YouthDevPageCarouselData: Slide[] = [
     subtitle: "Future Leaders",
     description:
       "Empowering young people with leadership skills to take initiative and create lasting change in their communities.",
-    primaryLink: { href: "/programs", text: "View Programs" },
+    primaryLink: { href: "#programs", text: "View Programs" },
     secondaryLink: { href: "/contact", text: "Join Us" },
   },
   {
@@ -43,7 +43,7 @@ export const YouthDevPageCarouselData: Slide[] = [
     subtitle: "That Transforms",
     description:
       "Providing educational opportunities, vocational training, and digital skills to prepare youth for the future.",
-    primaryLink: { href: "/programs", text: "Explore Courses" },
+    primaryLink: { href: "#programs", text: "Explore Courses" },
     secondaryLink: { href: "/contact", text: "Enroll Now" },
   },
   {
@@ -53,7 +53,7 @@ export const YouthDevPageCarouselData: Slide[] = [
     subtitle: "And Thrive",
     description:
       "Encouraging entrepreneurship and creativity by supporting youth-led startups and small businesses.",
-    primaryLink: { href: "/programs", text: "See Opportunities" },
+    primaryLink: { href: "#programs", text: "See Opportunities" },
     secondaryLink: { href: "/contact", text: "Get Support" },
   },
   {
@@ -63,7 +63,7 @@ export const YouthDevPageCarouselData: Slide[] = [
     subtitle: "The Next Generation",
     description:
       "Connecting young people with mentors who provide guidance, support, and career development.",
-    primaryLink: { href: "/programs", text: "Find Mentors" },
+    primaryLink: { href: "#programs", text: "Find Mentors" },
     secondaryLink: { href: "/contact", text: "Become a Mentor" },
   },
   {
@@ -73,7 +73,7 @@ export const YouthDevPageCarouselData: Slide[] = [
     subtitle: "Empowerment",
     description:
       "Equipping youth with digital literacy, coding, and technology skills to succeed in the modern world.",
-    primaryLink: { href: "/programs", text: "Tech Programs" },
+    primaryLink: { href: "#programs", text: "Tech Programs" },
     secondaryLink: { href: "/contact", text: "Start Learning" },
   },
   {
@@ -83,7 +83,7 @@ export const YouthDevPageCarouselData: Slide[] = [
     subtitle: "Together",
     description:
       "Fostering responsibility and teamwork through volunteer opportunities and service-learning projects.",
-    primaryLink: { href: "/programs", text: "Volunteer" },
+    primaryLink: { href: "#programs", text: "Volunteer" },
     secondaryLink: { href: "/contact", text: "Join a Project" },
   },
   // {
@@ -93,7 +93,7 @@ export const YouthDevPageCarouselData: Slide[] = [
   //   subtitle: "Across Borders",
   //   description:
   //     "Promoting intercultural understanding and global citizenship through exchange programs.",
-  //   primaryLink: { href: "/programs", text: "See Exchanges" },
+  //   primaryLink: { href: "#programs", text: "See Exchanges" },
   //   secondaryLink: { href: "/contact", text: "Apply Now" },
   // },
   // {
@@ -103,7 +103,7 @@ export const YouthDevPageCarouselData: Slide[] = [
   //   subtitle: "Healthy Futures",
   //   description:
   //     "Encouraging holistic wellbeing through sports, mental health programs, and active lifestyles.",
-  //   primaryLink: { href: "/programs", text: "Health Initiatives" },
+  //   primaryLink: { href: "#programs", text: "Health Initiatives" },
   //   secondaryLink: { href: "/contact", text: "Get Support" },
   // },
   // {
@@ -113,7 +113,7 @@ export const YouthDevPageCarouselData: Slide[] = [
   //   subtitle: "For a Better World",
   //   description:
   //     "Equipping young people to become advocates of peace, sustainability, and positive global change.",
-  //   primaryLink: { href: "/programs", text: "Join Movements" },
+  //   primaryLink: { href: "#programs", text: "Join Movements" },
   //   secondaryLink: { href: "/contact", text: "Partner With Us" },
   // },
 ];

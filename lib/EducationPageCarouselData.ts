@@ -23,7 +23,7 @@ export const EducationPageCarouselData: Slide[] = [
     subtitle: "Through Learning",
     description:
       "Comprehensive programs bridging cultures and creating opportunities for growth.",
-    primaryLink: { href: "/programs", text: "Explore Programs" },
+    primaryLink: { href: "#programs", text: "Explore Programs" },
     secondaryLink: { href: "/contact", text: "Apply Now" },
   },
   {
@@ -33,7 +33,7 @@ export const EducationPageCarouselData: Slide[] = [
     subtitle: "Expand Horizons",
     description:
       "Opportunities for students to learn abroad and gain international exposure.",
-    primaryLink: { href: "/programs", text: "Apply for Exchange" },
+    primaryLink: { href: "#programs", text: "Apply for Exchange" },
     secondaryLink: { href: "/contact", text: "Learn More" },
   },
   {
@@ -43,7 +43,7 @@ export const EducationPageCarouselData: Slide[] = [
     subtitle: "Advance Knowledge",
     description:
       "Joint research initiatives that solve global challenges through shared expertise.",
-    primaryLink: { href: "/programs", text: "Join Research" },
+    primaryLink: { href: "#programs", text: "Join Research" },
     secondaryLink: { href: "/contact", text: "Learn More" },
   },
   {
@@ -53,7 +53,7 @@ export const EducationPageCarouselData: Slide[] = [
     subtitle: "Empower Communities",
     description:
       "Programs designed to build professional and institutional capacity worldwide.",
-    primaryLink: { href: "/programs", text: "Support Capacity Building" },
+    primaryLink: { href: "#programs", text: "Support Capacity Building" },
     secondaryLink: { href: "/contact", text: "Learn More" },
   },
   // {
@@ -63,7 +63,7 @@ export const EducationPageCarouselData: Slide[] = [
   //   subtitle: "Without Borders",
   //   description:
   //     "Expanding access to quality education through digital platforms and tools.",
-  //   primaryLink: { href: "/programs", text: "Start Learning" },
+  //   primaryLink: { href: "#programs", text: "Start Learning" },
   //   secondaryLink: { href: "/contact", text: "Learn More" },
   // },
   // {
@@ -73,7 +73,7 @@ export const EducationPageCarouselData: Slide[] = [
   //   subtitle: "Shape the Future",
   //   description:
   //     "Encouraging youth leadership through mentorship, innovation, and education.",
-  //   primaryLink: { href: "/programs", text: "Empower Youth" },
+  //   primaryLink: { href: "#programs", text: "Empower Youth" },
   //   secondaryLink: { href: "/contact", text: "Learn More" },
   // },
   // {
@@ -83,7 +83,7 @@ export const EducationPageCarouselData: Slide[] = [
   //   subtitle: "Lead Tomorrow",
   //   description:
   //     "Supporting continuous professional development for a global workforce.",
-  //   primaryLink: { href: "/programs", text: "Join Training" },
+  //   primaryLink: { href: "#programs", text: "Join Training" },
   //   secondaryLink: { href: "/contact", text: "Learn More" },
   // },
   // {
@@ -93,7 +93,7 @@ export const EducationPageCarouselData: Slide[] = [
   //   subtitle: "For Global Impact",
   //   description:
   //     "Promoting STEM education to drive innovation and sustainable development.",
-  //   primaryLink: { href: "/programs", text: "Support STEM" },
+  //   primaryLink: { href: "#programs", text: "Support STEM" },
   //   secondaryLink: { href: "/contact", text: "Learn More" },
   // },
   // {
@@ -103,7 +103,7 @@ export const EducationPageCarouselData: Slide[] = [
   //   subtitle: "Inclusive Futures",
   //   description:
   //     "Integrating cultural understanding into education for global citizenship.",
-  //   primaryLink: { href: "/programs", text: "Join the Exchange" },
+  //   primaryLink: { href: "#programs", text: "Join the Exchange" },
   //   secondaryLink: { href: "/contact", text: "Learn More" },
   // },
   // {
@@ -113,7 +113,7 @@ export const EducationPageCarouselData: Slide[] = [
   //   subtitle: "Education",
   //   description:
   //     "Collaborating across borders to build an educated, connected, and sustainable future.",
-  //   primaryLink: { href: "/programs", text: "Connect With Us" },
+  //   primaryLink: { href: "#programs", text: "Connect With Us" },
   //   secondaryLink: { href: "/contact", text: "Learn More" },
   // },
 ];

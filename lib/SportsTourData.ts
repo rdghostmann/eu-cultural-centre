@@ -23,7 +23,7 @@ export const SportsTourData: Slide[] = [
     subtitle: "Cultural Exchange",
     description:
       "Elite sports programs combining athletic development with cultural exchange, bringing together teams and athletes from Europe and Africa for competition, training, and friendship.",
-    primaryLink: { href: "/programs", text: "View Programs" },
+    primaryLink: { href: "#programs", text: "View Programs" },
     secondaryLink: { href: "/contact", text: "Register a Team" },
   },
   {
@@ -33,7 +33,7 @@ export const SportsTourData: Slide[] = [
     subtitle: "Cultural Exchange",
     description:
       "Elite sports programs combining athletic development with cultural exchange, bringing together teams and athletes from Europe and Africa for competition, training, and friendship.",
-   primaryLink: { href: "/programs", text: "View Programs" },
+   primaryLink: { href: "#programs", text: "View Programs" },
     secondaryLink: { href: "/contact", text: "Register a Team" },
   },
   {
@@ -43,7 +43,7 @@ export const SportsTourData: Slide[] = [
     subtitle: "Cultural Exchange",
      description:
       "Elite sports programs combining athletic development with cultural exchange, bringing together teams and athletes from Europe and Africa for competition, training, and friendship.",
-    primaryLink: { href: "/programs", text: "View Programs" },
+    primaryLink: { href: "#programs", text: "View Programs" },
     secondaryLink: { href: "/contact", text: "Register a Team" },
   },
 ];

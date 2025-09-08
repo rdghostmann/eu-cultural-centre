@@ -23,7 +23,7 @@ export const TourismPageCarouselData: Slide[] = [
     subtitle: "Journeys With ECC Nigeria",
     description:
       "Promoting sustainable travel, cultural exchange, and memorable experiences across Nigeria and beyond.",
-    primaryLink: { href: "/programs", text: "Get Involved" },
+    primaryLink: { href: "#programs", text: "Get Involved" },
     secondaryLink: { href: "/about", text: "Learn More" },
   },
   {
@@ -33,7 +33,7 @@ export const TourismPageCarouselData: Slide[] = [
     subtitle: "That Preserves Nature",
     description:
       "Encouraging eco-friendly practices while exploring Nigeria’s breathtaking landscapes and wildlife.",
-    primaryLink: { href: "/programs", text: "Explore Eco-Tours" },
+    primaryLink: { href: "#programs", text: "Explore Eco-Tours" },
     secondaryLink: { href: "/contact", text: "Join Us" },
   },
   {
@@ -43,7 +43,7 @@ export const TourismPageCarouselData: Slide[] = [
     subtitle: "Nigeria’s Rich History",
     description:
       "Showcasing ancient traditions, local festivals, and cultural heritage sites that connect the past with the present.",
-    primaryLink: { href: "/programs", text: "View Heritage Tours" },
+    primaryLink: { href: "#programs", text: "View Heritage Tours" },
     secondaryLink: { href: "/contact", text: "Start Your Journey" },
   },
   {
@@ -53,7 +53,7 @@ export const TourismPageCarouselData: Slide[] = [
     subtitle: "In Every Journey",
     description:
       "From hiking trails to adrenaline-filled adventures, discover experiences that inspire exploration and resilience.",
-    primaryLink: { href: "/programs", text: "Find Adventures" },
+    primaryLink: { href: "#programs", text: "Find Adventures" },
     secondaryLink: { href: "/contact", text: "Book Now" },
   },
   {
@@ -63,7 +63,7 @@ export const TourismPageCarouselData: Slide[] = [
     subtitle: "That Gives Back",
     description:
       "Empowering local communities through tourism that creates jobs, supports artisans, and shares authentic stories.",
-    primaryLink: { href: "/programs", text: "See Community Tours" },
+    primaryLink: { href: "#programs", text: "See Community Tours" },
     secondaryLink: { href: "/contact", text: "Support Locals" },
   },
   {
@@ -73,7 +73,7 @@ export const TourismPageCarouselData: Slide[] = [
     subtitle: "Nigeria’s Flavors",
     description:
       "Discover authentic Nigerian cuisine through culinary tours, food festivals, and local dining experiences.",
-    primaryLink: { href: "/programs", text: "Food Experiences" },
+    primaryLink: { href: "#programs", text: "Food Experiences" },
     secondaryLink: { href: "/contact", text: "Join a Tour" },
   },
   {
@@ -83,7 +83,7 @@ export const TourismPageCarouselData: Slide[] = [
     subtitle: "Through Exploration",
     description:
       "Providing opportunities for young people to explore new cultures, broaden horizons, and build networks.",
-    primaryLink: { href: "/programs", text: "Youth Travel" },
+    primaryLink: { href: "#programs", text: "Youth Travel" },
     secondaryLink: { href: "/contact", text: "Get Involved" },
   },
   // {
@@ -93,7 +93,7 @@ export const TourismPageCarouselData: Slide[] = [
   //   subtitle: "Cultural Vibrance",
   //   description:
   //     "Promoting local and international cultural festivals that highlight Nigeria’s diverse heritage and creativity.",
-  //   primaryLink: { href: "/programs", text: "View Events" },
+  //   primaryLink: { href: "#programs", text: "View Events" },
   //   secondaryLink: { href: "/contact", text: "Attend With Us" },
   // },
   // {
@@ -103,7 +103,7 @@ export const TourismPageCarouselData: Slide[] = [
   //   subtitle: "Africa & Europe",
   //   description:
   //     "Building tourism partnerships that create meaningful cross-border cultural and travel experiences.",
-  //   primaryLink: { href: "/programs", text: "Explore Partnerships" },
+  //   primaryLink: { href: "#programs", text: "Explore Partnerships" },
   //   secondaryLink: { href: "/contact", text: "Collaborate" },
   // },
   // {
@@ -113,7 +113,7 @@ export const TourismPageCarouselData: Slide[] = [
   //   subtitle: "Without Borders",
   //   description:
   //     "Promoting international cooperation in tourism to strengthen cultural diplomacy and global understanding.",
-  //   primaryLink: { href: "/programs", text: "Join Journeys" },
+  //   primaryLink: { href: "#programs", text: "Join Journeys" },
   //   secondaryLink: { href: "/contact", text: "Partner With Us"},
   // }
 ]

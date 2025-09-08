@@ -29,7 +29,7 @@ export const HomePageCarouselData: Slide[] = [
     title: "Join Our Network,",
     subtitle: "Transform Healthcare",
     description: "Promoting cultural dialogue and sustainable partnerships across continents.",
-    primaryLink: { href: "/programs", text: "Get Involved" },
+    primaryLink: { href: "#programs", text: "Get Involved" },
     secondaryLink: { href: "/about", text: "Learn More" },
   },
   {
@@ -38,7 +38,7 @@ export const HomePageCarouselData: Slide[] = [
     title: "Empower Patients,",
     subtitle: "Anytime, Anywhere",
     description: "Bridging Africa and Europe through shared heritage and innovation.",
-    primaryLink: { href: "/programs", text: "Get Involved" },
+    primaryLink: { href: "#programs", text: "Get Involved" },
     secondaryLink: { href: "/about", text: "Learn More" },
   },
   {
@@ -47,7 +47,7 @@ export const HomePageCarouselData: Slide[] = [
     title: "Advance Your Practice,",
     subtitle: "With Telemedicine",
     description: "Celebrating diversity and fostering intercultural understanding globally.",
-    primaryLink: { href: "/programs", text: "Get Involved" },
+    primaryLink: { href: "#programs", text: "Get Involved" },
     secondaryLink: { href: "/about", text: "Learn More" },
   },
   {
@@ -56,7 +56,7 @@ export const HomePageCarouselData: Slide[] = [
     title: "Unite Through Art,",
     subtitle: "Inspire Generations",
     description: "Art as a universal language connecting Africa and Europe.",
-    primaryLink: { href: "/programs", text: "Explore Programs" },
+    primaryLink: { href: "#programs", text: "Explore Programs" },
     secondaryLink: { href: "/about", text: "Learn More" },
   },
   {
@@ -92,7 +92,7 @@ export const HomePageCarouselData: Slide[] = [
   //   title: "Building Bridges,",
   //   subtitle: "Connecting People",
   //   description: "Facilitating cultural exchange between Africa, Europe, and the world.",
-  //   primaryLink: { href: "/programs", text: "Get Involved" },
+  //   primaryLink: { href: "#programs", text: "Get Involved" },
   //   secondaryLink: { href: "/about", text: "Our Mission" },
   // },
   // {
@@ -110,7 +110,7 @@ export const HomePageCarouselData: Slide[] = [
   //   title: "Global Connections,",
   //   subtitle: "Shared Futures",
   //   description: "Uniting communities through dialogue, creativity, and shared opportunities.",
-  //   primaryLink: { href: "/programs", text: "Get Involved" },
+  //   primaryLink: { href: "#programs", text: "Get Involved" },
   //   secondaryLink: { href: "/about", text: "Learn More" },
   // },
 ];

@@ -333,14 +333,14 @@ export default function AboutPage() {
 											whileHover={{ scale: 1.1, rotate: 360 }}
 											transition={{ duration: 0.5 }}
 										>
-										<HeartIcon className="h-8 w-8 text-[#8F770A]" />
+											<HeartIcon className="h-8 w-8 text-[#8F770A]" />
 										</motion.div>
 										<h2 className="text-3xl lg:text-4xl font-bold text-[#205375] mb-4">
 											Our Values
 										</h2>
 									</div>
 
-								<p className="text-gray-600">
+									<p className="text-gray-600">
 										We believe that culture is a vital force for inclusive growth, mutual understanding, and
 										sustainable development locally, across Africa, and around the world.
 									</p>
@@ -356,7 +356,7 @@ export default function AboutPage() {
 								</motion.div>
 							</div>
 						</section>
-					
+
 					</motion.div>
 
 				</div>
@@ -406,7 +406,7 @@ export default function AboutPage() {
 			</section>
 
 			{/* Partners Section */}
-	  <Partners />
+			<Partners />
 
 			{/* CTA Section */}
 			<CTASection

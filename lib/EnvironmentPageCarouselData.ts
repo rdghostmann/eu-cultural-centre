@@ -23,7 +23,7 @@ export const EnvironmentPageCarouselData: Slide[] = [
     subtitle: "Sustainable Future",
     description:
       "Climate education and action programs for a greener, more sustainable world.",
-    primaryLink: { href: "/programs", text: "Explore Programs" },
+    primaryLink: { href: "#programs", text: "Explore Programs" },
     secondaryLink: { href: "/contact", text: "Join the Movement" },
   },
   {
@@ -33,7 +33,7 @@ export const EnvironmentPageCarouselData: Slide[] = [
     subtitle: "For All",
     description:
       "Promoting solar, wind, and renewable energy solutions across communities.",
-    primaryLink: { href: "/programs", text: "Support Clean Energy" },
+    primaryLink: { href: "#programs", text: "Support Clean Energy" },
     secondaryLink: { href: "/contact", text: "Learn More" },
   },
   {
@@ -43,7 +43,7 @@ export const EnvironmentPageCarouselData: Slide[] = [
     subtitle: "Act Green",
     description:
       "Empowering youth and communities with knowledge to combat climate change.",
-    primaryLink: { href: "/programs", text: "Start Learning" },
+    primaryLink: { href: "#programs", text: "Start Learning" },
     secondaryLink: { href: "/contact", text: "Get Involved" },
   },
   // {
@@ -53,7 +53,7 @@ export const EnvironmentPageCarouselData: Slide[] = [
   //   subtitle: "Preserve Life",
   //   description:
   //     "Safeguarding biodiversity and ecosystems for future generations.",
-  //   primaryLink: { href: "/programs", text: "Support Conservation" },
+  //   primaryLink: { href: "#programs", text: "Support Conservation" },
   //   secondaryLink: { href: "/contact", text: "Learn More" },
   // },
   // {
@@ -63,7 +63,7 @@ export const EnvironmentPageCarouselData: Slide[] = [
   //   subtitle: "Global Impact",
   //   description:
   //     "Grassroots projects tackling environmental issues through collective action.",
-  //   primaryLink: { href: "/programs", text: "Join a Project" },
+  //   primaryLink: { href: "#programs", text: "Join a Project" },
   //   secondaryLink: { href: "/contact", text: "Learn More" },
   // },
   // {
@@ -73,7 +73,7 @@ export const EnvironmentPageCarouselData: Slide[] = [
   //   subtitle: "Healthy Lives",
   //   description:
   //     "Developing eco-friendly cities that balance growth and sustainability.",
-  //   primaryLink: { href: "/programs", text: "Support Green Cities" },
+  //   primaryLink: { href: "#programs", text: "Support Green Cities" },
   //   secondaryLink: { href: "/contact", text: "Learn More" },
   // },
   // {
@@ -83,7 +83,7 @@ export const EnvironmentPageCarouselData: Slide[] = [
   //   subtitle: "Blue Planet",
   //   description:
   //     "Preserving oceans, rivers, and freshwater for human and ecological health.",
-  //   primaryLink: { href: "/programs", text: "Protect Oceans" },
+  //   primaryLink: { href: "#programs", text: "Protect Oceans" },
   //   secondaryLink: { href: "/contact", text: "Learn More" },
   // },
   // {
@@ -93,7 +93,7 @@ export const EnvironmentPageCarouselData: Slide[] = [
   //   subtitle: "For Sustainability",
   //   description:
   //     "Harnessing technology and ideas to solve pressing climate challenges.",
-  //   primaryLink: { href: "/programs", text: "Support Innovation" },
+  //   primaryLink: { href: "#programs", text: "Support Innovation" },
   //   secondaryLink: { href: "/contact", text: "Learn More" },
   // },
   // {
@@ -103,7 +103,7 @@ export const EnvironmentPageCarouselData: Slide[] = [
   //   subtitle: "Lead Change",
   //   description:
   //     "Inspiring young leaders to take charge in the fight for a sustainable future.",
-  //   primaryLink: { href: "/programs", text: "Empower Youth" },
+  //   primaryLink: { href: "#programs", text: "Empower Youth" },
   //   secondaryLink: { href: "/contact", text: "Learn More" },
   // },
   // {
@@ -113,7 +113,7 @@ export const EnvironmentPageCarouselData: Slide[] = [
   //   subtitle: "For the Planet",
   //   description:
   //     "Working across nations to achieve climate resilience and global sustainability.",
-  //   primaryLink: { href: "/programs", text: "Connect With Us" },
+  //   primaryLink: { href: "#programs", text: "Connect With Us" },
   //   secondaryLink: { href: "/contact", text: "Learn More" },
   // },
 ];
