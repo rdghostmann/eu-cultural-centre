@@ -25,11 +25,11 @@ import {
 import { useScrollAnimation } from "@/hooks/use-scroll-animation"
 import HeaderSlider from "@/components/CustomSlider/HeaderSlider"
 import CTASection from "@/components/CTASection/CTASection"
-import Partners from "@/components/Partners/Partners"
 import { AboutPageCarouselData } from "@/lib/AboutPageCarouselData"
 import Image from "next/image";
 import missionImage from "../../public/front-page1.jpg"
 import Partners2 from "@/components/Partners/Partners2";
+import Partners from "@/components/Partners/Partners";
 
 const values = [
 	{
@@ -406,7 +406,7 @@ export default function AboutPage() {
 			</section>
 
 			{/* Partners Section */}
-			<Partners2 />
+	  <Partners />
 
 			{/* CTA Section */}
 			<CTASection
