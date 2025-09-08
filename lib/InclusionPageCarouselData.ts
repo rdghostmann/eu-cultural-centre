@@ -23,7 +23,7 @@ export const InclusionPageCarouselData: Slide[] = [
     subtitle: "Experiences for All",
     description:
       "Ensuring all programs are accessible and inclusive, giving people of all abilities opportunities to participate fully in cultural exchange and education.",
-    primaryLink: { href: "/#programs", text: "Explore Programs" },
+    primaryLink: { href: "/programs", text: "Explore Programs" },
     secondaryLink: { href: "/contact", text: "Request Support" },
   },
   {
@@ -33,7 +33,7 @@ export const InclusionPageCarouselData: Slide[] = [
     subtitle: "Building Futures",
     description:
       "Providing resources and support to ensure no one is left behind in cultural, educational, and social opportunities.",
-    primaryLink: { href: "/#programs", text: "Get Involved" },
+    primaryLink: { href: "/programs", text: "Get Involved" },
     secondaryLink: { href: "/contact", text: "Learn More" },
   },
   {
@@ -43,7 +43,7 @@ export const InclusionPageCarouselData: Slide[] = [
     subtitle: "Participation for All",
     description:
       "Promoting universal design in events, workshops, and experiences to foster inclusivity and accessibility.",
-    primaryLink: { href: "/#programs", text: "See Initiatives" },
+    primaryLink: { href: "/programs", text: "See Initiatives" },
     secondaryLink: { href: "/contact", text: "Learn More" },
   },
   {
@@ -53,7 +53,7 @@ export const InclusionPageCarouselData: Slide[] = [
     subtitle: "Shared Experiences",
     description:
       "Encouraging cross-cultural dialogue and exchange that values inclusivity, respect, and mutual learning.",
-    primaryLink: { href: "/#programs", text: "Join Exchange" },
+    primaryLink: { href: "/programs", text: "Join Exchange" },
     secondaryLink: { href: "/contact", text: "Learn More" },
   },
   {
@@ -63,7 +63,7 @@ export const InclusionPageCarouselData: Slide[] = [
     subtitle: "Empowered Communities",
     description:
       "Educational programs designed to meet the needs of learners of all abilities and backgrounds.",
-    primaryLink: { href: "/#programs", text: "Start Learning" },
+    primaryLink: { href: "/programs", text: "Start Learning" },
     secondaryLink: { href: "/contact", text: "Learn More" },
   },
   {
@@ -73,7 +73,7 @@ export const InclusionPageCarouselData: Slide[] = [
     subtitle: "We Thrive",
     description:
       "Providing accessible resources and networks to ensure everyone has the support they need to succeed.",
-    primaryLink: { href: "/#programs", text: "Find Support" },
+    primaryLink: { href: "/programs", text: "Find Support" },
     secondaryLink: { href: "/contact", text: "Learn More" },
   },
   // {
@@ -83,7 +83,7 @@ export const InclusionPageCarouselData: Slide[] = [
   //   subtitle: "Stronger Together",
   //   description:
   //     "Empowering communities to create inclusive spaces where diversity is celebrated and valued.",
-  //   primaryLink: { href: "/#programs", text: "Join Community" },
+  //   primaryLink: { href: "/programs", text: "Join Community" },
   //   secondaryLink: { href: "/contact", text: "Learn More" },
   // },
   // {
@@ -93,7 +93,7 @@ export const InclusionPageCarouselData: Slide[] = [
   //   subtitle: "Ensuring Equity",
   //   description:
   //     "Promoting equity and fairness in all cultural and educational programs.",
-  //   primaryLink: { href: "/#programs", text: "Support Equity" },
+  //   primaryLink: { href: "/programs", text: "Support Equity" },
   //   secondaryLink: { href: "/contact", text: "Learn More" },
   // },
   // {
@@ -103,7 +103,7 @@ export const InclusionPageCarouselData: Slide[] = [
   //   subtitle: "For Inclusion",
   //   description:
   //     "Leveraging digital tools and innovation to expand accessibility for individuals with diverse needs.",
-  //   primaryLink: { href: "/#programs", text: "Explore Solutions" },
+  //   primaryLink: { href: "/programs", text: "Explore Solutions" },
   //   secondaryLink: { href: "/contact", text: "Learn More" },
   // },
   // {
@@ -113,7 +113,7 @@ export const InclusionPageCarouselData: Slide[] = [
   //   subtitle: "Inclusive Future",
   //   description:
   //     "Collaborating across borders to build inclusive, equitable, and accessible societies worldwide.",
-  //   primaryLink: { href: "/#programs", text: "Join Movement" },
+  //   primaryLink: { href: "/programs", text: "Join Movement" },
   //   secondaryLink: { href: "/contact", text: "Learn More" },
   // },
 ];

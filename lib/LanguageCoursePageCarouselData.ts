@@ -23,7 +23,7 @@ export const LanguageCoursePageCarouselData: Slide[] = [
     subtitle: "Connect Cultures",
     description:
       "Empowering learners to communicate across borders and foster cultural understanding through language education.",
-    primaryLink: { href: "/#programs", text: "Explore Courses" },
+    primaryLink: { href: "/programs", text: "Explore Courses" },
     secondaryLink: { href: "/contact", text: "Join Now" },
   },
   {
@@ -33,7 +33,7 @@ export const LanguageCoursePageCarouselData: Slide[] = [
     subtitle: "Through Words",
     description:
       "Promoting cross-cultural dialogue and exchange by providing inclusive and engaging language courses.",
-    primaryLink: { href: "/#programs", text: "Start Learning" },
+    primaryLink: { href: "/programs", text: "Start Learning" },
     secondaryLink: { href: "/contact", text: "Learn More" },
   },
   {
@@ -43,7 +43,7 @@ export const LanguageCoursePageCarouselData: Slide[] = [
     subtitle: "Many Languages",
     description:
       "Encouraging multilingualism to strengthen connections, opportunities, and global citizenship.",
-    primaryLink: { href: "/#programs", text: "See Programs" },
+    primaryLink: { href: "/programs", text: "See Programs" },
     secondaryLink: { href: "/contact", text: "Join Community" },
   },
   // {
@@ -53,7 +53,7 @@ export const LanguageCoursePageCarouselData: Slide[] = [
   //   subtitle: "Learn Together",
   //   description:
   //     "Offering interactive courses and workshops that combine language learning with cultural immersion.",
-  //   primaryLink: { href: "/#programs", text: "Join Workshops" },
+  //   primaryLink: { href: "/programs", text: "Join Workshops" },
   //   secondaryLink: { href: "/contact", text: "Learn More" },
   // },
   // {
@@ -63,7 +63,7 @@ export const LanguageCoursePageCarouselData: Slide[] = [
   //   subtitle: "Anywhere, Anytime",
   //   description:
   //     "Providing online and blended courses accessible to learners across Europe, Africa, and beyond.",
-  //   primaryLink: { href: "/#programs", text: "Start Online" },
+  //   primaryLink: { href: "/programs", text: "Start Online" },
   //   secondaryLink: { href: "/contact", text: "Learn More" },
   // },
   // {
@@ -73,7 +73,7 @@ export const LanguageCoursePageCarouselData: Slide[] = [
   //   subtitle: "Global Futures",
   //   description:
   //     "Equipping young people with language skills to thrive in global education and careers.",
-  //   primaryLink: { href: "/#programs", text: "Youth Courses" },
+  //   primaryLink: { href: "/programs", text: "Youth Courses" },
   //   secondaryLink: { href: "/contact", text: "Learn More" },
   // },
   // {
@@ -83,7 +83,7 @@ export const LanguageCoursePageCarouselData: Slide[] = [
   //   subtitle: "For Careers",
   //   description:
   //     "Specialized courses for professionals to strengthen international communication and workplace success.",
-  //   primaryLink: { href: "/#programs", text: "View Training" },
+  //   primaryLink: { href: "/programs", text: "View Training" },
   //   secondaryLink: { href: "/contact", text: "Enroll Now" },
   // },
   // {
@@ -93,7 +93,7 @@ export const LanguageCoursePageCarouselData: Slide[] = [
   //   subtitle: "Cultural Roots",
   //   description:
   //     "Supporting heritage language learning to keep cultural identity alive across generations.",
-  //   primaryLink: { href: "/#programs", text: "Preserve Heritage" },
+  //   primaryLink: { href: "/programs", text: "Preserve Heritage" },
   //   secondaryLink: { href: "/contact", text: "Learn More" },
   // },
   // {
@@ -103,7 +103,7 @@ export const LanguageCoursePageCarouselData: Slide[] = [
   //   subtitle: "Smarter Learning",
   //   description:
   //     "Leveraging digital platforms, apps, and AI to make language learning engaging and effective.",
-  //   primaryLink: { href: "/#programs", text: "Try Tools" },
+  //   primaryLink: { href: "/programs", text: "Try Tools" },
   //   secondaryLink: { href: "/contact", text: "Learn More" },
   // },
   // {
@@ -113,7 +113,7 @@ export const LanguageCoursePageCarouselData: Slide[] = [
   //   subtitle: "For a Shared Future",
   //   description:
   //     "Building global citizens who connect, collaborate, and thrive through multilingual communication.",
-  //   primaryLink: { href: "/#programs", text: "Join Movement" },
+  //   primaryLink: { href: "/programs", text: "Join Movement" },
   //   secondaryLink: { href: "/contact", text: "Learn More" },
   // },
 ];

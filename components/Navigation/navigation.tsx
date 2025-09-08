@@ -30,7 +30,7 @@ const areasOfWork = [
   { title: "Humanitarian", href: "/humanitarian", icon: HeartHandshake },
   { title: "Exhibition & Conferences", href: "/exhibition", icon: Landmark },
   { title: "Youth Development", href: "/youth-development", icon: Users },
-  { title: "Traianing & Workshop", href: "/training-workshop", icon: BookOpen },
+  { title: "Training & Workshop", href: "/training-workshop", icon: BookOpen },
   { title: "Scholarship Programs", href: "/scholarship-programs", icon: GraduationCap },
   { title: "Grant Sourcing", href: "/grant-sourcing", icon: Briefcase },
   { title: "Healthcare", href: "/healthcare", icon: Activity },

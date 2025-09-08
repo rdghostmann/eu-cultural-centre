@@ -23,7 +23,7 @@ export const SportPageCarouselData: Slide[] = [
     subtitle: "Between Cultures",
     description:
       "Using sports and travel as powerful tools for education, cultural exchange, and building lasting connections across Europe and Africa.",
-    primaryLink: { href: "/#programs", text: "Explore Programs" },
+    primaryLink: { href: "/programs", text: "Explore Programs" },
     secondaryLink: { href: "/contact", text: "Join an Event" },
   },
   {
@@ -33,7 +33,7 @@ export const SportPageCarouselData: Slide[] = [
     subtitle: "Through Sports",
     description:
       "Engaging young people in sporting activities that foster leadership, teamwork, and intercultural dialogue.",
-    primaryLink: { href: "/#programs", text: "Youth Programs" },
+    primaryLink: { href: "/programs", text: "Youth Programs" },
     secondaryLink: { href: "/contact", text: "Get Involved" },
   },
   {
@@ -43,7 +43,7 @@ export const SportPageCarouselData: Slide[] = [
     subtitle: "With Purpose",
     description:
       "Sports tourism initiatives that bring communities together through shared cultural and athletic experiences.",
-    primaryLink: { href: "/#programs", text: "View Tours" },
+    primaryLink: { href: "/programs", text: "View Tours" },
     secondaryLink: { href: "/contact", text: "Join Now" },
   },
   {
@@ -53,7 +53,7 @@ export const SportPageCarouselData: Slide[] = [
     subtitle: "That Unite",
     description:
       "Hosting international sporting and cultural events that highlight cooperation and friendship across borders.",
-    primaryLink: { href: "/#programs", text: "See Events" },
+    primaryLink: { href: "/programs", text: "See Events" },
     secondaryLink: { href: "/contact", text: "Participate" },
   },
   // {
@@ -63,7 +63,7 @@ export const SportPageCarouselData: Slide[] = [
   //   subtitle: "For All",
   //   description:
   //     "Promoting health, wellness, and active living through community-driven sports initiatives.",
-  //   primaryLink: { href: "/#programs", text: "Join Activities" },
+  //   primaryLink: { href: "/programs", text: "Join Activities" },
   //   secondaryLink: { href: "/contact", text: "Learn More" },
   // },
   // {
@@ -73,7 +73,7 @@ export const SportPageCarouselData: Slide[] = [
   //   subtitle: "For Everyone",
   //   description:
   //     "Supporting diversity and inclusion by making sports accessible to all genders, ages, and abilities.",
-  //   primaryLink: { href: "/#programs", text: "See Initiatives" },
+  //   primaryLink: { href: "/programs", text: "See Initiatives" },
   //   secondaryLink: { href: "/contact", text: "Support Inclusion" },
   // },
   // {
@@ -83,7 +83,7 @@ export const SportPageCarouselData: Slide[] = [
   //   subtitle: "Through Travel",
   //   description:
   //     "Promoting tourism that highlights cultural heritage while encouraging sustainable practices.",
-  //   primaryLink: { href: "/#programs", text: "Explore Tourism" },
+  //   primaryLink: { href: "/programs", text: "Explore Tourism" },
   //   secondaryLink: { href: "/contact", text: "Partner With Us" },
   // },
   // {
@@ -93,7 +93,7 @@ export const SportPageCarouselData: Slide[] = [
   //   subtitle: "For Harmony",
   //   description:
   //     "Harnessing sports as a tool for peacebuilding, dialogue, and conflict resolution.",
-  //   primaryLink: { href: "/#programs", text: "Peace Programs" },
+  //   primaryLink: { href: "/programs", text: "Peace Programs" },
   //   secondaryLink: { href: "/contact", text: "Join the Movement" },
   // },
   // {
@@ -103,7 +103,7 @@ export const SportPageCarouselData: Slide[] = [
   //   subtitle: "For Careers",
   //   description:
   //     "Creating pathways for young athletes and professionals in the sports and tourism industries.",
-  //   primaryLink: { href: "/#programs", text: "Career Programs" },
+  //   primaryLink: { href: "/programs", text: "Career Programs" },
   //   secondaryLink: { href: "/contact", text: "Start Now" },
   // },
   // {
@@ -113,7 +113,7 @@ export const SportPageCarouselData: Slide[] = [
   //   subtitle: "Through Sports",
   //   description:
   //     "Building partnerships between African and European communities through international sports diplomacy.",
-  //   primaryLink: { href: "/#programs", text: "Join Partnerships" },
+  //   primaryLink: { href: "/programs", text: "Join Partnerships" },
   //   secondaryLink: { href: "/contact", text: "Collaborate" },
   // },
 ];

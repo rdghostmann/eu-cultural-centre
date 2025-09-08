@@ -23,7 +23,7 @@ export const CulturalPageCarouselData: Slide[] = [
     subtitle: "Inspire Communities",
     description:
       "Showcasing diverse artistic expressions from Europe and Africa to foster unity.",
-    primaryLink: { href: "/contact", text: "Explore Programs" },
+    primaryLink: { href: "/programs", text: "Explore Programs" },
     secondaryLink: { href: "/contact", text: "Join Our Community" },
   },
   {
@@ -33,7 +33,7 @@ export const CulturalPageCarouselData: Slide[] = [
     subtitle: "Shared Across Borders",
     description:
       "Promoting cultural performances that connect traditions and inspire creativity.",
-    primaryLink: { href: "/contact", text: "Discover Performances" },
+    primaryLink: { href: "/programs", text: "Discover Performances" },
     secondaryLink: { href: "/contact", text: "Join the Celebration" },
   },
   {
@@ -43,7 +43,7 @@ export const CulturalPageCarouselData: Slide[] = [
     subtitle: "A Universal Language",
     description:
       "Encouraging visual arts to communicate shared experiences and inspire dialogue.",
-    primaryLink: { href: "/contact", text: "Explore Exhibitions" },
+    primaryLink: { href: "/programs", text: "Explore Exhibitions" },
     secondaryLink: { href: "/contact", text: "Learn More" },
   },
   {
@@ -53,7 +53,7 @@ export const CulturalPageCarouselData: Slide[] = [
     subtitle: "Across Generations",
     description:
       "Bringing together people to exchange traditions, values, and cultural heritage.",
-    primaryLink: { href: "/contact", text: "Join Exchanges" },
+    primaryLink: { href: "/programs", text: "Join Exchanges" },
     secondaryLink: { href: "/contact", text: "Learn More" },
   },
   {
@@ -63,7 +63,7 @@ export const CulturalPageCarouselData: Slide[] = [
     subtitle: "Empower Communities",
     description:
       "Working to protect cultural heritage for future generations worldwide.",
-    primaryLink: { href: "/contact", text: "Support Heritage" },
+    primaryLink: { href: "/programs", text: "Support Heritage" },
     secondaryLink: { href: "/contact", text: "Learn More" },
   },
   {
@@ -73,7 +73,7 @@ export const CulturalPageCarouselData: Slide[] = [
     subtitle: "With Modern Expression",
     description:
       "Fusing innovation with traditional art forms to keep cultures alive and evolving.",
-    primaryLink: { href: "/contact", text: "Support Innovation" },
+    primaryLink: { href: "/programs", text: "Support Innovation" },
     secondaryLink: { href: "/contact", text: "Learn More" },
   },
   {
@@ -83,7 +83,7 @@ export const CulturalPageCarouselData: Slide[] = [
     subtitle: "Across Borders",
     description:
       "Hosting festivals that unite artists, performers, and audiences from around the world.",
-    primaryLink: { href: "/contact", text: "Join a Festival" },
+    primaryLink: { href: "/programs", text: "Join a Festival" },
     secondaryLink: { href: "/contact", text: "Learn More" },
   },
   {
@@ -93,7 +93,7 @@ export const CulturalPageCarouselData: Slide[] = [
     subtitle: "Arts and Heritage",
     description:
       "Using cultural programs as powerful tools for education and empowerment.",
-    primaryLink: { href: "/contact", text: "Support Education" },
+    primaryLink: { href: "/programs", text: "Support Education" },
     secondaryLink: { href: "/contact", text: "Learn More" },
   },
   {
@@ -103,7 +103,7 @@ export const CulturalPageCarouselData: Slide[] = [
     subtitle: "Through Expression",
     description:
       "Encouraging young people to explore identity through arts and creativity.",
-    primaryLink: { href: "/contact", text: "Support Youth" },
+    primaryLink: { href: "/programs", text: "Support Youth" },
     secondaryLink: { href: "/contact", text: "Learn More" },
   },
   {
@@ -113,7 +113,7 @@ export const CulturalPageCarouselData: Slide[] = [
     subtitle: "Shared Humanity",
     description:
       "Promoting cultural diversity as a foundation for unity, peace, and collaboration.",
-    primaryLink: { href: "/contact", text: "Connect With Us" },
+    primaryLink: { href: "/programs", text: "Connect With Us" },
     secondaryLink: { href: "/contact", text: "Learn More" },
   },
 ];

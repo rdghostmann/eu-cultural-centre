@@ -18,13 +18,12 @@ export type Slide = {
 export const CooperationPageCarouselData: Slide[] = [
   {
     image: "/sample/banner-1.png",
-    // image: "/people-to-people-cooperation/people-to-people-cooperation-slide1.png",
     badge: "People-to-People Cooperation",
     title: "Strengthen Partnerships,",
     subtitle: "Across Borders",
     description:
       "Fostering cooperation between civil society, governments, and institutions in Europe and Africa.",
-    primaryLink: { href: "/contact", text: "Start a Partnership" },
+    primaryLink: { href: "/programs", text: "Start a Partnership" },
     secondaryLink: { href: "/contact", text: "Learn More" },
   },
   {
@@ -34,7 +33,7 @@ export const CooperationPageCarouselData: Slide[] = [
     subtitle: "Art and Culture",
     description:
       "Using cultural exchange to build trust, understanding, and sustainable cooperation between nations.",
-    primaryLink: { href: "/contact", text: "Join the Dialogue" },
+    primaryLink: { href: "/programs", text: "Join the Dialogue" },
     secondaryLink: { href: "/contact", text: "Learn More" },
   },
   {
@@ -44,7 +43,7 @@ export const CooperationPageCarouselData: Slide[] = [
     subtitle: "Through Partnerships",
     description:
       "Encouraging student exchange, joint research, and capacity-building initiatives worldwide.",
-    primaryLink: { href: "/contact", text: "Support Education" },
+    primaryLink: { href: "/programs", text: "Support Education" },
     secondaryLink: { href: "/contact", text: "Learn More" },
   },
   // {
@@ -54,7 +53,7 @@ export const CooperationPageCarouselData: Slide[] = [
   //   subtitle: "Together",
   //   description:
   //     "Collaborating across continents to strengthen healthcare systems and patient access.",
-  //   primaryLink: { href: "/contact", text: "Partner in Health" },
+  //   primaryLink: { href: "/programs", text: "Partner in Health" },
   //   secondaryLink: { href: "/contact", text: "Learn More" },
   // },
   // {
@@ -64,7 +63,7 @@ export const CooperationPageCarouselData: Slide[] = [
   //   subtitle: "Shape Tomorrow",
   //   description:
   //     "Investing in youth as changemakers through mentorship, leadership, and innovation programs.",
-  //   primaryLink: { href: "/contact", text: "Support Youth" },
+  //   primaryLink: { href: "/programs", text: "Support Youth" },
   //   secondaryLink: { href: "/contact", text: "Learn More" },
   // },
   // {
@@ -74,7 +73,7 @@ export const CooperationPageCarouselData: Slide[] = [
   //   subtitle: "A Greener Future",
   //   description:
   //     "Promoting climate action and sustainable growth through global cooperation projects.",
-  //   primaryLink: { href: "/contact", text: "Join Sustainability Efforts" },
+  //   primaryLink: { href: "/programs", text: "Join Sustainability Efforts" },
   //   secondaryLink: { href: "/contact", text: "Learn More" },
   // },
   // {
@@ -84,7 +83,7 @@ export const CooperationPageCarouselData: Slide[] = [
   //   subtitle: "Across Continents",
   //   description:
   //     "Building digital bridges with innovation hubs and cross-border technology partnerships.",
-  //   primaryLink: { href: "/contact", text: "Foster Innovation" },
+  //   primaryLink: { href: "/programs", text: "Foster Innovation" },
   //   secondaryLink: { href: "/contact", text: "Learn More" },
   // },
   // {
@@ -94,7 +93,7 @@ export const CooperationPageCarouselData: Slide[] = [
   //   subtitle: "Drive Change",
   //   description:
   //     "Strengthening cooperation through women-led initiatives in governance, culture, and business.",
-  //   primaryLink: { href: "/contact", text: "Support Women Leaders" },
+  //   primaryLink: { href: "/programs", text: "Support Women Leaders" },
   //   secondaryLink: { href: "/contact", text: "Learn More" },
   // },
   // {
@@ -104,7 +103,7 @@ export const CooperationPageCarouselData: Slide[] = [
   //   subtitle: "Foster Peace",
   //   description:
   //     "Encouraging intercultural dialogue to promote tolerance, mutual respect, and peaceful coexistence.",
-  //   primaryLink: { href: "/contact", text: "Join the Conversation" },
+  //   primaryLink: { href: "/programs", text: "Join the Conversation" },
   //   secondaryLink: { href: "/contact", text: "Learn More" },
   // },
   // {
@@ -114,7 +113,7 @@ export const CooperationPageCarouselData: Slide[] = [
   //   subtitle: "Stronger Together",
   //   description:
   //     "Building a global future of solidarity through creativity, diplomacy, and collaboration.",
-  //   primaryLink: { href: "/contact", text: "Connect With Us" },
+  //   primaryLink: { href: "/programs", text: "Connect With Us" },
   //   secondaryLink: { href: "/contact", text: "Learn More" },
   // },
 ];
