@@ -84,7 +84,7 @@ export default function HeaderSlider2({
       >
         {slide.badge && (
           <motion.div variants={staggerItem}>
-            <Badge className="mb-4 bg-white/20 text-white border-white/30 shadow-lg backdrop-blur-sm">
+            <Badge className="hidden mb-4 bg-white/20 text-white border-white/30 shadow-lg backdrop-blur-sm">
               {slide.badge}
             </Badge>
           </motion.div>
@@ -92,15 +92,9 @@ export default function HeaderSlider2({
 
         <motion.h1
           variants={staggerItem}
-          className="text-2xl sm:text-4xl lg:text-6xl font-extrabold mb-4 leading-tight drop-shadow-[0_8px_32px_rgba(0,0,0,0.7)]"
+          className="text-2xl font-extrabold mb-4 leading-tight drop-shadow-[0_8px_32px_rgba(0,0,0,0.7)]"
         >
           {slide.title}
-          <motion.span
-            variants={staggerItem}
-            className="block text-2xl sm:text-3xl lg:text-5xl text-[#68b684] drop-shadow-[0_4px_16px_rgba(0,0,0,0.7)]"
-          >
-            {slide.subtitle}
-          </motion.span>
         </motion.h1>
 
         {slide.description && (

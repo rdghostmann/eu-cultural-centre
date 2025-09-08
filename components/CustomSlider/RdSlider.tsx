@@ -55,7 +55,7 @@ export default function HeaderSlider({
   const slide = images[currentSlide];
 
   return (
-    <div className="relative w-full h-[calc(100vh-215px)] lg:h-[calc(100vh-144px)] bg-purple-900 overflow-hidden flex flex-col">
+    <div className="relative w-full h-[calc(100vh-215px)] lg:h-[calc(100vh-144px)] bg-purple-900 overflow-hidden">
       {/* Background slides */}
       <div className="absolute inset-0">
         {images.map((item, index) => (
@@ -77,40 +77,25 @@ export default function HeaderSlider({
         ))}
       </div>
 
-      {/* Content Section (pinned to bottom, centered) */}
+      {/* Centered Content */}
       <motion.div
-        className="relative z-10 mt-auto mb-8 px-6 md:px-16 lg:px-24 text-center text-white max-w-4xl mx-auto"
+        className="absolute inset-0 flex flex-col justify-center items-center text-center px-6 md:px-16 lg:px-24 text-white max-w-4xl mx-auto"
         variants={staggerContainer}
         initial="hidden"
         animate="visible"
       >
-        {slide.badge && (
-          <motion.div variants={staggerItem}>
-            <Badge className="hidden mb-4 bg-white/20 text-[#fff] border-white/30 shadow-lg backdrop-blur-sm">
-              {slide.badge}
-            </Badge>
-          </motion.div>
-        )}
+    
 
         <motion.h1
           variants={staggerItem}
-          className="text-xl sm:text-3xl text-[#68b684] font-extrabold mb-2 leading-tight drop-shadow-[0_8px_32px_rgba(0,0,0,0.7)]"
+          className="text-2xl sm:text-4xl lg:text-6xl font-extrabold mb-4 leading-tight drop-shadow-[0_8px_32px_rgba(0,0,0,0.7)]"
         >
           {slide.title}
         </motion.h1>
 
-        {slide.subtitle && (
-          <motion.h2
-            variants={staggerItem}
-            className="hidden text-xl sm:text-3xl  text-[#68b684] mb-4 drop-shadow-[0_4px_16px_rgba(0,0,0,0.7)]"
-          >
-            {slide.subtitle}
-          </motion.h2>
-        )}
-
         {slide.description && (
           <motion.p
-            className="text-base mb-6 text-[#e0f2fe] drop-shadow-[0_2px_8px_rgba(0,0,0,0.6)] max-w-2xl mx-auto"
+            className="text-base sm:text-lg lg:text-2xl mb-6 text-[#e0f2fe] drop-shadow-[0_2px_8px_rgba(0,0,0,0.6)] max-w-2xl"
             variants={staggerItem}
           >
             {slide.description}
