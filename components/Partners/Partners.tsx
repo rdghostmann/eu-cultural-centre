@@ -1,13 +1,8 @@
 "use client"
 
 import * as React from "react"
-import Autoplay from "embla-carousel-autoplay"
-import { Carousel, CarouselContent, CarouselItem } from "@/components/ui/carousel"
 import { motion } from "framer-motion"
 import Image from "next/image"
-import { Button } from "../ui/button"
-import Link from "next/link"
-import { Handshake } from "lucide-react"
 
 const partners = [
   { name: "IMG-20250815-WA0216", logo: "/partners/IMG-20250815-WA0216.jpg", link: "#" },
@@ -36,19 +31,12 @@ const partners = [
   { name: "IMG-20250815-WA0195", logo: "/partners/IMG-20250815-WA0195.jpg", link: "#" },
 ]
 
-// 👉 duplicate items for seamless infinite scroll
-const infinitePartners = [...partners ]
-
 const Partners = () => {
   return (
-    <section id="partners" className="relative py-20 bg-gradient-to-br from-[#f5f5dc] via-[#b0c4de] to-[#f5f5dc] overflow-hidden">
-      {/* fade edges */}
-      <div className="pointer-events-none absolute inset-y-0 left-0 w-20 bg-gradient-to-r from-[#b0c4de] to-transparent z-10" />
-      <div className="pointer-events-none absolute inset-y-0 right-0 w-20 bg-gradient-to-l from-[#b0c4de] to-transparent z-10" />
-
+    <section className="relative py-20 bg-gradient-to-br from-[#181f2a] via-[#205375] to-[#68b684] overflow-hidden">
       <div className="container mx-auto text-center mb-12">
         <motion.h2
-          className="text-3xl lg:text-4xl font-bold text-[#205375] mb-4"
+          className="text-3xl lg:text-4xl font-bold text-white mb-4"
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -56,66 +44,39 @@ const Partners = () => {
         >
           Our Partners
         </motion.h2>
-
-        <p className="text-lg md:text-xl text-[#2f2f2f] max-w-3xl mx-auto px-4">
-          We partner with both Governmental and Non-Governmental Organisations, traditional and professional leadership
-          institutions, educational institutions and various other productive sectors.
-        </p>
-        <p className="mt-5 text-lg md:text-xl text-[#2f2f2f] max-w-3xl mx-auto px-4">
-          We also align with population segments
-          in pursuit of the UN’s SDGs and other applicable development agendas: we encourage corporate and other strategic
-          socio-economic sectors to sponsor and facilitate our beneficial activities to drive development across Africa.
+        <p className="text-xl text-[#f5f5dc] max-w-3xl mx-auto px-4">
+          We collaborate with leading organizations to create meaningful cultural exchanges and lasting impact.
         </p>
       </div>
 
-      {/* Carousel */}
-      <Carousel
-        opts={{
-          align: "start",
-          loop: true,
-        }}
-        plugins={[
-          Autoplay({
-            delay: 2000,
-            stopOnInteraction: false,
-            stopOnMouseEnter: true,
-          }),
-        ]}
-        className="w-full"
-      >
-        <CarouselContent className="flex flex-wrap lg:grid lg:grid-cols-3 gap-4 items-center justify-center">
-          {infinitePartners.map((partner, idx) => (
-            <CarouselItem
-              key={idx}
-              className="basis-1/2 md:basis-1/3 lg:basis-auto flex justify-center"
+      {/* Grid layout */}
+      <div className="container mx-auto px-6">
+        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6 place-items-center">
+          {partners.map((partner, index) => (
+            <motion.a
+              key={index}
+              href={partner.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full flex items-center justify-center p-4 bg-white/10 rounded-xl hover:bg-white/20 transition"
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: index * 0.05 }}
             >
-              <span className="flex items-center justify-center border bg-white p-3 rounded-lg shadow-lg h-fit md:h-40 w-full max-w-[200px]">
-                <Image
-                  src={partner.logo}
-                  alt={partner.name}
-                  width={200}
-                  height={200}
-                  priority
-                  className="h-24 md:h-32 lg:h-36 w-auto object-contain"
-                />
-              </span>
-            </CarouselItem>
+              <Image
+                src={partner.logo}
+                alt={partner.name}
+                width={160}
+                height={100}
+                className="object-contain max-h-20"
+              />
+            </motion.a>
           ))}
-        </CarouselContent>
-      </Carousel>
-
-      <div className="text-center mt-10">
-        <div className="flex justify-center">
-          <Button asChild size="lg" variant="link" className="bg-[#205375] text-white font-semibold shadow">
-            <Link href="/contact">
-              <Handshake className="mr-2 h-5 w-5" />
-              Become a Partner
-            </Link>
-          </Button>
         </div>
       </div>
     </section>
   )
 }
 
-export default Partners
+export default Partners2

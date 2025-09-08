@@ -7,16 +7,31 @@ import { motion } from "framer-motion"
 import Image from "next/image"
 
 const partners = [
-  { name: "National Council", logo: "/partners/sponsor-3.png", link: "https://europa.eu/" },
-  { name: "NCAC", logo: "/partners/sponsor-2.png", link: "https://www.britishcouncil.org.ng/" },
-  { name: "Calabar Carnival", logo: "/partners/sponsor-4.png", link: "https://www.goethe.de/ins/ng/en/index.html" },
-  { name: "Calabar Fest", logo: "/partners/sponsor-1.png", link: "https://en.unesco.org/" },
-  { name: "Sponsor 5", logo: "/partners/sponsor-5.png", link: "#" },
-  { name: "Sponsor 6", logo: "/partners/sponsor-6.png", link: "#" },
-  { name: "Sponsor 7", logo: "/partners/sponsor-7.png", link: "#" },
-  { name: "Sponsor 8", logo: "/partners/sponsor-8.png", link: "#" },
+  { name: "IMG-20250815-WA0216", logo: "/partners/IMG-20250815-WA0216.jpg", link: "#" },
+  { name: "Intl Human Right Commission", logo: "/partners/intl-human-right-commission.jpg", link: "#" },
+  { name: "Justice Development Peace Commission", logo: "/partners/justice-development-peace-commision.jpg", link: "#" },
+  { name: "Kano State Government", logo: "/partners/kano-state-government.jpg", link: "#" },
+  { name: "Mallpai Foundation", logo: "/partners/mallpai-foundation.jpg", link: "#" },
+  { name: "National Commission for Persons with Disability", logo: "/partners/national-commission-person-with-disability.jpg", link: "#" },
+  { name: "National Council Arts & Culture", logo: "/partners/national-council-arts-culture.jpg", link: "#" },
+  { name: "National Council for Persons with Disability", logo: "/partners/national-council-person-disability.jpg", link: "#" },
+  { name: "Nigerian Christian Pilgrim Commission", logo: "/partners/nigerian-christian-pilgrim-commission.jpg", link: "#" },
+  { name: "Office of Senior Special Assistant to President", logo: "/partners/office-senior-special-assitant-president.jpg", link: "#" },
+  { name: "Polish-Nigerian Business Council", logo: "/partners/polish-nigerian-business-council.jpg", link: "#" },
+  { name: "Professionals", logo: "/partners/professionals.jpg", link: "#" },
+  { name: "Queen Adenike Tejuos Foundation", logo: "/partners/queen-adenike-tejuos-foundation.jpg", link: "#" },
+  { name: "Slave History Museum", logo: "/partners/slave-history-museum.jpg", link: "#" },
+  { name: "Abuja National Mosque", logo: "/partners/abuja-national-mosque.jpg", link: "#" },
+  { name: "Calabar Festival", logo: "/partners/calabar-festival.jpg", link: "#" },
+  { name: "Carnival Calabar", logo: "/partners/carnival-calabar.jpg", link: "#" },
+  { name: "Creativity & Professionalism", logo: "/partners/creativity-professionalism.jpg", link: "#" },
+  { name: "Federal Ministry Humanitarian & Poverty", logo: "/partners/fed-min-humanitarian-poverty.jpg", link: "#" },
+  { name: "Federal Ministry Women Affairs", logo: "/partners/fed-ministry-women-affairs.jpg", link: "#" },
+  { name: "FMACTE", logo: "/partners/FMACTE.jpg", link: "#" },
+  { name: "Gate of Nations", logo: "/partners/gate-of-nations.jpg", link: "#" },
+  { name: "Government of Cross River", logo: "/partners/government-of-cross-river.jpg", link: "#" },
+  { name: "IMG-20250815-WA0195", logo: "/partners/IMG-20250815-WA0195.jpg", link: "#" },
 ]
-
 // 👉 duplicate items for infinite loop feel
 const infinitePartners = [...partners, ...partners]
 
@@ -42,39 +57,9 @@ const Partners2 = () => {
         </p>
       </div>
 
-      {/* Carousel with multi-row on large screens */}
-      <Carousel
-        opts={{
-          align: "start",
-          loop: true,
-        }}
-        plugins={[
-          Autoplay({
-            delay: 2500,
-            stopOnInteraction: false,
-            stopOnMouseEnter: true,
-          }),
-        ]}
-        className="w-full"
-      >
-        <CarouselContent className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
-          {infinitePartners.map((partner, idx) => (
-            <CarouselItem key={idx} className="flex justify-center">
-              <a href={partner.link} target="_blank" rel="noopener noreferrer">
-                <div className="bg-white p-4 rounded-xl shadow-md hover:scale-105 transition-transform h-28 flex items-center justify-center">
-                  <Image
-                    src={partner.logo}
-                    alt={partner.name}
-                    width={150}
-                    height={80}
-                    className="h-full w-auto object-contain"
-                  />
-                </div>
-              </a>
-            </CarouselItem>
-          ))}
-        </CarouselContent>
-      </Carousel>
+{/* grid layout of the images */}
+
+   
     </section>
   )
 }

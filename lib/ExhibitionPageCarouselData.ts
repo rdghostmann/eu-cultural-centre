@@ -37,7 +37,7 @@ export const ExhibitionPageCarouselData: Slide[] = [
     secondaryLink: { href: "/contact", text: "Learn More" },
   },
   {
-    image: "/exhibitions/exhibition15.png",
+    image: "/exhibitions/exhibition5.png",
     badge: "Cultural Heritage",
     title: "Preserving History,",
     subtitle: "For Tomorrow",

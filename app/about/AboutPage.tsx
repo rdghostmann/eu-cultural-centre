@@ -29,6 +29,7 @@ import Partners from "@/components/Partners/Partners"
 import { AboutPageCarouselData } from "@/lib/AboutPageCarouselData"
 import Image from "next/image";
 import missionImage from "../../public/front-page1.jpg"
+import Partners2 from "@/components/Partners/Partners2";
 
 const values = [
 	{
@@ -405,7 +406,8 @@ export default function AboutPage() {
 			</section>
 
 			{/* Partners Section */}
-			<Partners />
+			<Partners2 />
+
 			{/* CTA Section */}
 			<CTASection
 				title="Ready to Join Our Mission?"

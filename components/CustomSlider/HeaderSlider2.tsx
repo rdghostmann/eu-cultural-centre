@@ -71,7 +71,7 @@ export default function HeaderSlider2({
               priority={index === currentSlide}
               className="object-cover"
             />
-            <div className="absolute inset-0" />
+            <div className="absolute inset-0 bg-gray-300/20" />
           </div>
         ))}
       </div>
