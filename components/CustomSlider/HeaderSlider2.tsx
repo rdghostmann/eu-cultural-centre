@@ -1,3 +1,4 @@
+// HeaderSlider2.tsx
 "use client";
 
 import { useState, useEffect } from "react";
@@ -7,7 +8,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { Slide, HomePageCarouselData } from "@/lib/HomePageCarouselData"; // import slides
+import { Slide, HomePageCarouselData } from "@/lib/HomePageCarouselData";
 
 // Motion variants
 const staggerContainer = {
@@ -53,7 +54,7 @@ export default function HeaderSlider2({
   const slide = images[currentSlide];
 
   return (
-    <div id="hero" className="relative w-full h-[calc(100vh-304px)] lg:h-[calc(100vh-144px)] bg-gradient-to-br from-teal-600 via-cyan-600 to-blue-700 overflow-hidden">
+    <div className="relative w-full h-[calc(100vh-304px)] lg:h-[calc(100vh-144px)] bg-gradient-to-br from-teal-600 via-cyan-600 to-blue-700 overflow-hidden flex flex-col">
       {/* Background slides */}
       <div className="absolute inset-0">
         {images.map((item, index) => (
@@ -75,9 +76,9 @@ export default function HeaderSlider2({
         ))}
       </div>
 
-      {/* Content */}
+      {/* Content pinned bottom center */}
       <motion.div
-        className="absolute inset-y-0 left-0 flex flex-col justify-center items-start px-6 md:px-16 lg:px-24 text-white text-left max-w-3xl"
+        className="relative z-10 mt-auto mb-8 px-6 md:px-16 lg:px-24 text-center text-white max-w-4xl mx-auto"
         variants={staggerContainer}
         initial="hidden"
         animate="visible"
@@ -92,14 +93,14 @@ export default function HeaderSlider2({
 
         <motion.h1
           variants={staggerItem}
-          className="text-2xl font-extrabold mb-4 leading-tight drop-shadow-[0_8px_32px_rgba(0,0,0,0.7)]"
+          className="text-xl sm:text-3xl font-extrabold mb-4 leading-tight text-[#68b684] drop-shadow-[0_8px_32px_rgba(0,0,0,0.7)]"
         >
           {slide.title}
         </motion.h1>
 
         {slide.description && (
           <motion.p
-            className="text-base sm:text-lg lg:text-2xl mb-6 text-[#e0f2fe] drop-shadow-[0_2px_8px_rgba(0,0,0,0.6)]"
+            className="text-base mb-6 text-[#e0f2fe] drop-shadow-[0_2px_8px_rgba(0,0,0,0.6)] max-w-2xl mx-auto"
             variants={staggerItem}
           >
             {slide.description}
@@ -108,7 +109,7 @@ export default function HeaderSlider2({
 
         {/* Links */}
         <motion.div
-          className="flex flex-col sm:flex-row gap-4"
+          className="flex flex-col sm:flex-row gap-4 justify-center"
           variants={staggerItem}
         >
           {slide.primaryLink && (
@@ -143,7 +144,7 @@ export default function HeaderSlider2({
         </motion.div>
 
         {/* Dots */}
-        <div className="flex space-x-2 mt-6">
+        <div className="flex space-x-2 mt-6 justify-center">
           {images.map((_, index) => (
             <button
               key={index}
