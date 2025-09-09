@@ -91,7 +91,7 @@ export function Footer() {
           <div className="grid grid-cols-1 lg:grid-cols-5 gap-5 mb-14">
 
             {/* Brand & Contact */}
-            <motion.div className="lg:col-span-1" variants={staggerItem}>
+            <motion.div className="lg:col-span-2" variants={staggerItem}>
               <div className="flex items-center space-x-3 mb-7">
                 <motion.div
                   className="size-14 rounded-full bg-[#205375] flex items-center justify-center shadow-lg overflow-hidden"

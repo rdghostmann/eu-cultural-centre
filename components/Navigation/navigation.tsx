@@ -67,7 +67,7 @@ export function Navigation() {
       animate={{ y: 0 }}
       transition={{ duration: 0.5 }}
     >
-      <div className="container mx-auto flex p-4 items-center justify-between">
+      <div className="w-full mx-auto flex p-4 items-center justify-between">
         {/* Logo */}
         <motion.div whileTap={{ scale: 0.95 }}>
           <Link href="/" className="flex items-center space-x-2">
@@ -100,7 +100,7 @@ export function Navigation() {
         </motion.div>
 
         {/* Desktop Navigation */}
-        <NavigationMenu className="hidden lg:flex z-40">
+        <NavigationMenu className="hidden xl:flex z-40">
           <NavigationMenuList>
             <NavigationMenuItem>
               <motion.div whileHover={{ scale: 1.05 }}>
@@ -209,14 +209,14 @@ export function Navigation() {
         {/* Buttons & Mobile Nav */}
         <div className="flex items-center space-x-2">
           <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-            <Button asChild className="hidden lg:inline-flex bg-[#205375] text-white font-semibold shadow">
+            <Button asChild className="hidden xl:inline-flex bg-[#205375] text-white font-semibold shadow">
               <Link href="/contact">Get Involved</Link>
             </Button>
           </motion.div>
 
           {/* Mobile Navigation */}
           <Sheet open={isOpen} onOpenChange={setIsOpen}>
-            <SheetTrigger asChild className="lg:hidden">
+            <SheetTrigger asChild className="xl:hidden">
               <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
                 <Button className="bg-white text-black hover:bg-white/80 hover:text-black/80 text-lg" size="icon">
                   <Menu className="size-10" />

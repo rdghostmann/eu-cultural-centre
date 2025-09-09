@@ -20,7 +20,7 @@ export const CulturalHeritageTourData: Slide[] = [
     image: "/culture/culture-slider1.png",
     badge: "Cultural Heritage Tours",
     title: "Discover Living Heritage",
-    subtitle: "Discover Ancient Traditions",
+    subtitle: "Discover Ancient Traditi ons",
     description:
       "Journey through time with expert-guided tours to UNESCO World Heritage sites, traditional festivals, and cultural landmarks that preserve Africa's rich heritage.",
     primaryLink: { href: "#tours", text: "Explore Tours" },
