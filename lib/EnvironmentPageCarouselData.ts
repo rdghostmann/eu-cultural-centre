@@ -19,7 +19,7 @@ export const EnvironmentPageCarouselData: Slide[] = [
   {
     image: "/sample/banner-1.png",
     badge: "Environment & Climate Action",
-    title: "",
+    title: "Building Sustainable Future",
     subtitle: "Sustainable Future",
     description:
       "Climate education and action programs for a greener, more sustainable world.",
@@ -28,24 +28,24 @@ export const EnvironmentPageCarouselData: Slide[] = [
   },
   {
     image: "/sample/banner-2.png",
-     badge: "Environment & Climate Action",
-    title: "",
-    subtitle: "Sustainable Future",
+    badge: "Renewable Energy",
+    title: "Clean Energy For All",
+    subtitle: "For All",
     description:
-      "Climate education and action programs for a greener, more sustainable world.",
-    primaryLink: { href: "#programs", text: "Explore Programs" },
-    secondaryLink: { href: "/contact", text: "Join the Movement" },
+      "Promoting solar, wind, and renewable energy solutions across communities.",
+    primaryLink: { href: "#programs", text: "Support Clean Energy" },
+    secondaryLink: { href: "/contact", text: "Learn More" },
   },
-  {
-    image: "/sample/banner-2.png",
-      badge: "Environment & Climate Action",
-    title: "",
-    subtitle: "Sustainable Future",
-    description:
-      "Climate education and action programs for a greener, more sustainable world.",
-    primaryLink: { href: "#programs", text: "Explore Programs" },
-    secondaryLink: { href: "/contact", text: "Join the Movement" },
-  },
+  // {
+  //   image: "/sample/banner-2.png",
+  //   badge: "Climate Education",
+  //   title: "Learn Green,",
+  //   subtitle: "Act Green",
+  //   description:
+  //     "Empowering youth and communities with knowledge to combat climate change.",
+  //   primaryLink: { href: "#programs", text: "Start Learning" },
+  //   secondaryLink: { href: "/contact", text: "Get Involved" },
+  // },
   // {
   //   image: "/images/environment4.jpg",
   //   badge: "Conservation",

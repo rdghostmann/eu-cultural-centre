@@ -169,7 +169,7 @@ export default function EnvironmentPage() {
           </motion.div>
 
           <motion.div
-            className="grid lg:grid-cols-2 gap-8"
+            className="grid lg:grid-cols-2 gap-8 px-5"
             variants={staggerContainer}
             initial="hidden"
             animate={programsInView ? "visible" : "hidden"}
@@ -227,7 +227,7 @@ export default function EnvironmentPage() {
       <section className="py-20 bg-gray-50" ref={goalsRef}>
         <div className="container mx-auto">
           <motion.div
-            className="text-center mb-16"
+            className="text-center mb-16 px-4"
             variants={fadeInUp}
             initial="hidden"
             animate={goalsInView ? "visible" : "hidden"}
@@ -239,7 +239,7 @@ export default function EnvironmentPage() {
           </motion.div>
 
           <motion.div
-            className="grid lg:grid-cols-2 gap-8"
+            className="grid lg:grid-cols-2 gap-8 px-5"
             variants={staggerContainer}
             initial="hidden"
             animate={goalsInView ? "visible" : "hidden"}
@@ -274,49 +274,7 @@ export default function EnvironmentPage() {
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="py-20 bg-ecc-slate text-white">
-        <div className="container text-center">
-          <motion.div
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.8 }}
-          >
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Join the Green Revolution</h2>
-            <p className="text-xl mb-8 text-gray-300 max-w-2xl mx-auto">
-              Be part of the solution. Join our environmental programs and help create a sustainable future for all.
-            </p>
-            <motion.div
-              className="flex flex-col sm:flex-row gap-4 justify-center"
-              variants={staggerContainer}
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true }}
-            >
-              <motion.div variants={staggerItem} whileHover={hoverScale} whileTap={{ scale: 0.95 }}>
-                <Button asChild size="lg" className="bg-ecc-green hover:bg-ecc-green/90">
-                  <Link href="/contact">
-                    Get Involved <ArrowRight className="ml-2 h-5 w-5" />
-                  </Link>
-                </Button>
-              </motion.div>
-              <motion.div variants={staggerItem} whileHover={hoverScale} whileTap={{ scale: 0.95 }}>
-                <Button
-                  asChild
-                  size="lg"
-                  variant="outline"
-                  className="border-white text-white hover:bg-white hover:text-ecc-slate bg-transparent"
-                >
-                  <Link href="/contact">Partner With Us</Link>
-                </Button>
-              </motion.div>
-            </motion.div>
-          </motion.div>
-        </div>
-      </section>
-
-      <CTASection
+    <CTASection
         title="Join the Green Revolution"
         description=" Be part of the solution. Join our environmental programs and help create a sustainable future for all."
         primaryLabel="Get Involved Today"
