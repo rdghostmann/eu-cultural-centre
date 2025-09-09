@@ -21,6 +21,13 @@ const environmentalPrograms = [
     impact: "5,000+ students educated",
   },
   {
+    title: "Tree Planting Campaign",
+    description: "Mobilizing communities to plant trees and restore degraded landscapes.",
+    icon: <TreePine className="h-6 w-6" />,
+    features: ["Community engagement", "Tree nurseries", "Reforestation", "Awareness campaigns"],
+    impact: "100,000+ trees planted",
+  },
+  {
     title: "Green Technology Hub",
     description: "Supporting innovative green technologies and sustainable solutions for African communities.",
     icon: <Wind className="h-6 w-6" />,
