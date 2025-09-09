@@ -24,7 +24,7 @@ export default function NotFound() {
         <div className="space-y-4">
           <p className="text-xl md:text-2xl glitch-message font-extralight text-neutral-500">This page fell into the void.</p>
           <p className="text-sm md:text-base glitch-subtitle font-extralight text-red-600">
-            {"// ERROR: Reality.exe has stopped working"}
+            {"// ERROR: This page has stopped working"}
           </p>
         </div>
 

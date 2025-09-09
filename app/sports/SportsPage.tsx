@@ -61,21 +61,21 @@ const sportsPrograms = [
 const upcomingEvents = [
   {
     title: "Africa-Europe Youth Football Championship",
-    date: "June 15-25, 2026",
+    date: "Jun 15-25, 2026",
     location: "Lagos, Nigeria",
     participants: "16 teams",
     description: "Annual championship bringing together the best youth football teams from both continents.",
   },
   {
     title: "Traditional Sports Festival",
-    date: "August 10-12, 2026",
+    date: "Aug 10-12, 2026",
     location: "Abuja, Nigeria",
     participants: "200+ athletes",
     description: "Celebrating traditional African and European sports and games.",
   },
   {
     title: "International Athletics Meet",
-    date: "September 20-22, 2026",
+    date: "Sept 20-22, 2026",
     location: "National Stadium",
     participants: "300+ athletes",
     description: "Track and field competition featuring emerging talents from across continents.",
@@ -189,7 +189,7 @@ export default function SportsPage() {
           </motion.div>
 
           <motion.div
-            className="grid lg:grid-cols-2 gap-8 px-7"
+            className="grid lg:grid-cols-2 gap-8 px-5"
             variants={staggerContainer}
             initial="hidden"
             animate={programsInView ? "visible" : "hidden"}
@@ -260,7 +260,7 @@ export default function SportsPage() {
           </motion.div>
 
           <motion.div
-            className="grid lg:grid-cols-3 gap-8"
+            className="grid lg:grid-cols-3 gap-8 px-5"
             variants={staggerContainer}
             initial="hidden"
             animate={eventsInView ? "visible" : "hidden"}

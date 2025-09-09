@@ -147,7 +147,7 @@ export default function LanguageCoursePage() {
         primaryLabel="Start Learning"
         primaryHref="/contact"
         secondaryLabel="View All Courses"
-        secondaryHref="/courses"
+        secondaryHref="/top-languages"
         className="bg-blue-600 text-white py-16 lg:py-20"
       />
     </div>

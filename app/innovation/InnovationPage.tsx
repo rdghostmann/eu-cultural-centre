@@ -190,7 +190,7 @@ export default function InnovationPage() {
           </motion.div>
 
           <motion.div
-            className="grid lg:grid-cols-2 gap-8 px-7"
+            className="grid lg:grid-cols-2 gap-8 px-5"
             variants={staggerContainer}
             initial="hidden"
             animate={programsInView ? "visible" : "hidden"}
@@ -248,7 +248,7 @@ export default function InnovationPage() {
       <section className="py-20 bg-gray-50" ref={showcaseRef}>
         <div className="container mx-auto">
           <motion.div
-            className="text-center mb-16"
+            className="text-center mb-16 px-4"
             variants={fadeInUp}
             initial="hidden"
             animate={showcaseInView ? "visible" : "hidden"}
@@ -260,7 +260,7 @@ export default function InnovationPage() {
           </motion.div>
 
           <motion.div
-            className="grid lg:grid-cols-2 gap-6"
+            className="grid lg:grid-cols-2 gap-6 px-5 max-w-4xl mx-auto"
             variants={staggerContainer}
             initial="hidden"
             animate={showcaseInView ? "visible" : "hidden"}

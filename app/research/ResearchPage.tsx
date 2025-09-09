@@ -195,7 +195,7 @@ export default function ResearchPage() {
           </motion.div>
 
           <motion.div
-            className="grid lg:grid-cols-2 gap-8 px-7"
+            className="grid lg:grid-cols-2 gap-8 px-5"
             variants={staggerContainer}
             initial="hidden"
             animate={programsInView ? "visible" : "hidden"}

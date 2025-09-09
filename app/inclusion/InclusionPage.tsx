@@ -170,7 +170,7 @@ export default function InclusionPage() {
       <section id="programs" className="mt-10 py-20" ref={programsRef}>
         <div className="container mx-auto">
           <motion.div
-            className="text-center mb-16"
+            className="text-center mb-16 px-4"
             variants={fadeInUp}
             initial="hidden"
             animate={programsInView ? "visible" : "hidden"}
@@ -183,7 +183,7 @@ export default function InclusionPage() {
           </motion.div>
 
           <motion.div
-            className="grid lg:grid-cols-2 gap-8"
+            className="grid lg:grid-cols-2 gap-8 px-5"
             variants={staggerContainer}
             initial="hidden"
             animate={programsInView ? "visible" : "hidden"}
@@ -241,7 +241,7 @@ export default function InclusionPage() {
       <section className="py-20 bg-gray-50" ref={featuresRef}>
         <div className="container mx-auto">
           <motion.div
-            className="text-center mb-16"
+            className="text-center mb-16 px-4"
             variants={fadeInUp}
             initial="hidden"
             animate={featuresInView ? "visible" : "hidden"}
@@ -253,7 +253,7 @@ export default function InclusionPage() {
           </motion.div>
 
           <motion.div
-            className="grid lg:grid-cols-2 gap-6"
+            className="grid lg:grid-cols-2 gap-6 px-5 max-w-4xl"
             variants={staggerContainer}
             initial="hidden"
             animate={featuresInView ? "visible" : "hidden"}
@@ -291,15 +291,15 @@ export default function InclusionPage() {
 
       {/* CTA Section */}
 
-        <CTASection
-              title="Join Our Inclusive Community"
-              description="Everyone deserves access to cultural experiences. Let us know how we can better serve your needs."
-              primaryLabel="Get Support"
-              primaryHref="/contact"
-              secondaryLabel="Share Feedback"
-              secondaryHref="/contact"
-              className="bg-slate-100 text-white py-16 lg:py-20"
-            />
+      <CTASection
+        title="Join Our Inclusive Community"
+        description="Everyone deserves access to cultural experiences. Let us know how we can better serve your needs."
+        primaryLabel="Get Support"
+        primaryHref="/contact"
+        secondaryLabel="Share Feedback"
+        secondaryHref="/contact"
+        className="bg-slate-100 text-white py-16 lg:py-20"
+      />
     </div>
   )
 }

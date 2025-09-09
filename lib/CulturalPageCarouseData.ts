@@ -29,8 +29,8 @@ export const CulturalPageCarouselData: Slide[] = [
   {
     image: "/culture/culture-slider18.png",
     badge: "Performing Arts",
-    title: "Dance, Music,",
-    subtitle: "Shared Across Borders",
+    title: "Shared Across Borders",
+    subtitle: "",
     description:
       "Promoting cultural performances that connect traditions and inspire creativity.",
     primaryLink: { href: "#programs", text: "Discover Performances" },
@@ -39,8 +39,8 @@ export const CulturalPageCarouselData: Slide[] = [
   {
     image: "/culture/culture-slider17.png",
     badge: "Visual Storytelling",
-    title: "Art as,",
-    subtitle: "A Universal Language",
+    title: "Art as Universal Language",
+    subtitle: "",
     description:
       "Encouraging visual arts to communicate shared experiences and inspire dialogue.",
     primaryLink: { href: "#programs", text: "Explore Exhibitions" },
