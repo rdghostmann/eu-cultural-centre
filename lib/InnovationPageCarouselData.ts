@@ -17,7 +17,7 @@ export type Slide = {
 
 export const InnovationPageCarouselData: Slide[] = [
   {
-    image: "/inclusion-accessibility/inclusion-&-accessebility-slide(1).png",
+    image: "/inclusion-accessibility/inclusion-&-accessebility-slide(2).png",
     badge: "Innovation & New Media",
     title: "Innovating Culture,",
     subtitle: "Through Technology",
@@ -27,7 +27,7 @@ export const InnovationPageCarouselData: Slide[] = [
     secondaryLink: { href: "/contact", text: "Join the Lab" },
   },
   {
-    image: "/inclusion-accessibility/inclusion-&-accessebility-slide(1).png",
+    image: "/inclusion-accessibility/inclusion-&-accessebility-slide(5).png",
     badge: "Creative Startups",
     title: "Empowering Creators,",
     subtitle: "Fueling Innovation",
@@ -46,16 +46,16 @@ export const InnovationPageCarouselData: Slide[] = [
     primaryLink: { href: "#programs", text: "View Projects" },
     secondaryLink: { href: "/contact", text: "Contribute" },
   },
-  {
-    image: "/inclusion-accessibility/inclusion-&-accessebility-slide(1).png",
-    badge: "Virtual Reality",
-    title: "Immersive Worlds,",
-    subtitle: "Cultural Journeys",
-    description:
-      "Using AR and VR to create immersive cultural experiences and enhance cross-border storytelling.",
-    primaryLink: { href: "#programs", text: "Try VR Tours" },
-    secondaryLink: { href: "/contact", text: "Learn More" },
-  },
+  // {
+  //   image: "/inclusion-accessibility/inclusion-&-accessebility-slide(1).png",
+  //   badge: "Virtual Reality",
+  //   title: "Immersive Worlds,",
+  //   subtitle: "Cultural Journeys",
+  //   description:
+  //     "Using AR and VR to create immersive cultural experiences and enhance cross-border storytelling.",
+  //   primaryLink: { href: "#programs", text: "Try VR Tours" },
+  //   secondaryLink: { href: "/contact", text: "Learn More" },
+  // },
   // {
   //   image: "/images/innovation5.jpg",
   //   badge: "Media Platforms",

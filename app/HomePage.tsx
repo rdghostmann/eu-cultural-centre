@@ -36,9 +36,9 @@ const stats = [
 ]
 
 const upcomingEvents = [
-  { title: "African Heritage Festival", date: "March 15-17, 2026", location: "Lagos Cultural Center", type: "Cultural Event", image: "/events/event2.jpg" },
-  { title: "Youth Innovation Summit", date: "April 8-10, 2026", location: "Abuja Tech Hub", type: "Innovation", image: "/events/event3.jpg" },
-  { title: "International Sports Tournament", date: "May 20-25, 2026", location: "National Stadium", type: "Sports", image: "/events/event4.jpg" },
+  { title: "African Heritage Festival", date: "March 15-17, 2026", location: "Lagos Cultural Center", type: "Cultural Event", image: "/events/event2.png" },
+  { title: "Youth Innovation Summit", date: "April 8-10, 2026", location: "Abuja Tech Hub", type: "Innovation", image: "/events/event3.png" },
+  { title: "International Sports Tournament", date: "May 20-25, 2026", location: "National Stadium", type: "Sports", image: "/events/event4.png" },
 ]
 
 const programs = [
@@ -48,9 +48,9 @@ const programs = [
 ]
 
 const newsItems = [
-  { title: "New Partnership with European Cultural Foundation", excerpt: "ECC Nigeria announces strategic partnership to expand cultural exchange programs...", date: "January 15, 2026", category: "Partnership", image: "/news/news1.jpg" },
-  { title: "Research Publication: Digital Heritage in Africa", excerpt: "Our latest research explores the digitization of African cultural heritage...", date: "January 10, 2026", category: "Research", image: "/news/news2.jpg" },
-  { title: "Youth Exchange Program Graduates 50 Students", excerpt: "Celebrating the success of our latest cohort of cultural ambassadors...", date: "January 5, 2026", category: "Education", image: "/news/news3.jpg" },
+  { title: "New Partnership with European Cultural Foundation", excerpt: "ECC Nigeria announces strategic partnership to expand cultural exchange programs...", date: "January 15, 2026", category: "Partnership", image: "/news/news1.png" },
+  { title: "Research Publication: Digital Heritage in Africa", excerpt: "Our latest research explores the digitization of African cultural heritage...", date: "January 10, 2026", category: "Research", image: "/news/news2.png" },
+  { title: "Youth Exchange Program Graduates 50 Students", excerpt: "Celebrating the success of our latest cohort of cultural ambassadors...", date: "January 5, 2026", category: "Education", image: "/news/news3.png" },
 ]
 
 export default function HomePage() {

@@ -28,13 +28,13 @@ export const SportPageCarouselData: Slide[] = [
   },
   {
     image: "/sports/sports-slide-2.png",
-    badge: "Youth Empowerment",
-    title: "Inspiring Youth,",
-    subtitle: "Through Sports",
+   badge: "Sports, Tourism & Events",
+    title: "Sports as a Bridge,",
+    subtitle: "Between Cultures",
     description:
-      "Engaging young people in sporting activities that foster leadership, teamwork, and intercultural dialogue.",
-    primaryLink: { href: "#programs", text: "Youth Programs" },
-    secondaryLink: { href: "/contact", text: "Get Involved" },
+      "Using sports and travel as powerful tools for education, cultural exchange, and building lasting connections across Europe and Africa.",
+    primaryLink: { href: "#programs", text: "Explore Programs" },
+    secondaryLink: { href: "/contact", text: "Join an Event" },
   },
   {
     image: "/sports/sports-slide-3.png",
@@ -46,16 +46,16 @@ export const SportPageCarouselData: Slide[] = [
     primaryLink: { href: "#programs", text: "View Tours" },
     secondaryLink: { href: "/contact", text: "Join Now" },
   },
-  {
-    image: "/sports/sports-slide-2.png",
-    badge: "Global Events",
-    title: "Competitions,",
-    subtitle: "That Unite",
-    description:
-      "Hosting international sporting and cultural events that highlight cooperation and friendship across borders.",
-    primaryLink: { href: "#programs", text: "See Events" },
-    secondaryLink: { href: "/contact", text: "Participate" },
-  },
+  // {
+  //   image: "/sports/sports-slide-2.png",
+  //  badge: "Cultural Exchange",
+  //   title: "Travel,",
+  //   subtitle: "With Purpose",
+  //   description:
+  //     "Sports tourism initiatives that bring communities together through shared cultural and athletic experiences.",
+  //   primaryLink: { href: "#programs", text: "View Tours" },
+  //   secondaryLink: { href: "/contact", text: "Join Now" },
+  // },
   // {
   //   image: "/sports/sports-slide-5.png",
   //   badge: "Wellbeing & Health",

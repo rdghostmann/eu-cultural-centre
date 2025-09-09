@@ -16,16 +16,16 @@ export type Slide = {
 };
 
 export const HealthcarePageCarouselData: Slide[] = [
-  {
-    image: "/sample/banner-1.png",
-    badge: "Telemedicine",
-    title: "Healthcare,",
-    subtitle: "Anywhere, Anytime",
-    description:
-      "Access medical expertise remotely through secure, innovative telemedicine solutions.",
-    primaryLink: { href: "#programs", text: "Get Telemedicine" },
-    secondaryLink: { href: "/contact", text: "Learn More" },
-  },
+  // {
+  //   image: "/sample/banner-1.png",
+  //   badge: "Telemedicine",
+  //   title: "Healthcare,",
+  //   subtitle: "Anywhere, Anytime",
+  //   description:
+  //     "Access medical expertise remotely through secure, innovative telemedicine solutions.",
+  //   primaryLink: { href: "#programs", text: "Get Telemedicine" },
+  //   secondaryLink: { href: "/contact", text: "Learn More" },
+  // },
   {
     image: "/sample/banner-1.png",
     badge: "Community Health",

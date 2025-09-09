@@ -19,7 +19,7 @@ export const SportsTourData: Slide[] = [
   {
     image: "/sports/sports-slide-1.png",
     badge: "Sport Tours & Tournaments",
-    title: "Sport Excellence &",
+    title: "",
     subtitle: "Cultural Exchange",
     description:
       "Elite sports programs combining athletic development with cultural exchange, bringing together teams and athletes from Europe and Africa for competition, training, and friendship.",
@@ -28,20 +28,20 @@ export const SportsTourData: Slide[] = [
   },
   {
     image: "/sports/sports-slide-1.png",
-    badge: "Sport Tours & Tournaments",
-     title: "Sport Excellence &",
+       badge: "Sport Tours & Tournaments",
+    title: "",
     subtitle: "Cultural Exchange",
     description:
       "Elite sports programs combining athletic development with cultural exchange, bringing together teams and athletes from Europe and Africa for competition, training, and friendship.",
-   primaryLink: { href: "#programs", text: "View Programs" },
+    primaryLink: { href: "#programs", text: "View Programs" },
     secondaryLink: { href: "/contact", text: "Register a Team" },
   },
   {
     image: "/sports/sports-slide-3.png",
-    badge: "Sport Tours & Tournaments",
-     title: "Sport Excellence &",
+      badge: "Sport Tours & Tournaments",
+    title: "",
     subtitle: "Cultural Exchange",
-     description:
+    description:
       "Elite sports programs combining athletic development with cultural exchange, bringing together teams and athletes from Europe and Africa for competition, training, and friendship.",
     primaryLink: { href: "#programs", text: "View Programs" },
     secondaryLink: { href: "/contact", text: "Register a Team" },
