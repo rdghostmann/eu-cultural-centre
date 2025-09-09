@@ -12,7 +12,7 @@ export type LinkProps = {
 };
 
 export type Slide = {
-  image: any;
+  image: string;
   badge?: string;
   description?: string;
   primaryLink?: LinkProps;
@@ -24,7 +24,7 @@ export type Slide = {
 export const HomePageCarouselData: Slide[] = [
 
   {
-    image: slide1,
+    image: "/homepageslideshow/front-page1.png",
     badge: "Connecting Cultures",
     title: "Join Our Network,",
     subtitle: "Transform Healthcare",
@@ -33,7 +33,7 @@ export const HomePageCarouselData: Slide[] = [
     secondaryLink: { href: "/about", text: "Learn More" },
   },
   {
-    image: slide2,
+    image: "/homepageslideshow/front-page2.png",
     badge: "Building Bridges",
     title: "Empower Patients,",
     subtitle: "Anytime, Anywhere",
@@ -42,7 +42,7 @@ export const HomePageCarouselData: Slide[] = [
     secondaryLink: { href: "/about", text: "Learn More" },
   },
   {
-    image: slide3,
+    image: "/homepageslideshow/front-page3.png",
     badge: "Creating Opportunities",
     title: "Advance Your Practice,",
     subtitle: "With Telemedicine",
@@ -51,7 +51,7 @@ export const HomePageCarouselData: Slide[] = [
     secondaryLink: { href: "/about", text: "Learn More" },
   },
   {
-    image: slide4,
+    image: "/homepageslideshow/front-page6.png",
     badge: "Art as a Universal Language",
     title: "Unite Through Art,",
     subtitle: "Inspire Generations",
@@ -60,7 +60,7 @@ export const HomePageCarouselData: Slide[] = [
     secondaryLink: { href: "/about", text: "Learn More" },
   },
   {
-    image: slide5,
+    image: "/homepageslideshow/front-page10.png",
     badge: "Education Without Borders",
     title: "Knowledge For All",
     subtitle: "Global Learning",

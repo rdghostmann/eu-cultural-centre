@@ -12,7 +12,6 @@ import {
 import { fadeInUp, staggerContainer, staggerItem, } from "@/lib/animations"
 import { useScrollAnimation } from "@/hooks/use-scroll-animation"
 import CTASection from "@/components/CTASection/CTASection"
-import PartnersSlider from "@/components/Partners/PartnersSlider"
 import { HomePageCarouselData } from "@/lib/HomePageCarouselData"
 import HeaderSlider from "@/components/CustomSlider/HeaderSlider"
 import Partners from "@/components/Partners/Partners"
