@@ -48,9 +48,9 @@ const programs = [
 ]
 
 const newsItems = [
-  { title: "New Partnership with European Cultural Foundation", excerpt: "ECC Nigeria announces strategic partnership to expand cultural exchange programs...", date: "January 15, 2026", category: "Partnership", image: "/news/news1.png" },
-  { title: "Research Publication: Digital Heritage in Africa", excerpt: "Our latest research explores the digitization of African cultural heritage...", date: "January 10, 2026", category: "Research", image: "/news/news2.png" },
-  { title: "Youth Exchange Program Graduates 50 Students", excerpt: "Celebrating the success of our latest cohort of cultural ambassadors...", date: "January 5, 2026", category: "Education", image: "/news/news3.png" },
+  { title: "New Partnership with European Cultural Foundation", excerpt: "ECC Nigeria announces strategic partnership to expand cultural exchange programs...", date: "January 15, 2026", category: "Partnership", image: "/news/news1.jpg" },
+  { title: "Research Publication: Digital Heritage in Africa", excerpt: "Our latest research explores the digitization of African cultural heritage...", date: "January 10, 2026", category: "Research", image: "/news/news2.jpg" },
+  { title: "Youth Exchange Program Graduates 50 Students", excerpt: "Celebrating the success of our latest cohort of cultural ambassadors...", date: "January 5, 2026", category: "Education", image: "/news/news3.jpg" },
 ]
 
 export default function HomePage() {
