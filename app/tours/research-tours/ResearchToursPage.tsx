@@ -119,7 +119,7 @@ export default function ResearchToursPage() {
       <section id="research-areas" className="py-20" ref={areasRef}>
         <div className="container mx-auto">
           <motion.div
-            className="text-center mb-16"
+            className="text-center mb-16 px-5"
             variants={fadeInUp}
             initial="hidden"
             animate={areasInView ? "visible" : "hidden"}
@@ -131,7 +131,7 @@ export default function ResearchToursPage() {
           </motion.div>
 
           <motion.div
-            className="grid lg:grid-cols-2 gap-8"
+            className="grid lg:grid-cols-2 gap-8 px-5"
             variants={staggerContainer}
             initial="hidden"
             animate={areasInView ? "visible" : "hidden"}
@@ -189,7 +189,7 @@ export default function ResearchToursPage() {
       <section className="py-20 bg-gray-50" ref={supportRef}>
         <div className="container mx-auto">
           <motion.div
-            className="text-center mb-16"
+            className="text-center mb-16 px-5"
             variants={fadeInUp}
             initial="hidden"
             animate={supportInView ? "visible" : "hidden"}
@@ -246,7 +246,7 @@ export default function ResearchToursPage() {
           </motion.div>
 
           <motion.div
-            className="grid md:grid-cols-3 gap-8"
+            className="grid md:grid-cols-3 gap-8 px-5"
             variants={staggerContainer}
             initial="hidden"
             whileInView="visible"
@@ -292,47 +292,6 @@ export default function ResearchToursPage() {
       </section>
 
       {/* CTA Section */}
-      {/* <section className="py-20 bg-ecc-slate text-white">
-        <div className="container text-center">
-          <motion.div
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.8 }}
-          >
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Ready to Begin Your Research?</h2>
-            <p className="text-xl mb-8 text-gray-300 max-w-2xl mx-auto">
-              Join leading researchers and scholars who have advanced their work through our comprehensive research
-              support programs.
-            </p>
-            <motion.div
-              className="flex flex-col sm:flex-row gap-4 justify-center"
-              variants={staggerContainer}
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true }}
-            >
-              <motion.div variants={staggerItem} whileHover={hoverScale} whileTap={{ scale: 0.95 }}>
-                <Button asChild size="lg" className="bg-ecc-green hover:bg-ecc-green/90">
-                  <Link href="/contact">
-                    Submit Research <ArrowRight className="ml-2 h-5 w-5" />
-                  </Link>
-                </Button>
-              </motion.div>
-              <motion.div variants={staggerItem} whileHover={hoverScale} whileTap={{ scale: 0.95 }}>
-                <Button
-                  asChild
-                  size="lg"
-                  variant="outline"
-                  className="border-white text-white hover:bg-white hover:text-ecc-slate bg-transparent"
-                >
-                  <Link href="/contact">Apply for Residency</Link>
-                </Button>
-              </motion.div>
-            </motion.div>
-          </motion.div>
-        </div>
-      </section> */}
       <CTASection
         title="Ready to Begin Your Research?"
         description="Join leading scholars and researchers in advancing your work through our comprehensive research support programs. Start your academic journey with ECC Nigeria today."

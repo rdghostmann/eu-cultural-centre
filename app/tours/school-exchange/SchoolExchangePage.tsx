@@ -121,7 +121,7 @@ export default function SchoolExchangePage() {
                     </motion.div>
 
                     <motion.div
-                        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8"
+                        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 px-4"
                         variants={staggerContainer}
                         initial="hidden"
                         animate={programsInView ? "visible" : "hidden"}
@@ -198,7 +198,7 @@ export default function SchoolExchangePage() {
             <section className="py-20 bg-gray-50" ref={upcomingRef}>
                 <div className="container mx-auto">
                     <motion.div
-                        className="text-center mb-16"
+                        className="text-center mb-16 px-4"
                         variants={fadeInUp}
                         initial="hidden"
                         animate={upcomingInView ? "visible" : "hidden"}
@@ -210,7 +210,7 @@ export default function SchoolExchangePage() {
                     </motion.div>
 
                     <motion.div
-                        className="grid lg:grid-cols-3 gap-6"
+                        className="grid lg:grid-cols-3 gap-6 px-4"
                         variants={staggerContainer}
                         initial="hidden"
                         animate={upcomingInView ? "visible" : "hidden"}
@@ -254,47 +254,6 @@ export default function SchoolExchangePage() {
             </section>
 
             {/* CTA Section */}
-            {/* <section className="py-20 bg-ecc-slate text-white">
-                <div className="container text-center">
-                    <motion.div
-                        initial={{ opacity: 0, y: 50 }}
-                        whileInView={{ opacity: 1, y: 0 }}
-                        viewport={{ once: true }}
-                        transition={{ duration: 0.8 }}
-                    >
-                        <h2 className="text-3xl lg:text-4xl font-bold mb-6">Ready to Start Your Journey?</h2>
-                        <p className="text-xl mb-8 text-gray-300 max-w-2xl mx-auto">
-                            Join thousands of students who have transformed their education through our exchange programs.
-                        </p>
-                        <motion.div
-                            className="flex flex-col sm:flex-row gap-4 justify-center"
-                            variants={staggerContainer}
-                            initial="hidden"
-                            whileInView="visible"
-                            viewport={{ once: true }}
-                        >
-                            <motion.div variants={staggerItem} whileHover={hoverScale} whileTap={{ scale: 0.95 }}>
-                                <Button asChild size="lg" className="bg-ecc-green hover:bg-ecc-green/90">
-                                    <Link href="/contact">
-                                        Apply Today <ArrowRight className="ml-2 h-5 w-5" />
-                                    </Link>
-                                </Button>
-                            </motion.div>
-                            <motion.div variants={staggerItem} whileHover={hoverScale} whileTap={{ scale: 0.95 }}>
-                                <Button
-                                    asChild
-                                    size="lg"
-                                    variant="outline"
-                                    className="border-white text-white hover:bg-white hover:text-ecc-slate bg-transparent"
-                                >
-                                    <Link href="/contact">Get Information</Link>
-                                </Button>
-                            </motion.div>
-                        </motion.div>
-                    </motion.div>
-                </div>
-            </section> */}
-
             <CTASection
                 title="Ready to Start Your Exchange Journey?"
                 description="Apply now to join our school exchange programs and experience transformative learning, cultural immersion, and global friendships across Europe and Nigeria."

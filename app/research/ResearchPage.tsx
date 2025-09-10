@@ -1,8 +1,10 @@
 "use client"
+import { useState } from "react"
 
 import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog"
 import { Badge } from "@/components/ui/badge"
 import Link from "next/link"
 import { ArrowRight, BookOpen, FileText, Users, Award, Search, TrendingUp } from "lucide-react"
@@ -88,12 +90,52 @@ const recentPublications = [
   },
 ]
 
+const articles = [
+  {
+    title: "Cultural Exchange Programs",
+    subtitle: "Years of Impact",
+    authors: "ECC Nigeria Research Team",
+    publication: "Cultural Diplomacy Review • 2025",
+    file: "/pdfs/cultural-exchange.pdf",
+  },
+  {
+    title: "Digital Heritage in Africa",
+    subtitle: "Opportunities and Challenges",
+    authors: "Judith Ifezue & Prof. John Smith",
+    publication: "Unpublished Research • 2025",
+    file: "/pdfs/digital-heritage.pdf",
+  },
+  {
+    title: "Innovation in European Cultural Sectors",
+    subtitle: "",
+    authors: "Judith Ifezue, Dr. Kwame Asante & Dr. Sarah Johnson",
+    publication: "European Cultural Studies • 2026",
+    file: "/pdfs/innovation-europe.pdf",
+  },
+  {
+    title: "Policy Framework for Cultural Cooperation",
+    subtitle: "",
+    authors: "ECC Nigeria Policy Team",
+    publication: "Policy Brief Series • 2025",
+    file: "/pdfs/policy-framework.pdf",
+  },
+]
+
 export default function ResearchPage() {
   const { ref: heroRef, isInView: heroInView } = useScrollAnimation()
   const { ref: programsRef, isInView: programsInView } = useScrollAnimation()
   const { ref: publicationsRef, isInView: publicationsInView } = useScrollAnimation()
   const hoverScale = { scale: 1.05 };
   const hoverLift = { y: -5, scale: 1.05 }; // lift slightly and scale up
+
+  const [open, setOpen] = useState(false)
+  const [selectedArticle, setSelectedArticle] = useState<typeof articles[0] | null>(null)
+
+  const handleOpen = (article: typeof articles[0]) => {
+    setSelectedArticle(article)
+    setOpen(true)
+  }
+
 
   return (
     <div className="flex flex-col overflow-hidden">
@@ -176,8 +218,8 @@ export default function ResearchPage() {
           </motion.div>
         </div>
       </section>
-       <HeaderSlider2 images={ResearchPageCarouselData} />
- 
+      <HeaderSlider2 images={ResearchPageCarouselData} />
+
       {/* Research Programs */}
       <section id="#programs" className="mt-7 py-20" ref={programsRef}>
         <div className="container mx-auto">
@@ -251,7 +293,7 @@ export default function ResearchPage() {
       </section>
 
       {/* Recent Publications */}
-      <section className="py-20 bg-gray-50" ref={publicationsRef}>
+      <section className="hidden py-20 bg-gray-50" ref={publicationsRef}>
         <div className="container mx-auto">
           <motion.div
             className="text-center mb-16 px-5"
@@ -303,8 +345,81 @@ export default function ResearchPage() {
         </div>
       </section>
 
-      {/* CTA Section */}
+      {/* Articles */}
+      <section className="py-20 bg-gray-50">
+        <div className="container mx-auto text-center mb-6">
+          <h2 className="text-3xl lg:text-4xl font-bold text-black mb-4">Recent Publications</h2>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            Our latest research findings and publications contributing to the global understanding of cultural
+            cooperation.
+          </p>
+        </div>
+        <div className="container mx-auto">
+          <motion.div
+            className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 px-5"
+            variants={staggerContainer}
+            initial="hidden"
+            animate="visible"
+          >
+            {articles.map((article, idx) => (
+              <motion.div key={idx} variants={staggerItem}>
+                <Card
+                  className="cursor-pointer hover:shadow-lg transition-all h-full"
+                  onClick={() => handleOpen(article)}
+                >
+                  <CardHeader>
+                    <CardTitle className="text-xl text-ecc-slate">
+                      {article.title}
+                    </CardTitle>
+                    {article.subtitle && (
+                      <CardDescription className="text-gray-700">
+                        {article.subtitle}
+                      </CardDescription>
+                    )}
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-sm text-gray-600 mb-2">By {article.authors}</p>
+                    <p className="text-xs text-gray-500">{article.publication}</p>
+                    <Button
+                      className="mt-4 w-full bg-yellow-600 hover:bg-yellow-700"
+                      onClick={() => handleOpen(article)}
+                    >
+                      Read more
+                    </Button>
+                  </CardContent>
+                </Card>
+              </motion.div>
+            ))}
+          </motion.div>
+        </div>
+      </section>
 
+      {/* Dialog with PDF iframe */}
+      <Dialog open={open} onOpenChange={setOpen}>
+        <DialogContent className="max-w-5xl mx-auto w-[95vw] h-[90vh] p-0 overflow-hidden">
+          {selectedArticle && (
+            <>
+              <DialogHeader className="p-4 border-b">
+                <DialogTitle>{selectedArticle.title}</DialogTitle>
+                <p className="text-sm text-gray-600">
+                  {selectedArticle.authors} • {selectedArticle.publication}
+                </p>
+              </DialogHeader>
+              <div className="w-full h-[calc(90vh-4rem)] bg-gray-100">
+                <iframe
+                  src={selectedArticle.file}
+                  className="w-full h-full"
+                  title={selectedArticle.title}
+                  frameBorder="0"
+                />
+              </div>
+            </>
+          )}
+        </DialogContent>
+      </Dialog>
+
+
+      {/* CTA Section */}
       <CTASection
         title="Join Our Research Community"
         description="Collaborate with leading researchers and contribute to advancing knowledge in cultural cooperation."
