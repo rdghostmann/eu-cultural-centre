@@ -305,7 +305,7 @@ export default function StudyFieldTripsPage() {
                           className="text-sm sm:text-base text-gray-600 bg-gray-100 p-2 rounded"
                           variants={staggerItem}
                         >
-                          {activity}
+                         {activity}
                         </motion.div>
                       ))}
                     </motion.div>
