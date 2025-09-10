@@ -118,7 +118,7 @@ export default function SportsToursPage() {
       <section className="py-12 bg-ecc-beige">
         <div className="container mx-auto">
           <motion.div
-            className="grid grid-cols-2 gap-6 md:grid-cols-4"
+            className="grid grid-cols-2 gap-6 md:grid-cols-4 px-4"
             variants={staggerContainer}
             initial="hidden"
             whileInView="visible"

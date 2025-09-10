@@ -201,7 +201,7 @@ export default function ResearchToursPage() {
           </motion.div>
 
           <motion.div
-            className="grid md:grid-cols-2 lg:grid-cols-4 gap-6"
+            className="grid grid-cols-2 lg:grid-cols-4 gap-6 px-4"
             variants={staggerContainer}
             initial="hidden"
             animate={supportInView ? "visible" : "hidden"}
@@ -209,7 +209,7 @@ export default function ResearchToursPage() {
             {supportServices.map((service, index) => (
               <motion.div
                 key={index}
-                className="bg-white p-6 rounded-lg shadow-sm text-center"
+                className="bg-white flex flex-col items-center justify-center p-6 rounded-lg shadow-sm text-center"
                 variants={staggerItem}
                 whileHover={{
                   y: -5,
@@ -223,7 +223,7 @@ export default function ResearchToursPage() {
                 >
                   <span className="text-indigo-600 font-bold">{index + 1}</span>
                 </motion.div>
-                <h4 className="font-semibold text-ecc-slate mb-2">{service}</h4>
+                <h4 className="font-semibold text-sm  text-ecc-slate mb-2">{service}</h4>
               </motion.div>
             ))}
           </motion.div>

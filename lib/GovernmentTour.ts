@@ -22,9 +22,9 @@ export const GovernmentTourData: Slide[] = [
     title: "Cultural Diplomacy",
     subtitle: "Official Delegations",
     description:
-      " Professional protocol support and cultural programming for government delegations, diplomatic missions, and high-level official visits promoting international cooperation.",
+      " Protocol and cultural support for delegations, missions, and official visits to foster international cooperation",
     primaryLink: { href: "#tours", text: "Explore Tours" },
-    secondaryLink: { href: "/contact", text: "Book a Heritage Tour" },
+    secondaryLink: { href: "/contact", text: "Book a Tour" },
   },
   {
     image: "/government-delegation/government-delegation-slide3.png",
@@ -32,9 +32,9 @@ export const GovernmentTourData: Slide[] = [
     title: "Cultural Diplomacy",
     subtitle: "Official Delegations",
     description:
-      " Professional protocol support and cultural programming for government delegations, diplomatic missions, and high-level official visits promoting international cooperation.",
+      " Protocol and cultural support for delegations, missions, and official visits to foster international cooperation",
     primaryLink: { href: "#tours", text: "Explore Tours" },
-    secondaryLink: { href: "/contact", text: "Book a Heritage Tour" },
+    secondaryLink: { href: "/contact", text: "Book a Tour" },
   },
   {
     image: "/government-delegation/government-delegation-slide1.png",
@@ -42,9 +42,9 @@ export const GovernmentTourData: Slide[] = [
     title: "Cultural Diplomacy",
     subtitle: "Official Delegations",
     description:
-      " Professional protocol support and cultural programming for government delegations, diplomatic missions, and high-level official visits promoting international cooperation.",
+      " Protocol and cultural support for delegations, missions, and official visits to foster international cooperation",
     primaryLink: { href: "#tours", text: "Explore Tours" },
-    secondaryLink: { href: "/contact", text: "Book a Heritage Tour" },
+    secondaryLink: { href: "/contact", text: "Book a Tour" },
   },
   {
     image: "/government-delegation/government-delegation-slide8.png",
@@ -52,9 +52,9 @@ export const GovernmentTourData: Slide[] = [
     title: "Cultural Diplomacy",
     subtitle: "Official Delegations",
     description:
-      " Professional protocol support and cultural programming for government delegations, diplomatic missions, and high-level official visits promoting international cooperation.",
+      " Protocol and cultural support for delegations, missions, and official visits to foster international cooperation",
     primaryLink: { href: "#tours", text: "Explore Tours" },
-    secondaryLink: { href: "/contact", text: "Book a Heritage Tour" },
+    secondaryLink: { href: "/contact", text: "Book a Tour" },
   },
   {
     image: "/government-delegation/government-delegation-slide16.png",
@@ -62,8 +62,8 @@ export const GovernmentTourData: Slide[] = [
     title: "Cultural Diplomacy",
     subtitle: "Official Delegations",
     description:
-      " Professional protocol support and cultural programming for government delegations, diplomatic missions, and high-level official visits promoting international cooperation.",
+      " Protocol and cultural support for delegations, missions, and official visits to foster international cooperation",
     primaryLink: { href: "#tours", text: "Explore Tours" },
-    secondaryLink: { href: "/contact", text: "Book a Heritage Tour" },
+    secondaryLink: { href: "/contact", text: "Book a Tour" },
   },
 ];

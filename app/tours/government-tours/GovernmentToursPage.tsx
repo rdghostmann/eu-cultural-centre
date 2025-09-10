@@ -183,7 +183,7 @@ export default function GovernmentToursPage() {
             </section>
 
             {/* Services Section */}
-            <section id="services" className="py-20" ref={servicesRef}>
+            <section id="services" className="py-10" ref={servicesRef}>
                 <div className="container mx-auto ">
                     {/* Section Header */}
                     <motion.div
@@ -213,13 +213,13 @@ export default function GovernmentToursPage() {
                                     <CardHeader>
                                         <div className="flex items-center space-x-3 mb-3">
                                             <motion.div
-                                                className="p-3 bg-ecc-blue/10 rounded-lg text-ecc-blue"
+                                                className="p-3 bg-blue/10 rounded-lg text-blue-500"
                                                 whileHover={{ scale: 1.1, rotate: 360 }}
                                                 transition={{ duration: 0.5, ease: "easeInOut" }}
                                             >
                                                 {service.icon}
                                             </motion.div>
-                                            <CardTitle className="text-xl text-ecc-slate">{service.title}</CardTitle>
+                                            <CardTitle className="text-xl text-slate-600">{service.title}</CardTitle>
                                         </div>
                                         <CardDescription className="text-gray-600">{service.description}</CardDescription>
                                     </CardHeader>
@@ -238,7 +238,7 @@ export default function GovernmentToursPage() {
                                                     variants={staggerItem}
                                                 >
                                                     <motion.div
-                                                        className="w-2 h-2 bg-ecc-green rounded-full"
+                                                        className="w-2 h-2 bg-green-500 rounded-full"
                                                         whileHover={{ scale: 1.5 }}
                                                     />
                                                     <span className="text-sm text-gray-600">{feature}</span>

@@ -262,10 +262,6 @@ export default function SchoolExchangePage() {
                 secondaryLabel="Get Information"
                 secondaryHref="/contact"
             />
-
-
-
-
         </div>
     )
 }

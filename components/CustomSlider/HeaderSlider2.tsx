@@ -85,7 +85,7 @@ export default function HeaderSlider2({
       >
         {slide.badge && (
           <motion.div variants={staggerItem}>
-            <Badge className="hidden mb-4 bg-white/20 text-white border-white/30 shadow-lg backdrop-blur-sm">
+            <Badge className="mb-4 bg-white/20 text-white border-white/30 shadow-lg backdrop-blur-sm">
               {slide.badge}
             </Badge>
           </motion.div>
@@ -93,7 +93,7 @@ export default function HeaderSlider2({
 
         <motion.h1
           variants={staggerItem}
-          className="text-xl sm:text-3xl font-extrabold mb-4 leading-tight text-[#68b684] drop-shadow-[0_8px_32px_rgba(0,0,0,0.7)]"
+          className="text-xl sm:text-2xl font-extrabold mb-4 leading-tight text-[#68b684] drop-shadow-[0_8px_32px_rgba(0,0,0,0.7)]"
         >
           {slide.title}
         </motion.h1>
@@ -109,14 +109,14 @@ export default function HeaderSlider2({
 
         {/* Links */}
         <motion.div
-          className="flex flex-col sm:flex-row gap-4 justify-center"
+          className="flex gap-4 justify-center"
           variants={staggerItem}
         >
           {slide.primaryLink && (
             <motion.div whileHover={hoverScale} whileTap={{ scale: 0.95 }}>
               <Button
                 asChild
-                size="lg"
+                size="sm"
                 className="bg-[#68b684] hover:bg-[#205375] text-white font-semibold shadow-lg"
               >
                 <Link href={slide.primaryLink.href}>
@@ -131,7 +131,7 @@ export default function HeaderSlider2({
             <motion.div whileHover={hoverScale} whileTap={{ scale: 0.95 }}>
               <Button
                 asChild
-                size="lg"
+                size="sm"
                 variant="outline"
                 className="text-white hover:bg-white hover:text-[#B38C49] bg-[#B38C49] font-semibold shadow"
               >
