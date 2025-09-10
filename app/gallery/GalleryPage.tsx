@@ -42,7 +42,7 @@ export default function GalleryPage() {
   return (
     <div className="p-6">
       <h1 className="text-2xl md:text-3xl font-bold mb-6 text-center">
-        Gallery
+        Gallery & Events
       </h1>
 
       {/* Gallery Grid */}

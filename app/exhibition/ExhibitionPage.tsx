@@ -7,10 +7,10 @@ import HeaderSlider2 from "@/components/CustomSlider/HeaderSlider2";
 import { ExhibitionPageCarouselData } from "@/lib/ExhibitionPageCarouselData";
 
 const images = [
-  { id: 1, src: "/cultural/IMG-20250815-WA0055.jpg", title: "Cultural Dance" },
-  { id: 2, src: "/cultural/IMG-20250815-WA0056.jpg", title: "Cultural Dance" },
-  { id: 3, src: "/cultural/IMG-20250815-WA0081.jpg", title: "Cultural Dance" },
-  { id: 4, src: "/cultural/IMG-20250815-WA0085.jpg", title: "Cultural Dance" },
+  { id: 1, src: "/culture/culture-slider1.png", title: "Cultural Dance" },
+  { id: 2, src: "/culture/culture-slider3.png", title: "Cultural Dance" },
+  { id: 3, src: "/culture/culture-slider5.png", title: "Cultural Dance" },
+  { id: 4, src: "/culture/culture-slider6.png", title: "Cultural Dance" },
 
 ];
 
