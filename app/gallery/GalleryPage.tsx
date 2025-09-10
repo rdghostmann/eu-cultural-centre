@@ -23,31 +23,18 @@ const images = [
   { id: 16, src: "/humanitarian/humanitarian-slide1.png", title: "Humanitarian" },
 ];
 
-// Fisher-Yates shuffle
-function shuffleArray<T>(array: T[]): T[] {
-  const arr = [...array];
-  for (let i = arr.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [arr[i], arr[j]] = [arr[j], arr[i]];
-  }
-  return arr;
-}
-
 export default function GalleryPage() {
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
-
-  // Shuffle images on each render
-  const shuffledImages = shuffleArray(images);
 
   return (
     <div className="p-6">
       <h1 className="text-2xl md:text-3xl font-bold mb-6 text-center">
-        Gallery & Events
+        Gallery
       </h1>
 
       {/* Gallery Grid */}
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-        {shuffledImages.map((image, index) => (
+        {images.map((image, index) => (
           <div
             key={image.id}
             className="relative cursor-pointer group"
@@ -68,10 +55,10 @@ export default function GalleryPage() {
         ))}
       </div>
 
-     {/* Overlay PictureFrame */}
+      {/* Overlay PictureFrame */}
       {activeIndex !== null && (
         <PictureFrame
-          images={shuffledImages}
+          images={images}
           activeIndex={activeIndex}
           setActiveIndex={setActiveIndex}
         />
