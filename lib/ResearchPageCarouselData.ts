@@ -17,9 +17,9 @@ export type Slide = {
 
 export const ResearchPageCarouselData: Slide[] = [
   {
-    image: "/images/research1.jpg",
+    image: "/research/research1.png",
     badge: "Creative & Cultural Research",
-    title: "Advancing Knowledge,",
+    title: "Advancing Knowledge",
     subtitle: "Through Research",
     description:
       "Research and innovation that strengthens cultural sectors, informs policy decisions, and creates evidence-based solutions for cooperation between Europe and Africa.",
@@ -27,9 +27,9 @@ export const ResearchPageCarouselData: Slide[] = [
     secondaryLink: { href: "/contact", text: "Collaborate With Us" },
   },
   {
-    image: "/images/research2.jpg",
-       badge: "Creative & Cultural Research",
-    title: "Advancing Knowledge,",
+    image: "/research/research2.png",
+    badge: "Creative & Cultural Research",
+    title: "Advancing Knowledge",
     subtitle: "Through Research",
     description:
       "Research and innovation that strengthens cultural sectors, informs policy decisions, and creates evidence-based solutions for cooperation between Europe and Africa.",
@@ -37,27 +37,27 @@ export const ResearchPageCarouselData: Slide[] = [
     secondaryLink: { href: "/contact", text: "Collaborate With Us" },
   },
   {
-    image: "/images/research3.jpg",
-     badge: "Creative & Cultural Research",
-    title: "Advancing Knowledge,",
+    image: "/research/research3.png",
+    badge: "Creative & Cultural Research",
+    title: "Advancing Knowledge",
     subtitle: "Through Research",
     description:
       "Research and innovation that strengthens cultural sectors, informs policy decisions, and creates evidence-based solutions for cooperation between Europe and Africa.",
     primaryLink: { href: "#programs", text: "Explore Research" },
     secondaryLink: { href: "/contact", text: "Collaborate With Us" },
   },
+  {
+    image: "/research/research4.png",
+    badge: "Creative & Cultural Research",
+    title: "Advancing Knowledge",
+    subtitle: "Shared History",
+    description:
+      "Research that safeguards cultural heritage while promoting innovation in conservation methods.",
+    primaryLink: { href: "#programs", text: "View Projects" },
+    secondaryLink: { href: "/contact", text: "Join Efforts" },
+  },
   // {
-  //   image: "/images/research4.jpg",
-  //   badge: "Heritage & Preservation",
-  //   title: "Protecting,",
-  //   subtitle: "Shared History",
-  //   description:
-  //     "Research that safeguards cultural heritage while promoting innovation in conservation methods.",
-  //   primaryLink: { href: "#programs", text: "View Projects" },
-  //   secondaryLink: { href: "/contact", text: "Join Efforts" },
-  // },
-  // {
-  //   image: "/images/research5.jpg",
+  //   image: "/research/research5.jpg",
   //   badge: "Innovation & Culture",
   //   title: "Researching,",
   //   subtitle: "Future Solutions",
@@ -67,7 +67,7 @@ export const ResearchPageCarouselData: Slide[] = [
   //   secondaryLink: { href: "/contact", text: "Collaborate" },
   // },
   // {
-  //   image: "/images/research6.jpg",
+  //   image: "/research/research6.jpg",
   //   badge: "Youth & Education",
   //   title: "Empowering Youth,",
   //   subtitle: "Through Knowledge",
@@ -77,7 +77,7 @@ export const ResearchPageCarouselData: Slide[] = [
   //   secondaryLink: { href: "/contact", text: "Get Involved" },
   // },
   // {
-  //   image: "/images/research7.jpg",
+  //   image: "/research/research7.jpg",
   //   badge: "Cross-Border Studies",
   //   title: "Connecting Regions,",
   //   subtitle: "Through Data",
@@ -87,7 +87,7 @@ export const ResearchPageCarouselData: Slide[] = [
   //   secondaryLink: { href: "/contact", text: "Collaborate" },
   // },
   // {
-  //   image: "/images/research8.jpg",
+  //   image: "/research/research8.jpg",
   //   badge: "Social Innovation",
   //   title: "Culture,",
   //   subtitle: "As a Solution",
@@ -97,7 +97,7 @@ export const ResearchPageCarouselData: Slide[] = [
   //   secondaryLink: { href: "/contact", text: "Support Research" },
   // },
   // {
-  //   image: "/images/research9.jpg",
+  //   image: "/research/research9.jpg",
   //   badge: "Knowledge Sharing",
   //   title: "Research,",
   //   subtitle: "Made Accessible",
@@ -107,7 +107,7 @@ export const ResearchPageCarouselData: Slide[] = [
   //   secondaryLink: { href: "/contact", text: "Publish With Us" },
   // },
   // {
-  //   image: "/images/research10.jpg",
+  //   image: "/research/research10.jpg",
   //   badge: "Global Cooperation",
   //   title: "Knowledge,",
   //   subtitle: "Without Borders",
