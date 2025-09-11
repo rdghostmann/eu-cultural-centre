@@ -1,3 +1,4 @@
+// app/(legal)/video-page/VideoPage.tsx
 "use client"
 
 import { motion } from "framer-motion"
@@ -8,45 +9,67 @@ import Link from "next/link"
 import { fadeInUp, staggerContainer, staggerItem } from "@/lib/animations"
 import { useScrollAnimation } from "@/hooks/use-scroll-animation"
 
-const videos = [
+type Video = {
+  title: string
+  description: string
+  src: string
+  type: string
+}
+
+const videos: Video[] = [
   {
     title: "Cultural Festival Highlights",
     description: "Experience the best moments from our annual cultural festival.",
-    src: "https://www.youtube.com/embed/ScMzIvxBSi4",
+    src: "/videos/video-1.mp4",
     type: "Festival",
   },
   {
     title: "Traditional Dance Showcase",
     description: "A look into Africa’s rich dance heritage performed live.",
-    src: "https://www.youtube.com/embed/tgbNymZ7vqY",
+    src: "/videos/video-2.mp4",
     type: "Dance",
   },
   {
     title: "Heritage Documentary",
     description: "Preserving cultural sites through film and storytelling.",
-    src: "https://www.youtube.com/embed/lTTajzrSkCw",
+    src: "/videos/video-3.mp4",
     type: "Documentary",
   },
   {
     title: "Music Fusion Concert",
     description: "Bringing together traditional and contemporary soundscapes.",
-    src: "https://www.youtube.com/embed/kXYiU_JCYtU",
+    src: "/videos/video-4.mp4",
     type: "Music",
   },
   {
     title: "Art Exhibition Tour",
     description: "A walk-through of our latest visual arts exhibition.",
-    src: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    src: "/videos/video-5.mp4",
     type: "Exhibition",
   },
 ]
+
+// Simple reusable video embed
+function VideoEmbed({ src, title }: { src: string; title: string }) {
+  return (
+    <video
+      className="w-full h-full object-cover rounded-lg"
+      controls
+      preload="metadata"
+      aria-label={title}
+    >
+      <source src={src} type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  )
+}
 
 export default function VideoPage() {
   const { ref: videosRef, isInView: videosInView } = useScrollAnimation()
 
   return (
     <div className="flex flex-col overflow-hidden">
-      {/* Hero */}
+      {/* Hero Section */}
       <section className="relative py-20 bg-gradient-to-br from-purple-700 via-pink-600 to-rose-600 text-white text-center">
         <motion.h1
           className="text-4xl lg:text-5xl font-bold mb-6"
@@ -94,13 +117,7 @@ export default function VideoPage() {
                   </CardHeader>
                   <CardContent className="space-y-4">
                     <div className="mb-5 relative aspect-video rounded-lg overflow-hidden shadow">
-                      <iframe
-                        src={video.src}
-                        title={video.title}
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowFullScreen
-                        className="w-full h-full"
-                      ></iframe>
+                      <VideoEmbed src={video.src} title={video.title} />
                     </div>
                     <Link className="hidden" href="/contact">
                       <Button className="w-full bg-purple-600 hover:bg-purple-700">Get Involved</Button>

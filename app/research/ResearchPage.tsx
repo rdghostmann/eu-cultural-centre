@@ -1,3 +1,4 @@
+// ResearchPage.tsx
 "use client"
 import { useState } from "react"
 
@@ -102,7 +103,7 @@ const articles = [
     title: "Digital Heritage in Africa",
     subtitle: "Opportunities and Challenges",
     authors: "Judith Ifezue & Prof. John Smith",
-    publication: "Unpublished Research • 2025",
+    publication: "Int'l Journal of Cultural Heritage • 2025",
     file: "/pdfs/digital-heritage.pdf",
   },
   {
