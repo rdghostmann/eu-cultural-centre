@@ -17,7 +17,7 @@ export type Slide = {
 
 export const EnvironmentPageCarouselData: Slide[] = [
   {
-    image: "/sample/banner-1.png",
+    image: "/climate-change/climate-change.png",
     badge: "Environment & Climate Action",
     title: "Building Sustainable Future",
     subtitle: "Sustainable Future",
@@ -27,17 +27,47 @@ export const EnvironmentPageCarouselData: Slide[] = [
     secondaryLink: { href: "/contact", text: "Join the Movement" },
   },
   {
-    image: "/sample/banner-2.png",
-    badge: "Renewable Energy",
-    title: "Clean Energy For All",
-    subtitle: "For All",
+    image: "/climate-change/climate-change2.png",
+    badge: "Environment & Climate Action",
+    title: "Building Sustainable Future",
+    subtitle: "Sustainable Future",
     description:
-      "Promoting solar, wind, and renewable energy solutions across communities.",
-    primaryLink: { href: "#programs", text: "Support Clean Energy" },
-    secondaryLink: { href: "/contact", text: "Learn More" },
+      "Climate education and action programs for a greener, more sustainable world.",
+    primaryLink: { href: "#programs", text: "Support Conservation" },
+    secondaryLink: { href: "/contact", text: "Join the Movement" },
+  },
+  {
+    image: "/climate-change/climate-change1.png",
+    badge: "Environment & Climate Action",
+    title: "Building Sustainable Future",
+    subtitle: "Sustainable Future",
+    description:
+      "Climate education and action programs for a greener, more sustainable world.",
+    primaryLink: { href: "#programs", text: "Explore Programs" },
+    secondaryLink: { href: "/contact", text: "Join the Movement" },
+  },
+  {
+    image: "/climate-change/climate-change4.png",
+    badge: "Environment & Climate Action",
+    title: "Building Sustainable Future",
+    subtitle: "Sustainable Future",
+    description:
+      "Climate education and action programs for a greener, more sustainable world.",
+    primaryLink: { href: "#programs", text: "Start Learning" },
+    secondaryLink: { href: "/contact", text: "Join the Movement" },
+  },
+  {
+    image: "/climate-change/climate-change5.png",
+    badge: "Environment & Climate Action",
+    title: "Building Sustainable Future",
+    subtitle: "Sustainable Future",
+    description:
+      "Climate education and action programs for a greener, more sustainable world.",
+    primaryLink: { href: "#programs", text: "Explore Programs" },
+    secondaryLink: { href: "/contact", text: "Join the Movement" },
   },
   // {
-  //   image: "/sample/banner-2.png",
+  //   image: "/climate-change/banner-2.png",
   //   badge: "Climate Education",
   //   title: "Learn Green,",
   //   subtitle: "Act Green",
