@@ -33,7 +33,7 @@ export const HumanitarianPageCarouselData: Slide[] = [
     subtitle: "Through Care",
     description:
       "Delivering health services, nutrition programs, and medical support to ensure the well-being of at-risk populations worldwide.",
-    primaryLink: { href: "#health", text: "Learn More" },
+    primaryLink: { href: "#programs", text: "Learn More" },
     secondaryLink: { href: "/contact", text: "Volunteer Today" },
   },
   {
@@ -43,7 +43,7 @@ export const HumanitarianPageCarouselData: Slide[] = [
     subtitle: "In Emergencies",
     description:
       "Ensuring children and young people in crisis have access to safe learning environments, protection, and hope for the future.",
-    primaryLink: { href: "#education", text: "See Initiatives" },
+    primaryLink: { href: "#programs", text: "See Initiatives" },
     secondaryLink: { href: "/contact", text: "Donate Now" },
   },
   {
@@ -53,7 +53,7 @@ export const HumanitarianPageCarouselData: Slide[] = [
     subtitle: "To Resilience",
     description:
       "Building long-term resilience by supporting livelihoods, community rebuilding, and sustainable recovery programs.",
-    primaryLink: { href: "#resilience", text: "Discover More" },
+    primaryLink: { href: "#programs", text: "Discover More" },
     secondaryLink: { href: "/contact", text: "Partner With Us" },
   },
 ];

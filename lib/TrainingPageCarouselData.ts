@@ -33,7 +33,7 @@ export const TrainingPageCarouselData: Slide[] = [
     subtitle: "Skill Sets",
     description:
       "Practical workshops and hands-on courses designed to equip learners with 21st-century skills for career growth and global opportunities.",
-    primaryLink: { href: "#workshops", text: "Join Workshops" },
+    primaryLink: { href: "#programs", text: "Join Workshops" },
     secondaryLink: { href: "/contact", text: "Enroll Now" },
   },
   {
@@ -43,7 +43,7 @@ export const TrainingPageCarouselData: Slide[] = [
     subtitle: "Transform Communities",
     description:
       "From leadership training to digital innovation, our programs focus on creating change-makers who drive sustainable development worldwide.",
-    primaryLink: { href: "#impact", text: "See Impact" },
+    primaryLink: { href: "#programs", text: "See Impact" },
     secondaryLink: { href: "/contact", text: "Register Today" },
   },
   {
@@ -53,7 +53,7 @@ export const TrainingPageCarouselData: Slide[] = [
     subtitle: "Across Borders",
     description:
       "Cross-cultural training and international capacity-building initiatives that prepare participants for opportunities in Europe and Africa.",
-    primaryLink: { href: "#opportunities", text: "Discover More" },
+    primaryLink: { href: "#programs", text: "Discover More" },
     secondaryLink: { href: "/contact", text: "Apply Now" },
   },
 ];

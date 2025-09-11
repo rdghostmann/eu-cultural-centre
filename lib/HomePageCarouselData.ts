@@ -65,7 +65,7 @@ export const HomePageCarouselData: Slide[] = [
     title: "Knowledge For All",
     subtitle: "Global Learning",
     description: "Supporting cultural education that empowers communities and individuals worldwide.",
-    primaryLink: { href: "/education", text: "Our Work" },
+    primaryLink: { href: "/#programs", text: "Our Work" },
     secondaryLink: { href: "/about", text: "Learn More" },
   },
   // {

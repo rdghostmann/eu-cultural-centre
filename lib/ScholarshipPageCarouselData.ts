@@ -23,8 +23,8 @@ export const ScholarshipPageCarouselData: Slide[] = [
     subtitle: "By ECC Nigeria",
     description:
       "Unlocking access to education and empowering future leaders through scholarships and grants.",
-    primaryLink: { href: "/apply", text: "Apply Now" },
-    secondaryLink: { href: "/about", text: "Learn More" },
+    primaryLink: { href: "/#programs", text: "Apply Now" },
+    secondaryLink: { href: "/contact", text: "Learn More" },
   },
   {
     image: "/sample/banner-1.png",
@@ -33,7 +33,7 @@ export const ScholarshipPageCarouselData: Slide[] = [
     subtitle: "Young Scholars",
     description:
       "Providing financial aid and opportunities for undergraduate students to pursue higher education.",
-    primaryLink: { href: "/apply", text: "Start Application" },
+    primaryLink: { href: "/#programs", text: "Start Application" },
     secondaryLink: { href: "/contact", text: "Get Guidance" },
   },
   // {

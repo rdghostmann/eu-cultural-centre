@@ -3,6 +3,9 @@
 import * as React from "react"
 import { motion } from "framer-motion"
 import Image from "next/image"
+import { Button } from "../ui/button"
+import Link from "next/link"
+import { ArrowRight, Handshake } from "lucide-react"
 
 const partners = [
   { name: "IMG-20250815-WA0216", logo: "/partners/IMG-20250815-WA0216.jpg", link: "#" },
@@ -73,6 +76,13 @@ const Partners = () => {
               />
             </motion.a>
           ))}
+        </div>
+        <div className="mt-12 text-center">
+          <Button asChild size="lg" variant="outline" className="border-[#205375] text-[#fff] hover:bg-[#205375] hover:text-white bg-[#205375] font-semibold shadow">
+            <Link href="/contact">
+             <Handshake className="mr-2 h-5 w-5" /> Become a Partner 
+            </Link>
+          </Button>
         </div>
       </div>
     </section>

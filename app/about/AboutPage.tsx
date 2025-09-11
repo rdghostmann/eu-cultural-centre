@@ -146,7 +146,7 @@ export default function AboutPage() {
 			<HeaderSlider images={AboutPageCarouselData} />
 
 			{/* Mission, Vision, Impact */}
-			<section className="py-20 bg-gradient-to-br from-[#f8fafc] via-[#e0e7ef] to-[#dbeafe]">
+			<section id="about-us" className="py-20 bg-gradient-to-br from-[#f8fafc] via-[#e0e7ef] to-[#dbeafe]">
 				<div className="container mx-auto p-5">
 					<motion.div
 						// className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-16 px-4 lg:px-10"

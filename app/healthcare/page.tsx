@@ -1,4 +1,4 @@
-import HealthcarePage from "./HealthcardPage";
+import HealthcarePage from "./HealthcarePage";
 
 export default function page(){
 
