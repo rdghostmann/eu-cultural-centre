@@ -42,7 +42,7 @@ export const ContactPageCarouselData: Slide[] = [
     secondaryLink: { href: "/about", text: "Get Involved" },
   },
   {
-    image: "/contact-us/contact-us-4.png",
+    image: "/contact-us/contact-us-3.png",
     badge: "Join Our Community",
     title: "Stay Connected,",
     subtitle: "Be Part Of ECC",
