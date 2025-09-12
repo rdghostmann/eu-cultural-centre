@@ -11,7 +11,7 @@ import { fadeInUp, staggerContainer, staggerItem } from "@/lib/animations"
 import { useScrollAnimation } from "@/hooks/use-scroll-animation"
 import CTASection from "@/components/CTASection/CTASection"
 import HeaderSlider2 from "@/components/CustomSlider/HeaderSlider2"
-import { BannerCarouseldata } from "@/lib/BannerCarousel"
+import { GrantSourcingCarouselData } from "@/lib/GrantSourcingCarouselData"
 
 const grantSourcingPrograms = [
   {
@@ -67,7 +67,7 @@ export default function GrantSourcingPage() {
   return (
     <div className="flex flex-col overflow-hidden">
       {/* Hero Section */}
-      <HeaderSlider2 images={BannerCarouseldata} />
+      <HeaderSlider2 images={GrantSourcingCarouselData} />
 
       {/* Grant Sourcing Programs */}
       <section id="programs" className="mt-10 py-20" ref={programsRef}>
