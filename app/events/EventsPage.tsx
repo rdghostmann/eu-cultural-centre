@@ -1,3 +1,5 @@
+// EventsPage.tsx
+
 "use client"
 
 import { motion } from "framer-motion"
@@ -6,10 +8,11 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge"
 import Link from "next/link"
 import { ArrowRight, Calendar, MapPin, Clock, Users, Filter } from "lucide-react"
-import { fadeInUp, staggerContainer, staggerItem, hoverScale, hoverLift } from "@/lib/animations"
+import { fadeInUp, staggerContainer, staggerItem } from "@/lib/animations"
 import { useScrollAnimation } from "@/hooks/use-scroll-animation"
 import HeaderSlider2 from "@/components/CustomSlider/HeaderSlider2"
 import { EventsPageCarouselData } from "@/lib/EventsPageCarouselData"
+import { useState, useMemo } from "react"
 
 const upcomingEvents = [
   {
@@ -83,15 +86,26 @@ const upcomingEvents = [
   },
 ]
 
-const eventCategories = [
-  { name: "All Events", count: 6, active: true },
-  { name: "Cultural Festivals", count: 1, active: false },
-  { name: "Educational", count: 1, active: false },
-  { name: "Sports", count: 1, active: false },
-  { name: "Innovation", count: 1, active: false },
-  { name: "Arts", count: 1, active: false },
-  { name: "Diplomacy", count: 1, active: false },
-]
+// Compute category counts dynamically
+const computeCategories = () => {
+  const categories = [
+    { name: "All Events", key: "all" },
+    { name: "Cultural Festivals", key: "Cultural Festival" },
+    { name: "Educational", key: "Educational Workshop" },
+    { name: "Sports", key: "Sports Event" },
+    { name: "Innovation", key: "Innovation Conference" },
+    { name: "Arts", key: "Art Exhibition" },
+    { name: "Diplomacy", key: "Diplomatic Forum" },
+  ]
+
+  return categories.map((cat) => ({
+    ...cat,
+    count:
+      cat.key === "all"
+        ? upcomingEvents.length
+        : upcomingEvents.filter((event) => event.type === cat.key).length,
+  }))
+}
 
 export default function EventsPage() {
   const { ref: heroRef, isInView: heroInView } = useScrollAnimation()
@@ -99,60 +113,17 @@ export default function EventsPage() {
   const hoverScale = { scale: 1.05 }
   const hoverLift = { y: -5, scale: 1.05 }
 
+  const [activeCategory, setActiveCategory] = useState("all")
+  const eventCategories = useMemo(() => computeCategories(), [])
+
+  const filteredEvents =
+    activeCategory === "all"
+      ? upcomingEvents
+      : upcomingEvents.filter((event) => event.type === activeCategory)
+
   return (
     <div className="flex flex-col overflow-hidden">
       {/* Hero Section */}
-      <section
-        className="hidden h-[calc(100vh - 100px )] relative py-20"
-        style={{ background: "linear-gradient(135deg, #205375 0%, #68b684 100%)" }}
-      >
-        <motion.div
-          className="absolute inset-0 bg-black/30"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 1 }}
-        />
-        <div className="container relative mx-auto z-10" ref={heroRef}>
-          <motion.div
-            className="max-w-4xl mx-auto text-center px-5"
-            variants={staggerContainer}
-            initial="hidden"
-            animate={heroInView ? "visible" : "hidden"}
-          >
-            <motion.div variants={staggerItem}>
-              <Badge className="mb-6 bg-white/20 text-white border-white/30 shadow-lg backdrop-blur-sm">
-                Events & Calendar
-              </Badge>
-            </motion.div>
-            <motion.h1 className="text-4xl lg:text-5xl font-bold mb-6 drop-shadow-[0_8px_32px_rgba(0,0,0,0.7)]" variants={staggerItem}>
-              Discover Amazing Cultural Events
-            </motion.h1>
-            <motion.p className="text-xl mb-8 text-blue-100 max-w-3xl mx-auto" variants={staggerItem}>
-              Join us for exciting cultural festivals, educational workshops, sports tournaments, and diplomatic forums
-              that bring communities together across continents.
-            </motion.p>
-            <motion.div className="flex flex-col sm:flex-row gap-4 justify-center" variants={staggerItem}>
-              <motion.div whileHover={hoverScale} whileTap={{ scale: 0.95 }}>
-                <Button asChild size="lg" className="bg-[#68b684] hover:bg-[#205375] text-white font-semibold shadow-lg">
-                  <Link href="#events">
-                    Browse Events <ArrowRight className="ml-2 h-5 w-5" />
-                  </Link>
-                </Button>
-              </motion.div>
-              <motion.div whileHover={hoverScale} whileTap={{ scale: 0.95 }}>
-                <Button
-                  asChild
-                  size="lg"
-                  variant="outline"
-                  className="border-white text-white hover:bg-white hover:text-[#205375] bg-transparent font-semibold shadow"
-                >
-                  <Link href="/contact">Host an Event</Link>
-                </Button>
-              </motion.div>
-            </motion.div>
-          </motion.div>
-        </div>
-      </section>
       <HeaderSlider2 images={EventsPageCarouselData} />
 
       {/* Event Categories Filter */}
@@ -168,9 +139,14 @@ export default function EventsPage() {
             {eventCategories.map((category, index) => (
               <motion.div key={index} variants={staggerItem} whileHover={hoverScale}>
                 <Button
-                  variant={category.active ? "default" : "outline"}
+                  onClick={() => setActiveCategory(category.key)}
+                  variant={activeCategory === category.key ? "default" : "outline"}
                   size="sm"
-                  className={category.active ? "bg-[#205375] text-white hover:bg-[#68b684]" : "border-[#68b684] text-[#205375] hover:bg-[#68b684]/10"}
+                  className={
+                    activeCategory === category.key
+                      ? "bg-[#205375] text-white hover:bg-[#68b684]"
+                      : "border-[#68b684] text-[#205375] hover:bg-[#68b684]/10"
+                  }
                 >
                   <Filter className="h-4 w-4 mr-2" />
                   {category.name} ({category.count})
@@ -193,7 +169,9 @@ export default function EventsPage() {
             initial="hidden"
             animate={eventsInView ? "visible" : "hidden"}
           >
-            <h2 className="text-3xl lg:text-4xl font-bold text-white mb-4 drop-shadow-[0_4px_16px_rgba(0,0,0,0.7)]">Upcoming Events</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold text-white mb-4 drop-shadow-[0_4px_16px_rgba(0,0,0,0.7)]">
+              Upcoming Events
+            </h2>
             <p className="text-xl text-gray-200 max-w-3xl mx-auto">
               Don't miss out on these exciting opportunities to connect, learn, and celebrate cultural diversity.
             </p>
@@ -204,7 +182,7 @@ export default function EventsPage() {
             initial="hidden"
             animate={eventsInView ? "visible" : "hidden"}
           >
-            {upcomingEvents.map((event, index) => (
+            {filteredEvents.map((event, index) => (
               <motion.div key={index} variants={staggerItem} whileHover={hoverLift}>
                 <Card className="h-full overflow-hidden bg-[#1a2332]/80 border border-[#205375]/40 rounded-2xl shadow-xl backdrop-blur-md hover:bg-[#68b684]/10 hover:border-[#68b684]">
                   <motion.div
@@ -221,12 +199,12 @@ export default function EventsPage() {
                           event.status === "Open Registration"
                             ? "default"
                             : event.status === "Early Bird"
-                              ? "secondary"
-                              : event.status === "Limited Spots"
-                                ? "destructive"
-                                : event.status === "Invitation Only"
-                                  ? "outline"
-                                  : "default"
+                            ? "secondary"
+                            : event.status === "Limited Spots"
+                            ? "destructive"
+                            : event.status === "Invitation Only"
+                            ? "outline"
+                            : "default"
                         }
                       >
                         {event.status}
@@ -260,8 +238,8 @@ export default function EventsPage() {
                           {event.status === "Free Entry"
                             ? "Learn More"
                             : event.status === "Invitation Only"
-                              ? "Request Invitation"
-                              : "Register Now"}
+                            ? "Request Invitation"
+                            : "Register Now"}
                         </Link>
                       </Button>
                     </motion.div>
@@ -269,50 +247,6 @@ export default function EventsPage() {
                 </Card>
               </motion.div>
             ))}
-          </motion.div>
-        </div>
-      </section>
-
-
-      {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-br from-[#f8fafc] via-[#e0e7ef] to-[#dbeafe] text-[#205375]">
-        <div className="container mx-auto text-center">
-          <motion.div
-            className="px-5"
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.8 }}
-          >
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Don't Miss Out!</h2>
-            <p className="text-xl mb-8 text-[#68b684] max-w-2xl mx-auto">
-              Stay updated with our latest events and be the first to know about new opportunities to connect and learn.
-            </p>
-            <motion.div
-              className="flex flex-col sm:flex-row gap-4 justify-center"
-              variants={staggerContainer}
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true }}
-            >
-              <motion.div variants={staggerItem} whileHover={hoverScale} whileTap={{ scale: 0.95 }}>
-                <Button asChild size="lg" className="bg-[#68b684] hover:bg-[#205375] text-white font-semibold">
-                  <Link href="/contact">
-                    Subscribe to Updates <ArrowRight className="ml-2 h-5 w-5" />
-                  </Link>
-                </Button>
-              </motion.div>
-              <motion.div variants={staggerItem} whileHover={hoverScale} whileTap={{ scale: 0.95 }}>
-                <Button
-                  asChild
-                  size="lg"
-                  variant="outline"
-                  className="border-[#205375] text-[#205375] hover:bg-[#68b684]/10 bg-transparent font-semibold"
-                >
-                  <Link href="/contact">Propose an Event</Link>
-                </Button>
-              </motion.div>
-            </motion.div>
           </motion.div>
         </div>
       </section>

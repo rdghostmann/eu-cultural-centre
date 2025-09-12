@@ -3,76 +3,58 @@
 
 import { useMemo } from "react";
 
-const LANGUAGES = {
-  nigeria: [
-    "English",
-    "Hausa",
-    "Yoruba",
-    "Igbo",
-    "Fulfulde",
-    "Kanuri",
-    "Tiv",
-    "Ibibio",
-    "Ijaw",
-    "Edo",
-  ],
-  sign: ["Signed Language"],
-  africa: [
-    "Swahili",
-    "Arabic",
-    "French",
-    "English",
-    "Hausa",
-    "Yoruba",
-    "Amharic",
-    "Oromo",
-    "Shona",
-    "Zulu",
-  ],
-  europe: [
-    "English",
-    "Russian",
-    "German",
-    "French",
-    "Italian",
-    "Spanish",
-    "Turkish",
-    "Ukrainian",
-    "Polish",
-    "Romanian",
-    "Dutch",
-    "Greek",
-    "Portuguese",
-    "Czech",
-    "Hungarian",
-    "Swedish",
-    "Bulgarian",
-    "Serbian",
-    "Danish",
-    "Finnish",
-  ],
-  america: [
-    "English",
-    "Spanish",
-    "Portuguese",
-    "French",
-    "Dutch",
-  ],
-  asia: [
-    "Mandarin Chinese",
-    "Hindi",
-    "Arabic",
-    "Bengali",
-    "Japanese",
-    "Punjabi",
-    "Korean",
-    "Turkish",
-    "Vietnamese",
-    "Urdu",
-  ],
-};
+const LANGUAGES = [
+  // Nigeria
+  "English",
+  "Hausa",
+  "Yoruba",
+  "Igbo",
+  "Fulfulde",
+  "Kanuri",
+  "Tiv",
+  "Ibibio",
+  "Ijaw",
+  "Edo",
+  // Sign
+  "Signed Language",
+  // Africa (removed duplicates: English, Hausa, Yoruba already in Nigeria)
+  "Swahili",
+  "Arabic",
+  "French",
+  "Amharic",
+  "Oromo",
+  "Shona",
+  "Zulu",
+  // Europe (removed duplicates: English, French, Portuguese, Spanish, Arabic already used)
+  "Russian",
+  "German",
+  "Italian",
+  "Turkish",
+  "Ukrainian",
+  "Polish",
+  "Romanian",
+  "Dutch",
+  "Greek",
+  "Czech",
+  "Hungarian",
+  "Swedish",
+  "Bulgarian",
+  "Serbian",
+  "Danish",
+  "Finnish",
+  // America (removed duplicates: English, Spanish, Portuguese, French, Dutch already used)
+  // none left, skip
+  // Asia (removed duplicates: Arabic, Turkish already used)
+  "Mandarin Chinese",
+  "Hindi",
+  "Bengali",
+  "Japanese",
+  "Punjabi",
+  "Korean",
+  "Vietnamese",
+  "Urdu",
+];
 
-// Pastel HSL generator for chip colors
 function randomPastel(): string {
   const h = Math.floor(Math.random() * 360);
   const s = 65 + Math.random() * 15;
@@ -81,13 +63,12 @@ function randomPastel(): string {
 }
 
 export default function TopLanguagesPage() {
-  // Assign random pastel per language across all groups
-  const colors = useMemo(() => {
-    const all = Object.values(LANGUAGES).flat();
-    return all.map(() => randomPastel());
-  }, []);
+  // unique languages
+  const uniqueLangs = Array.from(new Set(LANGUAGES));
 
-  let colorIndex = 0;
+  const colors = useMemo(() => {
+    return uniqueLangs.map(() => randomPastel());
+  }, []);
 
   return (
     <main className="min-h-screen bg-gradient-to-b from-white to-slate-50">
@@ -108,65 +89,53 @@ export default function TopLanguagesPage() {
               World Languages Snapshot
             </h1>
             <p className="bg-slate-700 rounded-md py-1 px-2 mt-3 text-slate-100/90 text-center max-w-3xl">
-              A quick overview across Nigeria, Africa, Europe, Asia, and the Americas.
+              A quick overview of major spoken and signed languages worldwide.
             </p>
           </div>
         </div>
       </section>
 
-      {/* Sections */}
-      <section className="max-w-6xl mx-auto px-4 py-10 sm:py-14 space-y-12">
-        {Object.entries(LANGUAGES).map(([region, langs]) => (
-          <div key={region}>
-            <h2 className="text-lg sm:text-xl font-bold text-slate-800 mb-5 capitalize">
-              {region === "nigeria" && "Top 10 Languages in Nigeria"}
-              {region === "sign" && "Sign Language"}
-              {region === "africa" && "Top 10 Languages in Africa"}
-              {region === "europe" && "Top 20 Languages in Europe"}
-              {region === "america" && "Top 5 Languages in South & North America"}
-              {region === "asia" && "Top 10 Languages in Asia"}
-            </h2>
+      {/* Languages Grid */}
+      <section className="max-w-6xl mx-auto px-4 py-10 sm:py-14">
+        <h2 className="text-xl sm:text-2xl font-bold text-slate-800 mb-8 text-center">
+          Top Languages Around the World
+        </h2>
+        <div
+          className="
+            grid gap-3
+            grid-cols-2
+            sm:grid-cols-3
+            md:grid-cols-4
+            lg:grid-cols-5
+          "
+        >
+          {uniqueLangs.map((lang, i) => (
             <div
+              key={lang}
               className="
-                grid gap-3
-                grid-cols-2
-                sm:grid-cols-3
-                md:grid-cols-4
-                lg:grid-cols-5
+                group relative rounded-2xl border border-slate-200
+                bg-white shadow-sm overflow-hidden
+                hover:shadow-md transition-shadow
               "
             >
-              {langs.map((lang) => {
-                const bg = colors[colorIndex++];
-                return (
-                  <div
-                    key={lang}
-                    className="
-                      group relative rounded-2xl border border-slate-200
-                      bg-white shadow-sm overflow-hidden
-                      hover:shadow-md transition-shadow
-                    "
-                  >
-                    <div
-                      className="h-2 w-full"
-                      style={{ backgroundColor: bg }}
-                      aria-hidden
-                    />
-                    <div className="p-4 flex items-center justify-center">
-                      <span className="text-sm sm:text-base font-semibold text-slate-800 text-center leading-tight">
-                        {lang}
-                      </span>
-                    </div>
-                    <div
-                      className="pointer-events-none absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity"
-                      style={{ backgroundColor: `${bg}33` }}
-                      aria-hidden
-                    />
-                  </div>
-                );
-              })}
+              <div
+                className="h-2 w-full"
+                style={{ backgroundColor: colors[i] }}
+                aria-hidden
+              />
+              <div className="p-4 flex items-center justify-center">
+                <span className="text-sm sm:text-base font-semibold text-slate-800 text-center leading-tight">
+                  {lang}
+                </span>
+              </div>
+              <div
+                className="pointer-events-none absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity"
+                style={{ backgroundColor: `${colors[i]}33` }}
+                aria-hidden
+              />
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </section>
     </main>
   );

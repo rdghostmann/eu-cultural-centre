@@ -86,7 +86,7 @@ export default function LanguageCoursePage() {
           </motion.div>
 
           <motion.div
-            className="grid lg:grid-cols-2 gap-8 px-7"
+            className="grid sm:grid-cols-2 lg:grid-cols-2 gap-8 px-7"
             variants={staggerContainer}
             initial="hidden"
             animate={coursesInView ? "visible" : "hidden"}
