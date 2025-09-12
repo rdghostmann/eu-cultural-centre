@@ -17,7 +17,7 @@ export type Slide = {
 
 export const ExhibitionPageCarouselData: Slide[] = [
   {
-    image: "/exhibitions/exhibition6.png",
+    image: "/exhibitions/exhibition-1.png",
     badge: "Art & Exhibitions",
     title: "Celebrate Creativity,",
     subtitle: "Across Borders",
@@ -27,13 +27,53 @@ export const ExhibitionPageCarouselData: Slide[] = [
     secondaryLink: { href: "/contact", text: "Host an Exhibition" },
   },
   {
+    image: "/exhibitions/exhibition1.png",
+    badge: "Art & Exhibitions",
+    title: "Celebrate Creativity,",
+    subtitle: "Across Borders",
+    description:
+      "Explore international exhibitions that showcase the richness of African and European cultures.",
+    primaryLink: { href: "#programs", text: "Discover Sculptures" },
+    secondaryLink: { href: "/contact", text: "Host an Exhibition" },
+  },
+  {
+    image: "/exhibitions/exhibition4.png",
+    badge: "Art & Exhibitions",
+    title: "Celebrate Creativity,",
+    subtitle: "Across Borders",
+    description:
+      "Explore international exhibitions that showcase the richness of African and European cultures.",
+    primaryLink: { href: "#programs", text: "Discover Sculptures" },
+    secondaryLink: { href: "/contact", text: "Host an Exhibition" },
+  },
+  {
+    image: "/exhibitions/exhibition4.png",
+    badge: "Art & Exhibitions",
+    title: "Celebrate Creativity,",
+    subtitle: "Across Borders",
+    description:
+      "Explore international exhibitions that showcase the richness of African and European cultures.",
+    primaryLink: { href: "#programs", text: "Discover Sculptures" },
+    secondaryLink: { href: "/contact", text: "Host an Exhibition" },
+  },
+  {
     image: "/exhibitions/exhibition7.png",
     badge: "Art & Exhibitions",
     title: "Celebrate Creativity,",
     subtitle: "Across Borders",
     description:
       "Explore international exhibitions that showcase the richness of African and European cultures.",
-    primaryLink: { href: "#programs", text: "Visit Exhibition" },
+    primaryLink: { href: "#programs", text: "Discover Sculptures" },
+    secondaryLink: { href: "/contact", text: "Host an Exhibition" },
+  },
+  {
+    image: "/exhibitions/exhibition8.png",
+    badge: "Art & Exhibitions",
+    title: "Celebrate Creativity,",
+    subtitle: "Across Borders",
+    description:
+      "Explore international exhibitions that showcase the richness of African and European cultures.",
+    primaryLink: { href: "#programs", text: "Discover Sculptures" },
     secondaryLink: { href: "/contact", text: "Host an Exhibition" },
   },
   {
