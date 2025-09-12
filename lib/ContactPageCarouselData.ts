@@ -25,8 +25,8 @@ export const ContactPageCarouselData: Slide[] = [
   },
   {
     image: "/contact-us/contact-us-2.png",
-    badge: "Support & Collaboration",
-    title: "Partner With ECC,",
+    badge: "Get In Touch",
+    title: "Partner With ECC",
     subtitle: "Grow Together",
     description: "Collaborate with us on cultural, educational, and community projects across continents.",
     primaryLink: { href: "#contact-form", text: "Start Partnership" },
@@ -34,8 +34,8 @@ export const ContactPageCarouselData: Slide[] = [
   },
   {
     image: "/contact-us/contact-us-3.png",
-    badge: "Feedback & Suggestions",
-    title: "Share Your Ideas,",
+    badge: "Get In Touch",
+    title: "Share Your Ideas",
     subtitle: "Shape Our Future",
     description: "We value your feedback and suggestions to help us improve and serve you better.",
     primaryLink: { href: "#contact-form", text: "Send Feedback" },
@@ -43,8 +43,8 @@ export const ContactPageCarouselData: Slide[] = [
   },
   {
     image: "/contact-us/contact-us-3.png",
-    badge: "Join Our Community",
-    title: "Stay Connected,",
+    badge: "Get In Touch",
+    title: "Join Our Community",
     subtitle: "Be Part Of ECC",
     description: "Subscribe for updates and opportunities to participate in our programs and events.",
     primaryLink: { href: "#contact-form", text: "Subscribe" },
