@@ -54,7 +54,7 @@ const upcomingTrainings = [
     location: "Berlin, Germany",
     participants: "150 learners",
     description: "An intensive program focusing on core digital skills and applied technology training.",
-    image: "/trainings/digital-bootcamp.jpg",
+    image: "/training-workshop/training-workshops.png",
   },
   {
     title: "Youth Leadership Summit",
@@ -62,7 +62,7 @@ const upcomingTrainings = [
     location: "Paris, France",
     participants: "200 youth leaders",
     description: "Workshops, panels, and networking for emerging leaders across Europe and Africa.",
-    image: "/trainings/leadership-summit.jpg",
+    image: "/training-workshop/training-workshops.png",
   },
   {
     title: "Teachers’ Capacity Workshop",
@@ -70,7 +70,7 @@ const upcomingTrainings = [
     location: "Lagos, Nigeria",
     participants: "300 educators",
     description: "Training for educators to integrate innovative methods into classrooms.",
-    image: "/trainings/teachers-workshop.jpg",
+    image: "/training-workshop/training-workshops.png",
   },
 ]
 
@@ -198,7 +198,7 @@ export default function TrainingWorkshopPage() {
           </motion.div>
 
           <motion.div
-            className="grid lg:grid-cols-3 gap-8 px-5"
+            className="grid grid-cols-2 lg:grid-cols-3 gap-8 px-5"
             variants={staggerContainer}
             initial="hidden"
             animate={eventsInView ? "visible" : "hidden"}

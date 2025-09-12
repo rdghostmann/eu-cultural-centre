@@ -61,9 +61,8 @@ export default function HeaderSlider({
         {images.map((item, index) => (
           <div
             key={index}
-            className={`absolute inset-0 transition-opacity duration-1000 ${
-              index === currentSlide ? "opacity-100" : "opacity-0"
-            }`}
+            className={`absolute inset-0 transition-opacity duration-1000 ${index === currentSlide ? "opacity-100" : "opacity-0"
+              }`}
           >
             <Image
               src={item.image}
@@ -71,6 +70,8 @@ export default function HeaderSlider({
               fill
               priority={index === currentSlide}
               className="object-cover"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              quality={100}
             />
             <div className="absolute inset-0 bg-gray-300/20" />
           </div>
@@ -158,9 +159,8 @@ export default function HeaderSlider({
           {images.map((_, index) => (
             <button
               key={index}
-              className={`w-2 h-2 rounded-full transition-all ${
-                index === currentSlide ? "bg-white w-4" : "bg-white/50"
-              }`}
+              className={`w-2 h-2 rounded-full transition-all ${index === currentSlide ? "bg-white w-4" : "bg-white/50"
+                }`}
               onClick={() => setCurrentSlide(index)}
             />
           ))}

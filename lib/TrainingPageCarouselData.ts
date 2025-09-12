@@ -17,8 +17,8 @@ export type Slide = {
 
 export const TrainingPageCarouselData: Slide[] = [
   {
-    image: "/training/training-slide-1.png",
-    badge: "Capacity Building",
+    image: "/training-workshop/training-workshops.png",
+    badge: "Training & Workshop",
     title: "Learn, Lead, Excel",
     subtitle: "",
     description:
@@ -27,8 +27,8 @@ export const TrainingPageCarouselData: Slide[] = [
     secondaryLink: { href: "/contact", text: "Get Started" },
   },
   {
-    image: "/training/training-slide-2.png",
-    badge: "Skill Development",
+    image: "/training-workshop/training-workshops.png",
+    badge: "Training & Workshop",
     title: "Future-Ready,",
     subtitle: "Skill Sets",
     description:
@@ -37,8 +37,8 @@ export const TrainingPageCarouselData: Slide[] = [
     secondaryLink: { href: "/contact", text: "Enroll Now" },
   },
   {
-    image: "/training/training-slide-3.png",
-    badge: "Professional Growth",
+    image: "/training-workshop/training-workshops.png",
+    badge: "Training & Workshop",
     title: "Train for Impact,",
     subtitle: "Transform Communities",
     description:
@@ -47,8 +47,8 @@ export const TrainingPageCarouselData: Slide[] = [
     secondaryLink: { href: "/contact", text: "Register Today" },
   },
   {
-    image: "/training/training-slide-4.png",
-    badge: "Global Opportunities",
+    image: "/training-workshop/training-workshops.png",
+    badge: "Training & Workshop",
     title: "Bridging Skills and Careers",
     subtitle: "Across Borders",
     description:

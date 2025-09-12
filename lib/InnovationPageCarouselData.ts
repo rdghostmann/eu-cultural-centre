@@ -17,9 +17,9 @@ export type Slide = {
 
 export const InnovationPageCarouselData: Slide[] = [
   {
-    image: "/inclusion-accessibility/inclusion-&-accessebility-slide(2).png",
+    image: "/innovation-tech/innovation-tech1.png",
     badge: "Innovation & New Media",
-    title: "Innovating Culture,",
+    title: "Innovating Culture Through Technology",
     subtitle: "Through Technology",
     description:
       "Supporting creative startups, digital heritage projects, and tech solutions that bridge cultures and create new opportunities.",
@@ -27,8 +27,8 @@ export const InnovationPageCarouselData: Slide[] = [
     secondaryLink: { href: "/contact", text: "Join the Lab" },
   },
   {
-    image: "/inclusion-accessibility/inclusion-&-accessebility-slide(5).png",
-    badge: "Creative Startups",
+    image: "/innovation-tech/innovation-tech2.png",
+    badge: "Innovation & New Media",
     title: "Empowering Creators,",
     subtitle: "Fueling Innovation",
     description:
@@ -37,17 +37,37 @@ export const InnovationPageCarouselData: Slide[] = [
     secondaryLink: { href: "/contact", text: "Learn More" },
   },
   {
-    image: "/inclusion-accessibility/inclusion-&-accessebility-slide(1).png",
-    badge: "Digital Heritage",
+    image: "/innovation-tech/innovation-tech3.png",
+    badge: "Innovation & New Media",
     title: "Preserving History,",
     subtitle: "In Digital Form",
     description:
       "Digitizing cultural heritage to ensure global access, preservation, and intergenerational learning.",
-    primaryLink: { href: "#programs", text: "View Projects" },
+    primaryLink: { href: "#programs", text: "Launch Startup" },
+    secondaryLink: { href: "/contact", text: "Contribute" },
+  },
+  {
+    image: "/innovation-tech/innovation-tech4.png",
+    badge: "Innovation & New Media",
+    title: "Preserving History,",
+    subtitle: "In Digital Form",
+    description:
+      "Digitizing cultural heritage to ensure global access, preservation, and intergenerational learning.",
+    primaryLink: { href: "#programs", text: "Launch Startup" },
+    secondaryLink: { href: "/contact", text: "Contribute" },
+  },
+  {
+    image: "/innovation-tech/innovation-tech5.png",
+    badge: "Innovation & New Media",
+    title: "Preserving History,",
+    subtitle: "In Digital Form",
+    description:
+      "Digitizing cultural heritage to ensure global access, preservation, and intergenerational learning.",
+    primaryLink: { href: "#programs", text: "Explore Programs" },
     secondaryLink: { href: "/contact", text: "Contribute" },
   },
   // {
-  //   image: "/inclusion-accessibility/inclusion-&-accessebility-slide(1).png",
+  //   image: "/innovation-tech/innovation-tech1.png",
   //   badge: "Virtual Reality",
   //   title: "Immersive Worlds,",
   //   subtitle: "Cultural Journeys",

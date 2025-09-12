@@ -17,9 +17,9 @@ export type Slide = {
 
 export const ScholarshipPageCarouselData: Slide[] = [
   {
-    image: "/sample/banner-1.png",
-    badge: "Education • Opportunity • Future",
-    title: "Scholarship Programs,",
+    image: "/scholarship-programs/scholarship-programs2.png",
+    badge: "scholarship-programs",
+    title: "Advanced Academic Growth",
     subtitle: "By ECC Nigeria",
     description:
       "Unlocking access to education and empowering future leaders through scholarships and grants.",
@@ -27,9 +27,49 @@ export const ScholarshipPageCarouselData: Slide[] = [
     secondaryLink: { href: "/contact", text: "Learn More" },
   },
   {
-    image: "/sample/banner-1.png",
-    badge: "Undergraduate Scholarships",
-    title: "Supporting,",
+    image: "/scholarship-programs/scholarship-programs3.png",
+    badge: "scholarship-programs",
+    title: "Undergraduate Scholarships",
+    subtitle: "Young Scholars",
+    description:
+      "Providing financial aid and opportunities for undergraduate students to pursue higher education.",
+    primaryLink: { href: "/#programs", text: "Start Application" },
+    secondaryLink: { href: "/contact", text: "Get Guidance" },
+  },
+  {
+    image: "/scholarship-programs/scholarship-programs4.png",
+    badge: "scholarship-programs",
+    title: "Advanced Academic Growth",
+    subtitle: "By ECC Nigeria",
+    description:
+      "Unlocking access to education and empowering future leaders through scholarships and grants.",
+    primaryLink: { href: "/#programs", text: "Apply Now" },
+    secondaryLink: { href: "/contact", text: "Learn More" },
+  },
+  {
+    image: "/scholarship-programs/scholarship-programs1.png",
+    badge: "scholarship-programs",
+    title: "Advanced Academic Growth",
+    subtitle: "By ECC Nigeria",
+    description:
+      "Unlocking access to education and empowering future leaders through scholarships and grants.",
+    primaryLink: { href: "/#programs", text: "Apply Now" },
+    secondaryLink: { href: "/contact", text: "Learn More" },
+  },
+  {
+    image: "/scholarship-programs/scholarship-programs5.png",
+    badge: "scholarship-programs",
+    title: "Undergraduate Scholarships",
+    subtitle: "Young Scholars",
+    description:
+      "Providing financial aid and opportunities for undergraduate students to pursue higher education.",
+    primaryLink: { href: "/#programs", text: "Start Application" },
+    secondaryLink: { href: "/contact", text: "Get Guidance" },
+  },
+  {
+    image: "/scholarship-programs/scholarship-programs6.png",
+    badge: "scholarship-programs",
+    title: "Undergraduate Scholarships",
     subtitle: "Young Scholars",
     description:
       "Providing financial aid and opportunities for undergraduate students to pursue higher education.",
