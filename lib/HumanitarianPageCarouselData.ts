@@ -17,7 +17,7 @@ export type Slide = {
 
 export const HumanitarianPageCarouselData: Slide[] = [
   {
-    image: "/humanitarian/humanitarian-slide-1.png",
+    image: "/humanitarian/humanitarian-slide1.png",
     badge: "Relief & Aid",
     title: "Supporting Communities,",
     subtitle: "In Crisis",
@@ -27,7 +27,7 @@ export const HumanitarianPageCarouselData: Slide[] = [
     secondaryLink: { href: "/contact", text: "Get Involved" },
   },
   {
-    image: "/humanitarian/humanitarian-slide-2.png",
+    image: "/humanitarian/humanitarian-slide12.png",
     badge: "Health & Nutrition",
     title: "Saving Lives,",
     subtitle: "Through Care",
@@ -37,7 +37,7 @@ export const HumanitarianPageCarouselData: Slide[] = [
     secondaryLink: { href: "/contact", text: "Volunteer Today" },
   },
   {
-    image: "/humanitarian/humanitarian-slide-3.png",
+    image: "/humanitarian/humanitarian-slide13.png",
     badge: "Education & Protection",
     title: "Education,",
     subtitle: "In Emergencies",
@@ -47,7 +47,7 @@ export const HumanitarianPageCarouselData: Slide[] = [
     secondaryLink: { href: "/contact", text: "Donate Now" },
   },
   {
-    image: "/humanitarian/humanitarian-slide-4.png",
+    image: "/humanitarian/humanitarian-slide10.png",
     badge: "Sustainable Recovery",
     title: "From Relief,",
     subtitle: "To Resilience",
