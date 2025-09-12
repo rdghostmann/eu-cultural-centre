@@ -9,6 +9,8 @@ import { ArrowRight, GraduationCap, Users, Calendar, MapPin, Clock } from "lucid
 import { fadeInUp, staggerContainer, staggerItem, hoverScale, hoverLift } from "@/lib/animations"
 import { useScrollAnimation } from "@/hooks/use-scroll-animation"
 import CTASection from "@/components/CTASection/CTASection"
+import HeaderSlider2 from "@/components/CustomSlider/HeaderSlider2"
+import { CooperationPageCarouselData } from "@/lib/CooperationPageCarouselData"
 
 const exchangePrograms = [
     {
@@ -71,7 +73,7 @@ export default function SchoolExchangePage() {
     return (
         <div className="flex flex-col overflow-hidden">
             {/* Hero Section */}
-            <section className="relative bg-gradient-to-br from-blue-600 via-indigo-600 to-purple-700 text-white py-12 px-4 sm:py-20 sm:px-6">
+            <section className="hidden relative bg-gradient-to-br from-blue-600 via-indigo-600 to-purple-700 text-white py-12 px-4 sm:py-20 sm:px-6">
                 <motion.div className="absolute inset-0 bg-black/20" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1 }} />
                 <div className="relative z-10 max-w-2xl mx-auto sm:max-w-4xl" ref={heroRef}>
                     <motion.div className="text-center" variants={staggerContainer} initial="hidden" animate={heroInView ? "visible" : "hidden"}>
@@ -101,6 +103,8 @@ export default function SchoolExchangePage() {
                     </motion.div>
                 </div>
             </section>
+            <HeaderSlider2 images={CooperationPageCarouselData} />
+
 
             {/* Exchange Programs */}
             <section id="programs" className="py-16 sm:py-20" ref={programsRef}>
@@ -210,7 +214,7 @@ export default function SchoolExchangePage() {
                     </motion.div>
 
                     <motion.div
-                        className="grid lg:grid-cols-3 gap-6 px-4"
+                        className="grid grid-cols-2 lg:grid-cols-3 gap-6 px-4"
                         variants={staggerContainer}
                         initial="hidden"
                         animate={upcomingInView ? "visible" : "hidden"}
