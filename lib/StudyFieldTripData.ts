@@ -15,7 +15,7 @@ export type Slide = {
 
 export const StudyFieldTripData: Slide[] = [
   {
-    image: "/study-field-trips/study-field-trip1.png",
+    image: "/study-field-trips/study-field-trip2.png",
     badge: "Study Field Trip",
     title: "Hands-On Learning",
     subtitle: "Explore Real-World Sites",

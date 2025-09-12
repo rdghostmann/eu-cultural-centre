@@ -17,7 +17,7 @@ export type Slide = {
 
 export const ResearchTourData: Slide[] = [
   {
-    image: "/research-tours/research-tour1.png",
+    image: "/research-tours/research-tours1.png",
     badge: "Research Tour",
     title: "Academic Research",
     subtitle: "Exchange",
@@ -27,7 +27,7 @@ export const ResearchTourData: Slide[] = [
     secondaryLink: { href: "/contact", text: "Apply for Residency" },
   },
   {
-    image: "/research-tours/research-tour2.png",
+    image: "/research-tours/research-tours2.png",
     badge: "Research Tour",
     title: "Collaborative Fieldwork",
     subtitle: "International Partnerships",
@@ -37,7 +37,7 @@ export const ResearchTourData: Slide[] = [
     secondaryLink: { href: "/contact", text: "Partner With Us" },
   },
   {
-    image: "/research-tours/research-tour3.png",
+    image: "/research-tours/research-tours3.png",
     badge: "Research Tour",
     title: "Heritage Documentation",
     subtitle: "Preservation Projects",
@@ -47,7 +47,7 @@ export const ResearchTourData: Slide[] = [
     secondaryLink: { href: "/contact", text: "Join a Project" },
   },
   {
-    image: "/research-tours/research-tour4.png",
+    image: "/research-tours/research-tours4.png",
     badge: "Research Tour",
     title: "Innovation in Research",
     subtitle: "Tech & Data",
@@ -57,7 +57,7 @@ export const ResearchTourData: Slide[] = [
     secondaryLink: { href: "/contact", text: "Collaborate" },
   },
   {
-    image: "/research-tours/research-tour5.png",
+    image: "/research-tours/research-tours5.png",
     badge: "Research Tour",
     title: "Community Impact Studies",
     subtitle: "Social Development",
@@ -67,7 +67,7 @@ export const ResearchTourData: Slide[] = [
     secondaryLink: { href: "/contact", text: "Get Involved" },
   },
   {
-    image: "/research-tours/research-tour6.png",
+    image: "/research-tours/research-tours6.png",
     badge: "Research Tour",
     title: "Youth Research Exchange",
     subtitle: "Student Opportunities",

@@ -18,7 +18,7 @@ export type Slide = {
 
 export const TourismPageCarouselData: Slide[] = [
   {
-    image: "/tourism/tourism-slide-1.png",
+    image: "/tourism/tourism-slide-4.png",
     badge: "Tourism • Culture • Adventure",
     title: "Explore Nigeria’s Wonders",
     subtitle: "Journeys With ECC Nigeria",
@@ -78,7 +78,7 @@ export const TourismPageCarouselData: Slide[] = [
     secondaryLink: { href: "/contact", text: "Join a Tour" },
   },
   {
-    image: "/tourism/tourism-slide-7.png",
+    image: "/tourism/tourism-slide-9.png",
     badge: "Tourism • Culture • Adventure", 
     title: "Youthful Exploration",
     subtitle: "Through Exploration",
@@ -108,4 +108,3 @@ export const TourismPageCarouselData: Slide[] = [
     secondaryLink: { href: "/contact", text: "Collaborate" },
   },
 ]
-// ...existing code...

@@ -10,7 +10,7 @@ import { fadeInUp, staggerContainer, staggerItem, hoverScale, hoverLift } from "
 import { useScrollAnimation } from "@/hooks/use-scroll-animation"
 import CTASection from "@/components/CTASection/CTASection"
 import HeaderSlider2 from "@/components/CustomSlider/HeaderSlider2"
-import { ResearchTourData } from "@/lib/ResearchTourData"
+import { StudyFieldTripData } from "@/lib/StudyFieldTripData"
 
 const fieldTripTypes = [
   {
@@ -116,7 +116,7 @@ export default function StudyFieldTripsPage() {
           </motion.div>
         </div>
       </section>
-      <HeaderSlider2 images={ResearchTourData} />
+      <HeaderSlider2 images={StudyFieldTripData} />
 
 
 
