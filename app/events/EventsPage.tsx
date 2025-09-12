@@ -255,12 +255,14 @@ export default function EventsPage() {
                   <CardContent>
                     <p className="text-sm text-gray-200 mb-4">{event.description}</p>
                     <motion.div whileHover={hoverScale} whileTap={{ scale: 0.95 }}>
-                      <Button className="w-full bg-[#68b684] hover:bg-[#8F770A] text-white font-semibold">
-                        {event.status === "Free Entry"
-                          ? "Learn More"
-                          : event.status === "Invitation Only"
-                            ? "Request Invitation"
-                            : "Register Now"}
+                      <Button asChild className="w-full bg-[#68b684] hover:bg-[#8F770A] text-white font-semibold">
+                        <Link href="/contact">
+                          {event.status === "Free Entry"
+                            ? "Learn More"
+                            : event.status === "Invitation Only"
+                              ? "Request Invitation"
+                              : "Register Now"}
+                        </Link>
                       </Button>
                     </motion.div>
                   </CardContent>
@@ -276,7 +278,7 @@ export default function EventsPage() {
       <section className="py-20 bg-gradient-to-br from-[#f8fafc] via-[#e0e7ef] to-[#dbeafe] text-[#205375]">
         <div className="container mx-auto text-center">
           <motion.div
-          className="px-5"
+            className="px-5"
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}

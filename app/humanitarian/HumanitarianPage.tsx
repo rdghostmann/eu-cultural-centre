@@ -96,7 +96,7 @@ const upcomingHumanitarianEvents = [
     participants: "120 relief workers",
     description:
       "Capacity-building workshop for emergency responders and humanitarian volunteers.",
-    image: "/humanitarian/relief-training.jpg",
+    image: "/humanitarian/humanitarian-slide13.png",
   },
   {
     title: "Health Mission Outreach",
@@ -105,7 +105,7 @@ const upcomingHumanitarianEvents = [
     participants: "250 community members",
     description:
       "Medical outreach providing free consultations, medicines, and health education.",
-    image: "/humanitarian/health-mission.jpg",
+    image: "/humanitarian/humanitarian-slide10.png",
   },
   {
     title: "Child Protection Forum",
@@ -114,7 +114,7 @@ const upcomingHumanitarianEvents = [
     participants: "180 advocates",
     description:
       "A platform for NGOs, educators, and leaders to strengthen child protection policies.",
-    image: "/humanitarian/child-protection.jpg",
+    image: "/humanitarian/humanitarian-slide12.png",
   },
 ]
 
@@ -214,7 +214,7 @@ export default function HumanitarianPage() {
           </motion.div>
 
           <motion.div
-            className="grid lg:grid-cols-2 gap-8 px-5"
+            className="grid grid-cols-2 lg:grid-cols-2 gap-8 px-5"
             variants={staggerContainer}
             initial="hidden"
             animate={programsInView ? "visible" : "hidden"}
@@ -290,7 +290,7 @@ export default function HumanitarianPage() {
           </motion.div>
 
           <motion.div
-            className="grid lg:grid-cols-3 gap-8 px-5"
+            className="grid grid-cols-2 lg:grid-cols-3 gap-8 px-5"
             variants={staggerContainer}
             initial="hidden"
             animate={eventsInView ? "visible" : "hidden"}

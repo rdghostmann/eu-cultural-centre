@@ -16,18 +16,9 @@ export type Slide = {
 };
 
 export const CooperationPageCarouselData: Slide[] = [
-  // {
-  //   image: "/sample/banner-1.png",
-  //   badge: "People-to-People Cooperation",
-  //   title: "Strengthen Partnerships,",
-  //   subtitle: "Across Borders",
-  //   description:
-  //     "Fostering cooperation between civil society, governments, and institutions in Europe and Africa.",
-  //   primaryLink: { href: "#programs", text: "Start a Partnership" },
-  //   secondaryLink: { href: "/contact", text: "Learn More" },
-  // },
+
   {
-    image: "/people-to-people-cooperation/people-to-people-cooperation-slide9.png",
+    image: "/people-to-people-cooperation/people-to-people-cooperation-slide2.png",
     badge: "People-to-People Cooperation",
     title: "Dialogue Through,",
     subtitle: "Art and Culture",
