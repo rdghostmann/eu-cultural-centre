@@ -99,6 +99,14 @@ export default function HeaderSlider2({
           {slide.title}
         </motion.h1>
 
+        {slide.subtitle && (
+          <motion.h2
+            variants={staggerItem}
+            className="hidden text-xl sm:text-3xl  text-[#68b684] mb-4 drop-shadow-[0_4px_16px_rgba(0,0,0,0.7)]"
+          >
+            {slide.subtitle}
+          </motion.h2>
+        )}
         {slide.description && (
           <motion.p
             className="text-base mb-6 text-[#e0f2fe] drop-shadow-[0_2px_8px_rgba(0,0,0,0.6)] max-w-2xl mx-auto"

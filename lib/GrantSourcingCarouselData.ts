@@ -19,7 +19,7 @@ export const GrantSourcingCarouselData: Slide[] = [
   {
     image: "/sample/grant-1.png",
     badge: "Grant Sourcing",
-    title: "Empowering Projects,",
+    title: "Empowering Projects and Communities,",
     subtitle: "Through Funding",
     description:
       "Access funding opportunities designed to support cultural programs, innovation, and sustainable development.",
@@ -29,7 +29,7 @@ export const GrantSourcingCarouselData: Slide[] = [
   {
     image: "/sample/grant-2.png",
     badge: "Grant Sourcing",
-    title: "Building Partnerships,",
+    title: "Building Partnerships",
     subtitle: "For Growth",
     description:
       "We connect organizations with international funding bodies, creating partnerships that make cultural impact possible.",
@@ -39,7 +39,7 @@ export const GrantSourcingCarouselData: Slide[] = [
   {
     image: "/sample/grant-3.png",
     badge: "Grant Sourcing",
-    title: "Investing in Culture,",
+    title: "Investing in Culture",
     subtitle: "Securing the Future",
     description:
       "Sourcing grants to preserve heritage, empower communities, and drive cultural innovation across borders.",

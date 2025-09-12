@@ -199,7 +199,7 @@ export default function EventsPage() {
             </p>
           </motion.div>
           <motion.div
-            className="grid lg:grid-cols-2 xl:grid-cols-3 gap-8 px-7"
+            className="grid grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-8 px-7"
             variants={staggerContainer}
             initial="hidden"
             animate={eventsInView ? "visible" : "hidden"}
