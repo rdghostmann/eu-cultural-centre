@@ -17,7 +17,7 @@ export type Slide = {
 
 export const GrantSourcingCarouselData: Slide[] = [
   {
-    image: "/sample/grant-1.png",
+    image: "/grant-sourcing/grant-sourcing2.png",
     badge: "Grant Sourcing",
     title: "Empowering Projects and Communities,",
     subtitle: "Through Funding",
@@ -27,7 +27,7 @@ export const GrantSourcingCarouselData: Slide[] = [
     secondaryLink: { href: "/contact", text: "Apply Now" },
   },
   {
-    image: "/sample/grant-2.png",
+    image: "/grant-sourcing/grant-sourcing1.png",
     badge: "Grant Sourcing",
     title: "Building Partnerships",
     subtitle: "For Growth",
@@ -37,7 +37,7 @@ export const GrantSourcingCarouselData: Slide[] = [
     secondaryLink: { href: "/contact", text: "Partner With Us" },
   },
   {
-    image: "/sample/grant-3.png",
+    image: "/grant-sourcing/grant-sourcing3.png",
     badge: "Grant Sourcing",
     title: "Investing in Culture",
     subtitle: "Securing the Future",

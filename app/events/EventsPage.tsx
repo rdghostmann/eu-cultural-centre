@@ -22,7 +22,7 @@ const upcomingEvents = [
       "A three-day celebration of African heritage featuring art exhibitions, traditional music, dance performances, and cultural workshops.",
     capacity: "5,000 attendees",
     status: "Open Registration",
-    image: "/cultural/IMG-20250815-WA0055.jpg",
+    image: "/culture/culture-slider3.png",
   },
   {
     title: "Youth Innovation Summit",
@@ -34,7 +34,7 @@ const upcomingEvents = [
       "Bringing together young innovators, entrepreneurs, and tech leaders to explore the future of technology in cultural preservation.",
     capacity: "500 participants",
     status: "Early Bird",
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/youth-development/youth-dev-5.png",
   },
   {
     title: "International Sports Tournament",
@@ -46,7 +46,7 @@ const upcomingEvents = [
       "Multi-sport tournament featuring teams from across Africa and Europe, promoting unity through sports.",
     capacity: "10,000 spectators",
     status: "Tickets Available",
-    image: "/sports/IMG-20250814-WA0061.jpg",
+    image: "/sports/sports-slide-2.png",
   },
   {
     title: "Digital Heritage Workshop",
@@ -79,7 +79,7 @@ const upcomingEvents = [
     description: "High-level forum bringing together cultural diplomats, policymakers, and cultural leaders.",
     capacity: "200 delegates",
     status: "Invitation Only",
-    image: "/IMG-20250814-WA0024.jpg",
+    image: "/culture/culture-slider18.png",
   },
 ]
 
