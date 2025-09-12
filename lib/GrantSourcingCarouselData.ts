@@ -17,33 +17,33 @@ export type Slide = {
 
 export const GrantSourcingCarouselData: Slide[] = [
   {
-    image: "/sample/banner-1.png",
+    image: "/sample/grant-1.png",
     badge: "Grant Sourcing",
-    title: "Celebrate Creativity,",
-    subtitle: "Across Borders",
+    title: "Empowering Projects,",
+    subtitle: "Through Funding",
     description:
-      "Explore international exhibitions that showcase the richness of African and European cultures.",
-    primaryLink: { href: "#programs", text: "Visit Exhibition" },
-    secondaryLink: { href: "/contact", text: "Host an Exhibition" },
+      "Access funding opportunities designed to support cultural programs, innovation, and sustainable development.",
+    primaryLink: { href: "#programs", text: "Find Grants" },
+    secondaryLink: { href: "/contact", text: "Apply Now" },
   },
   {
-    image: "/sample/banner-2.png",
+    image: "/sample/grant-2.png",
     badge: "Grant Sourcing",
-    title: "Masterpieces,",
-    subtitle: "On Display",
+    title: "Building Partnerships,",
+    subtitle: "For Growth",
     description:
-      "From traditional to contemporary, discover inspiring visual art from emerging and renowned artists.",
-    primaryLink: { href: "#programs", text: "Explore Visual Arts" },
-    secondaryLink: { href: "/contact", text: "Learn More" },
+      "We connect organizations with international funding bodies, creating partnerships that make cultural impact possible.",
+    primaryLink: { href: "#programs", text: "View Opportunities" },
+    secondaryLink: { href: "/contact", text: "Partner With Us" },
   },
   {
-    image: "/sample/banner-1.png",
+    image: "/sample/grant-3.png",
     badge: "Grant Sourcing",
-    title: "Preserving History,",
-    subtitle: "For Tomorrow",
+    title: "Investing in Culture,",
+    subtitle: "Securing the Future",
     description:
-      "Exhibitions that highlight cultural artifacts and heritage, preserving them for future generations.",
-    primaryLink: { href: "#programs", text: "See Heritage" },
-    secondaryLink: { href: "/contact", text: "Support Preservation" },
+      "Sourcing grants to preserve heritage, empower communities, and drive cultural innovation across borders.",
+    primaryLink: { href: "#programs", text: "Explore Funding" },
+    secondaryLink: { href: "/contact", text: "Get Support" },
   },
- ];
+];
