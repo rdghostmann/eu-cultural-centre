@@ -11,6 +11,8 @@ import { fadeInUp, staggerContainer, staggerItem, hoverScale, hoverLift } from "
 import { useScrollAnimation } from "@/hooks/use-scroll-animation"
 import CTASection from "@/components/CTASection/CTASection"
 import { Select, SelectTrigger, SelectValue, SelectContent, SelectItem } from "@/components/ui/select"
+import HeaderSlider2 from "@/components/CustomSlider/HeaderSlider2"
+import { ContactPageCarouselData } from "@/lib/ContactPageCarouselData"
 
 const contactInfo = [
 	{
@@ -57,7 +59,7 @@ export default function ContactPage() {
 	return (
 		<div className="flex flex-col overflow-hidden">
 			{/* Hero Section */}
-			<section className="relative bg-gradient-to-br from-[#205375] via-[#68b684] to-[#8F770A] text-white py-20">
+			<section className="hidden relative bg-gradient-to-br from-[#205375] via-[#68b684] to-[#8F770A] text-white py-20">
 				<motion.div
 					className="absolute inset-0 bg-black/20"
 					initial={{ opacity: 0 }}
@@ -84,6 +86,7 @@ export default function ContactPage() {
 					</motion.div>
 				</div>
 			</section>
+			<HeaderSlider2 images={ContactPageCarouselData} />
 
 
 			{/* Contact Form & Info */}
@@ -106,17 +109,17 @@ export default function ContactPage() {
 									<form className="space-y-6">
 										<div className="grid grid-cols-2 gap-4">
 											<motion.div whileFocus={{ scale: 1.02 }}>
-												<Input className="w-full text-xs lg:text-xl" placeholder="First Name"  />
+												<Input className="w-full text-xs lg:text-xl" placeholder="First Name" />
 											</motion.div>
 											<motion.div whileFocus={{ scale: 1.02 }}>
-												<Input className="w-full text-xs lg:text-xl" placeholder="Last Name"  />
+												<Input className="w-full text-xs lg:text-xl" placeholder="Last Name" />
 											</motion.div>
 										</div>
 										<motion.div whileFocus={{ scale: 1.02 }}>
-											<Input className="w-full text-xs lg:text-xl" type="email" placeholder="Email Address"  />
+											<Input className="w-full text-xs lg:text-xl" type="email" placeholder="Email Address" />
 										</motion.div>
 										<motion.div whileFocus={{ scale: 1.02 }}>
-											<Input className="w-full text-xs lg:text-xl" placeholder="Phone Number"  />
+											<Input className="w-full text-xs lg:text-xl" placeholder="Phone Number" />
 										</motion.div>
 										<motion.div whileFocus={{ scale: 1.02 }}>
 											<Select>
