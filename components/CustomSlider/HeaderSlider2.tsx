@@ -118,8 +118,8 @@ export default function HeaderSlider2({
 
         {/* Links */}
         <motion.div
-          // className="flex gap-4 justify-center"
-          className="flex flex-col sm:flex-row gap-4 justify-center"
+          className="flex gap-4 justify-center"
+          // className="flex flex-col sm:flex-row gap-4 justify-center"
           variants={staggerItem}
         >
           {slide.primaryLink && (
