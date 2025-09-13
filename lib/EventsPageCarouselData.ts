@@ -18,7 +18,7 @@ export type Slide = {
 export const EventsPageCarouselData: Slide[] = [
   {
     image: "/events/event2.png",
-    badge: "Festivals & Celebrations",
+    badge: "Events",
     title: "Celebrate Culture",
     subtitle: "Embrace Diversity",
     description:
@@ -28,7 +28,7 @@ export const EventsPageCarouselData: Slide[] = [
   },
   {
     image: "/events/event11.png",
-    badge: "Educational Workshops",
+    badge: "Events",
     title: "Learn Together",
     subtitle: "Grow Together",
     description:
@@ -38,7 +38,7 @@ export const EventsPageCarouselData: Slide[] = [
   },
   {
     image: "/events/event4.png",
-    badge: "Sports & Games",
+    badge: "Events",
     title: "Play Fair",
     subtitle: "Build Unity",
     description:
@@ -48,7 +48,7 @@ export const EventsPageCarouselData: Slide[] = [
   },
   {
     image: "/events/event5.png",
-    badge: "Diplomatic Forums",
+    badge: "Events",
     title: "Dialogue,",
     subtitle: "For Cooperation",
     description:
@@ -59,7 +59,7 @@ export const EventsPageCarouselData: Slide[] = [
  
   {
     image: "/events/event7.png",
-    badge: "Art Exhibitions",
+    badge: "Events",
     title: "Visual Arts,",
     subtitle: "Without Borders",
     description:
@@ -70,7 +70,7 @@ export const EventsPageCarouselData: Slide[] = [
 
   {
     image: "/events/event9.png",
-    badge: "Community Gatherings",
+    badge: "Events",
     title: "Stronger Together",
     subtitle: "Through Community",
     description:
@@ -80,7 +80,7 @@ export const EventsPageCarouselData: Slide[] = [
   },
   {
     image: "/events/event10.png",
-    badge: "Global Connections",
+    badge: "Events",
     title: "One World",
     subtitle: "Shared Future",
     description:
