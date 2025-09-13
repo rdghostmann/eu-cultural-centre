@@ -16,104 +16,44 @@ export type Slide = {
 };
 
 export const HealthcarePageCarouselData: Slide[] = [
-  // {
-  //   image: "/sample/banner-1.png",
-  //   badge: "Telemedicine",
-  //   title: "Healthcare,",
-  //   subtitle: "Anywhere, Anytime",
-  //   description:
-  //     "Access medical expertise remotely through secure, innovative telemedicine solutions.",
-  //   primaryLink: { href: "#programs", text: "Get Telemedicine" },
-  //   secondaryLink: { href: "/contact", text: "Learn More" },
-  // },
   {
-    image: "/sample/banner-1.png",
-    badge: "Community Health",
-    title: "Stronger Communities,",
-    subtitle: "Healthier Lives",
+    image: "/healthcare/health-care.png",
+    badge: "Health Care",
+    title: "Empowering Healthy Communities",
+    subtitle: "Wellness For All",
     description:
-      "Promoting preventive care and wellness programs for healthier communities across regions.",
+      "Promoting wellness and preventive care for stronger, healthier communities.",
     primaryLink: { href: "#programs", text: "Join Program" },
     secondaryLink: { href: "/contact", text: "Learn More" },
   },
   {
-    image: "/sample/banner-1.png",
-    badge: "Global Partnerships",
-    title: "Collaborate,",
-    subtitle: "For Better Health",
+    image: "/healthcare/health-care1.png",
+    badge: "Health Care",
+    title: "Global Health Partnerships",
+    subtitle: "Collaborate For Impact",
     description:
-      "Building strong partnerships between African and European institutions for healthcare advancement.",
+      "Advancing healthcare through partnerships between African and European institutions.",
     primaryLink: { href: "#programs", text: "Partner With Us" },
     secondaryLink: { href: "/contact", text: "Learn More" },
   },
   {
-    image: "/sample/banner-1.png",
-    badge: "Medical Training",
-    title: "Train Today,",
-    subtitle: "Save Lives Tomorrow",
+    image: "/healthcare/health-care2.png",
+    badge: "Health Care",
+    title: "Training For Tomorrow",
+    subtitle: "Save Lives Today",
     description:
-      "Capacity-building workshops and training programs for healthcare professionals worldwide.",
+      "Workshops and training for healthcare professionals to improve global health.",
     primaryLink: { href: "#programs", text: "Start Training" },
     secondaryLink: { href: "/contact", text: "Learn More" },
   },
-  // {
-  //   image: "/images/healthcare5.jpg",
-  //   badge: "Research & Innovation",
-  //   title: "Innovating,",
-  //   subtitle: "For Health Solutions",
-  //   description:
-  //     "Supporting medical research and innovative technologies for improved patient outcomes.",
-  //   primaryLink: { href: "#programs", text: "Support Research" },
-  //   secondaryLink: { href: "/contact", text: "Learn More" },
-  // },
-  // {
-  //   image: "/images/healthcare6.jpg",
-  //   badge: "Public Health",
-  //   title: "Prevention,",
-  //   subtitle: "For a Safer Future",
-  //   description:
-  //     "Public health campaigns addressing challenges like pandemics, nutrition, and sanitation.",
-  //   primaryLink: { href: "#programs", text: "Join Campaign" },
-  //   secondaryLink: { href: "/contact", text: "Learn More" },
-  // },
-  // {
-  //   image: "/images/healthcare7.jpg",
-  //   badge: "Patient Empowerment",
-  //   title: "Informed Patients,",
-  //   subtitle: "Better Care",
-  //   description:
-  //     "Programs designed to educate patients, ensuring access to quality healthcare choices.",
-  //   primaryLink: { href: "#programs", text: "Get Resources" },
-  //   secondaryLink: { href: "/contact", text: "Learn More" },
-  // },
-  // {
-  //   image: "/images/healthcare8.jpg",
-  //   badge: "Technology & AI",
-  //   title: "Smart Healthcare,",
-  //   subtitle: "Smarter Future",
-  //   description:
-  //     "Using AI, data, and digital tools to revolutionize healthcare delivery globally.",
-  //   primaryLink: { href: "#programs", text: "Explore Technology" },
-  //   secondaryLink: { href: "/contact", text: "Learn More" },
-  // },
-  // {
-  //   image: "/images/healthcare9.jpg",
-  //   badge: "Mental Health",
-  //   title: "Caring Minds,",
-  //   subtitle: "Caring Hearts",
-  //   description:
-  //     "Promoting awareness, access, and support for mental health and well-being.",
-  //   primaryLink: { href: "#programs", text: "Get Support" },
-  //   secondaryLink: { href: "/contact", text: "Learn More" },
-  // },
-  // {
-  //   image: "/images/healthcare10.jpg",
-  //   badge: "Global Health",
-  //   title: "One World,",
-  //   subtitle: "One Health",
-  //   description:
-  //     "Connecting nations to address healthcare challenges through unity and cooperation.",
-  //   primaryLink: { href: "#programs", text: "Join Movement" },
-  //   secondaryLink: { href: "/contact", text: "Learn More" },
-  // },
+  {
+    image: "/healthcare/health-care3.png",
+    badge: "Health Care",
+    title: "Building Medical Capacity",
+    subtitle: "Expert Training",
+    description:
+      "Empowering professionals with skills for better healthcare delivery worldwide.",
+    primaryLink: { href: "#programs", text: "Start Training" },
+    secondaryLink: { href: "/contact", text: "Learn More" },
+  },
 ];

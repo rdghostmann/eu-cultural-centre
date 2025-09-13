@@ -17,12 +17,52 @@ export type Slide = {
 
 export const NigerianDomesticTourData: Slide[] = [
   {
-    image: "/culture/culture-slider1.png",
+    image: "/nigerian-domestic-tour/slider.png",
     badge: "Nigeria Domestic Tourism",
-    title: "Explore Nigeria’s Hidden Gems & ",
+    title: "Discover Nigeria’s Natural Beauty",
     subtitle: "Cultural Wonders",
     description:
-      "From mountain resorts to desert safaris, discover Nigeria’s breathtaking landscapes and cultural festivals in 2026.",
+      "Experience mountains, deserts, and vibrant festivals across Nigeria’s diverse landscapes.",
+    primaryLink: { href: "#tours", text: "Explore Tours" },
+    secondaryLink: { href: "/contact", text: "Book a Heritage Tour" },
+  },
+  {
+    image: "/nigerian-domestic-tour/slider5.png",
+    badge: "Nigeria Domestic Tourism",
+    title: "Uncover Hidden Destinations",
+    subtitle: "Cultural Wonders",
+    description:
+      "Journey to lesser-known sites and enjoy authentic Nigerian hospitality and culture.",
+    primaryLink: { href: "#tours", text: "Explore Tours" },
+    secondaryLink: { href: "/contact", text: "Book a Heritage Tour" },
+  },
+  {
+    image: "/nigerian-domestic-tour/slider3.png",
+    badge: "Nigeria Domestic Tourism",
+    title: "Celebrate Local Festivals",
+    subtitle: "Cultural Wonders",
+    description:
+      "Join colorful festivals and events that showcase Nigeria’s rich traditions and heritage.",
+    primaryLink: { href: "#tours", text: "Explore Tours" },
+    secondaryLink: { href: "/contact", text: "Book a Heritage Tour" },
+  },
+  {
+    image: "/nigerian-domestic-tour/slider4.png",
+    badge: "Nigeria Domestic Tourism",
+    title: "Adventure Awaits",
+    subtitle: "Cultural Wonders",
+    description:
+      "Embark on exciting safaris, nature walks, and cultural tours throughout Nigeria.",
+    primaryLink: { href: "#tours", text: "Explore Tours" },
+    secondaryLink: { href: "/contact", text: "Book a Heritage Tour" },
+  },
+  {
+    image: "/nigerian-domestic-tour/slider1.png",
+    badge: "Nigeria Domestic Tourism",
+    title: "Experience Heritage Sites",
+    subtitle: "Cultural Wonders",
+    description:
+      "Visit historic landmarks and cultural centers that tell Nigeria’s unique story.",
     primaryLink: { href: "#tours", text: "Explore Tours" },
     secondaryLink: { href: "/contact", text: "Book a Heritage Tour" },
   },

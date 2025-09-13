@@ -16,7 +16,7 @@ const LANGUAGES = [
   "Ijaw",
   "Edo",
   // Sign
-  "Signed Language",
+  "Sign Language",
   // Africa (removed duplicates: English, Hausa, Yoruba already in Nigeria)
   "Swahili",
   "Arabic",
@@ -86,7 +86,7 @@ export default function TopLanguagesPage() {
           <div className="absolute inset-0 bg-black/30" />
           <div className="absolute inset-0 flex flex-col items-center justify-end pb-8 px-4">
             <h1 className="text-white text-2xl sm:text-4xl lg:text-5xl font-extrabold text-center drop-shadow">
-              World Languages Snapshot
+              1st to Our Language Courses
             </h1>
             <p className="bg-slate-700 rounded-md py-1 px-2 mt-3 text-slate-100/90 text-center max-w-3xl">
               A quick overview of major spoken and signed languages worldwide.
@@ -98,7 +98,7 @@ export default function TopLanguagesPage() {
       {/* Languages Grid */}
       <section className="max-w-6xl mx-auto px-4 py-10 sm:py-14">
         <h2 className="text-xl sm:text-2xl font-bold text-slate-800 mb-8 text-center">
-          Top Languages Around the World
+          Language Courses We Offer
         </h2>
         <div
           className="

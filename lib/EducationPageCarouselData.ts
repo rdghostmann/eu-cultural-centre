@@ -17,103 +17,63 @@ export type Slide = {
 
 export const EducationPageCarouselData: Slide[] = [
   {
-    image: "/school-exchange-tours/school-exchange-tours-slide1.png",
+    image: "/education/education.png",
     badge: "Education & Knowledge Exchange",
-    title: "Transforming Lives,",
-    subtitle: "Through Learning",
+    title: "Empower Through Learning",
+    subtitle: "Unlock Potential",
     description:
-      "Comprehensive programs bridging cultures and creating opportunities for growth.",
+      "Bridging cultures and creating opportunities for growth through education.",
     primaryLink: { href: "#programs", text: "Explore Programs" },
     secondaryLink: { href: "/contact", text: "Apply Now" },
   },
   {
-    image: "/school-exchange-tours/school-exchange-tours-slide2.png",
+    image: "/education/education0.png",
     badge: "Education & Knowledge Exchange",
-    title: "Transforming Lives,",
-    subtitle: "Through Learning",
+    title: "Expand Horizons",
+    subtitle: "Global Knowledge",
     description:
-      "Comprehensive programs bridging cultures and creating opportunities for growth.",
+      "Connecting learners worldwide for academic excellence and cultural exchange.",
     primaryLink: { href: "#programs", text: "Explore Programs" },
     secondaryLink: { href: "/contact", text: "Apply Now" },
   },
   {
-    image: "/school-exchange-tours/school-exchange-tours-slide3.png",
+    image: "/education/education1.png",
     badge: "Education & Knowledge Exchange",
-    title: "Transforming Lives,",
-    subtitle: "Through Learning",
+    title: "Inspire Innovation",
+    subtitle: "Transform Education",
     description:
-      "Comprehensive programs bridging cultures and creating opportunities for growth.",
+      "Fostering creativity and critical thinking for future leaders.",
     primaryLink: { href: "#programs", text: "Explore Programs" },
     secondaryLink: { href: "/contact", text: "Apply Now" },
   },
-  // {
-  //   image: "/school-exchange-tours/school-exchange-tours-slide1.png",
-  //   badge: "Education & Knowledge Exchange",
-  //   title: "Transforming Lives,",
-  //   subtitle: "Through Learning",
-  //   description:
-  //     "Comprehensive programs bridging cultures and creating opportunities for growth.",
-  //   primaryLink: { href: "#programs", text: "Explore Programs" },
-  //   secondaryLink: { href: "/contact", text: "Apply Now" },
-  // },
-  // {
-  //   image: "/school-exchange-tours/school-exchange-tours-slide5.png",
-  //   badge: "Digital Learning",
-  //   title: "E-Learning,",
-  //   subtitle: "Without Borders",
-  //   description:
-  //     "Expanding access to quality education through digital platforms and tools.",
-  //   primaryLink: { href: "#programs", text: "Start Learning" },
-  //   secondaryLink: { href: "/contact", text: "Learn More" },
-  // },
-  // {
-  //   image: "/school-exchange-tours/education6.jpg",
-  //   badge: "Youth Empowerment",
-  //   title: "Educate Youth,",
-  //   subtitle: "Shape the Future",
-  //   description:
-  //     "Encouraging youth leadership through mentorship, innovation, and education.",
-  //   primaryLink: { href: "#programs", text: "Empower Youth" },
-  //   secondaryLink: { href: "/contact", text: "Learn More" },
-  // },
-  // {
-  //   image: "/school-exchange-tours/education7.jpg",
-  //   badge: "Professional Growth",
-  //   title: "Train Today,",
-  //   subtitle: "Lead Tomorrow",
-  //   description:
-  //     "Supporting continuous professional development for a global workforce.",
-  //   primaryLink: { href: "#programs", text: "Join Training" },
-  //   secondaryLink: { href: "/contact", text: "Learn More" },
-  // },
-  // {
-  //   image: "/school-exchange-tours/education8.jpg",
-  //   badge: "STEM Innovation",
-  //   title: "Science & Tech,",
-  //   subtitle: "For Global Impact",
-  //   description:
-  //     "Promoting STEM education to drive innovation and sustainable development.",
-  //   primaryLink: { href: "#programs", text: "Support STEM" },
-  //   secondaryLink: { href: "/contact", text: "Learn More" },
-  // },
-  // {
-  //   image: "/school-exchange-tours/education9.jpg",
-  //   badge: "Cultural Exchange in Learning",
-  //   title: "Diverse Classrooms,",
-  //   subtitle: "Inclusive Futures",
-  //   description:
-  //     "Integrating cultural understanding into education for global citizenship.",
-  //   primaryLink: { href: "#programs", text: "Join the Exchange" },
-  //   secondaryLink: { href: "/contact", text: "Learn More" },
-  // },
-  // {
-  //   image: "/school-exchange-tours/education10.jpg",
-  //   badge: "Global Knowledge • Shared Futures",
-  //   title: "United by,",
-  //   subtitle: "Education",
-  //   description:
-  //     "Collaborating across borders to build an educated, connected, and sustainable future.",
-  //   primaryLink: { href: "#programs", text: "Connect With Us" },
-  //   secondaryLink: { href: "/contact", text: "Learn More" },
-  // },
+  {
+    image: "/education/education2.png",
+    badge: "Education & Knowledge Exchange",
+    title: "Collaborate & Grow",
+    subtitle: "Shared Success",
+    description:
+      "Building partnerships for impactful learning and development.",
+    primaryLink: { href: "#programs", text: "Explore Programs" },
+    secondaryLink: { href: "/contact", text: "Apply Now" },
+  },
+  {
+    image: "/education/education3.png",
+    badge: "Education & Knowledge Exchange",
+    title: "E-Learning,",
+    subtitle: "Without Borders",
+    description:
+      "Expanding access to quality education through digital platforms and tools.",
+    primaryLink: { href: "#programs", text: "Start Learning" },
+    secondaryLink: { href: "/contact", text: "Learn More" },
+  },
+  {
+    image: "/education/education4.jpg",
+    badge: "Education & Knowledge Exchange",
+    title: "Educate Youth,",
+    subtitle: "Shape the Future",
+    description:
+      "Encouraging youth leadership through mentorship, innovation, and education.",
+    primaryLink: { href: "#programs", text: "Empower Youth" },
+    secondaryLink: { href: "/contact", text: "Learn More" },
+  },
 ];
