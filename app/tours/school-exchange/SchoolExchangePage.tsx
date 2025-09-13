@@ -117,7 +117,7 @@ export default function SchoolExchangePage() {
                         animate={programsInView ? "visible" : "hidden"}
                     >
                         <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-ecc-slate mb-3 sm:mb-4">
-                            Exchange Programs
+                           School Exchange Programs
                         </h2>
                         <p className="text-base sm:text-lg md:text-xl text-gray-600 max-w-2xl sm:max-w-3xl mx-auto px-2">
                             Comprehensive educational exchange programs designed to provide transformative learning experiences across
