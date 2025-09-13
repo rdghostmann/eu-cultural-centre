@@ -59,7 +59,7 @@ export default function ContactPage() {
 	return (
 		<div className="flex flex-col overflow-hidden">
 			{/* Hero Section */}
-			<section className="hidden relative bg-gradient-to-br from-[#205375] via-[#68b684] to-[#8F770A] text-white py-20">
+			<section className="relative bg-gradient-to-br from-[#205375] via-[#68b684] to-[#8F770A] text-white py-20">
 				<motion.div
 					className="absolute inset-0 bg-black/20"
 					initial={{ opacity: 0 }}
@@ -86,7 +86,7 @@ export default function ContactPage() {
 					</motion.div>
 				</div>
 			</section>
-			<HeaderSlider2 images={ContactPageCarouselData} />
+			{/* <HeaderSlider2 images={ContactPageCarouselData} /> */}
 
 
 			{/* Contact Form & Info */}
