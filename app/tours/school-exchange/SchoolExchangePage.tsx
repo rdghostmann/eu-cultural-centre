@@ -11,6 +11,7 @@ import { useScrollAnimation } from "@/hooks/use-scroll-animation"
 import CTASection from "@/components/CTASection/CTASection"
 import HeaderSlider2 from "@/components/CustomSlider/HeaderSlider2"
 import { CooperationPageCarouselData } from "@/lib/CooperationPageCarouselData"
+import { SchoolExchangeToursData } from "@/lib/SchoolExchangeTourData"
 
 const exchangePrograms = [
     {
@@ -103,7 +104,7 @@ export default function SchoolExchangePage() {
                     </motion.div>
                 </div>
             </section>
-            <HeaderSlider2 images={CooperationPageCarouselData} />
+            <HeaderSlider2 images={SchoolExchangeToursData} />
 
 
             {/* Exchange Programs */}

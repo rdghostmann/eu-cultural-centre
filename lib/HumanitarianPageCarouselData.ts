@@ -14,7 +14,6 @@ export type Slide = {
   title: string;
   subtitle: string;
 };
-
 export const HumanitarianPageCarouselData: Slide[] = [
   {
     image: "/humanitarian/humanitarian-slide1.png",
@@ -22,37 +21,37 @@ export const HumanitarianPageCarouselData: Slide[] = [
     title: "Relief & Aid",
     subtitle: "In Crisis",
     description:
-      "Providing emergency relief and humanitarian aid to vulnerable communities affected by conflict, natural disasters, and displacement.",
+      "Emergency relief and aid for vulnerable communities worldwide.",
     primaryLink: { href: "#programs", text: "Explore Programs" },
     secondaryLink: { href: "/contact", text: "Get Involved" },
   },
   {
     image: "/humanitarian/humanitarian-slide12.png",
-      badge: "Humanitarian",
+    badge: "Humanitarian",
     title: "Health & Nutrition",
     subtitle: "Through Care",
     description:
-      "Delivering health services, nutrition programs, and medical support to ensure the well-being of at-risk populations worldwide.",
+      "Delivering health services, nutrition programs, and medical support.",
     primaryLink: { href: "#programs", text: "Learn More" },
     secondaryLink: { href: "/contact", text: "Volunteer Today" },
   },
   {
     image: "/humanitarian/humanitarian-slide13.png",
-        badge: "Humanitarian",
+    badge: "Humanitarian",
     title: "Education & Protection",
     subtitle: "In Emergencies",
     description:
-      "Ensuring children and young people in crisis have access to safe learning environments, protection, and hope for the future.",
+      "Safe learning and protection for children in crisis.",
     primaryLink: { href: "#programs", text: "See Initiatives" },
     secondaryLink: { href: "/contact", text: "Donate Now" },
   },
   {
     image: "/humanitarian/humanitarian-slide10.png",
-        badge: "Humanitarian",
+    badge: "Humanitarian",
     title: "Sustainable Recovery",
     subtitle: "To Resilience",
     description:
-      "Building long-term resilience by supporting livelihoods, community rebuilding, and sustainable recovery programs.",
+      "Supporting livelihoods and sustainable community recovery programs.",
     primaryLink: { href: "#programs", text: "Discover More" },
     secondaryLink: { href: "/contact", text: "Partner With Us" },
   },
