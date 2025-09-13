@@ -26,16 +26,16 @@ export const EducationPageCarouselData: Slide[] = [
     primaryLink: { href: "#programs", text: "Explore Programs" },
     secondaryLink: { href: "/contact", text: "Apply Now" },
   },
-  {
-    image: "/education/education0.png",
-    badge: "Education & Knowledge Exchange",
-    title: "Expand Horizons",
-    subtitle: "Global Knowledge",
-    description:
-      "Connecting learners worldwide for academic excellence and cultural exchange.",
-    primaryLink: { href: "#programs", text: "Explore Programs" },
-    secondaryLink: { href: "/contact", text: "Apply Now" },
-  },
+  // {
+  //   image: "/education/education0.png",
+  //   badge: "Education & Knowledge Exchange",
+  //   title: "Expand Horizons",
+  //   subtitle: "Global Knowledge",
+  //   description:
+  //     "Connecting learners worldwide for academic excellence and cultural exchange.",
+  //   primaryLink: { href: "#programs", text: "Explore Programs" },
+  //   secondaryLink: { href: "/contact", text: "Apply Now" },
+  // },
   {
     image: "/education/education1.png",
     badge: "Education & Knowledge Exchange",
