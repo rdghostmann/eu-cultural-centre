@@ -109,7 +109,7 @@ export default function HeaderSlider2({
         )}
         {slide.description && (
           <motion.p
-            className="text-base mb-6 text-[#e0f2fe] drop-shadow-[0_2px_8px_rgba(0,0,0,0.6)] max-w-2xl mx-auto"
+            className="text-base mb-3 text-[#e0f2fe] drop-shadow-[0_2px_8px_rgba(0,0,0,0.6)] max-w-2xl mx-auto"
             variants={staggerItem}
           >
             {slide.description}
