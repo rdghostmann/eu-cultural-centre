@@ -56,7 +56,7 @@ const upcomingEvents = [
     date: "June 12-14, 2026",
     time: "9:00 AM - 4:00 PM",
     location: "University of Lagos",
-    type: "Educational Workshop",
+    type: "Training Workshop",
     description: "Hands-on workshop on digital preservation techniques for cultural heritage sites and artifacts.",
     capacity: "100 participants",
     status: "Limited Spots",
@@ -91,7 +91,7 @@ const computeCategories = () => {
   const categories = [
     { name: "All Events", key: "all" },
     { name: "Cultural Festivals", key: "Cultural Festival" },
-    { name: "Educational", key: "Educational Workshop" },
+    { name: "Training & Workshop", key: "Training & Workshop" },
     { name: "Sports", key: "Sports Event" },
     { name: "Innovation", key: "Innovation Conference" },
     { name: "Arts", key: "Art Exhibition" },
@@ -199,12 +199,12 @@ export default function EventsPage() {
                           event.status === "Open Registration"
                             ? "default"
                             : event.status === "Early Bird"
-                            ? "secondary"
-                            : event.status === "Limited Spots"
-                            ? "destructive"
-                            : event.status === "Invitation Only"
-                            ? "outline"
-                            : "default"
+                              ? "secondary"
+                              : event.status === "Limited Spots"
+                                ? "destructive"
+                                : event.status === "Invitation Only"
+                                  ? "outline"
+                                  : "default"
                         }
                       >
                         {event.status}
@@ -238,8 +238,8 @@ export default function EventsPage() {
                           {event.status === "Free Entry"
                             ? "Learn More"
                             : event.status === "Invitation Only"
-                            ? "Request Invitation"
-                            : "Register Now"}
+                              ? "Request Invitation"
+                              : "Register Now"}
                         </Link>
                       </Button>
                     </motion.div>
