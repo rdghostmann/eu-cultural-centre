@@ -193,7 +193,7 @@ export default function HomePage() {
             </p>
           </motion.div>
           <motion.div
-            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-8"
+            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 px-8"
             variants={staggerContainer}
             initial="hidden"
             animate={eventsInView ? "visible" : "hidden"}
@@ -269,7 +269,7 @@ export default function HomePage() {
             </p>
           </motion.div>
           <motion.div
-            className="grid lg:grid-cols-3 gap-8 px-4 md:px-32 lg:px-8"
+            className="grid lg:grid-cols-4 gap-8 px-4 md:px-32 lg:px-8"
             variants={staggerContainer}
             initial="hidden"
             animate={programsInView ? "visible" : "hidden"}
@@ -352,7 +352,7 @@ export default function HomePage() {
 
           {/* Cards */}
           <motion.div
-            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-8"
+            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 px-8"
             variants={staggerContainer}
             initial="hidden"
             animate={newsInView ? "visible" : "hidden"}
