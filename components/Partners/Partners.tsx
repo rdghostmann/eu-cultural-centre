@@ -8,7 +8,9 @@ import Link from "next/link"
 import { ArrowRight, Handshake } from "lucide-react"
 
 const partners = [
-  { name: "IMG-20250815-WA0216", logo: "/partners/IMG-20250815-WA0216.jpg", link: "#" },
+  { name: "Reading Against Intolerance", logo: "/partners/reading-against-intolerance.png", link: "#" },
+  { name: "Federal Ministry of Arts Culture and Creative Economy", logo: "/partners/FMACCE.jpg", link: "#" },
+  { name: "International Human Rights Commission", logo: "/partners/international-human-right-comm.jpg", link: "#" },
   { name: "Intl Human Right Commission", logo: "/partners/intl-human-right-commission.jpg", link: "#" },
   { name: "Justice Development Peace Commission", logo: "/partners/justice-development-peace-commision.jpg", link: "#" },
   { name: "Kano State Government", logo: "/partners/kano-state-government.jpg", link: "#" },
@@ -26,12 +28,19 @@ const partners = [
   { name: "Calabar Festival", logo: "/partners/calabar-festival.jpg", link: "#" },
   { name: "Carnival Calabar", logo: "/partners/carnival-calabar.jpg", link: "#" },
   { name: "Creativity & Professionalism", logo: "/partners/creativity-professionalism.jpg", link: "#" },
+  { name: "234 Express", logo: "/partners/234express.jpg", link: "#" },
   { name: "Federal Ministry Humanitarian & Poverty", logo: "/partners/fed-min-humanitarian-poverty.jpg", link: "#" },
+  { name: "sponsor-11", logo: "/partners/sponsor-11.png", link: "#" },
   { name: "Federal Ministry Women Affairs", logo: "/partners/fed-ministry-women-affairs.jpg", link: "#" },
   { name: "FMACTE", logo: "/partners/FMACTE.jpg", link: "#" },
   { name: "Gate of Nations", logo: "/partners/gate-of-nations.jpg", link: "#" },
   { name: "Government of Cross River", logo: "/partners/government-of-cross-river.jpg", link: "#" },
-  { name: "IMG-20250815-WA0195", logo: "/partners/IMG-20250815-WA0195.jpg", link: "#" },
+  { name: "sponsor-2", logo: "/partners/sponsor-2.png", link: "#" },
+  { name: "sponsor-3", logo: "/partners/sponsor-3.png", link: "#" },
+  { name: "sponsor-4", logo: "/partners/sponsor-4.png", link: "#" },
+  { name: "sponsor-8", logo: "/partners/sponsor-8.png", link: "#" },
+  { name: "sponsor-9", logo: "/partners/sponsor-9.png", link: "#" },
+  { name: "sponsor-10", logo: "/partners/sponsor-10.png", link: "#" },
 ]
 
 const Partners = () => {
