@@ -1,7 +1,11 @@
 {
-
   "HomePage": {
-    "areaofworkh2": "Nos Domaines d’Activité",
+    "areaofworkh2": "Nos Domaines d’Intervention",
     "areaofworkp": "Nous créons des échanges culturels significatifs et des partenariats durables dans huit domaines clés."
+  },
+  "Footer": {
+    "copyRight": "Centre Culturel Européen Nigéria. Tous droits réservés.",
+    "termsOfUser": "Conditions d’utilisation",
+    "privacyPolicy": "Politique de confidentialité"
   }
 }

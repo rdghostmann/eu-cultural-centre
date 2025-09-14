@@ -1,9 +1,11 @@
 {
-
   "HomePage": {
     "areaofworkh2": "Nuestras Áreas de Trabajo",
     "areaofworkp": "Creamos intercambios culturales significativos y asociaciones sostenibles en ocho áreas clave."
+  },
+  "Footer": {
+    "copyRight": "Centro Cultural Europeo Nigeria. Todos los derechos reservados.",
+    "termsOfUser": "Términos de uso",
+    "privacyPolicy": "Política de privacidad"
   }
-
-
 }

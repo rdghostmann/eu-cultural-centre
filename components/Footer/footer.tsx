@@ -76,6 +76,10 @@ export function Footer() {
   const { ref: footerRef, isInView: footerInView } = useScrollAnimation()
   const hoverScale = { scale: 1.08 }
 
+
+  const t = useTranslations("Footer")
+
+
   return (
     <footer
       className="border-t border-[#205375]/40
@@ -229,12 +233,19 @@ export function Footer() {
             className="mt-10 pt-6 pb-10 lg:pb-20 border-t border-white/10 dark:border-[#205375]/40 flex flex-col lg:flex-row justify-between items-center text-sm text-gray-400"
             variants={staggerItem}
           >
-            <div className="text-center">© {new Date().getFullYear()} European Cultural Center Nigeria. All rights reserved.</div>
+            <div className="text-center">
+              © {new Date().getFullYear()} {t("copyRight")}
+            </div>
             <div className="flex gap-6 mt-3 lg:mt-0">
-              <Link href="/termofuse" className="hover:text-[#68b684]">Terms of Use</Link>
-              <Link href="/privacypolicy" className="hover:text-[#68b684]">Privacy Policy</Link>
+              <Link href="/termofuse" className="hover:text-[#68b684]">
+                {t("termsOfUser")}
+              </Link>
+              <Link href="/privacypolicy" className="hover:text-[#68b684]">
+                {t("privacyPolicy")}
+              </Link>
             </div>
           </motion.div>
+
         </motion.div>
       </div>
     </footer>

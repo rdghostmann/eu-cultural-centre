@@ -1,8 +1,11 @@
 {
- 
-    "HomePage": {
-        "areaofworkh2": "Unsere Arbeitsbereiche",
-        "areaofworkp": "Wir schaffen bedeutungsvolle kulturelle Austauschmöglichkeiten und nachhaltige Partnerschaften in acht zentralen Bereichen."
-    }
-
+  "HomePage": {
+    "areaofworkh2": "Unsere Arbeitsbereiche",
+    "areaofworkp": "Wir schaffen bedeutungsvolle kulturelle Austausche und nachhaltige Partnerschaften in acht Schlüsselbereichen."
+  },
+  "Footer": {
+    "copyRight": "Europäisches Kulturzentrum Nigeria. Alle Rechte vorbehalten.",
+    "termsOfUser": "Nutzungsbedingungen",
+    "privacyPolicy": "Datenschutzrichtlinie"
+  }
 }

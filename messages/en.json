@@ -3,6 +3,13 @@
   "HomePage": {
     "areaofworkh2": "Our Areas of Work",
     "areaofworkp": "We create meaningful cultural exchanges and sustainable partnerships across eight key areas."
+  },
+  "Footer": {
+    "newsLetterH3": "Stay Connected",
+    "newsLetterP": "Subscribe to our newsletter for the latest updates, events, and opportunities.",
+    "copyRight": "European Cultural Center Nigeria. All rights reserved.",
+    "termsOfUser": "Terms of Use",
+    "privacyPolicy": "Privacy Policy"
   }
 
 
