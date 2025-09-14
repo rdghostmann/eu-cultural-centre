@@ -3,9 +3,16 @@
     "areaofworkh2": "Unsere Arbeitsbereiche",
     "areaofworkp": "Wir schaffen bedeutungsvolle kulturelle Austausche und nachhaltige Partnerschaften in acht Schlüsselbereichen."
   },
-  "Footer": {
-    "copyRight": "Europäisches Kulturzentrum Nigeria. Alle Rechte vorbehalten.",
-    "termsOfUser": "Nutzungsbedingungen",
-    "privacyPolicy": "Datenschutzrichtlinie"
-  }
+ "Footer": {
+  "brandName1": "Europäisches Kultur",
+  "brandName2": "Zentrum Nigeria",
+  "brandDesc": "Brücken zwischen Kulturen bauen, Verständnis fördern und die Zusammenarbeit zwischen Europa, Afrika und dem Rest der Welt durch Bildung, Kunst und kulturellen Austausch stärken.",
+  "newsLetterH3": "Bleiben Sie verbunden",
+  "newsLetterP": "Abonnieren Sie unseren Newsletter für die neuesten Updates, Veranstaltungen und Möglichkeiten.",
+  "inputPlaceholder": "Geben Sie Ihre E-Mail ein",
+  "copyRight": "Europäisches Kulturzentrum Nigeria. Alle Rechte vorbehalten.",
+  "termsOfUser": "Nutzungsbedingungen",
+  "privacyPolicy": "Datenschutzrichtlinie"
+}
+
 }

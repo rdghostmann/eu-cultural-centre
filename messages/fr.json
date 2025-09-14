@@ -3,9 +3,16 @@
     "areaofworkh2": "Nos Domaines d’Intervention",
     "areaofworkp": "Nous créons des échanges culturels significatifs et des partenariats durables dans huit domaines clés."
   },
-  "Footer": {
-    "copyRight": "Centre Culturel Européen Nigéria. Tous droits réservés.",
-    "termsOfUser": "Conditions d’utilisation",
-    "privacyPolicy": "Politique de confidentialité"
-  }
+"Footer": {
+  "brandName1": "Centre Culturel",
+  "brandName2": "Européen Nigéria",
+  "brandDesc": "Relier les cultures, favoriser la compréhension et promouvoir la coopération entre l’Europe, l’Afrique et le reste du monde grâce à l’éducation, aux arts et aux échanges culturels.",
+  "newsLetterH3": "Restez Connecté",
+  "newsLetterP": "Abonnez-vous à notre newsletter pour recevoir les dernières mises à jour, événements et opportunités.",
+  "inputPlaceholder": "Entrez votre e-mail",
+  "copyRight": "Centre Culturel Européen Nigéria. Tous droits réservés.",
+  "termsOfUser": "Conditions d’utilisation",
+  "privacyPolicy": "Politique de confidentialité"
+}
+
 }

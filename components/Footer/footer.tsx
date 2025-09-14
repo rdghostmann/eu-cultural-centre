@@ -113,13 +113,16 @@ export function Footer() {
                   />
                 </motion.div>
                 <Link href="/" className="text-decoration-none">
-                  <span className="text-[#8F770A] font-bold text-lg leading-snug">
-                    European Cultural <br /> Center Nigeria
-                  </span>
+                  <h4 className="text-[#8F770A] font-bold text-lg leading-snug">
+                   {t("brandName1")}
+                  </h4>
+                  <h4 className="text-[#8F770A] font-bold text-lg leading-snug">
+                    {t("brandName2")}
+                  </h4>
                 </Link>
               </div>
               <p className="text-sm text-gray-300 mb-6 leading-relaxed max-w-md">
-                Bridging cultures, fostering understanding, and promoting cooperation between Europe, Africa and the rest of the world through education, arts, and cultural exchange.
+                {t("brandDesc")}
               </p>
               {/* Contact Info */}
               <div className="flex flex-col md:justify-end space-y-3 text-sm">
@@ -176,14 +179,12 @@ export function Footer() {
               className="bg-[#0f172a]/80 rounded-xl p-6 shadow-lg border border-[#68b684]/30 relative"
               onSubmit={(e) => e.preventDefault()}
             >
-              <h3 className="font-bold text-xl mb-2 text-[#8F770A]">Stay Connected</h3>
-              <p className="text-sm text-gray-300 mb-5">
-                Subscribe to our newsletter for updates on programs, events, and opportunities.
-              </p>
+              <h3 className="font-bold text-xl mb-2 text-[#8F770A]">{t("newsLetterH3")}</h3>
+              <p className="text-sm text-gray-300 mb-5">{t("newsLetterP")}</p>
               <div className="flex">
                 <Input
                   type="email"
-                  placeholder="Enter your email"
+                  placeholder={t("inputPlaceholder")}
                   className="flex-1 bg-transparent border-[#68b684] text-white placeholder-gray-400 focus:border-[#8F770A] rounded-none rounded-s-lg"
                   required
                 />

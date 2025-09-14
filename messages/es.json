@@ -4,8 +4,15 @@
     "areaofworkp": "Creamos intercambios culturales significativos y asociaciones sostenibles en ocho áreas clave."
   },
   "Footer": {
-    "copyRight": "Centro Cultural Europeo Nigeria. Todos los derechos reservados.",
-    "termsOfUser": "Términos de uso",
-    "privacyPolicy": "Política de privacidad"
-  }
+  "brandName1": "Centro Cultural",
+  "brandName2": "Europeo Nigeria",
+  "brandDesc": "Tendiendo puentes entre culturas, fomentando el entendimiento y promoviendo la cooperación entre Europa, África y el resto del mundo a través de la educación, las artes y el intercambio cultural.",
+  "newsLetterH3": "Mantente Conectado",
+  "newsLetterP": "Suscríbete a nuestro boletín para recibir las últimas actualizaciones, eventos y oportunidades.",
+  "inputPlaceholder": "Introduce tu correo electrónico",
+  "copyRight": "Centro Cultural Europeo Nigeria. Todos los derechos reservados.",
+  "termsOfUser": "Términos de uso",
+  "privacyPolicy": "Política de privacidad"
+}
+
 }

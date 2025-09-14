@@ -5,8 +5,12 @@
     "areaofworkp": "We create meaningful cultural exchanges and sustainable partnerships across eight key areas."
   },
   "Footer": {
+    "brandName1": "European Cultural",
+    "brandName2": "Center Nigeria",
+    "brandDesc": "Bridging cultures, fostering understanding, and promoting cooperation between Europe, Africa and the rest of the world through education, arts, and cultural exchange.",
     "newsLetterH3": "Stay Connected",
     "newsLetterP": "Subscribe to our newsletter for the latest updates, events, and opportunities.",
+    "inputPlaceholder": "Enter your email",
     "copyRight": "European Cultural Center Nigeria. All rights reserved.",
     "termsOfUser": "Terms of Use",
     "privacyPolicy": "Privacy Policy"
