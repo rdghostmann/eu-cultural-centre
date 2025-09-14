@@ -3,9 +3,9 @@ import { Select, SelectTrigger, SelectValue, SelectContent, SelectItem } from "@
 import { Globe } from "lucide-react"
 
 const languages = [
-  { value: "en", label: "EN" },
-  { value: "fr", label: "FR" },
-  { value: "es", label: "ES" },
+  { value: "en", label: "English" },
+  { value: "fr", label: "French" },
+  { value: "es", label: "Spanish" },
 ]
 
 const LanguageSwitcher = ({ locale, changeLocale }: { locale: string; changeLocale: (val: string) => void }) => {
