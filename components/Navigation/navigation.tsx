@@ -1,7 +1,7 @@
 // Navigation/navigation.tsx
 "use client"
 
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
@@ -23,6 +23,9 @@ import {
 import Image from "next/image"
 import { Menu, GraduationCap, HeartHandshake, Landmark, Users, Palette, Globe2, BookOpen, Briefcase, Activity, Trees, Accessibility, Handshake, Lightbulb, Trophy, Calendar, Camera, PlaySquare, Plane } from "lucide-react"
 import Logo from "/public/ecc-logo.png"
+import LanguageSwitcher from "@/components/Lang/LanguageSwitcher"
+import { useRouter } from "next/navigation"
+
 
 // Add icons to Areas of Work
 const areasOfWork = [
@@ -59,6 +62,28 @@ const tours = [
 
 export function Navigation() {
   const [isOpen, setIsOpen] = useState(false)
+  const [locale, setLocale] = useState("")
+  const router = useRouter();
+
+useEffect(() => {
+const cookieLocale = document.cookie
+.split("; ").find(row => row.startsWith("MYNEXTAPP_LOCALE="))?.split("=")[1];
+
+if (cookieLocale) {
+  setLocale(cookieLocale);
+} else {
+  const browserLocale = navigator.language.slice(0, 2);
+  setLocale(browserLocale);
+  document.cookie = `MYNEXTAPP_LOCALE=${browserLocale}`; 
+  router.refresh();
+}
+}, [router]);
+
+const changeLocale = (newLocale: string)=> {
+  setLocale(newLocale);
+  document.cookie = `MYNEXTAPP_LOCALE=${newLocale}`;
+  router.refresh();
+}
 
   return (
     <motion.header
@@ -82,7 +107,6 @@ export function Navigation() {
             <span
               className="text-[#B38C49] font-bold md:text-2xl lg:text-xl tracking-tight"
               style={{
-                // WebkitTextStroke: "1px #B38C49",
                 letterSpacing: "0.05em",
               }}
             >
@@ -206,6 +230,10 @@ export function Navigation() {
           </NavigationMenuList>
         </NavigationMenu>
 
+        {/* Language Switcher Desktop */}
+        <div className="hidden xl:flex items-center ml-4">
+          <LanguageSwitcher locale={locale} changeLocale={changeLocale} />
+        </div>
         {/* Buttons & Mobile Nav */}
         <div className="flex items-center space-x-2">
           <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
@@ -213,6 +241,12 @@ export function Navigation() {
               <Link href="/contact">Get Involved</Link>
             </Button>
           </motion.div>
+
+          {/* Language Switcher Mobile */}
+          <div className="xl:hidden">
+          <LanguageSwitcher locale={locale} changeLocale={changeLocale} />
+          </div>
+
 
           {/* Mobile Navigation */}
           <Sheet open={isOpen} onOpenChange={setIsOpen}>
@@ -272,11 +306,11 @@ export function Navigation() {
                               key={tour.href}
                               href={tour.href}
                               onClick={() => setIsOpen(false)}
-                        className="flex items-center space-x-3 rounded-md text-sm font-medium transition-colors hover:text-[#205375] dark:hover:text-[#8F770A]"
+                              className="flex items-center space-x-3 rounded-md text-sm font-medium transition-colors hover:text-[#205375] dark:hover:text-[#8F770A]"
                             >
-                               <span className="p-2 rounded-full bg-gray-200 dark:bg-gray-700 transition-colors group-hover:bg-[#68b684]/20">
-                          <tour.icon className="h-4 w-4 text-gray-600 group-hover:text-[#205375] dark:group-hover:text-[#8F770A]" />
-                        </span>
+                              <span className="p-2 rounded-full bg-gray-200 dark:bg-gray-700 transition-colors group-hover:bg-[#68b684]/20">
+                                <tour.icon className="h-4 w-4 text-gray-600 group-hover:text-[#205375] dark:group-hover:text-[#8F770A]" />
+                              </span>
                               {tour.title}
                             </Link>
                           ))}

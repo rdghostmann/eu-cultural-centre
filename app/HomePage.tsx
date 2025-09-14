@@ -7,7 +7,7 @@ import { Badge } from "@/components/ui/badge"
 import Link from "next/link"
 import {
   ArrowRight, Users, Globe, Heart, Lightbulb, Calendar, Newspaper, Camera,
-  BookOpen, Palette, Leaf, Accessibility, Users2, Trophy, FlaskConical, Rocket
+  BookOpen, Palette, Leaf, HandCoins , Accessibility, Users2, Trophy, FlaskConical, Rocket
 } from "lucide-react"
 import { fadeInUp, staggerContainer, staggerItem, } from "@/lib/animations"
 import { useScrollAnimation } from "@/hooks/use-scroll-animation"
@@ -15,6 +15,7 @@ import CTASection from "@/components/CTASection/CTASection"
 import { HomePageCarouselData } from "@/lib/HomePageCarouselData"
 import HeaderSlider from "@/components/CustomSlider/HeaderSlider"
 import Partners from "@/components/Partners/Partners"
+import { useTranslations } from "next-intl"
 
 const areasOfWork = [
   { title: "Education & Knowledge Exchange", description: "Learning, capacity building and academic partnerships connecting continents.", icon: BookOpen, href: "/education" },
@@ -25,6 +26,7 @@ const areasOfWork = [
   { title: "Sports, Tourism & Events", description: "Sports and travel as tools for education and cultural exchange.", icon: Trophy, href: "/sports" },
   { title: "Creative & Cultural Research", description: "Research and innovation strengthening cultural sectors.", icon: FlaskConical, href: "/research" },
   { title: "Innovation & New Media", description: "Supporting creative startups and tech for culture.", icon: Rocket, href: "/innovation" },
+  { title: "Grant Sourcing", description: "Identifying and securing funding opportunities to sustain cultural initiatives.", icon: HandCoins , href: "/grant-sourcing" },
 ]
 
 const stats = [
@@ -58,11 +60,12 @@ export default function HomePage() {
   const { ref: areasRef, isInView: areasInView } = useScrollAnimation()
   const { ref: eventsRef, isInView: eventsInView } = useScrollAnimation()
   const { ref: programsRef, isInView: programsInView } = useScrollAnimation()
-  const { ref: partnersRef, isInView: partnersInView } = useScrollAnimation()
   const { ref: newsRef, isInView: newsInView } = useScrollAnimation()
 
   const hoverScale = { scale: 1.05 }
   const hoverLift = { y: -5, scale: 1.05 }
+
+  const t = useTranslations("HomePage")
 
   return (
     <div className="flex flex-col overflow-hidden">
@@ -120,10 +123,10 @@ export default function HomePage() {
             animate={areasInView ? "visible" : "hidden"}
           >
             <h2 className="text-3xl lg:text-4xl font-bold mb-4 text-white drop-shadow-[0_4px_16px_rgba(0,0,0,0.7)]">
-              Our Areas of Work
+              {t("areaofworkh2")}
             </h2>
             <p className="text-xl text-gray-200 max-w-3xl mx-auto px-4">
-              We create meaningful cultural exchanges and sustainable partnerships across eight key areas.
+              {t("areaofworkp")}
             </p>
           </motion.div>
           <motion.div

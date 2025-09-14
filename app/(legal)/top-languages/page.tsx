@@ -86,10 +86,10 @@ export default function TopLanguagesPage() {
           <div className="absolute inset-0 bg-black/30" />
           <div className="absolute inset-0 flex flex-col items-center justify-end pb-8 px-4">
             <h1 className="text-white text-2xl sm:text-4xl lg:text-5xl font-extrabold text-center drop-shadow">
-              1st to Our Language Courses
+             Our Language Courses
             </h1>
             <p className="bg-slate-700 rounded-md py-1 px-2 mt-3 text-slate-100/90 text-center max-w-3xl">
-              A quick overview of major spoken and signed languages worldwide.
+              A quick overview of major spoken and sign languages worldwide.
             </p>
           </div>
         </div>

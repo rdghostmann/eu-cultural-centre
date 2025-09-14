@@ -1,0 +1,133 @@
+{
+  "TabTitle": {
+    "home": "Centre Culturel Européen Nigeria"
+  },
+  "HomePage": {
+    "areaofworkh2": "Nos Domaines d’Activité",
+    "areaofworkp": "Nous créons des échanges culturels significatifs et des partenariats durables dans huit domaines clés."
+  },
+  "AreasOfWork": {
+    "education": {
+      "title": "Éducation & Échange de Connaissances",
+      "description": "Apprentissage, renforcement des capacités et partenariats académiques reliant les continents."
+    },
+    "culture": {
+      "title": "Culture, Arts & Patrimoine",
+      "description": "Mettre en valeur, préserver et célébrer les arts visuels et du spectacle."
+    },
+    "environment": {
+      "title": "Environnement & Action Climatique",
+      "description": "Éducation climatique et action communautaire pour un avenir plus vert."
+    },
+    "inclusion": {
+      "title": "Inclusion & Accessibilité",
+      "description": "Garantir que tous les programmes soient accessibles et inclusifs pour tous."
+    },
+    "cooperation": {
+      "title": "Coopération de Personne à Personne",
+      "description": "Diplomatie culturelle et partenariats reliant la société civile."
+    },
+    "sports": {
+      "title": "Sports, Tourisme & Événements",
+      "description": "Le sport et les voyages comme outils d’éducation et d’échange culturel."
+    },
+    "research": {
+      "title": "Recherche Créative & Culturelle",
+      "description": "Recherche et innovation renforçant les secteurs culturels."
+    },
+    "innovation": {
+      "title": "Innovation & Nouveaux Médias",
+      "description": "Soutenir les startups créatives et la technologie au service de la culture."
+    },
+    "grants": {
+      "title": "Recherche de Financement",
+      "description": "Identifier et obtenir des opportunités de financement pour soutenir les initiatives culturelles."
+    }
+  },
+  "Stats": {
+    "programs": "Programmes Actifs",
+    "countries": "Pays Partenaires",
+    "lives": "Vies Impactées",
+    "innovation": "Projets d’Innovation"
+  },
+  "Events": {
+    "heading": "Événements à venir",
+  "subheading": "Rejoignez-nous lors de nos événements culturels, d'innovation et sportifs à travers le Nigeria.",
+  "africanHeritageFestival": {
+    "title": "Festival du Patrimoine Africain",
+    "date": "15-17 mars 2026",
+    "location": "Centre Culturel de Lagos",
+    "type": "Événement Culturel"
+  },
+  "youthInnovationSummit": {
+    "title": "Sommet de l'Innovation Jeunesse",
+    "date": "8-10 avril 2026",
+    "location": "Abuja Tech Hub",
+    "type": "Innovation"
+  },
+  "internationalSportsTournament": {
+    "title": "Tournoi Sportif International",
+    "date": "20-25 mai 2026",
+    "location": "Stade National",
+    "type": "Sports"
+  },
+    "event1": {
+      "title": "Festival du Patrimoine Africain",
+      "date": "15-17 mars 2026",
+      "location": "Centre Culturel de Lagos",
+      "type": "Événement Culturel"
+    },
+    "event2": {
+      "title": "Sommet de l’Innovation Jeunesse",
+      "date": "8-10 avril 2026",
+      "location": "Abuja Tech Hub",
+      "type": "Innovation"
+    },
+    "event3": {
+      "title": "Tournoi Sportif International",
+      "date": "20-25 mai 2026",
+      "location": "Stade National",
+      "type": "Sport"
+    }
+  },
+  "Programs": {
+    "program1": {
+      "title": "Programme de Résidence d’Artistes",
+      "description": "Résidences de 3 mois pour artistes émergents d’Europe et d’Afrique",
+      "duration": "3 mois",
+      "applications": "Ouvert"
+    },
+    "program2": {
+      "title": "Bourse de Recherche Culturelle",
+      "description": "Opportunités de recherche pour chercheurs en études culturelles",
+      "duration": "6 mois",
+      "applications": "Bientôt clôturé"
+    },
+    "program3": {
+      "title": "Académie de Leadership Jeunesse",
+      "description": "Programme de développement du leadership pour jeunes ambassadeurs culturels",
+      "duration": "4 semaines",
+      "applications": "Ouvert"
+    }
+  },
+  "News": {
+    "news1": {
+      "title": "Nouveau Partenariat avec la Fondation Culturelle Européenne",
+      "excerpt": "ECC Nigeria annonce un partenariat stratégique pour développer les programmes d’échange culturel...",
+      "date": "15 janvier 2026",
+      "category": "Partenariat"
+    },
+    "news2": {
+      "title": "Publication de Recherche : Patrimoine Numérique en Afrique",
+      "excerpt": "Notre dernière recherche explore la numérisation du patrimoine culturel africain...",
+      "date": "10 janvier 2026",
+      "category": "Recherche"
+    },
+    "news3": {
+      "title": "Programme d’Échange Jeunesse Diplôme 50 Étudiants",
+      "excerpt": "Célébration de la réussite de notre dernière cohorte d’ambassadeurs culturels...",
+      "date": "5 janvier 2026",
+      "category": "Éducation"
+    }
+  }
+}

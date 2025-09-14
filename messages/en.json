@@ -1,0 +1,133 @@
+{
+  "TabTitle": {
+    "home": "European Cultural Centre Nigeria"
+  },
+  "HomePage": {
+    "areaofworkh2": "Our Areas of Work",
+    "areaofworkp": "We create meaningful cultural exchanges and sustainable partnerships across eight key areas."
+  },
+  "AreasOfWork": {
+    "education": {
+      "title": "Education & Knowledge Exchange",
+      "description": "Learning, capacity building and academic partnerships connecting continents."
+    },
+    "culture": {
+      "title": "Culture, Arts & Heritage",
+      "description": "Showcase, preserve and celebrate visual and performing arts."
+    },
+    "environment": {
+      "title": "Environment & Climate Action",
+      "description": "Climate education and community action for a greener future."
+    },
+    "inclusion": {
+      "title": "Inclusion & Accessibility",
+      "description": "Ensuring all programs are accessible and inclusive for everyone."
+    },
+    "cooperation": {
+      "title": "People-to-People Cooperation",
+      "description": "Cultural diplomacy and partnerships linking civil society."
+    },
+    "sports": {
+      "title": "Sports, Tourism & Events",
+      "description": "Sports and travel as tools for education and cultural exchange."
+    },
+    "research": {
+      "title": "Creative & Cultural Research",
+      "description": "Research and innovation strengthening cultural sectors."
+    },
+    "innovation": {
+      "title": "Innovation & New Media",
+      "description": "Supporting creative startups and tech for culture."
+    },
+    "grants": {
+      "title": "Grant Sourcing",
+      "description": "Identifying and securing funding opportunities to sustain cultural initiatives."
+    }
+  },
+  "Stats": {
+    "programs": "Active Programs",
+    "countries": "Partner Countries",
+    "lives": "Lives Impacted",
+    "innovation": "Innovation Projects"
+  },
+  "Events": {
+     "heading": "Upcoming Events",
+  "subheading": "Join us at our cultural, innovation, and sports events across Nigeria.",
+  "africanHeritageFestival": {
+    "title": "African Heritage Festival",
+    "date": "March 15-17, 2026",
+    "location": "Lagos Cultural Center",
+    "type": "Cultural Event"
+  },
+  "youthInnovationSummit": {
+    "title": "Youth Innovation Summit",
+    "date": "April 8-10, 2026",
+    "location": "Abuja Tech Hub",
+    "type": "Innovation"
+  },
+  "internationalSportsTournament": {
+    "title": "International Sports Tournament",
+    "date": "May 20-25, 2026",
+    "location": "National Stadium",
+    "type": "Sports"
+  },
+    "event1": {
+      "title": "African Heritage Festival",
+      "date": "March 15-17, 2026",
+      "location": "Lagos Cultural Center",
+      "type": "Cultural Event"
+    },
+    "event2": {
+      "title": "Youth Innovation Summit",
+      "date": "April 8-10, 2026",
+      "location": "Abuja Tech Hub",
+      "type": "Innovation"
+    },
+    "event3": {
+      "title": "International Sports Tournament",
+      "date": "May 20-25, 2026",
+      "location": "National Stadium",
+      "type": "Sports"
+    }
+  },
+  "Programs": {
+    "program1": {
+      "title": "Artist Residency Program",
+      "description": "3-month residencies for emerging artists from Europe and Africa",
+      "duration": "3 months",
+      "applications": "Open"
+    },
+    "program2": {
+      "title": "Cultural Research Fellowship",
+      "description": "Research opportunities for scholars in cultural studies",
+      "duration": "6 months",
+      "applications": "Closing Soon"
+    },
+    "program3": {
+      "title": "Youth Leadership Academy",
+      "description": "Leadership development program for young cultural ambassadors",
+      "duration": "4 weeks",
+      "applications": "Open"
+    }
+  },
+  "News": {
+    "news1": {
+      "title": "New Partnership with European Cultural Foundation",
+      "excerpt": "ECC Nigeria announces strategic partnership to expand cultural exchange programs...",
+      "date": "January 15, 2026",
+      "category": "Partnership"
+    },
+    "news2": {
+      "title": "Research Publication: Digital Heritage in Africa",
+      "excerpt": "Our latest research explores the digitization of African cultural heritage...",
+      "date": "January 10, 2026",
+      "category": "Research"
+    },
+    "news3": {
+      "title": "Youth Exchange Program Graduates 50 Students",
+      "excerpt": "Celebrating the success of our latest cohort of cultural ambassadors...",
+      "date": "January 5, 2026",
+      "category": "Education"
+    }
+  }
+}

@@ -1,0 +1,133 @@
+{
+    "TabTitle": {
+        "home": "Europäisches Kulturzentrum Nigeria"
+    },
+    "HomePage": {
+        "areaofworkh2": "Unsere Arbeitsbereiche",
+        "areaofworkp": "Wir schaffen bedeutungsvolle kulturelle Austauschmöglichkeiten und nachhaltige Partnerschaften in acht zentralen Bereichen."
+    },
+    "AreasOfWork": {
+        "education": {
+            "title": "Bildung & Wissensaustausch",
+            "description": "Lernen, Kapazitätsaufbau und akademische Partnerschaften, die Kontinente verbinden."
+        },
+        "culture": {
+            "title": "Kultur, Kunst & Erbe",
+            "description": "Visuelle und darstellende Künste präsentieren, bewahren und feiern."
+        },
+        "environment": {
+            "title": "Umwelt & Klimaschutz",
+            "description": "Klimabildung und gemeinschaftliches Handeln für eine grünere Zukunft."
+        },
+        "inclusion": {
+            "title": "Inklusion & Barrierefreiheit",
+            "description": "Sicherstellen, dass alle Programme für alle zugänglich und inklusiv sind."
+        },
+        "cooperation": {
+            "title": "Menschen-zu-Menschen Kooperation",
+            "description": "Kulturelle Diplomatie und Partnerschaften, die die Zivilgesellschaft verbinden."
+        },
+        "sports": {
+            "title": "Sport, Tourismus & Veranstaltungen",
+            "description": "Sport und Reisen als Instrumente für Bildung und kulturellen Austausch."
+        },
+        "research": {
+            "title": "Kreative & Kulturelle Forschung",
+            "description": "Forschung und Innovation zur Stärkung der Kultursektoren."
+        },
+        "innovation": {
+            "title": "Innovation & Neue Medien",
+            "description": "Unterstützung kreativer Start-ups und Technologien für die Kultur."
+        },
+        "grants": {
+            "title": "Fördermittelbeschaffung",
+            "description": "Identifizierung und Sicherung von Finanzierungsmöglichkeiten zur Unterstützung kultureller Initiativen."
+        }
+    },
+    "Stats": {
+        "programs": "Aktive Programme",
+        "countries": "Partnerländer",
+        "lives": "Betroffene Leben",
+        "innovation": "Innovationsprojekte"
+    },
+    "Events": {
+        "heading": "Bevorstehende Veranstaltungen",
+        "subheading": "Nehmen Sie an unseren Kultur-, Innovations- und Sportveranstaltungen in ganz Nigeria teil.",
+        "africanHeritageFestival": {
+            "title": "Afrikanisches Kulturerbe-Festival",
+            "date": "15.–17. März 2026",
+            "location": "Lagos Kulturzentrum",
+            "type": "Kulturelles Ereignis"
+        },
+        "youthInnovationSummit": {
+            "title": "Jugend-Innovationsgipfel",
+            "date": "8.–10. April 2026",
+            "location": "Abuja Tech Hub",
+            "type": "Innovation"
+        },
+        "internationalSportsTournament": {
+            "title": "Internationales Sportturnier",
+            "date": "20.–25. Mai 2026",
+            "location": "Nationalstadion",
+            "type": "Sport"
+        },
+        "event1": {
+            "title": "Afrikanisches Kulturerbefestival",
+            "date": "15.–17. März 2026",
+            "location": "Lagos Kulturzentrum",
+            "type": "Kulturelle Veranstaltung"
+        },
+        "event2": {
+            "title": "Jugend-Innovationsgipfel",
+            "date": "8.–10. April 2026",
+            "location": "Abuja Tech Hub",
+            "type": "Innovation"
+        },
+        "event3": {
+            "title": "Internationales Sportturnier",
+            "date": "20.–25. Mai 2026",
+            "location": "Nationalstadion",
+            "type": "Sport"
+        }
+    },
+    "Programs": {
+        "program1": {
+            "title": "Künstlerresidenzprogramm",
+            "description": "3-monatige Residenzen für aufstrebende Künstler aus Europa und Afrika",
+            "duration": "3 Monate",
+            "applications": "Offen"
+        },
+        "program2": {
+            "title": "Kulturelles Forschungsstipendium",
+            "description": "Forschungsmöglichkeiten für Wissenschaftler in Kulturstudien",
+            "duration": "6 Monate",
+            "applications": "Bald abgeschlossen"
+        },
+        "program3": {
+            "title": "Jugendführungsakademie",
+            "description": "Führungsentwicklungsprogramm für junge Kultur-Botschafter",
+            "duration": "4 Wochen",
+            "applications": "Offen"
+        }
+    },
+    "News": {
+        "news1": {
+            "title": "Neue Partnerschaft mit der Europäischen Kulturstiftung",
+            "excerpt": "ECC Nigeria kündigt eine strategische Partnerschaft an, um Programme zum kulturellen Austausch auszubauen...",
+            "date": "15. Januar 2026",
+            "category": "Partnerschaft"
+        },
+        "news2": {
+            "title": "Forschungsveröffentlichung: Digitales Erbe in Afrika",
+            "excerpt": "Unsere neueste Forschung untersucht die Digitalisierung des afrikanischen Kulturerbes...",
+            "date": "10. Januar 2026",
+            "category": "Forschung"
+        },
+        "news3": {
+            "title": "Jugendaustauschprogramm schließt 50 Studierende ab",
+            "excerpt": "Wir feiern den Erfolg unseres neuesten Jahrgangs kultureller Botschafter...",
+            "date": "5. Januar 2026",
+            "category": "Bildung"
+        }
+    }
+}
