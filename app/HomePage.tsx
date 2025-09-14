@@ -7,7 +7,11 @@ import { Badge } from "@/components/ui/badge"
 import Link from "next/link"
 import {
   ArrowRight, Users, Globe, Heart, Lightbulb, Calendar, Newspaper, Camera,
-  BookOpen, Palette, Leaf, HandCoins , Accessibility, Users2, Trophy, FlaskConical, Rocket
+  BookOpen, Palette, HeartHandshake, Landmark, Leaf, Trees, HandCoins , Globe2, Accessibility, Users2, Trophy, FlaskConical, Rocket,
+  GraduationCap,
+  Briefcase,
+  Activity,
+  Handshake
 } from "lucide-react"
 import { fadeInUp, staggerContainer, staggerItem, } from "@/lib/animations"
 import { useScrollAnimation } from "@/hooks/use-scroll-animation"
@@ -18,16 +22,116 @@ import Partners from "@/components/Partners/Partners"
 import { useTranslations } from "next-intl"
 
 const areasOfWork = [
-  { title: "Education & Knowledge Exchange", description: "Learning, capacity building and academic partnerships connecting continents.", icon: BookOpen, href: "/education" },
-  { title: "Culture, Arts & Heritage", description: "Showcase, preserve and celebrate visual and performing arts.", icon: Palette, href: "/culture" },
-  { title: "Environment & Climate Action", description: "Climate education and community action for a greener future.", icon: Leaf, href: "/environment" },
-  { title: "Inclusion & Accessibility", description: "Ensuring all programs are accessible and inclusive for everyone.", icon: Accessibility, href: "/inclusion" },
-  { title: "People-to-People Cooperation", description: "Cultural diplomacy and partnerships linking civil society.", icon: Users2, href: "/cooperation" },
-  { title: "Sports, Tourism & Events", description: "Sports and travel as tools for education and cultural exchange.", icon: Trophy, href: "/sports" },
-  { title: "Creative & Cultural Research", description: "Research and innovation strengthening cultural sectors.", icon: FlaskConical, href: "/research" },
-  { title: "Innovation & New Media", description: "Supporting creative startups and tech for culture.", icon: Rocket, href: "/innovation" },
-  { title: "Grant Sourcing", description: "Identifying and securing funding opportunities to sustain cultural initiatives.", icon: HandCoins , href: "/grant-sourcing" },
-]
+  {
+    title: "Education & Knowledge Exchange",
+    description: "Learning, capacity building, and academic partnerships across borders.",
+    icon: GraduationCap,
+    href: "/education",
+  },
+  {
+    title: "Humanitarian",
+    description: "Programs supporting communities with compassion, relief, and dignity.",
+    icon: HeartHandshake,
+    href: "/humanitarian",
+  },
+  {
+    title: "Exhibition & Conferences",
+    description: "Platforms for showcasing ideas, culture, and fostering global dialogue.",
+    icon: Landmark,
+    href: "/exhibition",
+  },
+  {
+    title: "Youth Development",
+    description: "Empowering young people through education, skills, and leadership.",
+    icon: Users,
+    href: "/youth-development",
+  },
+  {
+    title: "Training & Workshop",
+    description: "Hands-on sessions to build skills, share knowledge, and drive growth.",
+    icon: BookOpen,
+    href: "/training-workshop",
+  },
+  {
+    title: "Scholarship Programs",
+    description: "Expanding access to quality education through international support.",
+    icon: GraduationCap,
+    href: "/scholarship-programs",
+  },
+  {
+    title: "Grant Sourcing",
+    description: "Identifying and securing funding to sustain impactful initiatives.",
+    icon: Briefcase,
+    href: "/grant-sourcing",
+  },
+  {
+    title: "Healthcare",
+    description: "Promoting health awareness, care programs, and community well-being.",
+    icon: Activity,
+    href: "/healthcare",
+  },
+  {
+    title: "Language Courses",
+    description: "Breaking barriers by providing inclusive multilingual education.",
+    icon: BookOpen,
+    href: "/language-courses",
+  },
+  {
+    title: "Culture, Arts & Heritage",
+    description: "Showcasing, preserving, and celebrating diverse traditions and creativity.",
+    icon: Palette,
+    href: "/culture",
+  },
+  {
+    title: "Environment & Climate Action",
+    description: "Advocating for climate resilience, sustainability, and greener futures.",
+    icon: Trees,
+    href: "/environment",
+  },
+  {
+    title: "Inclusion & Accessibility",
+    description: "Ensuring equal opportunities and accessible programs for all.",
+    icon: Accessibility,
+    href: "/inclusion",
+  },
+  {
+    title: "People-to-People Cooperation",
+    description: "Building trust, solidarity, and connections across societies.",
+    icon: Handshake,
+    href: "/cooperation",
+  },
+  {
+    title: "Creative & Cultural Research",
+    description: "Exploring innovations and insights that advance cultural growth.",
+    icon: Lightbulb,
+    href: "/research",
+  },
+  {
+    title: "Sports",
+    description: "Harnessing the unifying power of sports for education and exchange.",
+    icon: Trophy,
+    href: "/sports",
+  },
+  {
+    title: "Events",
+    description: "Hosting cultural and academic events that bring people together.",
+    icon: Calendar,
+    href: "/events",
+  },
+  {
+    title: "Tourism",
+    description: "Promoting intercultural understanding through travel and heritage.",
+    icon: Globe2,
+    href: "/tourism",
+  },
+  {
+    title: "Innovation & New Media",
+    description: "Driving creativity with technology, startups, and digital media.",
+    icon: Lightbulb,
+    href: "/innovation",
+  },
+];
+
 
 const stats = [
   { label: "Active Programs", value: "50+", icon: Users },
