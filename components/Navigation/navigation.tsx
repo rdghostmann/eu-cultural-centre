@@ -26,6 +26,8 @@ import Logo from "/public/ecc-logo.png"
 import LanguageSwitcher from "@/components/Lang/LanguageSwitcher"
 import { useRouter } from "next/navigation"
 
+import { useTranslations } from "next-intl"
+
 
 // Add icons to Areas of Work
 const areasOfWork = [

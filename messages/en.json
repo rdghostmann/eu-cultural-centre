@@ -129,5 +129,52 @@
       "date": "January 5, 2026",
       "category": "Education"
     }
-  }
+  },
+ "Footer": {
+    "brand": "European Cultural Centre Nigeria",
+    "description": "Bridging cultures, fostering understanding, and promoting cooperation between Europe, Africa and the rest of the world through education, arts, and cultural exchange.",
+    "contact": {
+      "email": "Email",
+      "phone": "Phone",
+      "address": "Address"
+    },
+    "links": {
+      "aboutECC": "About ECC",
+      "ourMission": "Our Mission",
+      "ourPrograms": "Our Programs",
+      "careers": "Careers",
+      "programs": "Programs",
+      "educationExchange": "Education & Exchange",
+      "culturalHeritage": "Cultural Heritage",
+      "innovationLab": "Innovation Lab",
+      "allPrograms": "All Programs",
+      "getInvolved": "Get Involved",
+      "applyPrograms": "Apply for Programs",
+      "partnerUs": "Partner with Us",
+      "volunteer": "Volunteer",
+      "donate": "Donate",
+      "resources": "Resources",
+      "eventsCalendar": "Events Calendar",
+      "newsUpdates": "News & Updates",
+      "contactUs": "Contact Us"
+    },
+    "newsletter": {
+      "heading": "Stay Connected",
+      "description": "Subscribe to our newsletter for updates on programs, events, and opportunities.",
+      "placeholder": "Enter your email",
+      "button": "Subscribe"
+    },
+    "social": {
+      "facebook": "Facebook",
+      "twitter": "Twitter",
+      "instagram": "Instagram",
+      "youtube": "YouTube",
+      "tiktok": "Tiktok"
+    },
+    "bottomBar": {
+      "copyright": "© {year} European Cultural Centre Nigeria. All rights reserved.",
+      "terms": "Terms of Use",
+      "privacy": "Privacy Policy"
+    }
+  },
 }

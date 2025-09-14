@@ -10,6 +10,8 @@ import { useScrollAnimation } from "@/hooks/use-scroll-animation"
 import { Variants } from "framer-motion"
 import Image from "next/image"
 
+import { useTranslations } from "next-intl"
+
 const variants: Variants = {
   hidden: { opacity: 0, y: 20 },
   visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeInOut" } },

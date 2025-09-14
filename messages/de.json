@@ -129,5 +129,53 @@
             "date": "5. Januar 2026",
             "category": "Bildung"
         }
-    }
+    },
+    "Footer": {
+  "brand": "Europäisches Kulturzentrum Nigeria",
+  "description": "Brücken zwischen Kulturen bauen, Verständnis fördern und Zusammenarbeit zwischen Europa, Afrika und dem Rest der Welt durch Bildung, Kunst und kulturellen Austausch fördern.",
+  "contact": {
+    "email": "E-Mail",
+    "phone": "Telefon",
+    "address": "Adresse"
+  },
+  "links": {
+    "aboutECC": "Über ECC",
+    "ourMission": "Unsere Mission",
+    "ourPrograms": "Unsere Programme",
+    "careers": "Karriere",
+    "programs": "Programme",
+    "educationExchange": "Bildung & Austausch",
+    "culturalHeritage": "Kulturerbe",
+    "innovationLab": "Innovationslabor",
+    "allPrograms": "Alle Programme",
+    "getInvolved": "Mitmachen",
+    "applyPrograms": "Für Programme bewerben",
+    "partnerUs": "Mit uns Partner werden",
+    "volunteer": "Freiwillige",
+    "donate": "Spenden",
+    "resources": "Ressourcen",
+    "eventsCalendar": "Veranstaltungskalender",
+    "newsUpdates": "Neuigkeiten & Updates",
+    "contactUs": "Kontakt"
+  },
+  "newsletter": {
+    "heading": "Bleiben Sie verbunden",
+    "description": "Abonnieren Sie unseren Newsletter für Updates zu Programmen, Veranstaltungen und Möglichkeiten.",
+    "placeholder": "Geben Sie Ihre E-Mail ein",
+    "button": "Abonnieren"
+  },
+  "social": {
+    "facebook": "Facebook",
+    "twitter": "Twitter",
+    "instagram": "Instagram",
+    "youtube": "YouTube",
+    "tiktok": "TikTok"
+  },
+  "bottomBar": {
+    "copyright": "© {year} Europäisches Kulturzentrum Nigeria. Alle Rechte vorbehalten.",
+    "terms": "Nutzungsbedingungen",
+    "privacy": "Datenschutzrichtlinie"
+  }
+}
+
 }

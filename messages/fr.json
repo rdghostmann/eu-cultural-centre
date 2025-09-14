@@ -129,5 +129,53 @@
       "date": "5 janvier 2026",
       "category": "Éducation"
     }
+  },
+  "Footer": {
+  "brand": "Centre Culturel Européen Nigeria",
+  "description": "Relier les cultures, favoriser la compréhension et promouvoir la coopération entre l'Europe, l'Afrique et le reste du monde grâce à l'éducation, aux arts et aux échanges culturels.",
+  "contact": {
+    "email": "E-mail",
+    "phone": "Téléphone",
+    "address": "Adresse"
+  },
+  "links": {
+    "aboutECC": "À propos de l'ECC",
+    "ourMission": "Notre mission",
+    "ourPrograms": "Nos programmes",
+    "careers": "Carrières",
+    "programs": "Programmes",
+    "educationExchange": "Éducation & Échange",
+    "culturalHeritage": "Patrimoine Culturel",
+    "innovationLab": "Laboratoire d'Innovation",
+    "allPrograms": "Tous les Programmes",
+    "getInvolved": "S'impliquer",
+    "applyPrograms": "Postuler aux Programmes",
+    "partnerUs": "Devenez Partenaire",
+    "volunteer": "Bénévolat",
+    "donate": "Faire un don",
+    "resources": "Ressources",
+    "eventsCalendar": "Calendrier des Événements",
+    "newsUpdates": "Actualités & Mises à jour",
+    "contactUs": "Nous contacter"
+  },
+  "newsletter": {
+    "heading": "Restez Connecté",
+    "description": "Abonnez-vous à notre newsletter pour recevoir des mises à jour sur les programmes, événements et opportunités.",
+    "placeholder": "Entrez votre e-mail",
+    "button": "S'abonner"
+  },
+  "social": {
+    "facebook": "Facebook",
+    "twitter": "Twitter",
+    "instagram": "Instagram",
+    "youtube": "YouTube",
+    "tiktok": "TikTok"
+  },
+  "bottomBar": {
+    "copyright": "© {year} Centre Culturel Européen Nigeria. Tous droits réservés.",
+    "terms": "Conditions d'utilisation",
+    "privacy": "Politique de confidentialité"
   }
+}
+
 }
