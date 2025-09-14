@@ -114,10 +114,8 @@ export function Footer() {
                 </motion.div>
                 <Link href="/" className="text-decoration-none">
                   <h4 className="text-[#8F770A] font-bold text-lg leading-snug">
-                   {/* {t("brandName1")} */}
                    European Cultural
                   <h4 className="text-[#8F770A] font-bold text-lg leading-snug">
-                    {/* {t("brandName2")} */}
                     Center Nigeria
                   </h4>
                   </h4>

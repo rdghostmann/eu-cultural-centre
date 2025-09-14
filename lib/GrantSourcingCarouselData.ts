@@ -27,7 +27,7 @@ export const GrantSourcingCarouselData: Slide[] = [
     secondaryLink: { href: "/contact", text: "Apply Now" },
   },
   {
-    image: "/grant-sourcing/grant-sourcing1.png",
+    image: "/grant-sourcing/grant-sourcing.png",
     badge: "Grant Sourcing",
     title: "Building Partnerships",
     subtitle: "For Growth",
