@@ -37,7 +37,7 @@ const partners = [
   { name: "Government of Cross River", logo: "/partners/government-of-cross-river.jpg", link: "#" },
   { name: "sponsor-2", logo: "/partners/sponsor-2.png", link: "#" },
   { name: "sponsor-3", logo: "/partners/sponsor-3.png", link: "#" },
-  { name: "sponsor-4", logo: "/partners/sponsor-4.png", link: "#" },
+  // { name: "sponsor-4", logo: "/partners/sponsor-4.png", link: "#" },
   { name: "sponsor-8", logo: "/partners/sponsor-8.png", link: "#" },
   { name: "sponsor-9", logo: "/partners/sponsor-9.png", link: "#" },
   { name: "sponsor-10", logo: "/partners/sponsor-10.png", link: "#" },
