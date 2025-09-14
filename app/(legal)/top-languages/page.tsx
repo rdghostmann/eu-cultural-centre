@@ -89,7 +89,7 @@ export default function TopLanguagesPage() {
              Our Language Courses
             </h1>
             <p className="bg-slate-700 rounded-md py-1 px-2 mt-3 text-slate-100/90 text-center max-w-3xl">
-              A quick overview of major spoken and sign languages worldwide.
+              A quick overview of the Language Courses and Sign Language Classes We Offer
             </p>
           </div>
         </div>
