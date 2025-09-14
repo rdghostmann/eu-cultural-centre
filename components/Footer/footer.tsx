@@ -9,6 +9,7 @@ import { staggerContainer, staggerItem } from "@/lib/animations"
 import { useScrollAnimation } from "@/hooks/use-scroll-animation"
 import { Variants } from "framer-motion"
 import Image from "next/image"
+
 import { useTranslations } from "next-intl"
 
 const variants: Variants = {
@@ -22,13 +23,38 @@ const CONTACT_INFO = {
   address: "47 Damaturu Crescent Garki Mall, FCT, Abuja Nigeria",
 }
 
+const footerLinks = {
+  "About ECC": [
+    { name: "Our Mission", href: "/about#mission" },
+    { name: "Our Programs", href: "/#programs" },
+    { name: "Careers", href: "/contact" },
+  ],
+  Programs: [
+    { name: "Education & Exchange", href: "/education" },
+    { name: "Cultural Heritage", href: "/culture" },
+    { name: "Innovation Lab", href: "/innovation" },
+    { name: "All Programs", href: "/#all-programs" },
+  ],
+  "Get Involved": [
+    { name: "Apply for Programs", href: "/#programs" },
+    { name: "Partner with Us", href: "/contact" },
+    { name: "Volunteer", href: "/contact" },
+    { name: "Donate", href: "/contact" },
+  ],
+  Resources: [
+    { name: "Events Calendar", href: "/events" },
+    { name: "News & Updates", href: "/news-research" },
+    { name: "Contact Us", href: "/contact" },
+  ],
+}
+
 const socialLinks = [
-  { key: "facebook", icon: Facebook, href: "https://www.facebook.com/share/1Ax1H5XUsc/" },
-  { key: "twitter", icon: Twitter, href: "https://x.com/eu_cultural_c" },
-  { key: "instagram", icon: Instagram, href: "https://www.instagram.com/eu_cultural_centre" },
-  { key: "youtube", icon: Youtube, href: "https://youtube.com/@euculturalcentre" },
+  { name: "Facebook", icon: Facebook, href: "https://www.facebook.com/share/1Ax1H5XUsc/" },
+  { name: "Twitter", icon: Twitter, href: "https://x.com/eu_cultural_c" },
+  { name: "Instagram", icon: Instagram, href: "https://www.instagram.com/eu_cultural_centre" },
+  { name: "YouTube", icon: Youtube, href: "https://youtube.com/@euculturalcentre" },
   {
-    key: "tiktok",
+    name: "Tiktok",
     icon: (props: any) => (
       <svg
         {...props}
@@ -50,33 +76,6 @@ export function Footer() {
   const { ref: footerRef, isInView: footerInView } = useScrollAnimation()
   const hoverScale = { scale: 1.08 }
 
-  const t = useTranslations("Footer")
-
-  const footerLinks = {
-    [t("links.aboutECC")]: [
-      { name: t("links.ourMission"), href: "/about#mission" },
-      { name: t("links.ourPrograms"), href: "/#programs" },
-      { name: t("links.careers"), href: "/contact" },
-    ],
-    [t("links.programs")]: [
-      { name: t("links.educationExchange"), href: "/education" },
-      { name: t("links.culturalHeritage"), href: "/culture" },
-      { name: t("links.innovationLab"), href: "/innovation" },
-      { name: t("links.allPrograms"), href: "/#all-programs" },
-    ],
-    [t("links.getInvolved")]: [
-      { name: t("links.applyPrograms"), href: "/#programs" },
-      { name: t("links.partnerUs"), href: "/contact" },
-      { name: t("links.volunteer"), href: "/contact" },
-      { name: t("links.donate"), href: "/contact" },
-    ],
-    [t("links.resources")]: [
-      { name: t("links.eventsCalendar"), href: "/events" },
-      { name: t("links.newsUpdates"), href: "/news-research" },
-      { name: t("links.contactUs"), href: "/contact" },
-    ],
-  }
-
   return (
     <footer
       className="border-t border-[#205375]/40
@@ -92,6 +91,7 @@ export function Footer() {
         >
           {/* Main Footer */}
           <div className="grid grid-cols-1 lg:grid-cols-5 gap-5 mb-14">
+
             {/* Brand & Contact */}
             <motion.div className="lg:col-span-2" variants={staggerItem}>
               <div className="flex items-center space-x-3 mb-7">
@@ -110,34 +110,35 @@ export function Footer() {
                 </motion.div>
                 <Link href="/" className="text-decoration-none">
                   <span className="text-[#8F770A] font-bold text-lg leading-snug">
-                    {t("brand")}
+                    European Cultural <br /> Center Nigeria
                   </span>
                 </Link>
               </div>
               <p className="text-sm text-gray-300 mb-6 leading-relaxed max-w-md">
-                {t("description")}
+                Bridging cultures, fostering understanding, and promoting cooperation between Europe, Africa and the rest of the world through education, arts, and cultural exchange.
               </p>
               {/* Contact Info */}
               <div className="flex flex-col md:justify-end space-y-3 text-sm">
                 <motion.div className="flex items-center gap-3" whileHover={{ x: 5 }}>
                   <Mail className="h-5 w-5 text-[#8F770A]" />
                   <Link href={`mailto:${CONTACT_INFO.email}`} className="text-white hover:underline">
-                    {t("contact.email")}: {CONTACT_INFO.email}
+                    {CONTACT_INFO.email}
                   </Link>
                 </motion.div>
                 <motion.div className="flex items-center gap-3" whileHover={{ x: 5 }}>
                   <Phone className="h-5 w-5 text-[#8F770A]" />
                   <Link href={`tel:${CONTACT_INFO.phone}`} className="text-white hover:underline">
-                    {t("contact.phone")}: {CONTACT_INFO.phone}
+                    {CONTACT_INFO.phone}
                   </Link>
                 </motion.div>
                 <motion.div className="flex items-center gap-3" whileHover={{ x: 5 }}>
                   <MapPin className="h-5 w-5 text-[#8F770A]" />
                   <Link href="https://www.google.com/maps?q=47+Damaturu+Crescent,+Garki+Mall,+FCT,+Abuja&output=embed" className="text-white hover:underline">
-                    {t("contact.address")}: {CONTACT_INFO.address}
+                    {CONTACT_INFO.address}
                   </Link>
                 </motion.div>
               </div>
+
             </motion.div>
 
             {/* Footer Links */}
@@ -171,12 +172,14 @@ export function Footer() {
               className="bg-[#0f172a]/80 rounded-xl p-6 shadow-lg border border-[#68b684]/30 relative"
               onSubmit={(e) => e.preventDefault()}
             >
-              <h3 className="font-bold text-xl mb-2 text-[#8F770A]">{t("newsletter.heading")}</h3>
-              <p className="text-sm text-gray-300 mb-5">{t("newsletter.description")}</p>
+              <h3 className="font-bold text-xl mb-2 text-[#8F770A]">Stay Connected</h3>
+              <p className="text-sm text-gray-300 mb-5">
+                Subscribe to our newsletter for updates on programs, events, and opportunities.
+              </p>
               <div className="flex">
                 <Input
                   type="email"
-                  placeholder={t("newsletter.placeholder")}
+                  placeholder="Enter your email"
                   className="flex-1 bg-transparent border-[#68b684] text-white placeholder-gray-400 focus:border-[#8F770A] rounded-none rounded-s-lg"
                   required
                 />
@@ -205,7 +208,7 @@ export function Footer() {
                       <Link
                         href={social.href}
                         className="p-3 bg-[#1e293b] rounded-full text-[#68b684] hover:text-white hover:bg-[#8F770A] transition-all duration-300 shadow flex items-center justify-center"
-                        aria-label={t(`social.${social.key}`)}
+                        aria-label={social.name}
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -214,7 +217,10 @@ export function Footer() {
                     </motion.div>
                   )
                 })}
+
               </div>
+
+
             </div>
           </motion.div>
 
@@ -223,16 +229,10 @@ export function Footer() {
             className="mt-10 pt-6 pb-10 lg:pb-20 border-t border-white/10 dark:border-[#205375]/40 flex flex-col lg:flex-row justify-between items-center text-sm text-gray-400"
             variants={staggerItem}
           >
-            <div className="text-center">
-              {t("bottomBar.copyright", { year: new Date().getFullYear() })}
-            </div>
+            <div className="text-center">© {new Date().getFullYear()} European Cultural Center Nigeria. All rights reserved.</div>
             <div className="flex gap-6 mt-3 lg:mt-0">
-              <Link href="/termofuse" className="hover:text-[#68b684]">
-                {t("bottomBar.terms")}
-              </Link>
-              <Link href="/privacypolicy" className="hover:text-[#68b684]">
-                {t("bottomBar.privacy")}
-              </Link>
+              <Link href="/termofuse" className="hover:text-[#68b684]">Terms of Use</Link>
+              <Link href="/privacypolicy" className="hover:text-[#68b684]">Privacy Policy</Link>
             </div>
           </motion.div>
         </motion.div>

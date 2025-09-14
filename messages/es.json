@@ -3,54 +3,7 @@
   "HomePage": {
     "areaofworkh2": "Nuestras Áreas de Trabajo",
     "areaofworkp": "Creamos intercambios culturales significativos y asociaciones sostenibles en ocho áreas clave."
-  },
-
-  "Footer": {
-  "brand": "Centro Cultural Europeo Nigeria",
-  "description": "Conectando culturas, fomentando la comprensión y promoviendo la cooperación entre Europa, África y el resto del mundo a través de la educación, las artes y el intercambio cultural.",
-  "contact": {
-    "email": "Correo electrónico",
-    "phone": "Teléfono",
-    "address": "Dirección"
-  },
-  "links": {
-    "aboutECC": "Acerca del ECC",
-    "ourMission": "Nuestra misión",
-    "ourPrograms": "Nuestros programas",
-    "careers": "Carreras",
-    "programs": "Programas",
-    "educationExchange": "Educación & Intercambio",
-    "culturalHeritage": "Patrimonio Cultural",
-    "innovationLab": "Laboratorio de Innovación",
-    "allPrograms": "Todos los Programas",
-    "getInvolved": "Involúcrate",
-    "applyPrograms": "Solicitar Programas",
-    "partnerUs": "Asóciate con Nosotros",
-    "volunteer": "Voluntariado",
-    "donate": "Donar",
-    "resources": "Recursos",
-    "eventsCalendar": "Calendario de Eventos",
-    "newsUpdates": "Noticias & Actualizaciones",
-    "contactUs": "Contáctanos"
-  },
-  "newsletter": {
-    "heading": "Mantente Conectado",
-    "description": "Suscríbete a nuestro boletín para recibir actualizaciones sobre programas, eventos y oportunidades.",
-    "placeholder": "Introduce tu correo electrónico",
-    "button": "Suscribirse"
-  },
-  "social": {
-    "facebook": "Facebook",
-    "twitter": "Twitter",
-    "instagram": "Instagram",
-    "youtube": "YouTube",
-    "tiktok": "TikTok"
-  },
-  "bottomBar": {
-    "copyright": "© {year} Centro Cultural Europeo Nigeria. Todos los derechos reservados.",
-    "terms": "Términos de uso",
-    "privacy": "Política de Privacidad"
   }
-}
+
 
 }
