@@ -100,28 +100,29 @@ const areasOfWork = [
     >
       <div className="w-full mx-auto flex p-4 items-center justify-between">
         {/* Logo */}
-        <motion.div whileTap={{ scale: 0.95 }}>
+        <motion.div whileTap={{ scale: 0.95 }} className="">
           <Link href="/" className="flex items-center space-x-2">
             <Image
               src={Logo}
               alt="ECC Logo"
               width={1042}
               height={588}
-              className="w-28 h-28 object-contain"
+              className="hidden md:block w-10 h-10 lg:w-28 lg:h-28 object-contain"
               priority
             />
             <span
-              className="text-[#B38C49] font-bold md:text-2xl lg:text-xl tracking-tight"
-              style={{
-                letterSpacing: "0.05em",
-              }}
+              // className="text-[#B38C49] font-bold md:text-lg lg:text-xl tracking-tight"
+              className="text-[#B38C49] font-bold text-sm lg:text-xl tracking-tight"
+              // style={{
+              //   letterSpacing: "0.05rem",
+              // }}
             >
               European Cultural <br />
               <span
                 className="text-[#03A4DD]"
-                style={{
-                  letterSpacing: "0.05em",
-                }}
+                // style={{
+                //   letterSpacing: "0.05rem",
+                // }}
               >
                 Center Nigeria
               </span>

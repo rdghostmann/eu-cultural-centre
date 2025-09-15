@@ -104,15 +104,15 @@ export default function CookieConsent() {
                     <Button
                         size="sm"
                         onClick={handleAccept}
-                        className="flex-1 text-xs bg-blue-600 text-white hover:bg-blue-700"
+                        className="w-fit flex-1 text-xs bg-blue-600 text-white hover:bg-blue-700"
                     >
-                        Accept Cookies
+                        Accept <span className="">Cookies</span>
                     </Button>
                     <Button
                         size="sm"
                         variant="secondary"
                         onClick={() => setIsVisible(false)}
-                        className="flex-1 text-xs"
+                        className="w-fit flex-1 text-xs"
                     >
                         Dismiss
                     </Button>
