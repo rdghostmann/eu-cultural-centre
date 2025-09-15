@@ -139,6 +139,59 @@
       }
     }
   },
+  "TopLanguagesPage": {
+    "header": {
+      "title": "Nos Cours de Langues",
+      "subtitle": "Un aperçu rapide des cours de langues et des cours de langue des signes que nous proposons"
+    },
+    "languagesSection": {
+      "title": "Cours de langues que nous proposons"
+    },
+    "languages": [
+      "Anglais",
+      "Haoussa",
+      "Yoruba",
+      "Igbo",
+      "Peul (Fulfulde)",
+      "Kanouri",
+      "Tiv",
+      "Ibibio",
+      "Ijaw",
+      "Édo",
+      "Langue des signes",
+      "Swahili",
+      "Arabe",
+      "Français",
+      "Amharique",
+      "Oromo",
+      "Shona",
+      "Zoulou",
+      "Russe",
+      "Allemand",
+      "Italien",
+      "Turc",
+      "Ukrainien",
+      "Polonais",
+      "Roumain",
+      "Néerlandais",
+      "Grec",
+      "Tchèque",
+      "Hongrois",
+      "Suédois",
+      "Bulgare",
+      "Serbe",
+      "Danois",
+      "Finnois",
+      "Chinois mandarin",
+      "Hindi",
+      "Bengali",
+      "Japonais",
+      "Pendjabi",
+      "Coréen",
+      "Vietnamien",
+      "Ourdou"
+    ]
+  },
   "footerLink": {
     "about": {
       "title": "À propos de l'ECC",

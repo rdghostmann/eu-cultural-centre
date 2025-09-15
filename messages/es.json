@@ -139,6 +139,60 @@
     }
   }
 },
+
+  "TopLanguagesPage": {
+    "header": {
+      "title": "Nuestros Cursos de Idiomas",
+      "subtitle": "Un resumen rápido de los cursos de idiomas y clases de lengua de señas que ofrecemos"
+    },
+    "languagesSection": {
+      "title": "Cursos de idiomas que ofrecemos"
+    },
+    "languages": [
+      "Inglés",
+      "Hausa",
+      "Yoruba",
+      "Igbo",
+      "Fulfulde",
+      "Kanuri",
+      "Tiv",
+      "Ibibio",
+      "Ijaw",
+      "Edo",
+      "Lengua de señas",
+      "Suajili",
+      "Árabe",
+      "Francés",
+      "Amhárico",
+      "Oromo",
+      "Shona",
+      "Zulú",
+      "Ruso",
+      "Alemán",
+      "Italiano",
+      "Turco",
+      "Ucraniano",
+      "Polaco",
+      "Rumano",
+      "Neerlandés",
+      "Griego",
+      "Checo",
+      "Húngaro",
+      "Sueco",
+      "Búlgaro",
+      "Serbio",
+      "Danés",
+      "Finlandés",
+      "Chino mandarín",
+      "Hindi",
+      "Bengalí",
+      "Japonés",
+      "Punyabí",
+      "Coreano",
+      "Vietnamita",
+      "Urdu"
+    ]
+  },
   "footerLink": {
     "about": {
       "title": "Acerca de ECC",

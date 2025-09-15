@@ -139,6 +139,59 @@
       }
     }
   },
+  "TopLanguagesPage": {
+  "header": {
+    "title": "Our Language Courses",
+    "subtitle": "A quick overview of the Language Courses and Sign Language Classes We Offer"
+  },
+  "languagesSection": {
+    "title": "Language Courses We Offer"
+  },
+  "languages": [
+    "English",
+    "Hausa",
+    "Yoruba",
+    "Igbo",
+    "Fulfulde",
+    "Kanuri",
+    "Tiv",
+    "Ibibio",
+    "Ijaw",
+    "Edo",
+    "Sign Language",
+    "Swahili",
+    "Arabic",
+    "French",
+    "Amharic",
+    "Oromo",
+    "Shona",
+    "Zulu",
+    "Russian",
+    "German",
+    "Italian",
+    "Turkish",
+    "Ukrainian",
+    "Polish",
+    "Romanian",
+    "Dutch",
+    "Greek",
+    "Czech",
+    "Hungarian",
+    "Swedish",
+    "Bulgarian",
+    "Serbian",
+    "Danish",
+    "Finnish",
+    "Mandarin Chinese",
+    "Hindi",
+    "Bengali",
+    "Japanese",
+    "Punjabi",
+    "Korean",
+    "Vietnamese",
+    "Urdu"
+  ]
+},
   "footerLink": {
     "about": {
       "title": "About ECC",

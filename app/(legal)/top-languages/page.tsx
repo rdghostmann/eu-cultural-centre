@@ -2,58 +2,7 @@
 "use client";
 
 import { useMemo } from "react";
-
-const LANGUAGES = [
-  // Nigeria
-  "English",
-  "Hausa",
-  "Yoruba",
-  "Igbo",
-  "Fulfulde",
-  "Kanuri",
-  "Tiv",
-  "Ibibio",
-  "Ijaw",
-  "Edo",
-  // Sign
-  "Sign Language",
-  // Africa (removed duplicates: English, Hausa, Yoruba already in Nigeria)
-  "Swahili",
-  "Arabic",
-  "French",
-  "Amharic",
-  "Oromo",
-  "Shona",
-  "Zulu",
-  // Europe (removed duplicates: English, French, Portuguese, Spanish, Arabic already used)
-  "Russian",
-  "German",
-  "Italian",
-  "Turkish",
-  "Ukrainian",
-  "Polish",
-  "Romanian",
-  "Dutch",
-  "Greek",
-  "Czech",
-  "Hungarian",
-  "Swedish",
-  "Bulgarian",
-  "Serbian",
-  "Danish",
-  "Finnish",
-  // America (removed duplicates: English, Spanish, Portuguese, French, Dutch already used)
-  // none left, skip
-  // Asia (removed duplicates: Arabic, Turkish already used)
-  "Mandarin Chinese",
-  "Hindi",
-  "Bengali",
-  "Japanese",
-  "Punjabi",
-  "Korean",
-  "Vietnamese",
-  "Urdu",
-];
+import { useTranslations } from "next-intl";
 
 function randomPastel(): string {
   const h = Math.floor(Math.random() * 360);
@@ -63,12 +12,17 @@ function randomPastel(): string {
 }
 
 export default function TopLanguagesPage() {
-  // unique languages
-  const uniqueLangs = Array.from(new Set(LANGUAGES));
+  const t = useTranslations("TopLanguagesPage");
+
+  // get languages array from JSON
+  const langs: string[] = t.raw("languages");
+
+  // ensure uniqueness
+  const uniqueLangs = Array.from(new Set(langs));
 
   const colors = useMemo(() => {
     return uniqueLangs.map(() => randomPastel());
-  }, []);
+  }, [uniqueLangs]);
 
   return (
     <main className="min-h-screen bg-gradient-to-b from-white to-slate-50">
@@ -86,10 +40,10 @@ export default function TopLanguagesPage() {
           <div className="absolute inset-0 bg-black/30" />
           <div className="absolute inset-0 flex flex-col items-center justify-end pb-8 px-4">
             <h1 className="text-white text-2xl sm:text-4xl lg:text-5xl font-extrabold text-center drop-shadow">
-             Our Language Courses
+              {t("header.title")}
             </h1>
             <p className="bg-slate-700 rounded-md py-1 px-2 mt-3 text-slate-100/90 text-center max-w-3xl">
-              A quick overview of the Language Courses and Sign Language Classes We Offer
+              {t("header.subtitle")}
             </p>
           </div>
         </div>
@@ -98,7 +52,7 @@ export default function TopLanguagesPage() {
       {/* Languages Grid */}
       <section className="max-w-6xl mx-auto px-4 py-10 sm:py-14">
         <h2 className="text-xl sm:text-2xl font-bold text-slate-800 mb-8 text-center">
-          Language Courses We Offer
+          {t("languagesSection.title")}
         </h2>
         <div
           className="
