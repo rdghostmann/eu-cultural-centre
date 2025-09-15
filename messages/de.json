@@ -6,6 +6,29 @@
   "Navigation": {
     "about": "Über uns",
     "areasOfWork": "Arbeitsbereiche",
+    "areasWork": {
+      "title": "Arbeitsbereiche",
+      "subMenu": {
+        "education": "Bildung und Wissensaustausch",
+        "humanitarian": "Humanitär",
+        "exhibition": "Ausstellungen und Konferenzen",
+        "youthDevelopment": "Jugendentwicklung",
+        "training": "Schulungen und Workshops",
+        "scholarship": "Stipendienprogramme",
+        "grantSourcing": "Fördermittelbeschaffung",
+        "healthcare": "Gesundheitswesen",
+        "languageCourses": "Sprachkurse",
+        "culture": "Kultur, Kunst und Erbe",
+        "environment": "Umwelt- und Klimaschutz",
+        "inclusion": "Inklusion und Barrierefreiheit",
+        "cooperation": "Zwischenmenschliche Zusammenarbeit",
+        "research": "Kreative und kulturelle Forschung",
+        "sports": "Sport",
+        "events": "Veranstaltungen",
+        "tourism": "Tourismus",
+        "innovation": "Innovation und neue Medien"
+      }
+    },
     "toursExchange": "Touren & Austausch",
     "tours&Exchange": {
       "subMenu": {
@@ -77,6 +100,34 @@
     "contact": {
       "heading": "10. Kontakt",
       "text": "Bei Datenschutzanliegen oder -anfragen wenden Sie sich bitte über das Kontaktformular unserer Website oder die dort angegebene E-Mail-Adresse an uns."
+    }
+  },
+  "footerLink": {
+    "about": {
+      "title": "Über ECC",
+      "mission": "Unsere Mission",
+      "programs": "Unsere Programme",
+      "careers": "Karriere"
+    },
+    "programs": {
+      "title": "Programme",
+      "education": "Bildung & Austausch",
+      "culture": "Kulturelles Erbe",
+      "innovation": "Innovationslabor",
+      "all": "Alle Programme"
+    },
+    "getInvolved": {
+      "title": "Mitmachen",
+      "apply": "Für Programme bewerben",
+      "partner": "Mit uns zusammenarbeiten",
+      "volunteer": "Freiwilligenarbeit",
+      "donate": "Spenden"
+    },
+    "resources": {
+      "title": "Ressourcen",
+      "events": "Veranstaltungskalender",
+      "news": "Neuigkeiten & Updates",
+      "contact": "Kontaktieren Sie uns"
     }
   },
   "Footer": {

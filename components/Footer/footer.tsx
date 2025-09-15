@@ -23,30 +23,30 @@ const CONTACT_INFO = {
   address: "47 Damaturu Crescent Garki Mall, FCT, Abuja Nigeria",
 }
 
-const footerLinks = {
-  "About ECC": [
-    { name: "Our Mission", href: "/about#mission" },
-    { name: "Our Programs", href: "/#programs" },
-    { name: "Careers", href: "/contact" },
-  ],
-  Programs: [
-    { name: "Education & Exchange", href: "/education" },
-    { name: "Cultural Heritage", href: "/culture" },
-    { name: "Innovation Lab", href: "/innovation" },
-    { name: "All Programs", href: "/#all-programs" },
-  ],
-  "Get Involved": [
-    { name: "Apply for Programs", href: "/#programs" },
-    { name: "Partner with Us", href: "/contact" },
-    { name: "Volunteer", href: "/contact" },
-    { name: "Donate", href: "/contact" },
-  ],
-  Resources: [
-    { name: "Events Calendar", href: "/events" },
-    { name: "News & Updates", href: "/news-research" },
-    { name: "Contact Us", href: "/contact" },
-  ],
-}
+// const footerLinks = {
+//   "About ECC": [
+//     { name: "Our Mission", href: "/about#mission" },
+//     { name: "Our Programs", href: "/#programs" },
+//     { name: "Careers", href: "/contact" },
+//   ],
+//   Programs: [
+//     { name: "Education & Exchange", href: "/education" },
+//     { name: "Cultural Heritage", href: "/culture" },
+//     { name: "Innovation Lab", href: "/innovation" },
+//     { name: "All Programs", href: "/#all-programs" },
+//   ],
+//   "Get Involved": [
+//     { name: "Apply for Programs", href: "/#programs" },
+//     { name: "Partner with Us", href: "/contact" },
+//     { name: "Volunteer", href: "/contact" },
+//     { name: "Donate", href: "/contact" },
+//   ],
+//   Resources: [
+//     { name: "Events Calendar", href: "/events" },
+//     { name: "News & Updates", href: "/news-research" },
+//     { name: "Contact Us", href: "/contact" },
+//   ],
+// }
 
 const socialLinks = [
   { name: "Facebook", icon: Facebook, href: "https://www.facebook.com/share/1Ax1H5XUsc/" },
@@ -78,6 +78,32 @@ export function Footer() {
 
 
   const t = useTranslations("Footer")
+  const r = useTranslations("footerLink");
+
+  const footerLinks = {
+    About: [
+      { name: r("about.mission"), href: "/about#mission" },
+      { name: r("about.programs"), href: "/#programs" },
+      { name: r("about.careers"), href: "/contact" },
+    ],
+    Programs: [
+      { name: r("programs.education"), href: "/education" },
+      { name: r("programs.culture"), href: "/culture" },
+      { name: r("programs.innovation"), href: "/innovation" },
+      { name: r("programs.all"), href: "/#all-programs" },
+    ],
+    "Get Involved": [
+      { name: r("getInvolved.apply"), href: "/#programs" },
+      { name: r("getInvolved.partner"), href: "/contact" },
+      { name: r("getInvolved.volunteer"), href: "/contact" },
+      { name: r("getInvolved.donate"), href: "/contact" },
+    ],
+    Resources: [
+      { name: r("resources.events"), href: "/events" },
+      { name: r("resources.news"), href: "/news-research" },
+      { name: r("resources.contact"), href: "/contact" },
+    ],
+  };
 
 
   return (
@@ -114,7 +140,7 @@ export function Footer() {
                 </motion.div>
                 <Link href="/" className="text-decoration-none">
                   <h4 className="text-[#8F770A] font-bold text-lg leading-snug">
-                   European Cultural <br />
+                    European Cultural <br />
                     Center Nigeria
                   </h4>
                 </Link>

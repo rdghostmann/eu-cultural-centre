@@ -28,31 +28,6 @@ import { useRouter } from "next/navigation"
 
 import { useTranslations } from "next-intl"
 
-
-
-// Add icons to Areas of Work
-const areasOfWork = [
-  { title: "Education & Knowledge Exchange", href: "/education", icon: GraduationCap },
-  { title: "Humanitarian", href: "/humanitarian", icon: HeartHandshake },
-  { title: "Exhibition & Conferences", href: "/exhibition", icon: Landmark },
-  { title: "Youth Development", href: "/youth-development", icon: Users },
-  { title: "Training & Workshop", href: "/training-workshop", icon: BookOpen },
-  { title: "Scholarship Programs", href: "/scholarship-programs", icon: GraduationCap },
-  { title: "Grant Sourcing", href: "/grant-sourcing", icon: Briefcase },
-  { title: "Healthcare", href: "/healthcare", icon: Activity },
-  { title: "Language Courses", href: "/language-courses", icon: BookOpen },
-  { title: "Culture, Arts & Heritage", href: "/culture", icon: Palette },
-  { title: "Environment & Climate Action", href: "/environment", icon: Trees },
-  { title: "Inclusion & Accessibility", href: "/inclusion", icon: Accessibility },
-  { title: "People-to-People Cooperation", href: "/cooperation", icon: Handshake },
-  { title: "Creative & Cultural Research", href: "/research", icon: Lightbulb },
-  { title: "Sports", href: "/sports", icon: Trophy },
-  { title: "Events", href: "/events", icon: Calendar },
-  { title: "Tourism", href: "/tourism", icon: Globe2 },
-  { title: "Innovation & New Media", href: "/innovation", icon: Lightbulb },
-].sort((a, b) => a.title.localeCompare(b.title))
-
-
 export function Navigation() {
   const [isOpen, setIsOpen] = useState(false)
   const [locale, setLocale] = useState("")
@@ -92,6 +67,29 @@ export function Navigation() {
     { title: t("tours&Exchange.subMenu.study&FieldTrips"), href: "/tours/study-field-trips", icon: Plane },
     { title: t("tours&Exchange.subMenu.nigeriaDomesticTours"), href: "/tours/nigeria-local-tourism", icon: Globe2 },
   ].sort((a, b) => a.title.localeCompare(b.title));
+
+  // Add icons to Areas of Work
+const areasOfWork = [
+  { title: t("areasWork.subMenu.education"), href: "/education", icon: GraduationCap },
+  { title: t("areasWork.subMenu.humanitarian"), href: "/humanitarian", icon: HeartHandshake },
+  { title: t("areasWork.subMenu.exhibition"), href: "/exhibition", icon: Landmark },
+  { title: t("areasWork.subMenu.youthDevelopment"), href: "/youth-development", icon: Users },
+  { title: t("areasWork.subMenu.training"), href: "/training-workshop", icon: BookOpen },
+  { title: t("areasWork.subMenu.scholarship"), href: "/scholarship-programs", icon: GraduationCap },
+  { title: t("areasWork.subMenu.grantSourcing"), href: "/grant-sourcing", icon: Briefcase },
+  { title: t("areasWork.subMenu.healthcare"), href: "/healthcare", icon: Activity },
+  { title: t("areasWork.subMenu.languageCourses"), href: "/language-courses", icon: BookOpen },
+  { title: t("areasWork.subMenu.culture"), href: "/culture", icon: Palette },
+  { title: t("areasWork.subMenu.environment"), href: "/environment", icon: Trees },
+  { title: t("areasWork.subMenu.inclusion"), href: "/inclusion", icon: Accessibility },
+  { title: t("areasWork.subMenu.cooperation"), href: "/cooperation", icon: Handshake },
+  { title: t("areasWork.subMenu.research"), href: "/research", icon: Lightbulb },
+  { title: t("areasWork.subMenu.sports"), href: "/sports", icon: Trophy },
+  { title: t("areasWork.subMenu.events"), href: "/events", icon: Calendar },
+  { title: t("areasWork.subMenu.tourism"), href: "/tourism", icon: Globe2 },
+  { title: t("areasWork.subMenu.innovation"), href: "/innovation", icon: Lightbulb },
+].sort((a, b) => a.title.localeCompare(b.title))
+
 
   return (
     <motion.header

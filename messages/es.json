@@ -6,6 +6,29 @@
   "Navigation": {
     "about": "Acerca de",
     "areasOfWork": "Áreas de Trabajo",
+    "areasWork": {
+      "title": "Áreas de trabajo",
+      "subMenu": {
+        "education": "Educación e intercambio de conocimientos",
+        "humanitarian": "Humanitario",
+        "exhibition": "Exposiciones y conferencias",
+        "youthDevelopment": "Desarrollo juvenil",
+        "training": "Capacitación y talleres",
+        "scholarship": "Programas de becas",
+        "grantSourcing": "Obtención de subvenciones",
+        "healthcare": "Atención sanitaria",
+        "languageCourses": "Cursos de idiomas",
+        "culture": "Cultura, artes y patrimonio",
+        "environment": "Medio ambiente y acción climática",
+        "inclusion": "Inclusión y accesibilidad",
+        "cooperation": "Cooperación entre pueblos",
+        "research": "Investigación creativa y cultural",
+        "sports": "Deportes",
+        "events": "Eventos",
+        "tourism": "Turismo",
+        "innovation": "Innovación y nuevos medios"
+      }
+    },
     "toursExchange": "Tours y Intercambio",
     "tours&Exchange": {
       "subMenu": {
@@ -77,6 +100,34 @@
     "contact": {
       "heading": "10. Contacto",
       "text": "Para cualquier inquietud o solicitud de privacidad, comuníquese a través del formulario de contacto de nuestro sitio web o al correo electrónico proporcionado en el sitio."
+    }
+  },
+  "footerLink": {
+    "about": {
+      "title": "Acerca de ECC",
+      "mission": "Nuestra misión",
+      "programs": "Nuestros programas",
+      "careers": "Carreras"
+    },
+    "programs": {
+      "title": "Programas",
+      "education": "Educación & Intercambio",
+      "culture": "Patrimonio cultural",
+      "innovation": "Laboratorio de innovación",
+      "all": "Todos los programas"
+    },
+    "getInvolved": {
+      "title": "Involúcrate",
+      "apply": "Solicitar programas",
+      "partner": "Asóciate con nosotros",
+      "volunteer": "Voluntariado",
+      "donate": "Donar"
+    },
+    "resources": {
+      "title": "Recursos",
+      "events": "Calendario de eventos",
+      "news": "Noticias & Actualizaciones",
+      "contact": "Contáctanos"
     }
   },
   "Footer": {
