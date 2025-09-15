@@ -23,31 +23,6 @@ const CONTACT_INFO = {
   address: "47 Damaturu Crescent Garki Mall, FCT, Abuja Nigeria",
 }
 
-// const footerLinks = {
-//   "About ECC": [
-//     { name: "Our Mission", href: "/about#mission" },
-//     { name: "Our Programs", href: "/#programs" },
-//     { name: "Careers", href: "/contact" },
-//   ],
-//   Programs: [
-//     { name: "Education & Exchange", href: "/education" },
-//     { name: "Cultural Heritage", href: "/culture" },
-//     { name: "Innovation Lab", href: "/innovation" },
-//     { name: "All Programs", href: "/#all-programs" },
-//   ],
-//   "Get Involved": [
-//     { name: "Apply for Programs", href: "/#programs" },
-//     { name: "Partner with Us", href: "/contact" },
-//     { name: "Volunteer", href: "/contact" },
-//     { name: "Donate", href: "/contact" },
-//   ],
-//   Resources: [
-//     { name: "Events Calendar", href: "/events" },
-//     { name: "News & Updates", href: "/news-research" },
-//     { name: "Contact Us", href: "/contact" },
-//   ],
-// }
-
 const socialLinks = [
   { name: "Facebook", icon: Facebook, href: "https://www.facebook.com/share/1Ax1H5XUsc/" },
   { name: "Twitter", icon: Twitter, href: "https://x.com/eu_cultural_c" },

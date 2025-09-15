@@ -29,14 +29,14 @@ export default function PrivacyPolicyPage() {
       <h1 className="text-3xl font-bold mb-8">{t('title')}</h1>
       <dl className="space-y-6">
         <div>
-          <dt className="font-semibold">{t('sections.overview.heading')}</dt>
+          <dt className="font-semibold text-[#205375]">{t('sections.overview.heading')}</dt>
           <dd className="text-gray-700">
             {t('sections.overview.text')}
           </dd>
         </div>
 
         <div>
-          <dt className="font-semibold">{t('sections.personalData.heading')}</dt>
+          <dt className="font-semibold text-[#205375]">{t('sections.personalData.heading')}</dt>
           <dd className="text-gray-700 space-y-2">
             <p>
               {t('sections.personalData.voluntary')}
@@ -48,35 +48,35 @@ export default function PrivacyPolicyPage() {
         </div>
 
         <div>
-          <dt className="font-semibold">{t('sections.useOfInformation.heading')}</dt>
+          <dt className="font-semibold text-[#205375]">{t('sections.useOfInformation.heading')}</dt>
           <dd className="text-gray-700">
             {t('sections.useOfInformation.text')}
           </dd>
         </div>
 
         <div>
-          <dt className="font-semibold">{t('sections.cookies.heading')}</dt>
+          <dt className="font-semibold text-[#205375]">{t('sections.cookies.heading')}</dt>
           <dd className="text-gray-700">
             {t('sections.cookies.text')}
           </dd>
         </div>
 
         <div>
-          <dt className="font-semibold">{t('sections.dataSharing.heading')}</dt>
+          <dt className="font-semibold text-[#205375]">{t('sections.dataSharing.heading')}</dt>
           <dd className="text-gray-700">
             {t('sections.dataSharing.text')}
           </dd>
         </div>
 
         <div>
-          <dt className="font-semibold">{t('sections.dataRetention.heading')}</dt>
+          <dt className="font-semibold text-[#205375]">{t('sections.dataRetention.heading')}</dt>
           <dd className="text-gray-700">
             {t('sections.dataRetention.text')}
           </dd>
         </div>
 
         <div>
-          <dt className="font-semibold">{t('sections.gdprRights.heading')}</dt>
+          <dt className="font-semibold text-[#205375]">{t('sections.gdprRights.heading')}</dt>
           <dd className="text-gray-700">
             {t('sections.gdprRights.text')}
             <ul className="list-disc list-inside mt-2 space-y-1">
@@ -89,21 +89,21 @@ export default function PrivacyPolicyPage() {
         </div>
 
         <div>
-          <dt className="font-semibold">{t('sections.security.heading')}</dt>
+          <dt className="font-semibold text-[#205375]">{t('sections.security.heading')}</dt>
           <dd className="text-gray-700">
             {t('sections.security.text')}
           </dd>
         </div>
 
         <div>
-          <dt className="font-semibold">{t('sections.policyUpdates.heading')}</dt>
+          <dt className="font-semibold text-[#205375]">{t('sections.policyUpdates.heading')}</dt>
           <dd className="text-gray-700">
             {t('sections.policyUpdates.text')}
           </dd>
         </div>
 
         <div>
-          <dt className="font-semibold">{t('contact.heading')}</dt>
+          <dt className="font-semibold text-[#205375]">{t('contact.heading')}</dt>
           <dd className="text-gray-700">
             {t("contact.text")}
           </dd>

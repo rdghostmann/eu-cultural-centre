@@ -1,4 +1,3 @@
-// app/(legal)/termofuse/page.tsx
 "use client";
 
 import { useTranslations } from "next-intl";

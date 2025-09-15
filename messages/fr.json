@@ -102,6 +102,43 @@
       "text": "Pour toute préoccupation ou demande relative à la confidentialité, contactez-nous via le formulaire de contact du site ou l’adresse e-mail fournie."
     }
   },
+  "TermsOfUsePage": {
+    "title": "Conditions d’Utilisation",
+    "sections": {
+      "acceptance": {
+        "heading": "1. Acceptation des Conditions",
+        "text": "En accédant ou en utilisant ce site web, vous acceptez de respecter pleinement ces Conditions d’Utilisation. Si vous n’êtes pas d’accord, arrêtez-vous ici."
+      },
+      "purpose": {
+        "heading": "2. Objet et Portée",
+        "text": "Ce site est dédié à la présentation des Valeurs Intercontinentales, de l’Échange Culturel, du Tourisme, du Sport, de l’Échange de Connaissances, de la Créativité, de l’Échange Linguistique, du Changement Climatique, des activités Humanitaires, de l’Inclusion, de l’Innovation et de tous les sujets affichés dans nos “DOMAINES D’ACTION”—par le biais d’expositions, d’événements, de publications et de dialogues. Utilisez-le avec respect."
+      },
+      "conduct": {
+        "heading": "3. Conduite de l’Utilisateur",
+        "text": "Vous ne devez pas faire un mauvais usage du site web—pas de contenu illégal, de piratage, d’usurpation d’identité ou de violation de la propriété intellectuelle ou de la vie privée d’autrui."
+      },
+      "intellectualProperty": {
+        "heading": "4. Propriété Intellectuelle",
+        "text": "Tout le contenu de ce site—textes, images, vidéos, logos—est protégé par le droit d’auteur. Vous ne pouvez ni imprimer ni télécharger pour un usage personnel ou commercial. Toute utilisation nécessite un consentement écrit explicite."
+      },
+      "registration": {
+        "heading": "5. Inscription et Formulaires",
+        "text": "Si vous vous inscrivez à des événements ou des listes de diffusion, vous devez fournir des informations exactes. Soumettre un formulaire implique l’acceptation de ces Conditions et de toute condition supplémentaire communiquée lors de la soumission."
+      },
+      "disclaimers": {
+        "heading": "6. Avertissements & Modifications",
+        "text": "Le contenu peut changer de temps à autre. Nous nous efforçons de garantir l’exactitude. Les modifications seront communiquées par e-mail si vous êtes abonné à notre newsletter."
+      },
+      "law": {
+        "heading": "7. Droit Applicable",
+        "text": "Ces Conditions sont régies par les lois pertinentes de l’Union Européenne."
+      },
+      "amendments": {
+        "heading": "8. Modifications",
+        "text": "Nous pouvons mettre à jour ces Conditions à tout moment. L’utilisation continue après les changements signifie que vous les acceptez."
+      }
+    }
+  },
   "footerLink": {
     "about": {
       "title": "À propos de l'ECC",

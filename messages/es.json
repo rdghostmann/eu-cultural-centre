@@ -102,6 +102,43 @@
       "text": "Para cualquier inquietud o solicitud de privacidad, comuníquese a través del formulario de contacto de nuestro sitio web o al correo electrónico proporcionado en el sitio."
     }
   },
+  "TermsOfUsePage": {
+  "title": "Términos de Uso",
+  "sections": {
+    "acceptance": {
+      "heading": "1. Aceptación de los Términos",
+      "text": "Al acceder o utilizar este sitio web, usted acepta cumplir plenamente con estos Términos de Uso. Si no está de acuerdo, deténgase aquí."
+    },
+    "purpose": {
+      "heading": "2. Propósito y Alcance",
+      "text": "Este sitio está dedicado a mostrar Valores Intercontinentales, Intercambio Cultural, Turismo, Deportes, Intercambio de Conocimientos, Creatividad, Intercambio de Idiomas, Cambio Climático, actividades Humanitarias, Inclusión, Innovación y todos los temas mostrados en nuestras “ÁREAS DE TRABAJO”—a través de exposiciones, eventos, publicaciones y diálogos. Úselo con respeto."
+    },
+    "conduct": {
+      "heading": "3. Conducta del Usuario",
+      "text": "No debe hacer un mal uso del sitio web—nada de contenido ilegal, hackeo, suplantación de identidad o violación de la propiedad intelectual o de la privacidad de otros."
+    },
+    "intellectualProperty": {
+      "heading": "4. Propiedad Intelectual",
+      "text": "Todo el contenido de este sitio—textos, imágenes, videos, logotipos—está protegido por derechos de autor. No se puede imprimir ni descargar para uso personal ni comercial. Cualquier uso requiere consentimiento expreso por escrito."
+    },
+    "registration": {
+      "heading": "5. Registro y Formularios",
+      "text": "Si se registra para eventos o listas de correo, debe proporcionar información precisa. Enviar un formulario implica la aceptación de estos Términos y de cualquier condición adicional comunicada en el momento del envío."
+    },
+    "disclaimers": {
+      "heading": "6. Descargos de Responsabilidad y Modificaciones",
+      "text": "El contenido puede cambiar de vez en cuando. Nos esforzamos por mantener la precisión. Los cambios se comunicarán por correo electrónico si está suscrito a nuestro boletín."
+    },
+    "law": {
+      "heading": "7. Ley Aplicable",
+      "text": "Estos Términos se rigen por las leyes pertinentes de la Unión Europea."
+    },
+    "amendments": {
+      "heading": "8. Modificaciones",
+      "text": "Podemos actualizar estos Términos en cualquier momento. El uso continuo después de los cambios significa que los acepta."
+    }
+  }
+},
   "footerLink": {
     "about": {
       "title": "Acerca de ECC",

@@ -102,6 +102,43 @@
       "text": "Bei Datenschutzanliegen oder -anfragen wenden Sie sich bitte über das Kontaktformular unserer Website oder die dort angegebene E-Mail-Adresse an uns."
     }
   },
+  "TermsOfUsePage": {
+  "title": "Nutzungsbedingungen",
+  "sections": {
+    "acceptance": {
+      "heading": "1. Annahme der Bedingungen",
+      "text": "Durch den Zugriff auf oder die Nutzung dieser Website stimmen Sie den Nutzungsbedingungen in vollem Umfang zu. Wenn Sie nicht einverstanden sind, hören Sie hier auf."
+    },
+    "purpose": {
+      "heading": "2. Zweck und Umfang",
+      "text": "Diese Website widmet sich der Präsentation interkontinentaler Werte, Kulturaustausch, Tourismus, Sport, Wissensaustausch, Kreativität, Sprachaustausch, Klimawandel, humanitären Aktivitäten, Inklusion, Innovation und allen Themen, die unter unseren „ARBEITSBEREICHEN“ aufgeführt sind—durch Ausstellungen, Veranstaltungen, Veröffentlichungen und Dialoge. Bitte respektvoll nutzen."
+    },
+    "conduct": {
+      "heading": "3. Nutzerverhalten",
+      "text": "Sie dürfen die Website nicht missbrauchen—kein illegaler Inhalt, Hacking, Identitätsdiebstahl oder Verletzung geistigen Eigentums oder der Privatsphäre anderer."
+    },
+    "intellectualProperty": {
+      "heading": "4. Geistiges Eigentum",
+      "text": "Alle Inhalte dieser Website—Texte, Bilder, Videos, Logos—sind urheberrechtlich geschützt. Drucken oder Herunterladen für persönliche oder kommerzielle Zwecke ist nicht gestattet. Jegliche Nutzung erfordert eine ausdrückliche schriftliche Zustimmung."
+    },
+    "registration": {
+      "heading": "5. Registrierung und Formulare",
+      "text": "Wenn Sie sich für Veranstaltungen oder Mailinglisten registrieren, müssen Sie korrekte Angaben machen. Das Absenden eines Formulars bedeutet die Zustimmung zu diesen Bedingungen und zu allen zusätzlichen Bedingungen, die bei der Einreichung mitgeteilt werden."
+    },
+    "disclaimers": {
+      "heading": "6. Haftungsausschlüsse & Änderungen",
+      "text": "Inhalte können sich von Zeit zu Zeit ändern. Wir bemühen uns um Genauigkeit. Änderungen werden per E-Mail mitgeteilt, wenn Sie unseren Newsletter abonniert haben."
+    },
+    "law": {
+      "heading": "7. Anwendbares Recht",
+      "text": "Diese Bedingungen unterliegen den geltenden Gesetzen der Europäischen Union."
+    },
+    "amendments": {
+      "heading": "8. Änderungen",
+      "text": "Wir können diese Bedingungen jederzeit aktualisieren. Die weitere Nutzung nach Änderungen bedeutet, dass Sie diese akzeptieren."
+    }
+  }
+},
   "footerLink": {
     "about": {
       "title": "Über ECC",
