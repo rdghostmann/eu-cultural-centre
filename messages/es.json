@@ -3,14 +3,89 @@
     "areaofworkh2": "Nuestras Áreas de Trabajo",
     "areaofworkp": "Creamos intercambios culturales significativos y asociaciones sostenibles en ocho áreas clave."
   },
+  "Navigation": {
+    "about": "Acerca de",
+    "areasOfWork": "Áreas de Trabajo",
+    "toursExchange": "Tours y Intercambio",
+    "tours&Exchange": {
+      "subMenu": {
+        "culturalHeritageTours": "Tours de Patrimonio Cultural",
+        "governmentTours": "Visitas Gubernamentales",
+        "nigeriaDomesticTours": "Tours Nacionales en Nigeria",
+        "researchTours": "Tours de Investigación",
+        "schoolExchangeTours": "Tours de Intercambio Escolar",
+        "sportTours": "Tours Deportivos",
+        "study&FieldTrips": "Estudios y Excursiones"
+      }
+    },
+    "events": "Eventos",
+    "videos": "Videos",
+    "contact": "Contacto",
+    "gallery": "Galería",
+    "getInvolved": "Involúcrate"
+  },
+  "PrivacyPolicyPage": {
+    "title": "Política de Privacidad",
+    "sections": {
+      "overview": {
+        "heading": "1. Resumen",
+        "text": "Respetamos su privacidad y cumplimos con el RGPD y las regulaciones europeas relevantes."
+      },
+      "personalData": {
+        "heading": "2. Datos Personales que Recopilamos",
+        "voluntary": "Envío voluntario: nombres, correos electrónicos, datos de la organización, detalles de registro de eventos.",
+        "automatic": "Recopilación automática: dirección IP, tipo de dispositivo/navegador, patrones de navegación del sitio (mediante análisis mínimos y respetuosos con la privacidad)."
+      },
+      "useOfInformation": {
+        "heading": "3. Uso de la Información",
+        "text": "Sus datos nos ayudan a gestionar registros, enviar actualizaciones, organizar eventos y mejorar nuestros servicios."
+      },
+      "cookies": {
+        "heading": "4. Cookies y Analítica",
+        "text": "Usamos cookies esenciales para la funcionalidad y podemos implementar análisis enfocados en la privacidad para comprender tendencias de uso sin comprometer el anonimato."
+      },
+      "dataSharing": {
+        "heading": "5. Compartición y Transferencia de Datos",
+        "text": "No vendemos sus datos. Podemos compartirlos con proveedores de servicios (hosting, analítica, comunicaciones), pero solo bajo acuerdos conformes con el RGPD. Los datos no salen del EEE a menos que sea estrictamente necesario y legalmente permitido."
+      },
+      "dataRetention": {
+        "heading": "6. Retención de Datos",
+        "text": "Mantenemos los datos personales solo el tiempo necesario, para fines legítimos, obligaciones legales o hasta que se retire el consentimiento. Después, los datos se eliminan de forma segura o se anonimizan."
+      },
+      "gdprRights": {
+        "heading": "7. Sus Derechos Bajo el RGPD",
+        "text": "Usted tiene derecho a:",
+        "rightsList": [
+          "Acceder a sus datos",
+          "Rectificar inexactitudes",
+          "Eliminar sus datos (\"derecho al olvido\")",
+          "Restringir u oponerse al procesamiento",
+          "Portabilidad de los datos",
+          "Retirar el consentimiento en cualquier momento"
+        ],
+        "footer": "Presente dichas solicitudes a través del mecanismo de contacto del sitio web."
+      },
+      "security": {
+        "heading": "8. Medidas de Seguridad",
+        "text": "Adoptamos medidas técnicas y organizativas razonables para proteger sus datos: cifrado, controles de acceso y revisiones periódicas."
+      },
+      "policyUpdates": {
+        "heading": "9. Actualizaciones de la Política",
+        "text": "Podemos actualizar esta política. La versión más reciente siempre estará disponible en el sitio, y los cambios significativos pueden comunicarse por correo electrónico o anuncios en el sitio."
+      }
+    },
+    "contact": {
+      "heading": "10. Contacto",
+      "text": "Para cualquier inquietud o solicitud de privacidad, comuníquese a través del formulario de contacto de nuestro sitio web o al correo electrónico proporcionado en el sitio."
+    }
+  },
   "Footer": {
-  "brandDesc": "Tendiendo puentes entre culturas, fomentando el entendimiento y promoviendo la cooperación entre Europa, África y el resto del mundo a través de la educación, las artes y el intercambio cultural.",
-  "newsLetterH3": "Mantente Conectado",
-  "newsLetterP": "Suscríbete a nuestro boletín para recibir las últimas actualizaciones, eventos y oportunidades.",
-  "inputPlaceholder": "Introduce tu correo electrónico",
-  "copyRight": "Centro Cultural Europeo Nigeria. Todos los derechos reservados.",
-  "termsOfUser": "Términos de uso",
-  "privacyPolicy": "Política de privacidad"
-}
-
+    "brandDesc": "Tendiendo puentes entre culturas, fomentando el entendimiento y promoviendo la cooperación entre Europa, África y el resto del mundo a través de la educación, las artes y el intercambio cultural.",
+    "newsLetterH3": "Mantente Conectado",
+    "newsLetterP": "Suscríbete a nuestro boletín para recibir las últimas actualizaciones, eventos y oportunidades.",
+    "inputPlaceholder": "Introduce tu correo electrónico",
+    "copyRight": "Centro Cultural Europeo Nigeria. Todos los derechos reservados.",
+    "termsOfUser": "Términos de uso",
+    "privacyPolicy": "Política de privacidad"
+  }
 }

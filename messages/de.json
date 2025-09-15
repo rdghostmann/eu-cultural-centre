@@ -3,14 +3,89 @@
     "areaofworkh2": "Unsere Arbeitsbereiche",
     "areaofworkp": "Wir schaffen bedeutungsvolle kulturelle Austausche und nachhaltige Partnerschaften in acht Schlüsselbereichen."
   },
- "Footer": {
-  "brandDesc": "Brücken zwischen Kulturen bauen, Verständnis fördern und die Zusammenarbeit zwischen Europa, Afrika und dem Rest der Welt durch Bildung, Kunst und kulturellen Austausch stärken.",
-  "newsLetterH3": "Bleiben Sie verbunden",
-  "newsLetterP": "Abonnieren Sie unseren Newsletter für die neuesten Updates, Veranstaltungen und Möglichkeiten.",
-  "inputPlaceholder": "Geben Sie Ihre E-Mail ein",
-  "copyRight": "Europäisches Kulturzentrum Nigeria. Alle Rechte vorbehalten.",
-  "termsOfUser": "Nutzungsbedingungen",
-  "privacyPolicy": "Datenschutzrichtlinie"
-}
-
+  "Navigation": {
+    "about": "Über uns",
+    "areasOfWork": "Arbeitsbereiche",
+    "toursExchange": "Touren & Austausch",
+    "tours&Exchange": {
+      "subMenu": {
+        "culturalHeritageTours": "Kulturerbe-Touren",
+        "governmentTours": "Regierungsreisen",
+        "nigeriaDomesticTours": "Nigeria Inlandsreisen",
+        "researchTours": "Forschungsreisen",
+        "schoolExchangeTours": "Schulaustausch-Touren",
+        "sportTours": "Sportreisen",
+        "study&FieldTrips": "Studien- & Exkursionen"
+      }
+    },
+    "events": "Veranstaltungen",
+    "videos": "Videos",
+    "contact": "Kontakt",
+    "gallery": "Galerie",
+    "getInvolved": "Mitmachen"
+  },
+  "PrivacyPolicyPage": {
+    "title": "Datenschutzerklärung",
+    "sections": {
+      "overview": {
+        "heading": "1. Überblick",
+        "text": "Wir respektieren Ihre Privatsphäre und halten uns an die DSGVO und relevante europäische Vorschriften."
+      },
+      "personalData": {
+        "heading": "2. Von uns erhobene personenbezogene Daten",
+        "voluntary": "Freiwillige Angaben: Namen, E-Mails, Organisationsdaten, Veranstaltungsregistrierungsdetails.",
+        "automatic": "Automatische Erfassung: IP-Adresse, Gerät-/Browsertyp, Navigationsmuster auf der Website (über minimale, datenschutzfreundliche Analysen)."
+      },
+      "useOfInformation": {
+        "heading": "3. Verwendung der Informationen",
+        "text": "Ihre Daten helfen uns, Anmeldungen zu verwalten, Updates zu senden, Veranstaltungen zu organisieren und unsere Dienste zu verbessern."
+      },
+      "cookies": {
+        "heading": "4. Cookies & Analysen",
+        "text": "Wir verwenden notwendige Cookies für die Funktionalität und setzen möglicherweise datenschutzfreundliche Analysen ein, um Nutzungstrends zu verstehen, ohne die Anonymität zu gefährden."
+      },
+      "dataSharing": {
+        "heading": "5. Datenweitergabe & Übermittlungen",
+        "text": "Wir verkaufen Ihre Daten nicht. Wir können sie mit Dienstleistern (Hosting, Analysen, Kommunikation) teilen, jedoch nur unter DSGVO-konformen Vereinbarungen. Daten verlassen den EWR nur, wenn dies unbedingt erforderlich und rechtlich zulässig ist."
+      },
+      "dataRetention": {
+        "heading": "6. Aufbewahrung von Daten",
+        "text": "Wir speichern personenbezogene Daten nur so lange, wie sie für legitime Zwecke, gesetzliche Verpflichtungen oder bis zum Widerruf der Einwilligung erforderlich sind. Danach werden die Daten sicher gelöscht oder anonymisiert."
+      },
+      "gdprRights": {
+        "heading": "7. Ihre Rechte nach DSGVO",
+        "text": "Sie haben das Recht auf:",
+        "rightsList": [
+          "Zugang zu Ihren Daten",
+          "Berichtigung von Ungenauigkeiten",
+          "Löschung Ihrer Daten (\"Recht auf Vergessenwerden\")",
+          "Einschränkung oder Widerspruch gegen die Verarbeitung",
+          "Datenübertragbarkeit",
+          "Jederzeitiger Widerruf der Einwilligung"
+        ],
+        "footer": "Reichen Sie solche Anfragen über den Kontaktmechanismus der Website ein."
+      },
+      "security": {
+        "heading": "8. Sicherheitsmaßnahmen",
+        "text": "Wir ergreifen angemessene technische und organisatorische Maßnahmen, um Ihre Daten zu schützen – Verschlüsselung, Zugriffskontrollen und regelmäßige Überprüfungen."
+      },
+      "policyUpdates": {
+        "heading": "9. Aktualisierungen der Richtlinie",
+        "text": "Wir können diese Richtlinie aktualisieren. Die neueste Version wird immer auf der Website verfügbar sein, und wesentliche Änderungen können per E-Mail oder Website-Ankündigungen mitgeteilt werden."
+      }
+    },
+    "contact": {
+      "heading": "10. Kontakt",
+      "text": "Bei Datenschutzanliegen oder -anfragen wenden Sie sich bitte über das Kontaktformular unserer Website oder die dort angegebene E-Mail-Adresse an uns."
+    }
+  },
+  "Footer": {
+    "brandDesc": "Brücken zwischen Kulturen bauen, Verständnis fördern und die Zusammenarbeit zwischen Europa, Afrika und dem Rest der Welt durch Bildung, Kunst und kulturellen Austausch stärken.",
+    "newsLetterH3": "Bleiben Sie verbunden",
+    "newsLetterP": "Abonnieren Sie unseren Newsletter für die neuesten Updates, Veranstaltungen und Möglichkeiten.",
+    "inputPlaceholder": "Geben Sie Ihre E-Mail ein",
+    "copyRight": "Europäisches Kulturzentrum Nigeria. Alle Rechte vorbehalten.",
+    "termsOfUser": "Nutzungsbedingungen",
+    "privacyPolicy": "Datenschutzrichtlinie"
+  }
 }

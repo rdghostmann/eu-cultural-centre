@@ -3,14 +3,89 @@
     "areaofworkh2": "Nos Domaines d’Intervention",
     "areaofworkp": "Nous créons des échanges culturels significatifs et des partenariats durables dans huit domaines clés."
   },
-"Footer": {
-  "brandDesc": "Relier les cultures, favoriser la compréhension et promouvoir la coopération entre l’Europe, l’Afrique et le reste du monde grâce à l’éducation, aux arts et aux échanges culturels.",
-  "newsLetterH3": "Restez Connecté",
-  "newsLetterP": "Abonnez-vous à notre newsletter pour recevoir les dernières mises à jour, événements et opportunités.",
-  "inputPlaceholder": "Entrez votre e-mail",
-  "copyRight": "Centre Culturel Européen Nigéria. Tous droits réservés.",
-  "termsOfUser": "Conditions d’utilisation",
-  "privacyPolicy": "Politique de confidentialité"
-}
-
+  "Navigation": {
+    "about": "À propos",
+    "areasOfWork": "Domaines d’Activité",
+    "toursExchange": "Voyages & Échanges",
+    "tours&Exchange": {
+      "subMenu": {
+        "culturalHeritageTours": "Visites du Patrimoine Culturel",
+        "governmentTours": "Voyages Gouvernementaux",
+        "nigeriaDomesticTours": "Voyages Nationaux au Nigéria",
+        "researchTours": "Voyages de Recherche",
+        "schoolExchangeTours": "Voyages d’Échange Scolaire",
+        "sportTours": "Voyages Sportifs",
+        "study&FieldTrips": "Études & Excursions"
+      }
+    },
+    "events": "Événements",
+    "videos": "Vidéos",
+    "contact": "Contact",
+    "gallery": "Galerie",
+    "getInvolved": "S'impliquer"
+  },
+  "PrivacyPolicyPage": {
+    "title": "Politique de Confidentialité",
+    "sections": {
+      "overview": {
+        "heading": "1. Aperçu",
+        "text": "Nous respectons votre vie privée et nous conformons au RGPD ainsi qu’aux réglementations européennes pertinentes."
+      },
+      "personalData": {
+        "heading": "2. Données Personnelles que Nous Collectons",
+        "voluntary": "Soumission volontaire : noms, e-mails, données d’organisation, détails d’inscription aux événements.",
+        "automatic": "Collecte automatique : adresse IP, type d’appareil/navigateur, parcours de navigation sur le site (via des analyses minimales et respectueuses de la vie privée)."
+      },
+      "useOfInformation": {
+        "heading": "3. Utilisation des Informations",
+        "text": "Vos données nous aident à gérer les inscriptions, envoyer des mises à jour, organiser des événements et améliorer nos services."
+      },
+      "cookies": {
+        "heading": "4. Cookies & Analyses",
+        "text": "Nous utilisons des cookies essentiels pour la fonctionnalité et pouvons déployer des analyses respectueuses de la confidentialité afin de comprendre les tendances d’utilisation sans compromettre l’anonymat."
+      },
+      "dataSharing": {
+        "heading": "5. Partage & Transferts de Données",
+        "text": "Nous ne vendons pas vos données. Nous pouvons les partager avec des prestataires de services (hébergement, analyses, communications), mais uniquement dans le cadre d’accords conformes au RGPD. Les données ne quittent pas l’EEE sauf si cela est strictement nécessaire et légalement permis."
+      },
+      "dataRetention": {
+        "heading": "6. Conservation des Données",
+        "text": "Nous conservons les données personnelles uniquement aussi longtemps que nécessaire — pour des finalités légitimes, des obligations légales ou jusqu’au retrait du consentement. Ensuite, les données sont supprimées ou anonymisées de manière sécurisée."
+      },
+      "gdprRights": {
+        "heading": "7. Vos Droits en vertu du RGPD",
+        "text": "Vous avez le droit de :",
+        "rightsList": [
+          "Accéder à vos données",
+          "Rectifier les inexactitudes",
+          "Effacer vos données (\"droit à l’oubli\")",
+          "Limiter ou s’opposer au traitement",
+          "Portabilité des données",
+          "Retirer votre consentement à tout moment"
+        ],
+        "footer": "Soumettez ces demandes via le mécanisme de contact du site web."
+      },
+      "security": {
+        "heading": "8. Mesures de Sécurité",
+        "text": "Nous prenons des mesures techniques et organisationnelles raisonnables pour protéger vos données — chiffrement, contrôles d’accès et examens réguliers."
+      },
+      "policyUpdates": {
+        "heading": "9. Mises à Jour de la Politique",
+        "text": "Nous pouvons mettre à jour cette politique. La dernière version sera toujours disponible sur le site, et les changements importants pourront être communiqués par e-mail ou annonces sur le site."
+      }
+    },
+    "contact": {
+      "heading": "10. Contact",
+      "text": "Pour toute préoccupation ou demande relative à la confidentialité, contactez-nous via le formulaire de contact du site ou l’adresse e-mail fournie."
+    }
+  },
+  "Footer": {
+    "brandDesc": "Relier les cultures, favoriser la compréhension et promouvoir la coopération entre l’Europe, l’Afrique et le reste du monde grâce à l’éducation, aux arts et aux échanges culturels.",
+    "newsLetterH3": "Restez Connecté",
+    "newsLetterP": "Abonnez-vous à notre newsletter pour recevoir les dernières mises à jour, événements et opportunités.",
+    "inputPlaceholder": "Entrez votre e-mail",
+    "copyRight": "Centre Culturel Européen Nigéria. Tous droits réservés.",
+    "termsOfUser": "Conditions d’utilisation",
+    "privacyPolicy": "Politique de confidentialité"
+  }
 }

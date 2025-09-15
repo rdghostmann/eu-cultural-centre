@@ -1,105 +1,111 @@
 // app/(legal)/privacypolicy/page.tsx
+
+import { useTranslations } from 'next-intl';
+
+const rights = [
+  "Access your data",
+  "Rectify inaccuracies",
+  "Erase your data (\"right to be forgotten\")",
+  "Restrict or object to processing",
+  "Data portability",
+  "Withdraw consent at any time",
+]
+function GdprRights() {
+  return (
+    <ul className="list-disc list-inside mt-2 space-y-1">
+      {rights.map((right, idx) => (
+        <li key={idx}>{right}</li>
+      ))}
+    </ul>
+  )
+}
+
+
 export default function PrivacyPolicyPage() {
+
+  const t = useTranslations('PrivacyPolicyPage');
   return (
     <div className="max-w-4xl mx-auto px-6 py-10">
-      <h1 className="text-3xl font-bold mb-8">Privacy Policy</h1>
+      <h1 className="text-3xl font-bold mb-8">{t('title')}</h1>
       <dl className="space-y-6">
         <div>
-          <dt className="font-semibold">1. Overview</dt>
+          <dt className="font-semibold">{t('sections.overview.heading')}</dt>
           <dd className="text-gray-700">
-            We respect your privacy and comply with GDPR and relevant European regulations.
+            {t('sections.overview.text')}
           </dd>
         </div>
 
         <div>
-          <dt className="font-semibold">2. Personal Data We Collect</dt>
+          <dt className="font-semibold">{t('sections.personalData.heading')}</dt>
           <dd className="text-gray-700 space-y-2">
             <p>
-              <strong>Voluntary submission:</strong> names, emails, organization
-              data, event registration details.
+              {t('sections.personalData.voluntary')}
             </p>
             <p>
-              <strong>Automatic collection:</strong> IP address, device/browser
-              type, site navigation patterns (via minimal, privacy-friendly
-              analytics).
+              {t('sections.personalData.automatic')}
             </p>
           </dd>
         </div>
 
         <div>
-          <dt className="font-semibold">3. Use of Information</dt>
+          <dt className="font-semibold">{t('sections.useOfInformation.heading')}</dt>
           <dd className="text-gray-700">
-            Your data helps us manage registrations, send updates, administer
-            events, and improve our services.
+            {t('sections.useOfInformation.text')}
           </dd>
         </div>
 
         <div>
-          <dt className="font-semibold">4. Cookies &amp; Analytics</dt>
+          <dt className="font-semibold">{t('sections.cookies.heading')}</dt>
           <dd className="text-gray-700">
-            We use essential cookies for functionality and may deploy
-            privacy-focused analytics to understand usage trends without
-            compromising anonymity.
+            {t('sections.cookies.text')}
           </dd>
         </div>
 
         <div>
-          <dt className="font-semibold">5. Data Sharing &amp; Transfers</dt>
+          <dt className="font-semibold">{t('sections.dataSharing.heading')}</dt>
           <dd className="text-gray-700">
-            We do not sell your data. We may share it with service providers
-            (hosting, analytics, communications), but only under
-            GDPR-compliant agreements. Data doesn’t leave the EEA unless
-            strictly necessary and legally permissible.
+            {t('sections.dataSharing.text')}
           </dd>
         </div>
 
         <div>
-          <dt className="font-semibold">6. Data Retention</dt>
+          <dt className="font-semibold">{t('sections.dataRetention.heading')}</dt>
           <dd className="text-gray-700">
-            We keep personal data only as long as needed—for legitimate
-            purposes, legal obligations, or until withdrawal of consent. After
-            that, data is securely deleted or anonymized.
+            {t('sections.dataRetention.text')}
           </dd>
         </div>
 
         <div>
-          <dt className="font-semibold">7. Your Rights Under GDPR</dt>
+          <dt className="font-semibold">{t('sections.gdprRights.heading')}</dt>
           <dd className="text-gray-700">
-            You have the right to:
+            {t('sections.gdprRights.text')}
             <ul className="list-disc list-inside mt-2 space-y-1">
-              <li>Access your data</li>
-              <li>Rectify inaccuracies</li>
-              <li>Erase your data ("right to be forgotten")</li>
-              <li>Restrict or object to processing</li>
-              <li>Data portability</li>
-              <li>Withdraw consent at any time</li>
+              {t.raw("sections.gdprRights.rightsList").map((right: string, idx: number) => (
+                <li key={idx}>{right}</li>
+              ))}
             </ul>
-            Submit such requests via the website's contact mechanism.
+            <p className="mt-2">{t('sections.gdprRights.footer')}</p>
           </dd>
         </div>
 
         <div>
-          <dt className="font-semibold">8. Security Measures</dt>
+          <dt className="font-semibold">{t('sections.security.heading')}</dt>
           <dd className="text-gray-700">
-            We take reasonable technical and organizational measures to protect
-            your data—encryption, access controls, and regular reviews.
+            {t('sections.security.text')}
           </dd>
         </div>
 
         <div>
-          <dt className="font-semibold">9. Policy Updates</dt>
+          <dt className="font-semibold">{t('sections.policyUpdates.heading')}</dt>
           <dd className="text-gray-700">
-            We may update this policy. The latest version will always be
-            available on the site, and significant changes may be communicated
-            via email or site announcements.
+            {t('sections.policyUpdates.text')}
           </dd>
         </div>
 
         <div>
-          <dt className="font-semibold">10. Contact</dt>
+          <dt className="font-semibold">{t('contact.heading')}</dt>
           <dd className="text-gray-700">
-            For any privacy concerns or requests, reach out via our website’s
-            contact form or the email provided on the site.
+            {t("contact.text")}
           </dd>
         </div>
       </dl>

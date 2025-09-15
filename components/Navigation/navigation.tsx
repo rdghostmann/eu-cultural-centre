@@ -29,6 +29,7 @@ import { useRouter } from "next/navigation"
 import { useTranslations } from "next-intl"
 
 
+
 // Add icons to Areas of Work
 const areasOfWork = [
   { title: "Education & Knowledge Exchange", href: "/education", icon: GraduationCap },
@@ -51,41 +52,46 @@ const areasOfWork = [
   { title: "Innovation & New Media", href: "/innovation", icon: Lightbulb },
 ].sort((a, b) => a.title.localeCompare(b.title))
 
-// Add icons to Tours
-const tours = [
-  { title: "School Exchange Tours", href: "/tours/school-exchange", icon: GraduationCap },
-  { title: "Government Tours", href: "/tours/government-tours", icon: Landmark },
-  { title: "Cultural Heritage Tours", href: "/tours/cultural-heritage-tours", icon: Palette },
-  { title: "Research Tours", href: "/tours/research-tours", icon: BookOpen },
-  { title: "Sports Tours", href: "/tours/sports-tours", icon: Trophy },
-  { title: "Study & Field Trips", href: "/tours/study-field-trips", icon: Plane },
-  { title: "Nigeria Domestic Tourism", href: "/tours/nigeria-local-tourism", icon: Globe2 },
-].sort((a, b) => a.title.localeCompare(b.title))
 
 export function Navigation() {
   const [isOpen, setIsOpen] = useState(false)
   const [locale, setLocale] = useState("")
   const router = useRouter();
 
-useEffect(() => {
-const cookieLocale = document.cookie
-.split("; ").find(row => row.startsWith("MYNEXTAPP_LOCALE="))?.split("=")[1];
+  // ✅ put useTranslations here
+  const t = useTranslations("Navigation")
 
-if (cookieLocale) {
-  setLocale(cookieLocale);
-} else {
-  const browserLocale = navigator.language.slice(0, 2);
-  setLocale(browserLocale);
-  document.cookie = `MYNEXTAPP_LOCALE=${browserLocale}`; 
-  router.refresh();
-}
-}, [router]);
+  useEffect(() => {
+    const cookieLocale = document.cookie
+      .split("; ").find(row => row.startsWith("MYNEXTAPP_LOCALE="))?.split("=")[1];
 
-const changeLocale = (newLocale: string)=> {
-  setLocale(newLocale);
-  document.cookie = `MYNEXTAPP_LOCALE=${newLocale}`;
-  router.refresh();
-}
+    if (cookieLocale) {
+      setLocale(cookieLocale);
+    } else {
+      const browserLocale = navigator.language.slice(0, 2);
+      setLocale(browserLocale);
+      document.cookie = `MYNEXTAPP_LOCALE=${browserLocale}`;
+      router.refresh();
+    }
+  }, [router]);
+
+  const changeLocale = (newLocale: string) => {
+    setLocale(newLocale);
+    document.cookie = `MYNEXTAPP_LOCALE=${newLocale}`;
+    router.refresh();
+  }
+
+  // Add icons to Tours
+  // ✅ titles should be strings, not objects
+  const tours = [
+    { title: t("tours&Exchange.subMenu.schoolExchangeTours"), href: "/tours/school-exchange", icon: GraduationCap },
+    { title: t("tours&Exchange.subMenu.governmentTours"), href: "/tours/government-tours", icon: Landmark },
+    { title: t("tours&Exchange.subMenu.culturalHeritageTours"), href: "/tours/cultural-heritage-tours", icon: Palette },
+    { title: t("tours&Exchange.subMenu.researchTours"), href: "/tours/research-tours", icon: BookOpen },
+    { title: t("tours&Exchange.subMenu.sportTours"), href: "/tours/sports-tours", icon: Trophy },
+    { title: t("tours&Exchange.subMenu.study&FieldTrips"), href: "/tours/study-field-trips", icon: Plane },
+    { title: t("tours&Exchange.subMenu.nigeriaDomesticTours"), href: "/tours/nigeria-local-tourism", icon: Globe2 },
+  ].sort((a, b) => a.title.localeCompare(b.title));
 
   return (
     <motion.header
@@ -132,7 +138,7 @@ const changeLocale = (newLocale: string)=> {
               <motion.div whileHover={{ scale: 1.05 }}>
                 <Link href="/about" legacyBehavior passHref>
                   <NavigationMenuLink className="group inline-flex h-10 w-max items-center justify-center rounded-md bg-transparent px-4 py-2 text-sm font-medium transition-colors hover:bg-[#68b684]/20 hover:text-[#205375] dark:hover:text-[#8F770A]">
-                    About
+                    {t("about")}
                   </NavigationMenuLink>
                 </Link>
               </motion.div>
@@ -169,7 +175,7 @@ const changeLocale = (newLocale: string)=> {
             {/* Tours */}
             <NavigationMenuItem>
               <NavigationMenuTrigger className="hover:text-green-600 dark:hover:text-[#8F770A]">
-                Tours & Exchanges
+                {t("toursExchange")}
               </NavigationMenuTrigger>
               <NavigationMenuContent>
                 <motion.div className="grid w-[400px] gap-3 p-4">
@@ -194,7 +200,7 @@ const changeLocale = (newLocale: string)=> {
               <motion.div whileHover={{ scale: 1.05 }}>
                 <Link href="/events" legacyBehavior passHref>
                   <NavigationMenuLink className="inline-flex h-10 w-max items-center justify-center rounded-md px-4 py-2 text-sm font-medium hover:bg-[#68b684]/20 hover:text-[#205375] dark:hover:text-[#8F770A]">
-                    Events
+                    {t("events")}
                   </NavigationMenuLink>
                 </Link>
               </motion.div>
@@ -204,7 +210,7 @@ const changeLocale = (newLocale: string)=> {
               <motion.div whileHover={{ scale: 1.05 }}>
                 <Link href="/video" legacyBehavior passHref>
                   <NavigationMenuLink className="inline-flex h-10 w-max items-center justify-center rounded-md px-4 py-2 text-sm font-medium hover:bg-[#68b684]/20 hover:text-[#205375] dark:hover:text-[#8F770A]">
-                    Videos
+                    {t("videos")}
                   </NavigationMenuLink>
                 </Link>
               </motion.div>
@@ -214,7 +220,7 @@ const changeLocale = (newLocale: string)=> {
               <motion.div whileHover={{ scale: 1.05 }}>
                 <Link href="/gallery" legacyBehavior passHref>
                   <NavigationMenuLink className="inline-flex h-10 w-max items-center justify-center rounded-md px-4 py-2 text-sm font-medium hover:bg-[#68b684]/20 hover:text-[#205375] dark:hover:text-[#8F770A]">
-                    Gallery
+                    {t("gallery")}
                   </NavigationMenuLink>
                 </Link>
               </motion.div>
@@ -224,7 +230,7 @@ const changeLocale = (newLocale: string)=> {
               <motion.div whileHover={{ scale: 1.05 }}>
                 <Link href="/contact" legacyBehavior passHref>
                   <NavigationMenuLink className="inline-flex h-10 w-max items-center justify-center rounded-md px-4 py-2 text-sm font-medium hover:bg-[#68b684]/20 hover:text-[#205375] dark:hover:text-[#8F770A]">
-                    Contact
+                    {t("contact")}
                   </NavigationMenuLink>
                 </Link>
               </motion.div>
@@ -246,11 +252,10 @@ const changeLocale = (newLocale: string)=> {
 
           {/* Language Switcher Mobile */}
           <div className="xl:hidden">
-          <LanguageSwitcher locale={locale} changeLocale={changeLocale} />
+            <LanguageSwitcher locale={locale} changeLocale={changeLocale} />
           </div>
 
-
-          {/* Mobile Navigation */}
+         {/* Mobile Navigation */}
           <Sheet open={isOpen} onOpenChange={setIsOpen}>
             <SheetTrigger asChild className="xl:hidden">
               <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
@@ -273,13 +278,13 @@ const changeLocale = (newLocale: string)=> {
                   transition={{ duration: 0.3 }}
                 >
                   <Link href="/about" onClick={() => setIsOpen(false)}>
-                    About
+                    {t("about")}
                   </Link>
 
                   {/* Single Accordion with multiple items */}
                   <Accordion type="single" collapsible>
                     <AccordionItem value="areas">
-                      <AccordionTrigger>Areas of Work</AccordionTrigger>
+                      <AccordionTrigger>{t("areasOfWork")}</AccordionTrigger>
                       <AccordionContent>
                         <div className="flex flex-col space-y-2">
                           {areasOfWork.map((area) => (
@@ -300,7 +305,7 @@ const changeLocale = (newLocale: string)=> {
                     </AccordionItem>
 
                     <AccordionItem value="tours">
-                      <AccordionTrigger>Tours & Exchanges</AccordionTrigger>
+                      <AccordionTrigger>{t("toursExchange")}</AccordionTrigger>
                       <AccordionContent>
                         <div className="flex flex-col space-y-2 p-0">
                           {tours.map((tour) => (
@@ -322,21 +327,21 @@ const changeLocale = (newLocale: string)=> {
                   </Accordion>
 
                   <Link href="/video" onClick={() => setIsOpen(false)}>
-                    Videos
+                    {t("videos")}
                   </Link>
                   <Link href="/gallery" onClick={() => setIsOpen(false)}>
-                    Gallery
+                    {t("gallery")}
                   </Link>
                   <Link href="/events" onClick={() => setIsOpen(false)}>
-                    Events
+                    {t("events")}
                   </Link>
                   <Link href="/contact" onClick={() => setIsOpen(false)}>
-                    Contact
+                    {t("contact")}
                   </Link>
 
                   <Button asChild className="bg-[#205375] hover:bg-[#1e4e6d] text-white font-semibold shadow mt-4">
                     <Link href="/contact" onClick={() => setIsOpen(false)}>
-                      Get Involved
+                      {t("getInvolved")}
                     </Link>
                   </Button>
                 </motion.nav>
