@@ -37,11 +37,11 @@ export default function CookieConsent() {
             <div
                 className="
           fixed bottom-0 left-0 w-full
-          lg:bottom-4 lg:right-4 lg:left-auto lg:w-[380px]
+          md:bottom-4 md:right-4 md:left-auto md:w-[380px]
           border border-gray-200 shadow-xl
-          rounded-none lg:rounded-lg p-5 z-[60] animate-fadeIn
+          rounded-none md:rounded-lg p-5 z-[60] animate-fadeIn
           bg-white
-          sm:bg-white/80 sm:backdrop-blur-md text-center
+          sm:bg-white/80 sm:backdrop-blur-lg text-center
         "
             >
                 <h4 className="text-sm font-bold text-gray-900 ">
