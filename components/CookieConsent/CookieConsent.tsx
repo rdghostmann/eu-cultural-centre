@@ -39,12 +39,12 @@ export default function CookieConsent() {
           fixed bottom-0 left-0 w-full
           lg:bottom-4 lg:right-4 lg:left-auto lg:w-[380px]
           border border-gray-200 shadow-xl
-          rounded-none lg:rounded-lg p-5 z-50 animate-fadeIn
+          rounded-none lg:rounded-lg p-5 z-[60] animate-fadeIn
           bg-white
-          sm:bg-white/80 sm:backdrop-blur-md
+          sm:bg-white/80 sm:backdrop-blur-md text-center
         "
             >
-                <h4 className="text-sm font-bold text-gray-900">
+                <h4 className="text-sm font-bold text-gray-900 ">
                     Accept Cookies & Privacy Policy
                 </h4>
                 <p className="text-xs text-gray-700 mt-1">
@@ -53,7 +53,7 @@ export default function CookieConsent() {
                     <Link
                         href="/privacy-policy"
                         target="_blank"
-                        className="text-blue-600 hover:underline"
+                        className="text-blue-600 hover:underline text-xs"
                     >
                         More information
                     </Link>
