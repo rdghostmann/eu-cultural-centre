@@ -9,6 +9,7 @@ import Head from "next/head";
 import ScrollToTopButton from "@/components/ScrollToTopButton/ScrollToTopButton";
 import { NextIntlClientProvider } from "next-intl"
 import { getLocale, getMessages } from "next-intl/server"
+import CookieConsent from "@/components/CookieConsent/CookieConsent"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -25,7 +26,7 @@ export default async function RootLayout({
 }: {
   children: React.ReactNode
 }) {
-  const  messages =  await getMessages();
+  const messages = await getMessages();
   const locale = await getLocale();
   return (
     <html lang={locale}>
@@ -37,6 +38,7 @@ export default async function RootLayout({
           <Navigation />
           <main className="min-h-screen">
             {children}
+            <CookieConsent />
             <ScrollToTopButton />
             <StampLogo />
           </main>
