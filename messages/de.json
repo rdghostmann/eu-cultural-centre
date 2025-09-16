@@ -66,53 +66,28 @@
     },
     "info": {
       "email": {
-        "title": "Schreiben Sie uns",
-        "description": "Kontaktieren Sie uns für allgemeine Anfragen oder Programminformationen",
-        "details": [
-          "info@eu-cultural-centre.com"
-        ]
+        "title": "E-Mail",
+        "description": "Kontaktieren Sie uns für allgemeine Anfragen oder Programminformationen"
       },
       "phone": {
         "title": "Rufen Sie uns an",
-        "description": "Sprechen Sie direkt mit unserem Team während der Geschäftszeiten",
-        "details": [
-          "+234 913 444 6638"
-        ]
+        "description": "Sprechen Sie direkt mit unserem Team während der Geschäftszeiten"
       },
       "address": {
         "title": "Besuchen Sie uns",
-        "description": "Besuchen Sie unser Büro für persönliche Beratung",
-        "details": [
-          "47 Damaturu Crescent Garki Mall, FCT Abuja Nigeria"
-        ]
+        "description": "Besuchen Sie unser Büro für persönliche Beratungen"
       },
       "hours": {
         "title": "Bürozeiten",
-        "description": "Wir sind zu diesen Zeiten für Sie da",
-        "details": [
-          "Montag - Freitag: 9:00 - 17:00 Uhr",
-          "Samstag: 10:00 - 14:00 Uhr"
-        ]
+        "description": "Wir sind während dieser Zeiten für Sie da"
       }
     },
-    "departments": [
-      {
-        "name": "Allgemeine Anfragen",
-        "email": "info@eccnigeria.org"
-      },
-      {
-        "name": "Programmbewerbungen",
-        "email": "programs@eccnigeria.org"
-      },
-      {
-        "name": "Partnerschaftsmöglichkeiten",
-        "email": "partnerships@eccnigeria.org"
-      },
-      {
-        "name": "Medien & Presse",
-        "email": "media@eccnigeria.org"
-      }
-    ],
+    "departments": {
+      "general": "Allgemeine Anfragen",
+      "programs": "Programmbewerbungen",
+      "partnerships": "Partnerschaftsmöglichkeiten",
+      "media": "Medien & Presse"
+    },
     "map": {
       "title": "Finden Sie uns",
       "description": "Im Herzen von Abuja gelegen, sind wir leicht mit öffentlichen Verkehrsmitteln erreichbar."
