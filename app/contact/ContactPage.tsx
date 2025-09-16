@@ -30,35 +30,35 @@ export default function ContactPage() {
 	const contactInfo = [
 		{
 			icon: <Mail className="h-6 w-6" />,
-			title: "Email Us",
+			title: t("info.email.title"),
 			details: ["info@eu-cultural-centre.com"],
-			description: "Get in touch for general inquiries or program information",
+			description: t("info.email.description"),
 		},
 		{
 			icon: <Phone className="h-6 w-6" />,
-			title: "Call Us",
+			title: t("info.phone.title"),
 			details: ["+234 913 444 6638"],
 			description: "Speak directly with our team during business hours",
 		},
 		{
 			icon: <MapPin className="h-6 w-6" />,
-			title: "Visit Us",
+			title: t("info.address.title"),
 			details: ["47 Damaturu Crescent Garki Mall, FCT Abuja Nigeria"],
-			description: "Come visit our offices for in-person consultations",
+			description: t("info.address.description"),
 		},
 		{
 			icon: <Clock className="h-6 w-6" />,
-			title: "Office Hours",
+			title: t("info.hours.title"),
 			details: ["Monday - Friday: 9:00 AM - 5:00 PM", "Saturday: 10:00 AM - 2:00 PM"],
-			description: "We're here to help during these hours",
+			description: t("info.hours.description"),
 		},
 	]
 
 	const departments = [
-		{ name: "General Inquiries", email: "info@eccnigeria.org" },
-		{ name: "Program Applications", email: "programs@eccnigeria.org" },
-		{ name: "Partnership Opportunities", email: "partnerships@eccnigeria.org" },
-		{ name: "Media & Press", email: "media@eccnigeria.org" },
+		{ name: t("departments.general"), email: "info@eccnigeria.org" },
+		{ name: t("departments.progams"), email: "programs@eccnigeria.org" },
+		{ name: t("departments.partnerships"), email: "partnerships@eccnigeria.org" },
+		{ name: t("departments.media"), email: "media@eccnigeria.org" },
 	]
 	return (
 		<div className="flex flex-col overflow-hidden">
