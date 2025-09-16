@@ -47,6 +47,83 @@
     "gallery": "Galerie",
     "getInvolved": "Mitmachen"
   },
+  "ContactPage": {
+    "hero": {
+      "badge": "Kontaktieren Sie uns",
+      "title": "Nehmen Sie Kontakt auf",
+      "description": "Bereit, Ihre kulturelle Reise zu beginnen? Haben Sie Fragen zu unseren Programmen? Wir sind hier, um Ihnen auf jedem Schritt zu helfen."
+    },
+    "form": {
+      "title": "Schicken Sie uns eine Nachricht",
+      "description": "Füllen Sie das Formular unten aus und wir melden uns innerhalb von 24 Stunden bei Ihnen.",
+      "firstName": "Vorname",
+      "lastName": "Nachname",
+      "email": "E-Mail-Adresse",
+      "phone": "Telefonnummer",
+      "department": "Abteilung auswählen",
+      "message": "Ihre Nachricht",
+      "button": "Nachricht senden"
+    },
+    "info": {
+      "email": {
+        "title": "Schreiben Sie uns",
+        "description": "Kontaktieren Sie uns für allgemeine Anfragen oder Programminformationen",
+        "details": [
+          "info@eu-cultural-centre.com"
+        ]
+      },
+      "phone": {
+        "title": "Rufen Sie uns an",
+        "description": "Sprechen Sie direkt mit unserem Team während der Geschäftszeiten",
+        "details": [
+          "+234 913 444 6638"
+        ]
+      },
+      "address": {
+        "title": "Besuchen Sie uns",
+        "description": "Besuchen Sie unser Büro für persönliche Beratung",
+        "details": [
+          "47 Damaturu Crescent Garki Mall, FCT Abuja Nigeria"
+        ]
+      },
+      "hours": {
+        "title": "Bürozeiten",
+        "description": "Wir sind zu diesen Zeiten für Sie da",
+        "details": [
+          "Montag - Freitag: 9:00 - 17:00 Uhr",
+          "Samstag: 10:00 - 14:00 Uhr"
+        ]
+      }
+    },
+    "departments": [
+      {
+        "name": "Allgemeine Anfragen",
+        "email": "info@eccnigeria.org"
+      },
+      {
+        "name": "Programmbewerbungen",
+        "email": "programs@eccnigeria.org"
+      },
+      {
+        "name": "Partnerschaftsmöglichkeiten",
+        "email": "partnerships@eccnigeria.org"
+      },
+      {
+        "name": "Medien & Presse",
+        "email": "media@eccnigeria.org"
+      }
+    ],
+    "map": {
+      "title": "Finden Sie uns",
+      "description": "Im Herzen von Abuja gelegen, sind wir leicht mit öffentlichen Verkehrsmitteln erreichbar."
+    },
+    "cta": {
+      "title": "Bereit loszulegen?",
+      "description": "Warten Sie nicht – kontaktieren Sie uns noch heute und beginnen Sie Ihre Reise mit dem European Cultural Centre Nigeria.",
+      "primary": "Schreiben Sie uns",
+      "secondary": "Rufen Sie uns an"
+    }
+  },
   "PrivacyPolicyPage": {
     "title": "Datenschutzerklärung",
     "sections": {

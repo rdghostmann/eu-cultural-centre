@@ -47,6 +47,83 @@
     "gallery": "Gallery",
     "getInvolved": "Get Involved"
   },
+  "ContactPage": {
+    "hero": {
+      "badge": "Contact Us",
+      "title": "Get in Touch",
+      "description": "Ready to start your cultural journey? Have questions about our programs? We're here to help you every step of the way."
+    },
+    "form": {
+      "title": "Send us a Message",
+      "description": "Fill out the form below and we'll get back to you within 24 hours.",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "department": "Select Department",
+      "message": "Your Message",
+      "button": "Send Message"
+    },
+    "info": {
+      "email": {
+        "title": "Email Us",
+        "description": "Get in touch for general inquiries or program information",
+        "details": [
+          "info@eu-cultural-centre.com"
+        ]
+      },
+      "phone": {
+        "title": "Call Us",
+        "description": "Speak directly with our team during business hours",
+        "details": [
+          "+234 913 444 6638"
+        ]
+      },
+      "address": {
+        "title": "Visit Us",
+        "description": "Come visit our offices for in-person consultations",
+        "details": [
+          "47 Damaturu Crescent Garki Mall, FCT Abuja Nigeria"
+        ]
+      },
+      "hours": {
+        "title": "Office Hours",
+        "description": "We're here to help during these hours",
+        "details": [
+          "Monday - Friday: 9:00 AM - 5:00 PM",
+          "Saturday: 10:00 AM - 2:00 PM"
+        ]
+      }
+    },
+    "departments": [
+      {
+        "name": "General Inquiries",
+        "email": "info@eccnigeria.org"
+      },
+      {
+        "name": "Program Applications",
+        "email": "programs@eccnigeria.org"
+      },
+      {
+        "name": "Partnership Opportunities",
+        "email": "partnerships@eccnigeria.org"
+      },
+      {
+        "name": "Media & Press",
+        "email": "media@eccnigeria.org"
+      }
+    ],
+    "map": {
+      "title": "Find Us",
+      "description": "Located in the heart of Abuja, we're easily accessible by public transport."
+    },
+    "cta": {
+      "title": "Ready to Get Started?",
+      "description": "Don't wait – reach out today and begin your journey with the European Cultural Center Nigeria.",
+      "primary": "Email Us",
+      "secondary": "Call Us"
+    }
+  },
   "PrivacyPolicyPage": {
     "title": "Privacy Policy",
     "sections": {
@@ -140,58 +217,58 @@
     }
   },
   "TopLanguagesPage": {
-  "header": {
-    "title": "Our Language Courses",
-    "subtitle": "A quick overview of the Language Courses and Sign Language Classes We Offer"
+    "header": {
+      "title": "Our Language Courses",
+      "subtitle": "A quick overview of the Language Courses and Sign Language Classes We Offer"
+    },
+    "languagesSection": {
+      "title": "Language Courses We Offer"
+    },
+    "languages": [
+      "English",
+      "Hausa",
+      "Yoruba",
+      "Igbo",
+      "Fulfulde",
+      "Kanuri",
+      "Tiv",
+      "Ibibio",
+      "Ijaw",
+      "Edo",
+      "Sign Language",
+      "Swahili",
+      "Arabic",
+      "French",
+      "Amharic",
+      "Oromo",
+      "Shona",
+      "Zulu",
+      "Russian",
+      "German",
+      "Italian",
+      "Turkish",
+      "Ukrainian",
+      "Polish",
+      "Romanian",
+      "Dutch",
+      "Greek",
+      "Czech",
+      "Hungarian",
+      "Swedish",
+      "Bulgarian",
+      "Serbian",
+      "Danish",
+      "Finnish",
+      "Mandarin Chinese",
+      "Hindi",
+      "Bengali",
+      "Japanese",
+      "Punjabi",
+      "Korean",
+      "Vietnamese",
+      "Urdu"
+    ]
   },
-  "languagesSection": {
-    "title": "Language Courses We Offer"
-  },
-  "languages": [
-    "English",
-    "Hausa",
-    "Yoruba",
-    "Igbo",
-    "Fulfulde",
-    "Kanuri",
-    "Tiv",
-    "Ibibio",
-    "Ijaw",
-    "Edo",
-    "Sign Language",
-    "Swahili",
-    "Arabic",
-    "French",
-    "Amharic",
-    "Oromo",
-    "Shona",
-    "Zulu",
-    "Russian",
-    "German",
-    "Italian",
-    "Turkish",
-    "Ukrainian",
-    "Polish",
-    "Romanian",
-    "Dutch",
-    "Greek",
-    "Czech",
-    "Hungarian",
-    "Swedish",
-    "Bulgarian",
-    "Serbian",
-    "Danish",
-    "Finnish",
-    "Mandarin Chinese",
-    "Hindi",
-    "Bengali",
-    "Japanese",
-    "Punjabi",
-    "Korean",
-    "Vietnamese",
-    "Urdu"
-  ]
-},
   "footerLink": {
     "about": {
       "title": "About ECC",

@@ -5,7 +5,7 @@ import { Globe } from "lucide-react"
 
 const languages = [
   { value: "en", label: "English", short: "EN" },
-  // { value: "de", label: "German", short: "DE" },
+  { value: "de", label: "German", short: "DE" },
   { value: "fr", label: "French", short: "FR" },
   { value: "es", label: "Spanish", short: "ES" },
 ]

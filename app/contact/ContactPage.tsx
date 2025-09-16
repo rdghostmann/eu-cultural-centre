@@ -13,40 +13,9 @@ import CTASection from "@/components/CTASection/CTASection"
 import { Select, SelectTrigger, SelectValue, SelectContent, SelectItem } from "@/components/ui/select"
 import HeaderSlider2 from "@/components/CustomSlider/HeaderSlider2"
 import { ContactPageCarouselData } from "@/lib/ContactPageCarouselData"
+import { useTranslations } from "next-intl"
 
-const contactInfo = [
-	{
-		icon: <Mail className="h-6 w-6" />,
-		title: "Email Us",
-		details: ["info@eu-cultural-centre.com"],
-		description: "Get in touch for general inquiries or program information",
-	},
-	{
-		icon: <Phone className="h-6 w-6" />,
-		title: "Call Us",
-		details: ["+234 913 444 6638"],
-		description: "Speak directly with our team during business hours",
-	},
-	{
-		icon: <MapPin className="h-6 w-6" />,
-		title: "Visit Us",
-		details: ["47 Damaturu Crescent Garki Mall, FCT Abuja Nigeria"],
-		description: "Come visit our offices for in-person consultations",
-	},
-	{
-		icon: <Clock className="h-6 w-6" />,
-		title: "Office Hours",
-		details: ["Monday - Friday: 9:00 AM - 5:00 PM", "Saturday: 10:00 AM - 2:00 PM"],
-		description: "We're here to help during these hours",
-	},
-]
 
-const departments = [
-	{ name: "General Inquiries", email: "info@eccnigeria.org" },
-	{ name: "Program Applications", email: "programs@eccnigeria.org" },
-	{ name: "Partnership Opportunities", email: "partnerships@eccnigeria.org" },
-	{ name: "Media & Press", email: "media@eccnigeria.org" },
-]
 
 export default function ContactPage() {
 	const { ref: heroRef, isInView: heroInView } = useScrollAnimation()
@@ -56,6 +25,41 @@ export default function ContactPage() {
 	const hoverScale = { scale: 1.05 }
 	const hoverLift = { y: -5, scale: 1.05 }
 
+	const t = useTranslations("ContactPage")
+
+	const contactInfo = [
+		{
+			icon: <Mail className="h-6 w-6" />,
+			title: "Email Us",
+			details: ["info@eu-cultural-centre.com"],
+			description: "Get in touch for general inquiries or program information",
+		},
+		{
+			icon: <Phone className="h-6 w-6" />,
+			title: "Call Us",
+			details: ["+234 913 444 6638"],
+			description: "Speak directly with our team during business hours",
+		},
+		{
+			icon: <MapPin className="h-6 w-6" />,
+			title: "Visit Us",
+			details: ["47 Damaturu Crescent Garki Mall, FCT Abuja Nigeria"],
+			description: "Come visit our offices for in-person consultations",
+		},
+		{
+			icon: <Clock className="h-6 w-6" />,
+			title: "Office Hours",
+			details: ["Monday - Friday: 9:00 AM - 5:00 PM", "Saturday: 10:00 AM - 2:00 PM"],
+			description: "We're here to help during these hours",
+		},
+	]
+
+	const departments = [
+		{ name: "General Inquiries", email: "info@eccnigeria.org" },
+		{ name: "Program Applications", email: "programs@eccnigeria.org" },
+		{ name: "Partnership Opportunities", email: "partnerships@eccnigeria.org" },
+		{ name: "Media & Press", email: "media@eccnigeria.org" },
+	]
 	return (
 		<div className="flex flex-col overflow-hidden">
 			{/* Hero Section */}
@@ -74,14 +78,13 @@ export default function ContactPage() {
 						animate={heroInView ? "visible" : "hidden"}
 					>
 						<motion.div variants={staggerItem}>
-							<Badge className="mb-6 bg-white/20 text-white border-white/30 mx-auto">Contact Us</Badge>
+							<Badge className=" mb-6 bg-white/20 text-white border-white/30 mx-auto">{t("hero.badge")}</Badge>
 						</motion.div>
 						<motion.h1 className="text-4xl lg:text-5xl font-bold mb-6" variants={staggerItem}>
-							Get in Touch
+							{t("hero.title")}
 						</motion.h1>
 						<motion.p className="text-xl mb-8 text-[#e0f2fe] max-w-3xl mx-auto" variants={staggerItem}>
-							Ready to start your cultural journey? Have questions about our programs? We're here to help you every
-							step of the way.
+							{t("hero.description")}
 						</motion.p>
 					</motion.div>
 				</div>
@@ -99,32 +102,32 @@ export default function ContactPage() {
 								<CardHeader>
 									<CardTitle className="text-2xl text-[#205375] flex items-center justify-center">
 										<MessageSquare className="mr-3 h-6 w-6 text-[#68b684]" />
-										Send us a Message
+										{t("form.title")}
 									</CardTitle>
 									<CardDescription className="text-center">
-										Fill out the form below and we'll get back to you within 24 hours.
+										{t("form.description")}
 									</CardDescription>
 								</CardHeader>
 								<CardContent>
 									<form className="space-y-6">
 										<div className="grid grid-cols-2 gap-4">
 											<motion.div whileFocus={{ scale: 1.02 }}>
-												<Input className="w-full text-xs lg:text-xl" placeholder="First Name" />
+												<Input className="w-full text-xs lg:text-xl" placeholder={t("form.firstName")} />
 											</motion.div>
 											<motion.div whileFocus={{ scale: 1.02 }}>
-												<Input className="w-full text-xs lg:text-xl" placeholder="Last Name" />
+												<Input className="w-full text-xs lg:text-xl" placeholder={t("form.lastName")} />
 											</motion.div>
 										</div>
 										<motion.div whileFocus={{ scale: 1.02 }}>
-											<Input className="w-full text-xs lg:text-xl" type="email" placeholder="Email Address" />
+											<Input className="w-full text-xs lg:text-xl" type="email" placeholder={t("form.email")} />
 										</motion.div>
 										<motion.div whileFocus={{ scale: 1.02 }}>
-											<Input className="w-full text-xs lg:text-xl" placeholder="Phone Number" />
+											<Input className="w-full text-xs lg:text-xl" placeholder={t("form.phone")} />
 										</motion.div>
 										<motion.div whileFocus={{ scale: 1.02 }}>
 											<Select>
 												<SelectTrigger className="text-xs lg:text-xl w-full p-3 border border-[#68b684] rounded-md focus:ring-2 focus:ring-[#68b684] focus:border-transparent">
-													<SelectValue placeholder="Select Department" />
+													<SelectValue placeholder={t("form.department")} />
 												</SelectTrigger>
 												<SelectContent>
 													{departments
@@ -138,11 +141,11 @@ export default function ContactPage() {
 											</Select>
 										</motion.div>
 										<motion.div whileFocus={{ scale: 1.02 }}>
-											<Textarea placeholder="Your Message" className="w-full text-xs lg:text-xl min-h-[120px]" />
+											<Textarea placeholder={t("form.message")} className="w-full text-xs lg:text-xl min-h-[120px]" />
 										</motion.div>
 										<motion.div whileHover={hoverScale} whileTap={{ scale: 0.95 }}>
 											<Button className="w-full bg-[#68b684] hover:bg-[#205375] text-white font-semibold">
-												Send Message <Send className="ml-2 h-4 w-4" />
+												{t("form.button")} <Send className="ml-2 h-4 w-4" />
 											</Button>
 										</motion.div>
 									</form>
@@ -202,9 +205,9 @@ export default function ContactPage() {
 						viewport={{ once: true }}
 						transition={{ duration: 0.8 }}
 					>
-						<h2 className="text-3xl lg:text-4xl font-bold text-white mb-4">Find Us</h2>
+						<h2 className="text-3xl lg:text-4xl font-bold text-white mb-4">{t("map.title")}</h2>
 						<p className="text-xl text-[#68b684]">
-							Located in the heart of Abuja, we're easily accessible by public transport.
+							{t("map.description")}
 						</p>
 					</motion.div>
 					<motion.div
@@ -233,11 +236,11 @@ export default function ContactPage() {
 
 			{/* CTA Section */}
 			<CTASection
-				title="Ready to Get Started?"
-				description=" Don't wait – reach out today and begin your journey with the European Cultural Center Nigeria."
-				primaryLabel="Email Us"
+				title={t("cta.title")}
+				description={t("cta.description")}
+				primaryLabel={t("cta.primary")}
 				primaryHref="mailto:info@eu-cultural-centre.com"
-				secondaryLabel="Call Us"
+				secondaryLabel={t("cta.secondary")}
 				secondaryHref="tel:+234 913 444 6638"
 				className="bg-slate-100 text-white py-16 lg:py-20"
 			/>

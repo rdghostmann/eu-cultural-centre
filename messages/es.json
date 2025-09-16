@@ -47,6 +47,83 @@
     "gallery": "Galería",
     "getInvolved": "Involúcrate"
   },
+  "ContactPage": {
+    "hero": {
+      "badge": "Contáctenos",
+      "title": "Ponte en contacto",
+      "description": "¿Listo para comenzar tu viaje cultural? ¿Tienes preguntas sobre nuestros programas? Estamos aquí para ayudarte en cada paso."
+    },
+    "form": {
+      "title": "Envíanos un mensaje",
+      "description": "Complete el siguiente formulario y nos pondremos en contacto con usted en un plazo de 24 horas.",
+      "firstName": "Nombre",
+      "lastName": "Apellido",
+      "email": "Correo electrónico",
+      "phone": "Número de teléfono",
+      "department": "Seleccionar departamento",
+      "message": "Tu mensaje",
+      "button": "Enviar mensaje"
+    },
+    "info": {
+      "email": {
+        "title": "Envíanos un correo",
+        "description": "Póngase en contacto para consultas generales o información sobre programas",
+        "details": [
+          "info@eu-cultural-centre.com"
+        ]
+      },
+      "phone": {
+        "title": "Llámanos",
+        "description": "Hable directamente con nuestro equipo durante el horario laboral",
+        "details": [
+          "+234 913 444 6638"
+        ]
+      },
+      "address": {
+        "title": "Visítanos",
+        "description": "Visite nuestras oficinas para consultas en persona",
+        "details": [
+          "47 Damaturu Crescent Garki Mall, FCT Abuja Nigeria"
+        ]
+      },
+      "hours": {
+        "title": "Horario de oficina",
+        "description": "Estamos disponibles en los siguientes horarios",
+        "details": [
+          "Lunes - Viernes: 9:00 - 17:00",
+          "Sábado: 10:00 - 14:00"
+        ]
+      }
+    },
+    "departments": [
+      {
+        "name": "Consultas generales",
+        "email": "info@eccnigeria.org"
+      },
+      {
+        "name": "Solicitudes de programas",
+        "email": "programs@eccnigeria.org"
+      },
+      {
+        "name": "Oportunidades de asociación",
+        "email": "partnerships@eccnigeria.org"
+      },
+      {
+        "name": "Medios y prensa",
+        "email": "media@eccnigeria.org"
+      }
+    ],
+    "map": {
+      "title": "Encuéntranos",
+      "description": "Ubicado en el corazón de Abuja, de fácil acceso en transporte público."
+    },
+    "cta": {
+      "title": "¿Listo para comenzar?",
+      "description": "No espere más – contáctenos hoy y comience su viaje con el European Cultural Centre Nigeria.",
+      "primary": "Envíanos un correo",
+      "secondary": "Llámanos"
+    }
+  },
   "PrivacyPolicyPage": {
     "title": "Política de Privacidad",
     "sections": {
@@ -103,43 +180,42 @@
     }
   },
   "TermsOfUsePage": {
-  "title": "Términos de Uso",
-  "sections": {
-    "acceptance": {
-      "heading": "1. Aceptación de los Términos",
-      "text": "Al acceder o utilizar este sitio web, usted acepta cumplir plenamente con estos Términos de Uso. Si no está de acuerdo, deténgase aquí."
-    },
-    "purpose": {
-      "heading": "2. Propósito y Alcance",
-      "text": "Este sitio está dedicado a mostrar Valores Intercontinentales, Intercambio Cultural, Turismo, Deportes, Intercambio de Conocimientos, Creatividad, Intercambio de Idiomas, Cambio Climático, actividades Humanitarias, Inclusión, Innovación y todos los temas mostrados en nuestras “ÁREAS DE TRABAJO”—a través de exposiciones, eventos, publicaciones y diálogos. Úselo con respeto."
-    },
-    "conduct": {
-      "heading": "3. Conducta del Usuario",
-      "text": "No debe hacer un mal uso del sitio web—nada de contenido ilegal, hackeo, suplantación de identidad o violación de la propiedad intelectual o de la privacidad de otros."
-    },
-    "intellectualProperty": {
-      "heading": "4. Propiedad Intelectual",
-      "text": "Todo el contenido de este sitio—textos, imágenes, videos, logotipos—está protegido por derechos de autor. No se puede imprimir ni descargar para uso personal ni comercial. Cualquier uso requiere consentimiento expreso por escrito."
-    },
-    "registration": {
-      "heading": "5. Registro y Formularios",
-      "text": "Si se registra para eventos o listas de correo, debe proporcionar información precisa. Enviar un formulario implica la aceptación de estos Términos y de cualquier condición adicional comunicada en el momento del envío."
-    },
-    "disclaimers": {
-      "heading": "6. Descargos de Responsabilidad y Modificaciones",
-      "text": "El contenido puede cambiar de vez en cuando. Nos esforzamos por mantener la precisión. Los cambios se comunicarán por correo electrónico si está suscrito a nuestro boletín."
-    },
-    "law": {
-      "heading": "7. Ley Aplicable",
-      "text": "Estos Términos se rigen por las leyes pertinentes de la Unión Europea."
-    },
-    "amendments": {
-      "heading": "8. Modificaciones",
-      "text": "Podemos actualizar estos Términos en cualquier momento. El uso continuo después de los cambios significa que los acepta."
+    "title": "Términos de Uso",
+    "sections": {
+      "acceptance": {
+        "heading": "1. Aceptación de los Términos",
+        "text": "Al acceder o utilizar este sitio web, usted acepta cumplir plenamente con estos Términos de Uso. Si no está de acuerdo, deténgase aquí."
+      },
+      "purpose": {
+        "heading": "2. Propósito y Alcance",
+        "text": "Este sitio está dedicado a mostrar Valores Intercontinentales, Intercambio Cultural, Turismo, Deportes, Intercambio de Conocimientos, Creatividad, Intercambio de Idiomas, Cambio Climático, actividades Humanitarias, Inclusión, Innovación y todos los temas mostrados en nuestras “ÁREAS DE TRABAJO”—a través de exposiciones, eventos, publicaciones y diálogos. Úselo con respeto."
+      },
+      "conduct": {
+        "heading": "3. Conducta del Usuario",
+        "text": "No debe hacer un mal uso del sitio web—nada de contenido ilegal, hackeo, suplantación de identidad o violación de la propiedad intelectual o de la privacidad de otros."
+      },
+      "intellectualProperty": {
+        "heading": "4. Propiedad Intelectual",
+        "text": "Todo el contenido de este sitio—textos, imágenes, videos, logotipos—está protegido por derechos de autor. No se puede imprimir ni descargar para uso personal ni comercial. Cualquier uso requiere consentimiento expreso por escrito."
+      },
+      "registration": {
+        "heading": "5. Registro y Formularios",
+        "text": "Si se registra para eventos o listas de correo, debe proporcionar información precisa. Enviar un formulario implica la aceptación de estos Términos y de cualquier condición adicional comunicada en el momento del envío."
+      },
+      "disclaimers": {
+        "heading": "6. Descargos de Responsabilidad y Modificaciones",
+        "text": "El contenido puede cambiar de vez en cuando. Nos esforzamos por mantener la precisión. Los cambios se comunicarán por correo electrónico si está suscrito a nuestro boletín."
+      },
+      "law": {
+        "heading": "7. Ley Aplicable",
+        "text": "Estos Términos se rigen por las leyes pertinentes de la Unión Europea."
+      },
+      "amendments": {
+        "heading": "8. Modificaciones",
+        "text": "Podemos actualizar estos Términos en cualquier momento. El uso continuo después de los cambios significa que los acepta."
+      }
     }
-  }
-},
-
+  },
   "TopLanguagesPage": {
     "header": {
       "title": "Nuestros Cursos de Idiomas",
