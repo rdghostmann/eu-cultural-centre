@@ -1,11 +1,11 @@
 {
   "HomePage": {
-    "areaofworkh2": "Nos Domaines d’Intervention",
+    "areaofworkh2": "Nos domaines d'activité",
     "areaofworkp": "Nous créons des échanges culturels significatifs et des partenariats durables dans huit domaines clés."
   },
   "Navigation": {
     "about": "À propos",
-    "areasOfWork": "Domaines d’Activité",
+    "areasOfWork": "Domaines d'activité",
     "areasWork": {
       "title": "Domaines d'activité",
       "subMenu": {
@@ -13,15 +13,15 @@
         "humanitarian": "Humanitaire",
         "exhibition": "Expositions et conférences",
         "youthDevelopment": "Développement de la jeunesse",
-        "training": "Formations et ateliers",
+        "training": "Formation et ateliers",
         "scholarship": "Programmes de bourses",
         "grantSourcing": "Recherche de financements",
-        "healthcare": "Santé",
+        "healthcare": "Soins de santé",
         "languageCourses": "Cours de langues",
         "culture": "Culture, arts et patrimoine",
         "environment": "Environnement et action climatique",
         "inclusion": "Inclusion et accessibilité",
-        "cooperation": "Coopération entre les peuples",
+        "cooperation": "Coopération interpersonnelle",
         "research": "Recherche créative et culturelle",
         "sports": "Sports",
         "events": "Événements",
@@ -29,16 +29,16 @@
         "innovation": "Innovation et nouveaux médias"
       }
     },
-    "toursExchange": "Voyages & Échanges",
+    "toursExchange": "Voyages et échanges",
     "tours&Exchange": {
       "subMenu": {
-        "culturalHeritageTours": "Visites du Patrimoine Culturel",
-        "governmentTours": "Voyages Gouvernementaux",
-        "nigeriaDomesticTours": "Voyages Nationaux au Nigéria",
-        "researchTours": "Voyages de Recherche",
-        "schoolExchangeTours": "Voyages d’Échange Scolaire",
-        "sportTours": "Voyages Sportifs",
-        "study&FieldTrips": "Études & Excursions"
+        "culturalHeritageTours": "Voyages sur le patrimoine culturel",
+        "governmentTours": "Visites gouvernementales",
+        "nigeriaDomesticTours": "Voyages domestiques au Nigéria",
+        "researchTours": "Voyages de recherche",
+        "schoolExchangeTours": "Échanges scolaires",
+        "sportTours": "Voyages sportifs",
+        "study&FieldTrips": "Voyages d'étude et excursions"
       }
     },
     "events": "Événements",
@@ -47,24 +47,24 @@
     "gallery": "Galerie",
     "getInvolved": "S'impliquer"
   },
-"ContactPage": {
-  "hero": {
-    "badge": "Contactez-nous",
-    "title": "Entrer en contact",
-    "description": "Prêt à commencer votre voyage culturel ? Vous avez des questions sur nos programmes ? Nous sommes là pour vous aider à chaque étape."
-  },
-  "form": {
-    "title": "Envoyez-nous un message",
-    "description": "Remplissez le formulaire ci-dessous et nous vous répondrons dans les 24 heures.",
-    "firstName": "Prénom",
-    "lastName": "Nom",
-    "email": "Adresse e-mail",
-    "phone": "Numéro de téléphone",
-    "department": "Sélectionnez un service",
-    "message": "Votre message",
-    "button": "Envoyer le message"
-  },
- "info": {
+  "ContactPage": {
+    "hero": {
+      "badge": "Contactez-nous",
+      "title": "Entrer en contact",
+      "description": "Prêt à commencer votre voyage culturel ? Vous avez des questions sur nos programmes ? Nous sommes là pour vous aider à chaque étape."
+    },
+    "form": {
+      "title": "Envoyez-nous un message",
+      "description": "Remplissez le formulaire ci-dessous et nous vous répondrons dans les 24 heures.",
+      "firstName": "Prénom",
+      "lastName": "Nom de famille",
+      "email": "Adresse e-mail",
+      "phone": "Numéro de téléphone",
+      "department": "Sélectionner un département",
+      "message": "Votre message",
+      "button": "Envoyer le message"
+    },
+    "info": {
       "email": {
         "title": "Envoyez-nous un e-mail",
         "description": "Contactez-nous pour des demandes générales ou des informations sur les programmes"
@@ -74,138 +74,137 @@
         "description": "Parlez directement à notre équipe pendant les heures de bureau"
       },
       "address": {
-        "title": "Visitez-nous",
+        "title": "Venez nous voir",
         "description": "Venez visiter nos bureaux pour des consultations en personne"
       },
       "hours": {
-        "title": "Heures de bureau",
-        "description": "Nous sommes disponibles pendant ces heures"
+        "title": "Heures d'ouverture",
+        "description": "Nous sommes disponibles pendant ces horaires"
       }
     },
     "departments": {
       "general": "Demandes générales",
       "programs": "Candidatures aux programmes",
       "partnerships": "Opportunités de partenariat",
-      "media": "Médias & Presse"
+      "media": "Médias et presse"
     },
-  "map": {
-    "title": "Trouvez-nous",
-    "description": "Situé au cœur d’Abuja, facilement accessible en transport en commun."
+    "map": {
+      "title": "Nous trouver",
+      "description": "Situé au cœur d'Abuja, nous sommes facilement accessibles par les transports en commun."
+    },
+    "cta": {
+      "title": "Prêt à commencer ?",
+      "description": "N'attendez plus – contactez-nous dès aujourd'hui et commencez votre aventure avec le Centre Culturel Européen Nigeria.",
+      "primary": "Envoyez-nous un e-mail",
+      "secondary": "Appelez-nous"
+    }
   },
-  "cta": {
-    "title": "Prêt à commencer ?",
-    "description": "N’attendez pas – contactez-nous dès aujourd’hui et commencez votre voyage avec le European Cultural Centre Nigeria.",
-    "primary": "Envoyez-nous un e-mail",
-    "secondary": "Appelez-nous"
-  }
-}
-,
   "PrivacyPolicyPage": {
-    "title": "Politique de Confidentialité",
+    "title": "Politique de confidentialité",
     "sections": {
       "overview": {
         "heading": "1. Aperçu",
-        "text": "Nous respectons votre vie privée et nous conformons au RGPD ainsi qu’aux réglementations européennes pertinentes."
+        "text": "Nous respectons votre vie privée et nous nous conformons au RGPD et aux réglementations européennes pertinentes."
       },
       "personalData": {
-        "heading": "2. Données Personnelles que Nous Collectons",
-        "voluntary": "Soumission volontaire : noms, e-mails, données d’organisation, détails d’inscription aux événements.",
-        "automatic": "Collecte automatique : adresse IP, type d’appareil/navigateur, parcours de navigation sur le site (via des analyses minimales et respectueuses de la vie privée)."
+        "heading": "2. Données personnelles que nous collectons",
+        "voluntary": "Soumission volontaire : noms, e-mails, données organisationnelles, détails d'inscription aux événements.",
+        "automatic": "Collecte automatique : adresse IP, type d'appareil/navigateur, parcours de navigation (via une analyse minimale et respectueuse de la vie privée)."
       },
       "useOfInformation": {
-        "heading": "3. Utilisation des Informations",
+        "heading": "3. Utilisation des informations",
         "text": "Vos données nous aident à gérer les inscriptions, envoyer des mises à jour, organiser des événements et améliorer nos services."
       },
       "cookies": {
-        "heading": "4. Cookies & Analyses",
-        "text": "Nous utilisons des cookies essentiels pour la fonctionnalité et pouvons déployer des analyses respectueuses de la confidentialité afin de comprendre les tendances d’utilisation sans compromettre l’anonymat."
+        "heading": "4. Cookies et analyses",
+        "text": "Nous utilisons des cookies essentiels pour la fonctionnalité et pouvons déployer des analyses respectueuses de la vie privée pour comprendre les tendances d'utilisation sans compromettre l'anonymat."
       },
       "dataSharing": {
-        "heading": "5. Partage & Transferts de Données",
-        "text": "Nous ne vendons pas vos données. Nous pouvons les partager avec des prestataires de services (hébergement, analyses, communications), mais uniquement dans le cadre d’accords conformes au RGPD. Les données ne quittent pas l’EEE sauf si cela est strictement nécessaire et légalement permis."
+        "heading": "5. Partage et transferts de données",
+        "text": "Nous ne vendons pas vos données. Nous pouvons les partager avec des prestataires de services (hébergement, analyses, communications), mais uniquement dans le cadre d'accords conformes au RGPD. Les données ne quittent pas l'EEE sauf si cela est strictement nécessaire et légalement permis."
       },
       "dataRetention": {
-        "heading": "6. Conservation des Données",
-        "text": "Nous conservons les données personnelles uniquement aussi longtemps que nécessaire — pour des finalités légitimes, des obligations légales ou jusqu’au retrait du consentement. Ensuite, les données sont supprimées ou anonymisées de manière sécurisée."
+        "heading": "6. Conservation des données",
+        "text": "Nous conservons les données personnelles uniquement aussi longtemps que nécessaire — pour des finalités légitimes, obligations légales, ou jusqu'au retrait du consentement. Après cela, les données sont supprimées ou anonymisées en toute sécurité."
       },
       "gdprRights": {
-        "heading": "7. Vos Droits en vertu du RGPD",
+        "heading": "7. Vos droits selon le RGPD",
         "text": "Vous avez le droit de :",
         "rightsList": [
           "Accéder à vos données",
           "Rectifier les inexactitudes",
-          "Effacer vos données (\"droit à l’oubli\")",
-          "Limiter ou s’opposer au traitement",
+          "Effacer vos données (\"droit à l'oubli\")",
+          "Limiter ou vous opposer au traitement",
           "Portabilité des données",
           "Retirer votre consentement à tout moment"
         ],
-        "footer": "Soumettez ces demandes via le mécanisme de contact du site web."
+        "footer": "Soumettez ces demandes via le mécanisme de contact du site."
       },
       "security": {
-        "heading": "8. Mesures de Sécurité",
-        "text": "Nous prenons des mesures techniques et organisationnelles raisonnables pour protéger vos données — chiffrement, contrôles d’accès et examens réguliers."
+        "heading": "8. Mesures de sécurité",
+        "text": "Nous prenons des mesures techniques et organisationnelles raisonnables pour protéger vos données — cryptage, contrôles d'accès et examens réguliers."
       },
       "policyUpdates": {
-        "heading": "9. Mises à Jour de la Politique",
-        "text": "Nous pouvons mettre à jour cette politique. La dernière version sera toujours disponible sur le site, et les changements importants pourront être communiqués par e-mail ou annonces sur le site."
+        "heading": "9. Mises à jour de la politique",
+        "text": "Nous pouvons mettre à jour cette politique. La version la plus récente sera toujours disponible sur le site, et les changements importants pourront être communiqués par e-mail ou annonces sur le site."
       }
     },
     "contact": {
       "heading": "10. Contact",
-      "text": "Pour toute préoccupation ou demande relative à la confidentialité, contactez-nous via le formulaire de contact du site ou l’adresse e-mail fournie."
+      "text": "Pour toute question ou demande relative à la confidentialité, contactez-nous via le formulaire de contact du site ou l'adresse e-mail fournie."
     }
   },
   "TermsOfUsePage": {
-    "title": "Conditions d’Utilisation",
+    "title": "Conditions d'utilisation",
     "sections": {
       "acceptance": {
-        "heading": "1. Acceptation des Conditions",
-        "text": "En accédant ou en utilisant ce site web, vous acceptez de respecter pleinement ces Conditions d’Utilisation. Si vous n’êtes pas d’accord, arrêtez-vous ici."
+        "heading": "1. Acceptation des conditions",
+        "text": "En accédant ou en utilisant ce site Web, vous acceptez de respecter ces conditions d'utilisation dans leur intégralité. Si vous n'êtes pas d'accord, arrêtez ici."
       },
       "purpose": {
-        "heading": "2. Objet et Portée",
-        "text": "Ce site est dédié à la présentation des Valeurs Intercontinentales, de l’Échange Culturel, du Tourisme, du Sport, de l’Échange de Connaissances, de la Créativité, de l’Échange Linguistique, du Changement Climatique, des activités Humanitaires, de l’Inclusion, de l’Innovation et de tous les sujets affichés dans nos “DOMAINES D’ACTION”—par le biais d’expositions, d’événements, de publications et de dialogues. Utilisez-le avec respect."
+        "heading": "2. Objectif et portée",
+        "text": "Ce site est dédié à la promotion des valeurs interculturelles, des échanges culturels, du tourisme, du sport, de l'échange de connaissances, de la créativité, de l'échange linguistique, du changement climatique, des activités humanitaires, de l'inclusion, de l'innovation et de chaque sujet affiché dans nos « DOMAINES D'ACTIVITÉ » — via des expositions, événements, publications et dialogues. Utilisez-le avec respect."
       },
       "conduct": {
-        "heading": "3. Conduite de l’Utilisateur",
-        "text": "Vous ne devez pas faire un mauvais usage du site web—pas de contenu illégal, de piratage, d’usurpation d’identité ou de violation de la propriété intellectuelle ou de la vie privée d’autrui."
+        "heading": "3. Conduite de l'utilisateur",
+        "text": "Vous ne devez pas faire un mauvais usage du site Web — pas de contenu illégal, piratage, usurpation d'identité ou violation de la propriété intellectuelle ou de la vie privée d'autrui."
       },
       "intellectualProperty": {
-        "heading": "4. Propriété Intellectuelle",
-        "text": "Tout le contenu de ce site—textes, images, vidéos, logos—est protégé par le droit d’auteur. Vous ne pouvez ni imprimer ni télécharger pour un usage personnel ou commercial. Toute utilisation nécessite un consentement écrit explicite."
+        "heading": "4. Propriété intellectuelle",
+        "text": "Tout le contenu de ce site — textes, images, vidéos, logos — est protégé par le droit d'auteur. Vous ne pouvez pas l'imprimer ni le télécharger pour un usage personnel ou commercial sans autorisation écrite explicite."
       },
       "registration": {
-        "heading": "5. Inscription et Formulaires",
-        "text": "Si vous vous inscrivez à des événements ou des listes de diffusion, vous devez fournir des informations exactes. Soumettre un formulaire implique l’acceptation de ces Conditions et de toute condition supplémentaire communiquée lors de la soumission."
+        "heading": "5. Inscription et formulaires",
+        "text": "Si vous vous inscrivez à des événements ou listes de diffusion, vous devez fournir des informations exactes. La soumission d'un formulaire implique l'acceptation de ces conditions et de toute condition annexe communiquée au moment de la soumission."
       },
       "disclaimers": {
-        "heading": "6. Avertissements & Modifications",
-        "text": "Le contenu peut changer de temps à autre. Nous nous efforçons de garantir l’exactitude. Les modifications seront communiquées par e-mail si vous êtes abonné à notre newsletter."
+        "heading": "6. Avertissements et modifications",
+        "text": "Le contenu peut changer de temps à autre. Nous nous efforçons d'être précis. Les changements seront communiqués par e-mail si vous êtes abonné à notre newsletter."
       },
       "law": {
-        "heading": "7. Droit Applicable",
-        "text": "Ces Conditions sont régies par les lois pertinentes de l’Union Européenne."
+        "heading": "7. Droit applicable",
+        "text": "Ces conditions sont régies par les lois pertinentes de l'Union européenne."
       },
       "amendments": {
         "heading": "8. Modifications",
-        "text": "Nous pouvons mettre à jour ces Conditions à tout moment. L’utilisation continue après les changements signifie que vous les acceptez."
+        "text": "Nous pouvons mettre à jour ces conditions à tout moment. L'utilisation continue après modification signifie que vous les acceptez."
       }
     }
   },
   "TopLanguagesPage": {
     "header": {
-      "title": "Nos Cours de Langues",
+      "title": "Nos cours de langues",
       "subtitle": "Un aperçu rapide des cours de langues et des cours de langue des signes que nous proposons"
     },
     "languagesSection": {
-      "title": "Cours de langues que nous proposons"
+      "title": "Cours de langues proposés"
     },
     "languages": [
       "Anglais",
       "Haoussa",
       "Yoruba",
       "Igbo",
-      "Peul (Fulfulde)",
+      "Peul",
       "Kanouri",
       "Tiv",
       "Ibibio",
@@ -254,32 +253,32 @@
     },
     "programs": {
       "title": "Programmes",
-      "education": "Éducation & Échanges",
+      "education": "Éducation et échanges",
       "culture": "Patrimoine culturel",
-      "innovation": "Laboratoire d’innovation",
+      "innovation": "Laboratoire d'innovation",
       "all": "Tous les programmes"
     },
     "getInvolved": {
-      "title": "S’impliquer",
-      "apply": "Postuler aux programmes",
-      "partner": "Devenir partenaire",
+      "title": "S'impliquer",
+      "apply": "Postuler à nos programmes",
+      "partner": "Devenez partenaire",
       "volunteer": "Bénévolat",
       "donate": "Faire un don"
     },
     "resources": {
       "title": "Ressources",
       "events": "Calendrier des événements",
-      "news": "Actualités & Mises à jour",
-      "contact": "Nous contacter"
+      "news": "Actualités et mises à jour",
+      "contact": "Contactez-nous"
     }
   },
   "Footer": {
-    "brandDesc": "Relier les cultures, favoriser la compréhension et promouvoir la coopération entre l’Europe, l’Afrique et le reste du monde grâce à l’éducation, aux arts et aux échanges culturels.",
-    "newsLetterH3": "Restez Connecté",
+    "brandDesc": "Relier les cultures, favoriser la compréhension et promouvoir la coopération entre l'Europe, l'Afrique et le reste du monde à travers l'éducation, les arts et les échanges culturels.",
+    "newsLetterH3": "Restez connecté",
     "newsLetterP": "Abonnez-vous à notre newsletter pour recevoir les dernières mises à jour, événements et opportunités.",
     "inputPlaceholder": "Entrez votre e-mail",
-    "copyRight": "Centre Culturel Européen Nigéria. Tous droits réservés.",
-    "termsOfUser": "Conditions d’utilisation",
+    "copyRight": "Centre Culturel Européen Nigeria. Tous droits réservés.",
+    "termsOfUser": "Conditions d'utilisation",
     "privacyPolicy": "Politique de confidentialité"
   }
 }

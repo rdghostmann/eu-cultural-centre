@@ -56,7 +56,7 @@ export default function ContactPage() {
 
 	const departments = [
 		{ name: t("departments.general"), email: "info@eccnigeria.org" },
-		{ name: t("departments.progams"), email: "programs@eccnigeria.org" },
+		{ name: t("departments.programs"), email: "programs@eccnigeria.org" },
 		{ name: t("departments.partnerships"), email: "partnerships@eccnigeria.org" },
 		{ name: t("departments.media"), email: "media@eccnigeria.org" },
 	]
