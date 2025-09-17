@@ -18,7 +18,7 @@ export const AboutPageCarouselData: Slide[] = [
   {
     image: "/images/slider1.jpg",
     badge: "About Us",
-    title: "Join Our Network,",
+    title: "Join Our Network",
     subtitle: "Transform Communities",
     description: "Promoting intercultural dialogue between Africa, Europe, and the world.",
     primaryLink: { href: "#about-us", text: "Get Involved" },
@@ -27,7 +27,7 @@ export const AboutPageCarouselData: Slide[] = [
   {
     image: "/images/slider2.jpg",
     badge: "About Us",
-    title: "Strengthen Partnerships,",
+    title: "Strengthen Partnerships",
     subtitle: "Across Borders",
     description: "Creating sustainable cultural and educational partnerships worldwide.",
     primaryLink: { href: "#about-us", text: "Partner With Us" },
@@ -36,7 +36,7 @@ export const AboutPageCarouselData: Slide[] = [
   {
     image: "/images/slider3.jpg",
     badge: "About Us",
-    title: "Advance Understanding,",
+    title: "Advance Understanding",
     subtitle: "Through Culture",
     description: "Celebrating diversity and encouraging global intercultural dialogue.",
     primaryLink: { href: "#about-us", text: "Join the Dialogue" },
@@ -45,7 +45,7 @@ export const AboutPageCarouselData: Slide[] = [
   {
     image: "/images/slider4.jpg",
     badge: "About Us",
-    title: "Unite Through Art,",
+    title: "Unite Through Art",
     subtitle: "Inspire Generations",
     description: "Art as a bridge fostering creativity, empathy, and global exchange.",
     primaryLink: { href: "#about-us", text: "Explore With Us" },

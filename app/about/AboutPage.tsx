@@ -296,8 +296,6 @@ export default function AboutPage() {
 						</section>
 
 
-
-
 						{/* Values */}
 						<section className="bg-transparent py-16 px-4">
 							<div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12">

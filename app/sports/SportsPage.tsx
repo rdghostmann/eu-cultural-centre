@@ -11,76 +11,8 @@ import { useScrollAnimation } from "@/hooks/use-scroll-animation"
 import CTASection from "@/components/CTASection/CTASection"
 import HeaderSlider2 from "@/components/CustomSlider/HeaderSlider2"
 import { SportPageCarouselData } from "@/lib/SportsPageCarouselData"
+import { useTranslations } from "next-intl"
 
-const sportsPrograms = [
-  {
-    title: "International Sports Tournaments",
-    description:
-      "Organizing and hosting international sports competitions that bring together athletes from Europe and Africa.",
-    icon: <Trophy className="h-6 w-6" />,
-    features: ["Multi-sport events", "Cultural ceremonies", "Athlete exchanges", "Youth competitions"],
-    impact: "500+ athletes participated",
-  },
-  {
-    title: "Sports Tourism Packages",
-    description: "Curated travel experiences combining sports events with cultural exploration and education.",
-    icon: <Plane className="h-6 w-6" />,
-    features: ["Event packages", "Cultural tours", "Local experiences", "Group travel"],
-    impact: "1,000+ tourists served",
-  },
-  {
-    title: "Youth Sports Development",
-    description: "Programs developing young athletes while promoting cultural understanding through sport.",
-    icon: <Users className="h-6 w-6" />,
-    features: ["Training camps", "Coaching clinics", "Equipment support", "Scholarship programs"],
-    impact: "2,000+ youth trained",
-  },
-  {
-    title: "Cultural Sports Events",
-    description: "Traditional and cultural sports events celebrating heritage and promoting intercultural dialogue.",
-    icon: <Medal className="h-6 w-6" />,
-    features: ["Traditional games", "Cultural festivals", "Heritage sports", "Community events"],
-    impact: "50+ events organized",
-  },
-  {
-    title: "Sports Facility Tours",
-    description: "Educational tours of world-class sports facilities and training centers.",
-    icon: <MapPin className="h-6 w-6" />,
-    features: ["Stadium tours", "Training facilities", "Behind-the-scenes access", "Meet athletes"],
-    impact: "5,000+ visitors hosted",
-  },
-  {
-    title: "Sports Education Programs",
-    description: "Educational initiatives using sports as a tool for learning and cultural exchange.",
-    icon: <Calendar className="h-6 w-6" />,
-    features: ["School programs", "Workshops", "Leadership training", "Life skills"],
-    impact: "3,000+ students reached",
-  },
-]
-
-const upcomingEvents = [
-  {
-    title: "Africa-Europe Youth Football Championship",
-    date: "Jun 15-25, 2026",
-    location: "Lagos, Nigeria",
-    participants: "16 teams",
-    description: "Annual championship bringing together the best youth football teams from both continents.",
-  },
-  {
-    title: "Traditional Sports Festival",
-    date: "Aug 10-12, 2026",
-    location: "Abuja, Nigeria",
-    participants: "200+ athletes",
-    description: "Celebrating traditional African and European sports and games.",
-  },
-  {
-    title: "International Athletics Meet",
-    date: "Sept 20-22, 2026",
-    location: "National Stadium",
-    participants: "300+ athletes",
-    description: "Track and field competition featuring emerging talents from across continents.",
-  },
-]
 
 export default function SportsPage() {
   const { ref: heroRef, isInView: heroInView } = useScrollAnimation()
@@ -88,7 +20,79 @@ export default function SportsPage() {
   const { ref: eventsRef, isInView: eventsInView } = useScrollAnimation()
   const hoverScale = { scale: 1.05 };
   const hoverLift = { y: -5, scale: 1.05 }; // lift slightly and scale up
+  
+  const t = useTranslations("SportsTours")
 
+
+  const sportsPrograms = [
+    {
+      title: "International Sports Tournaments",
+      description:
+        "Organizing and hosting international sports competitions that bring together athletes from Europe and Africa.",
+      icon: <Trophy className="h-6 w-6" />,
+      features: ["Multi-sport events", "Cultural ceremonies", "Athlete exchanges", "Youth competitions"],
+      impact: "500+ athletes participated",
+    },
+    {
+      title: "Sports Tourism Packages",
+      description: "Curated travel experiences combining sports events with cultural exploration and education.",
+      icon: <Plane className="h-6 w-6" />,
+      features: ["Event packages", "Cultural tours", "Local experiences", "Group travel"],
+      impact: "1,000+ tourists served",
+    },
+    {
+      title: "Youth Sports Development",
+      description: "Programs developing young athletes while promoting cultural understanding through sport.",
+      icon: <Users className="h-6 w-6" />,
+      features: ["Training camps", "Coaching clinics", "Equipment support", "Scholarship programs"],
+      impact: "2,000+ youth trained",
+    },
+    {
+      title: "Cultural Sports Events",
+      description: "Traditional and cultural sports events celebrating heritage and promoting intercultural dialogue.",
+      icon: <Medal className="h-6 w-6" />,
+      features: ["Traditional games", "Cultural festivals", "Heritage sports", "Community events"],
+      impact: "50+ events organized",
+    },
+    {
+      title: "Sports Facility Tours",
+      description: "Educational tours of world-class sports facilities and training centers.",
+      icon: <MapPin className="h-6 w-6" />,
+      features: ["Stadium tours", "Training facilities", "Behind-the-scenes access", "Meet athletes"],
+      impact: "5,000+ visitors hosted",
+    },
+    {
+      title: "Sports Education Programs",
+      description: "Educational initiatives using sports as a tool for learning and cultural exchange.",
+      icon: <Calendar className="h-6 w-6" />,
+      features: ["School programs", "Workshops", "Leadership training", "Life skills"],
+      impact: "3,000+ students reached",
+    },
+  ]
+  
+  const upcomingEvents = [
+    {
+      title: "Africa-Europe Youth Football Championship",
+      date: "Jun 15-25, 2026",
+      location: "Lagos, Nigeria",
+      participants: "16 teams",
+      description: "Annual championship bringing together the best youth football teams from both continents.",
+    },
+    {
+      title: "Traditional Sports Festival",
+      date: "Aug 10-12, 2026",
+      location: "Abuja, Nigeria",
+      participants: "200+ athletes",
+      description: "Celebrating traditional African and European sports and games.",
+    },
+    {
+      title: "International Athletics Meet",
+      date: "Sept 20-22, 2026",
+      location: "National Stadium",
+      participants: "300+ athletes",
+      description: "Track and field competition featuring emerging talents from across continents.",
+    },
+  ]
   return (
     <div className="flex flex-col overflow-hidden">
       {/* Hero Section */}
