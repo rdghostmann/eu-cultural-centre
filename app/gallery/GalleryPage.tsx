@@ -31,9 +31,15 @@ export default function GalleryPage() {
 
   return (
     <div className="p-6">
-      <h1 className="text-2xl md:text-3xl font-bold mb-6 text-center">
-        {t("title")}
-      </h1>
+      {/* Hero Section */}
+      <section className="mb-5 relative py-20 bg-gradient-to-br from-purple-700 via-pink-600 to-rose-600 text-white text-center">
+        <h1 className="text-4xl lg:text-5xl font-bold mb-6" >
+          {t("title")}
+        </h1>
+        <p className="text-lg lg:text-xl max-w-3xl mx-auto text-purple-100">
+          Discover our curated collection of cultural programs, performances, and heritage documentaries.
+        </p>
+      </section>
 
       {/* Gallery Grid */}
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">

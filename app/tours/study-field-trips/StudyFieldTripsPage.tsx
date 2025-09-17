@@ -1,3 +1,4 @@
+// tours/StudyFieldTrips.tsx
 "use client"
 
 import { motion } from "framer-motion"
@@ -11,6 +12,13 @@ import { useScrollAnimation } from "@/hooks/use-scroll-animation"
 import CTASection from "@/components/CTASection/CTASection"
 import HeaderSlider2 from "@/components/CustomSlider/HeaderSlider2"
 import { StudyFieldTripData } from "@/lib/StudyFieldTripData"
+import { useTranslations } from "next-intl"
+
+
+
+
+export default function StudyFieldTripsPage() {
+    const t  = useTranslations("StudyFieldTrips") // namespace: studyTrips.json
 
 const fieldTripTypes = [
   {
@@ -75,8 +83,6 @@ const sampleItineraries = [
     ],
   },
 ]
-
-export default function StudyFieldTripsPage() {
   const { ref: heroRef, isInView: heroInView } = useScrollAnimation()
   const { ref: typesRef, isInView: typesInView } = useScrollAnimation()
   const { ref: itineraryRef, isInView: itineraryInView } = useScrollAnimation()
@@ -407,58 +413,23 @@ export default function StudyFieldTripsPage() {
         </div>
       </section>
 
-
-      {/* CTA Section */}
-      {/* <section className="py-20 bg-ecc-slate text-white">
-        <div className="container text-center">
-          <motion.div
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.8 }}
-          >
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6">Ready to Plan Your Study Trip?</h2>
-            <p className="text-xl mb-8 text-gray-300 max-w-2xl mx-auto">
-              Create unforgettable learning experiences for your students with our expertly designed field study
-              programs.
-            </p>
-            <motion.div
-              className="flex flex-col sm:flex-row gap-4 justify-center"
-              variants={staggerContainer}
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true }}
-            >
-              <motion.div variants={staggerItem} whileHover={hoverScale} whileTap={{ scale: 0.95 }}>
-                <Button asChild size="lg" className="bg-ecc-green hover:bg-ecc-green/90">
-                  <Link href="/contact">
-                    Plan a Study Trip <ArrowRight className="ml-2 h-5 w-5" />
-                  </Link>
-                </Button>
-              </motion.div>
-              <motion.div variants={staggerItem} whileHover={hoverScale} whileTap={{ scale: 0.95 }}>
-                <Button
-                  asChild
-                  size="lg"
-                  variant="outline"
-                  className="border-white text-white hover:bg-white hover:text-ecc-slate bg-transparent"
-                >
-                  <Link href="/contact">Request Information</Link>
-                </Button>
-              </motion.div>
-            </motion.div>
-          </motion.div>
-        </div>
-      </section> */}
-
+      {/* CTASection  */}
       <CTASection
+        title={t("cta.title")}
+        description={t("cta.description")}
+        primaryLabel={t("cta.primaryLabel")}
+        primaryHref="/contact"
+        secondaryLabel={t("cta.secondaryLabel")}
+        secondaryHref="/contact"
+      />
+      {/* <CTASection
         title="Ready to Plan Your Study Trip?"
         description="Create unforgettable learning experiences for your students with our expertly designed field study programs. Contact us to customize your educational adventure."
         primaryLabel="Plan a Study Trip"
         primaryHref="/contact"
         secondaryLabel="Request Information"
         secondaryHref="/contact"
-      />
+      /> */}
     </div>
   )
 }

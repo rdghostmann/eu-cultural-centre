@@ -47,6 +47,128 @@
     "gallery": "Gallery",
     "getInvolved": "Get Involved"
   },
+  "StudyFieldTrips": {
+    "badge": "Study & Field Trips",
+    "heroTitle": "Educational Field Studies & Learning Expeditions",
+    "heroDescription": "Transformative educational experiences that bring learning to life through immersive field studies, cultural exploration, and hands-on research opportunities for students and educators.",
+    "exploreButton": "Explore Field Trips",
+    "planTripButton": "Plan a Study Trip",
+
+    "quickInfo": {
+      "durationTitle": "Duration",
+      "durationValue": "3 days - 4 weeks",
+      "groupSizeTitle": "Group Size",
+      "groupSizeValue": "10-30 students",
+      "subjectsTitle": "Subjects",
+      "subjectsValue": "15+ disciplines",
+      "certificationTitle": "Certification",
+      "certificationValue": "Available"
+    },
+
+    "categories": {
+      "title": "Field Trip Categories",
+      "description": "Diverse educational experiences tailored to different learning objectives and academic levels."
+    },
+
+    "tripTypes": {
+      "culturalImmersion": {
+        "title": "Cultural Immersion Trips",
+        "description": "Short-term cultural learning experiences for students and educators.",
+        "duration": "3-7 days",
+        "subjects": ["History", "Anthropology", "Cultural Studies", "Languages"],
+        "features": ["Museum visits", "Cultural sites", "Local interactions", "Guided tours"]
+      },
+      "educationalTours": {
+        "title": "Educational Study Tours",
+        "description": "Academic field trips aligned with curriculum objectives and learning outcomes.",
+        "duration": "5-10 days",
+        "subjects": ["Geography", "Environmental Science", "Social Studies", "Arts"],
+        "features": ["Expert lectures", "Hands-on activities", "Research projects", "Group discussions"]
+      },
+      "professionalTrips": {
+        "title": "Professional Development Trips",
+        "description": "Specialized trips for educators and cultural professionals.",
+        "duration": "1-2 weeks",
+        "subjects": ["Education", "Museum Studies", "Cultural Management", "Arts Administration"],
+        "features": ["Professional networks", "Best practices", "Skill workshops", "Certification"]
+      },
+      "researchStudies": {
+        "title": "Research Field Studies",
+        "description": "Intensive field research opportunities for advanced students and researchers.",
+        "duration": "2-4 weeks",
+        "subjects": ["Archaeology", "Ethnography", "Environmental Studies", "Urban Planning"],
+        "features": ["Data collection", "Field methods", "Local partnerships", "Research support"]
+      },
+      "learnMoreButton": "Learn More",
+      "subjectAreas": "Subject Areas:",
+      "keyFeatures": "Key Features:"
+    },
+
+    "itinerary": {
+      "title": "Sample Itinerary",
+      "description": "A structured learning journey combining academic content with cultural immersion.",
+      "days": {
+        "1": {
+          "focus": "Arrival & Orientation",
+          "activities": ["Welcome briefing", "Cultural overview", "Safety orientation"]
+        },
+        "2": {
+          "focus": "Ancient History",
+          "activities": ["Archaeological sites", "Museum visits", "Expert lectures"]
+        },
+        "3": {
+          "focus": "Living Culture",
+          "activities": ["Traditional crafts", "Community visits", "Cultural performances"]
+        },
+        "4": {
+          "focus": "Modern Context",
+          "activities": ["Contemporary art", "Urban development", "Student presentations"]
+        },
+        "5": {
+          "focus": "Reflection & Departure",
+          "activities": ["Group discussions", "Final presentations", "Departure"]
+        }
+      }
+    },
+
+    "learningOutcomes": {
+      "title": "Learning Outcomes",
+      "description": "Measurable educational benefits that enhance academic and personal development.",
+      "outcomes": {
+        "criticalThinking": {
+          "title": "Enhanced Critical Thinking",
+          "description": "Develop analytical skills through real-world problem solving and field observations."
+        },
+        "culturalCompetency": {
+          "title": "Cultural Competency",
+          "description": "Gain deep understanding of diverse cultures and global perspectives."
+        },
+        "researchSkills": {
+          "title": "Research Skills",
+          "description": "Learn field research methods, data collection, and analysis techniques."
+        },
+        "collaborativeLearning": {
+          "title": "Collaborative Learning",
+          "description": "Build teamwork and communication skills through group projects and discussions."
+        },
+        "personalGrowth": {
+          "title": "Personal Growth",
+          "description": "Develop independence, confidence, and adaptability through new experiences."
+        },
+        "academicAchievement": {
+          "title": "Academic Achievement",
+          "description": "Improve academic performance through experiential and immersive learning."
+        }
+      }
+    },
+
+    "cta": {
+      "title": "Ready to Plan Your Study Trip?",
+      "description": "Create unforgettable learning experiences for your students with our expertly designed field study programs. Contact us to customize your educational adventure.",
+      "primaryLabel": "Plan a Study Trip",
+      "secondaryLabel": "Request Information"
+    }
+  },
   "VideoPage": {
   "hero": {
     "title": "Cultural Video Gallery",

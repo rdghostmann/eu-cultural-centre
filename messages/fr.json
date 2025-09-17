@@ -47,6 +47,130 @@
     "gallery": "Galerie",
     "getInvolved": "S’impliquer"
   },
+
+  "StudyFieldTrips": {
+    "badge": "Voyages d'étude & excursions",
+    "heroTitle": "Études de terrain éducatives & expéditions d'apprentissage",
+    "heroDescription": "Des expériences éducatives transformatrices qui donnent vie à l'apprentissage grâce à des études de terrain immersives, des explorations culturelles et des opportunités de recherche pratique pour les étudiants et les enseignants.",
+    "exploreButton": "Explorer les voyages d'étude",
+    "planTripButton": "Planifier un voyage d'étude",
+
+    "quickInfo": {
+      "durationTitle": "Durée",
+      "durationValue": "3 jours - 4 semaines",
+      "groupSizeTitle": "Taille du groupe",
+      "groupSizeValue": "10-30 étudiants",
+      "subjectsTitle": "Sujets",
+      "subjectsValue": "15+ disciplines",
+      "certificationTitle": "Certification",
+      "certificationValue": "Disponible"
+    },
+
+    "categories": {
+      "title": "Catégories de voyages d'étude",
+      "description": "Des expériences éducatives variées adaptées aux différents objectifs d'apprentissage et niveaux académiques."
+    },
+
+    "tripTypes": {
+      "culturalImmersion": {
+        "title": "Voyages d'immersion culturelle",
+        "description": "Expériences d'apprentissage culturel de courte durée pour étudiants et enseignants.",
+        "duration": "3-7 jours",
+        "subjects": ["Histoire", "Anthropologie", "Études culturelles", "Langues"],
+        "features": ["Visites de musées", "Sites culturels", "Interactions locales", "Visites guidées"]
+      },
+      "educationalTours": {
+        "title": "Voyages d'étude éducatifs",
+        "description": "Voyages académiques alignés sur les objectifs pédagogiques et les résultats d'apprentissage.",
+        "duration": "5-10 jours",
+        "subjects": ["Géographie", "Sciences de l'environnement", "Sciences sociales", "Arts"],
+        "features": ["Conférences d'experts", "Activités pratiques", "Projets de recherche", "Discussions de groupe"]
+      },
+      "professionalTrips": {
+        "title": "Voyages de développement professionnel",
+        "description": "Voyages spécialisés pour enseignants et professionnels de la culture.",
+        "duration": "1-2 semaines",
+        "subjects": ["Éducation", "Études muséales", "Gestion culturelle", "Administration des arts"],
+        "features": ["Réseaux professionnels", "Bonnes pratiques", "Ateliers de compétences", "Certification"]
+      },
+      "researchStudies": {
+        "title": "Études de recherche sur le terrain",
+        "description": "Opportunités de recherche intensive pour étudiants avancés et chercheurs.",
+        "duration": "2-4 semaines",
+        "subjects": ["Archéologie", "Ethnographie", "Études environnementales", "Urbanisme"],
+        "features": ["Collecte de données", "Méthodes de terrain", "Partenariats locaux", "Soutien à la recherche"]
+      },
+      "learnMoreButton": "En savoir plus",
+      "subjectAreas": "Domaines d'étude :",
+      "keyFeatures": "Caractéristiques clés :"
+    },
+
+    "itinerary": {
+      "title": "Itinéraire type",
+      "description": "Un parcours d'apprentissage structuré combinant contenu académique et immersion culturelle.",
+      "days": {
+        "1": {
+          "focus": "Arrivée & orientation",
+          "activities": ["Réunion de bienvenue", "Aperçu culturel", "Orientation sécurité"]
+        },
+        "2": {
+          "focus": "Histoire ancienne",
+          "activities": ["Sites archéologiques", "Visites de musées", "Conférences d'experts"]
+        },
+        "3": {
+          "focus": "Culture vivante",
+          "activities": ["Arts traditionnels", "Visites communautaires", "Performances culturelles"]
+        },
+        "4": {
+          "focus": "Contexte moderne",
+          "activities": ["Art contemporain", "Développement urbain", "Présentations étudiantes"]
+        },
+        "5": {
+          "focus": "Réflexion & départ",
+          "activities": ["Discussions de groupe", "Présentations finales", "Départ"]
+        }
+      }
+    },
+
+    "learningOutcomes": {
+      "title": "Résultats d'apprentissage",
+      "description": "Bénéfices éducatifs mesurables qui renforcent le développement académique et personnel.",
+      "outcomes": {
+        "criticalThinking": {
+          "title": "Pensée critique améliorée",
+          "description": "Développer des compétences d'analyse grâce à la résolution de problèmes réels et aux observations de terrain."
+        },
+        "culturalCompetency": {
+          "title": "Compétence culturelle",
+          "description": "Acquérir une compréhension profonde des cultures et des perspectives mondiales."
+        },
+        "researchSkills": {
+          "title": "Compétences en recherche",
+          "description": "Apprendre les méthodes de recherche de terrain, la collecte et l'analyse de données."
+        },
+        "collaborativeLearning": {
+          "title": "Apprentissage collaboratif",
+          "description": "Renforcer le travail en équipe et les compétences de communication à travers des projets de groupe."
+        },
+        "personalGrowth": {
+          "title": "Croissance personnelle",
+          "description": "Développer indépendance, confiance et adaptabilité grâce à de nouvelles expériences."
+        },
+        "academicAchievement": {
+          "title": "Réussite académique",
+          "description": "Améliorer la performance académique par un apprentissage expérientiel et immersif."
+        }
+      }
+    },
+
+    "cta": {
+      "title": "Prêt à planifier votre voyage d'étude ?",
+      "description": "Créez des expériences d'apprentissage inoubliables pour vos étudiants avec nos programmes d'études sur le terrain conçus par des experts. Contactez-nous pour personnaliser votre aventure éducative.",
+      "primaryLabel": "Planifier un voyage d'étude",
+      "secondaryLabel": "Demander des informations"
+    }
+  },
+
   "VideoPage": {
   "hero": {
     "title": "Galerie vidéo culturelle",
