@@ -47,56 +47,232 @@
     "gallery": "Galerie",
     "getInvolved": "Mitmachen"
   },
-  "VideoPage": {
-  "hero": {
-    "title": "Kulturelle Videogalerie",
-    "subtitle": "Entdecken Sie unsere Sammlung kultureller Programme, Aufführungen und Dokumentationen über Kulturerbe."
-  },
-  "featured": {
-    "title": "Ausgewählte Videos",
-    "subtitle": "Sehen Sie Highlights unserer kulturellen Austauschinitiativen und kreativen Programme."
-  },
-  "videos": {
-    "festival": {
-      "title": "Höhepunkte des Kulturfestivals",
-      "description": "Erleben Sie die besten Momente unseres jährlichen Kulturfestivals.",
-      "type": "Festival"
+  "StudyFieldTrips": {
+    "badge": "Studien- & Exkursionsreisen",
+    "heroTitle": "Bildungsreisen & Lernexpeditionen",
+    "heroDescription": "Transformative Bildungserfahrungen, die Lernen durch praxisnahe Exkursionen, kulturelle Erkundungen und praktische Forschungsmöglichkeiten für Studierende und Lehrkräfte lebendig machen.",
+    "exploreButton": "Exkursionen entdecken",
+    "planTripButton": "Studienreise planen",
+    "quickInfo": {
+      "durationTitle": "Dauer",
+      "durationValue": "3 Tage - 4 Wochen",
+      "groupSizeTitle": "Gruppengröße",
+      "groupSizeValue": "10-30 Studierende",
+      "subjectsTitle": "Fächer",
+      "subjectsValue": "15+ Disziplinen",
+      "certificationTitle": "Zertifizierung",
+      "certificationValue": "Verfügbar"
     },
-    "dance": {
-      "title": "Traditionelle Tanzaufführung",
-      "description": "Ein Einblick in Afrikas reiche Tanztradition, live aufgeführt.",
-      "type": "Tanz"
+    "categories": {
+      "title": "Exkursionskategorien",
+      "description": "Vielfältige Bildungserfahrungen, angepasst an unterschiedliche Lernziele und akademische Niveaus."
     },
-    "documentary": {
-      "title": "Kulturerbe-Dokumentation",
-      "description": "Bewahrung kultureller Stätten durch Film und Erzählung.",
-      "type": "Dokumentation"
+    "tripTypes": {
+      "culturalImmersion": {
+        "title": "Kulturelle Immersionsreisen",
+        "description": "Kurzfristige kulturelle Lernerfahrungen für Studierende und Lehrkräfte.",
+        "duration": "3-7 Tage",
+        "subjects": [
+          "Geschichte",
+          "Anthropologie",
+          "Kulturwissenschaften",
+          "Sprachen"
+        ],
+        "features": [
+          "Museumsbesuche",
+          "Kulturstätten",
+          "Lokale Begegnungen",
+          "Geführte Touren"
+        ]
+      },
+      "educationalTours": {
+        "title": "Bildungs-Studienreisen",
+        "description": "Akademische Exkursionen, die auf Lehrplanziele und Lernergebnisse abgestimmt sind.",
+        "duration": "5-10 Tage",
+        "subjects": [
+          "Geografie",
+          "Umweltwissenschaften",
+          "Sozialwissenschaften",
+          "Kunst"
+        ],
+        "features": [
+          "Expertenvorträge",
+          "Praktische Aktivitäten",
+          "Forschungsprojekte",
+          "Gruppendiskussionen"
+        ]
+      },
+      "professionalTrips": {
+        "title": "Berufliche Weiterbildungsreisen",
+        "description": "Spezialisierte Reisen für Lehrkräfte und Kulturfachleute.",
+        "duration": "1-2 Wochen",
+        "subjects": [
+          "Bildung",
+          "Museumswissenschaften",
+          "Kulturmanagement",
+          "Kunstverwaltung"
+        ],
+        "features": [
+          "Professionelle Netzwerke",
+          "Best Practices",
+          "Kompetenz-Workshops",
+          "Zertifizierung"
+        ]
+      },
+      "researchStudies": {
+        "title": "Forschungs-Exkursionen",
+        "description": "Intensive Forschungsgelegenheiten für fortgeschrittene Studierende und Forschende.",
+        "duration": "2-4 Wochen",
+        "subjects": [
+          "Archäologie",
+          "Ethnographie",
+          "Umweltstudien",
+          "Stadtplanung"
+        ],
+        "features": [
+          "Datensammlung",
+          "Feldmethoden",
+          "Lokale Partnerschaften",
+          "Forschungsunterstützung"
+        ]
+      },
+      "learnMoreButton": "Mehr erfahren",
+      "subjectAreas": "Fachbereiche:",
+      "keyFeatures": "Hauptmerkmale:"
     },
-    "music": {
-      "title": "Musik-Fusion-Konzert",
-      "description": "Traditionelle und zeitgenössische Klangwelten vereint.",
-      "type": "Musik"
+    "itinerary": {
+      "title": "Beispielhafter Reiseplan",
+      "description": "Eine strukturierte Lernreise, die akademische Inhalte mit kultureller Immersion verbindet.",
+      "days": {
+        "1": {
+          "focus": "Ankunft & Orientierung",
+          "activities": [
+            "Begrüßungstreffen",
+            "Kulturelle Einführung",
+            "Sicherheitsorientierung"
+          ]
+        },
+        "2": {
+          "focus": "Antike Geschichte",
+          "activities": [
+            "Archäologische Stätten",
+            "Museumsbesuche",
+            "Expertenvorträge"
+          ]
+        },
+        "3": {
+          "focus": "Lebendige Kultur",
+          "activities": [
+            "Traditionelles Handwerk",
+            "Gemeinschaftsbesuche",
+            "Kulturelle Darbietungen"
+          ]
+        },
+        "4": {
+          "focus": "Moderner Kontext",
+          "activities": [
+            "Zeitgenössische Kunst",
+            "Stadtentwicklung",
+            "Studentenpräsentationen"
+          ]
+        },
+        "5": {
+          "focus": "Reflexion & Abreise",
+          "activities": [
+            "Gruppendiskussionen",
+            "Abschlusspräsentationen",
+            "Abreise"
+          ]
+        }
+      }
     },
-    "exhibition": {
-      "title": "Kunstausstellungstour",
-      "description": "Ein Rundgang durch unsere neueste Kunstausstellung.",
-      "type": "Ausstellung"
+    "learningOutcomes": {
+      "title": "Lernergebnisse",
+      "description": "Messbare Bildungsvorteile, die die akademische und persönliche Entwicklung fördern.",
+      "outcomes": {
+        "criticalThinking": {
+          "title": "Verbessertes kritisches Denken",
+          "description": "Analytische Fähigkeiten durch reale Problemlösungen und Feldbeobachtungen entwickeln."
+        },
+        "culturalCompetency": {
+          "title": "Kulturelle Kompetenz",
+          "description": "Ein tiefes Verständnis für verschiedene Kulturen und globale Perspektiven gewinnen."
+        },
+        "researchSkills": {
+          "title": "Forschungsfähigkeiten",
+          "description": "Feldforschungsmethoden, Datensammlung und Analysetechniken erlernen."
+        },
+        "collaborativeLearning": {
+          "title": "Kollaboratives Lernen",
+          "description": "Teamarbeit und Kommunikationsfähigkeiten durch Gruppenprojekte stärken."
+        },
+        "personalGrowth": {
+          "title": "Persönliches Wachstum",
+          "description": "Unabhängigkeit, Selbstvertrauen und Anpassungsfähigkeit durch neue Erfahrungen entwickeln."
+        },
+        "academicAchievement": {
+          "title": "Akademische Leistungen",
+          "description": "Die akademische Leistung durch erfahrungsbasiertes und immersives Lernen verbessern."
+        }
+      }
+    },
+    "cta": {
+      "title": "Bereit, Ihre Studienreise zu planen?",
+      "description": "Schaffen Sie unvergessliche Lernerfahrungen für Ihre Studierenden mit unseren fachkundig gestalteten Studienprogrammen. Kontaktieren Sie uns, um Ihr Bildungserlebnis individuell zu gestalten.",
+      "primaryLabel": "Studienreise planen",
+      "secondaryLabel": "Informationen anfordern"
     }
   },
-  "button": {
-    "getInvolved": "Mitmachen"
-  }
-},
+  "VideoPage": {
+    "hero": {
+      "title": "Kulturelle Videogalerie",
+      "subtitle": "Entdecken Sie unsere Sammlung kultureller Programme, Aufführungen und Dokumentationen über Kulturerbe."
+    },
+    "featured": {
+      "title": "Ausgewählte Videos",
+      "subtitle": "Sehen Sie Highlights unserer kulturellen Austauschinitiativen und kreativen Programme."
+    },
+    "videos": {
+      "festival": {
+        "title": "Höhepunkte des Kulturfestivals",
+        "description": "Erleben Sie die besten Momente unseres jährlichen Kulturfestivals.",
+        "type": "Festival"
+      },
+      "dance": {
+        "title": "Traditionelle Tanzaufführung",
+        "description": "Ein Einblick in Afrikas reiche Tanztradition, live aufgeführt.",
+        "type": "Tanz"
+      },
+      "documentary": {
+        "title": "Kulturerbe-Dokumentation",
+        "description": "Bewahrung kultureller Stätten durch Film und Erzählung.",
+        "type": "Dokumentation"
+      },
+      "music": {
+        "title": "Musik-Fusion-Konzert",
+        "description": "Traditionelle und zeitgenössische Klangwelten vereint.",
+        "type": "Musik"
+      },
+      "exhibition": {
+        "title": "Kunstausstellungstour",
+        "description": "Ein Rundgang durch unsere neueste Kunstausstellung.",
+        "type": "Ausstellung"
+      }
+    },
+    "button": {
+      "getInvolved": "Mitmachen"
+    }
+  },
   "GalleryPage": {
-  "title": "Galerie",
-  "images": {
-    "culturalDance": "Kultureller Tanz",
-    "humanitarian": "Humanitär",
-    "artExhibition": "Kunst & Ausstellung",
-    "events": "Veranstaltungen",
-    "governmentDelegation": "Regierungsdelegation"
-  }
-},
+    "title": "Galerie",
+    "images": {
+      "culturalDance": "Kultureller Tanz",
+      "humanitarian": "Humanitär",
+      "artExhibition": "Kunst & Ausstellung",
+      "events": "Veranstaltungen",
+      "governmentDelegation": "Regierungsdelegation"
+    }
+  },
   "EventsPage": {
     "h2": "Bevorstehende Veranstaltungen",
     "p": "Verpassen Sie nicht diese spannenden Gelegenheiten, sich zu vernetzen, zu lernen und die kulturelle Vielfalt zu feiern.",
