@@ -18,71 +18,71 @@ import { useTranslations } from "next-intl"
 
 
 export default function StudyFieldTripsPage() {
-    const t  = useTranslations("StudyFieldTrips") // namespace: studyTrips.json
+  const t = useTranslations("StudyFieldTrips") 
 
-const fieldTripTypes = [
-  {
-    title: "Cultural Immersion Trips",
-    description: "Short-term cultural learning experiences for students and educators.",
-    icon: <Globe className="h-6 w-6" />,
-    duration: "3-7 days",
-    subjects: ["History", "Anthropology", "Cultural Studies", "Languages"],
-    features: ["Museum visits", "Cultural sites", "Local interactions", "Guided tours"],
-  },
-  {
-    title: "Educational Study Tours",
-    description: "Academic field trips aligned with curriculum objectives and learning outcomes.",
-    icon: <BookOpen className="h-6 w-6" />,
-    duration: "5-10 days",
-    subjects: ["Geography", "Environmental Science", "Social Studies", "Arts"],
-    features: ["Expert lectures", "Hands-on activities", "Research projects", "Group discussions"],
-  },
-  {
-    title: "Professional Development Trips",
-    description: "Specialized trips for educators and cultural professionals.",
-    icon: <Award className="h-6 w-6" />,
-    duration: "1-2 weeks",
-    subjects: ["Education", "Museum Studies", "Cultural Management", "Arts Administration"],
-    features: ["Professional networks", "Best practices", "Skill workshops", "Certification"],
-  },
-  {
-    title: "Research Field Studies",
-    description: "Intensive field research opportunities for advanced students and researchers.",
-    icon: <Microscope className="h-6 w-6" />,
-    duration: "2-4 weeks",
-    subjects: ["Archaeology", "Ethnography", "Environmental Studies", "Urban Planning"],
-    features: ["Data collection", "Field methods", "Local partnerships", "Research support"],
-  },
-]
+  const fieldTripTypes = [
+    {
+      title: "Cultural Immersion Trips",
+      description: "Short-term cultural learning experiences for students and educators.",
+      icon: <Globe className="h-6 w-6" />,
+      duration: "3-7 days",
+      subjects: ["History", "Anthropology", "Cultural Studies", "Languages"],
+      features: ["Museum visits", "Cultural sites", "Local interactions", "Guided tours"],
+    },
+    {
+      title: "Educational Study Tours",
+      description: "Academic field trips aligned with curriculum objectives and learning outcomes.",
+      icon: <BookOpen className="h-6 w-6" />,
+      duration: "5-10 days",
+      subjects: ["Geography", "Environmental Science", "Social Studies", "Arts"],
+      features: ["Expert lectures", "Hands-on activities", "Research projects", "Group discussions"],
+    },
+    {
+      title: "Professional Development Trips",
+      description: "Specialized trips for educators and cultural professionals.",
+      icon: <Award className="h-6 w-6" />,
+      duration: "1-2 weeks",
+      subjects: ["Education", "Museum Studies", "Cultural Management", "Arts Administration"],
+      features: ["Professional networks", "Best practices", "Skill workshops", "Certification"],
+    },
+    {
+      title: "Research Field Studies",
+      description: "Intensive field research opportunities for advanced students and researchers.",
+      icon: <Microscope className="h-6 w-6" />,
+      duration: "2-4 weeks",
+      subjects: ["Archaeology", "Ethnography", "Environmental Studies", "Urban Planning"],
+      features: ["Data collection", "Field methods", "Local partnerships", "Research support"],
+    },
+  ]
 
-const sampleItineraries = [
-  {
-    title: "5-Day Cultural Heritage Study Trip",
-    days: [
-      {
-        day: 1,
-        focus: "Arrival & Orientation",
-        activities: ["Welcome briefing", "Cultural overview", "Safety orientation"],
-      },
-      { day: 2, focus: "Ancient History", activities: ["Archaeological sites", "Museum visits", "Expert lectures"] },
-      {
-        day: 3,
-        focus: "Living Culture",
-        activities: ["Traditional crafts", "Community visits", "Cultural performances"],
-      },
-      {
-        day: 4,
-        focus: "Modern Context",
-        activities: ["Contemporary art", "Urban development", "Student presentations"],
-      },
-      {
-        day: 5,
-        focus: "Reflection & Departure",
-        activities: ["Group discussions", "Final presentations", "Departure"],
-      },
-    ],
-  },
-]
+  const sampleItineraries = [
+    {
+      title: "5-Day Cultural Heritage Study Trip",
+      days: [
+        {
+          day: 1,
+          focus: "Arrival & Orientation",
+          activities: ["Welcome briefing", "Cultural overview", "Safety orientation"],
+        },
+        { day: 2, focus: "Ancient History", activities: ["Archaeological sites", "Museum visits", "Expert lectures"] },
+        {
+          day: 3,
+          focus: "Living Culture",
+          activities: ["Traditional crafts", "Community visits", "Cultural performances"],
+        },
+        {
+          day: 4,
+          focus: "Modern Context",
+          activities: ["Contemporary art", "Urban development", "Student presentations"],
+        },
+        {
+          day: 5,
+          focus: "Reflection & Departure",
+          activities: ["Group discussions", "Final presentations", "Departure"],
+        },
+      ],
+    },
+  ]
   const { ref: heroRef, isInView: heroInView } = useScrollAnimation()
   const { ref: typesRef, isInView: typesInView } = useScrollAnimation()
   const { ref: itineraryRef, isInView: itineraryInView } = useScrollAnimation()
@@ -137,12 +137,33 @@ const sampleItineraries = [
             viewport={{ once: true }}
           >
             {[
-              { icon: Clock, title: "Duration", value: "3 days - 4 weeks" },
-              { icon: Users, title: "Group Size", value: "10-30 students" },
-              { icon: BookOpen, title: "Subjects", value: "15+ disciplines" },
-              { icon: Award, title: "Certification", value: "Available" },
+              {
+                icon: Clock,
+                title: t("quickInfo.durationTitle"),
+                value: t("quickInfo.durationValue"),
+              },
+              {
+                icon: Users,
+                title: t("quickInfo.groupSizeTitle"),
+                value: t("quickInfo.groupSizeValue"),
+              },
+              {
+                icon: BookOpen,
+                title: t("quickInfo.subjectsTitle"),
+                value: t("quickInfo.subjectsValue"),
+              },
+              {
+                icon: Award,
+                title: t("quickInfo.certificationTitle"),
+                value: t("quickInfo.certificationValue"),
+              },
             ].map((item, index) => (
-              <motion.div key={index} className="text-center" variants={staggerItem} whileHover={hoverLift}>
+              <motion.div
+                key={index}
+                className="text-center"
+                variants={staggerItem}
+                whileHover={hoverLift}
+              >
                 <motion.div
                   className="inline-flex items-center justify-center w-12 h-12 bg-teal-600 rounded-full mb-3"
                   whileHover={{ rotate: 360 }}
@@ -311,7 +332,7 @@ const sampleItineraries = [
                           className="text-sm sm:text-base text-gray-600 bg-gray-100 p-2 rounded"
                           variants={staggerItem}
                         >
-                         {activity}
+                          {activity}
                         </motion.div>
                       ))}
                     </motion.div>
