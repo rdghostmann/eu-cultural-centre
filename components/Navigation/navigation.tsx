@@ -108,7 +108,7 @@ const areasOfWork = [
               alt="ECC Logo"
               width={1042}
               height={588}
-              className="hidden md:block w-10 h-10 lg:w-28 lg:h-28 object-contain"
+              className="hidden md:block w-24 h-24 lg:w-28 lg:h-28 object-contain"
               priority
             />
             <span

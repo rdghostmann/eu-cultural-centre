@@ -9,24 +9,24 @@
     "areasWork": {
       "title": "Arbeitsbereiche",
       "subMenu": {
-        "education": "Bildung und Wissensaustausch",
-        "humanitarian": "Humanitär",
-        "exhibition": "Ausstellungen und Konferenzen",
-        "youthDevelopment": "Jugendentwicklung",
-        "training": "Schulungen und Workshops",
+        "education": "Bildung & Wissensaustausch",
+        "humanitarian": "Humanitäres",
+        "exhibition": "Ausstellungen & Konferenzen",
+        "youthDevelopment": "Jugendförderung",
+        "training": "Schulungen & Workshops",
         "scholarship": "Stipendienprogramme",
         "grantSourcing": "Fördermittelbeschaffung",
         "healthcare": "Gesundheitswesen",
         "languageCourses": "Sprachkurse",
-        "culture": "Kultur, Kunst und Erbe",
-        "environment": "Umwelt- und Klimaschutz",
-        "inclusion": "Inklusion und Barrierefreiheit",
-        "cooperation": "Zwischenmenschliche Zusammenarbeit",
-        "research": "Kreative und kulturelle Forschung",
+        "culture": "Kultur, Kunst & Erbe",
+        "environment": "Umwelt & Klimaschutz",
+        "inclusion": "Inklusion & Barrierefreiheit",
+        "cooperation": "Menschen-zu-Menschen-Kooperation",
+        "research": "Kreative & Kulturelle Forschung",
         "sports": "Sport",
         "events": "Veranstaltungen",
         "tourism": "Tourismus",
-        "innovation": "Innovation und neue Medien"
+        "innovation": "Innovation & Neue Medien"
       }
     },
     "toursExchange": "Touren & Austausch",
@@ -36,7 +36,7 @@
         "governmentTours": "Regierungsreisen",
         "nigeriaDomesticTours": "Nigeria Inlandsreisen",
         "researchTours": "Forschungsreisen",
-        "schoolExchangeTours": "Schulaustausch-Touren",
+        "schoolExchangeTours": "Schulaustauschreisen",
         "sportTours": "Sportreisen",
         "study&FieldTrips": "Studien- & Exkursionen"
       }
@@ -47,15 +47,87 @@
     "gallery": "Galerie",
     "getInvolved": "Mitmachen"
   },
+  "EventsPage": {
+    "categories": {
+      "all": "Alle Veranstaltungen",
+      "culturalFestival": "Kulturfestivals",
+      "trainingWorkshop": "Schulungen & Workshops",
+      "sportsEvent": "Sport",
+      "innovationConference": "Innovation",
+      "artExhibition": "Kunst",
+      "diplomaticForum": "Diplomatie"
+    },
+    "section": {
+      "title": "Bevorstehende Veranstaltungen",
+      "subtitle": "Verpassen Sie nicht diese spannenden Möglichkeiten zum Vernetzen, Lernen und Feiern kultureller Vielfalt."
+    },
+    "buttons": {
+      "learnMore": "Mehr erfahren",
+      "requestInvitation": "Einladung anfordern",
+      "registerNow": "Jetzt registrieren"
+    },
+    "badges": {
+      "openRegistration": "Offene Anmeldung",
+      "earlyBird": "Frühbucher",
+      "limitedSpots": "Begrenzte Plätze",
+      "ticketsAvailable": "Tickets verfügbar",
+      "freeEntry": "Freier Eintritt",
+      "invitationOnly": "Nur auf Einladung"
+    },
+    "upcomingEvents": [
+      {
+        "title": "Afrikanisches Kulturerbe-Festival 2026",
+        "type": "Kulturfestival",
+        "description": "Eine dreitägige Feier des afrikanischen Erbes mit Kunstausstellungen, traditioneller Musik, Tanzaufführungen und Kulturworkshops.",
+        "capacity": "5.000 Teilnehmer",
+        "status": "Offene Anmeldung"
+      },
+      {
+        "title": "Jugend-Innovationsgipfel",
+        "type": "Innovationskonferenz",
+        "description": "Zusammenkunft junger Innovatoren, Unternehmer und Technologieexperten zur Erforschung der Zukunft der Technologie im Kulturerhalt.",
+        "capacity": "500 Teilnehmer",
+        "status": "Frühbucher"
+      },
+      {
+        "title": "Internationales Sportturnier",
+        "type": "Sportveranstaltung",
+        "description": "Multisportturnier mit Teams aus Afrika und Europa zur Förderung der Einheit durch Sport.",
+        "capacity": "10.000 Zuschauer",
+        "status": "Tickets verfügbar"
+      },
+      {
+        "title": "Digitales Kulturerbe-Workshop",
+        "type": "Workshop",
+        "description": "Praktischer Workshop zu digitalen Erhaltungstechniken für Kulturerbestätten und Artefakte.",
+        "capacity": "100 Teilnehmer",
+        "status": "Begrenzte Plätze"
+      },
+      {
+        "title": "Europa-Afrikanischer Kunstaustausch",
+        "type": "Kunstausstellung",
+        "description": "Zweiwöchiger Kunstaustausch mit zeitgenössischen Werken europäischer und afrikanischer Künstler.",
+        "capacity": "Unbegrenzt",
+        "status": "Freier Eintritt"
+      },
+      {
+        "title": "Forum für Kulturdiplomatie",
+        "type": "Diplomatisches Forum",
+        "description": "Hochrangiges Forum für Kulturdiplomaten, politische Entscheidungsträger und Kulturführer.",
+        "capacity": "200 Delegierte",
+        "status": "Nur auf Einladung"
+      }
+    ]
+  },
   "ContactPage": {
     "hero": {
       "badge": "Kontaktieren Sie uns",
-      "title": "Nehmen Sie Kontakt auf",
-      "description": "Bereit, Ihre kulturelle Reise zu beginnen? Haben Sie Fragen zu unseren Programmen? Wir sind hier, um Ihnen auf jedem Schritt zu helfen."
+      "title": "Kontakt aufnehmen",
+      "description": "Bereit für Ihre kulturelle Reise? Haben Sie Fragen zu unseren Programmen? Wir sind hier, um Ihnen zu helfen."
     },
     "form": {
-      "title": "Schicken Sie uns eine Nachricht",
-      "description": "Füllen Sie das Formular unten aus und wir melden uns innerhalb von 24 Stunden bei Ihnen.",
+      "title": "Schreiben Sie uns eine Nachricht",
+      "description": "Füllen Sie das Formular aus und wir melden uns innerhalb von 24 Stunden.",
       "firstName": "Vorname",
       "lastName": "Nachname",
       "email": "E-Mail-Adresse",
@@ -71,61 +143,61 @@
       },
       "phone": {
         "title": "Rufen Sie uns an",
-        "description": "Sprechen Sie direkt mit unserem Team während der Geschäftszeiten"
+        "description": "Sprechen Sie direkt mit unserem Team während der Bürozeiten"
       },
       "address": {
         "title": "Besuchen Sie uns",
         "description": "Besuchen Sie unser Büro für persönliche Beratungen"
       },
       "hours": {
-        "title": "Bürozeiten",
-        "description": "Wir sind während dieser Zeiten für Sie da"
+        "title": "Öffnungszeiten",
+        "description": "Wir sind zu diesen Zeiten für Sie da"
       }
     },
     "departments": {
       "general": "Allgemeine Anfragen",
-      "programs": "Programmbewerbungen",
+      "programs": "Programm-Bewerbungen",
       "partnerships": "Partnerschaftsmöglichkeiten",
       "media": "Medien & Presse"
     },
     "map": {
       "title": "Finden Sie uns",
-      "description": "Im Herzen von Abuja gelegen, sind wir leicht mit öffentlichen Verkehrsmitteln erreichbar."
+      "description": "Im Herzen von Abuja gelegen, leicht mit öffentlichen Verkehrsmitteln erreichbar."
     },
     "cta": {
-      "title": "Bereit loszulegen?",
-      "description": "Warten Sie nicht – kontaktieren Sie uns noch heute und beginnen Sie Ihre Reise mit dem European Cultural Centre Nigeria.",
-      "primary": "Schreiben Sie uns",
-      "secondary": "Rufen Sie uns an"
+      "title": "Bereit anzufangen?",
+      "description": "Warten Sie nicht – kontaktieren Sie uns noch heute und beginnen Sie Ihre Reise mit dem Europäischen Kulturzentrum Nigeria.",
+      "primary": "E-Mail schreiben",
+      "secondary": "Anrufen"
     }
   },
   "PrivacyPolicyPage": {
-    "title": "Datenschutzerklärung",
+    "title": "Datenschutzrichtlinie",
     "sections": {
       "overview": {
         "heading": "1. Überblick",
         "text": "Wir respektieren Ihre Privatsphäre und halten uns an die DSGVO und relevante europäische Vorschriften."
       },
       "personalData": {
-        "heading": "2. Von uns erhobene personenbezogene Daten",
+        "heading": "2. Erhobene personenbezogene Daten",
         "voluntary": "Freiwillige Angaben: Namen, E-Mails, Organisationsdaten, Veranstaltungsregistrierungsdetails.",
-        "automatic": "Automatische Erfassung: IP-Adresse, Gerät-/Browsertyp, Navigationsmuster auf der Website (über minimale, datenschutzfreundliche Analysen)."
+        "automatic": "Automatische Erhebung: IP-Adresse, Gerät-/Browsertyp, Navigationsmuster (durch datenschutzfreundliche Analysen)."
       },
       "useOfInformation": {
         "heading": "3. Verwendung der Informationen",
-        "text": "Ihre Daten helfen uns, Anmeldungen zu verwalten, Updates zu senden, Veranstaltungen zu organisieren und unsere Dienste zu verbessern."
+        "text": "Ihre Daten helfen uns, Registrierungen zu verwalten, Updates zu versenden, Veranstaltungen zu organisieren und unsere Dienstleistungen zu verbessern."
       },
       "cookies": {
         "heading": "4. Cookies & Analysen",
-        "text": "Wir verwenden notwendige Cookies für die Funktionalität und setzen möglicherweise datenschutzfreundliche Analysen ein, um Nutzungstrends zu verstehen, ohne die Anonymität zu gefährden."
+        "text": "Wir verwenden essentielle Cookies für die Funktionalität und datenschutzfreundliche Analysen zur Nutzungsauswertung."
       },
       "dataSharing": {
-        "heading": "5. Datenweitergabe & Übermittlungen",
-        "text": "Wir verkaufen Ihre Daten nicht. Wir können sie mit Dienstleistern (Hosting, Analysen, Kommunikation) teilen, jedoch nur unter DSGVO-konformen Vereinbarungen. Daten verlassen den EWR nur, wenn dies unbedingt erforderlich und rechtlich zulässig ist."
+        "heading": "5. Datenweitergabe & Übertragung",
+        "text": "Wir verkaufen Ihre Daten nicht. Sie können mit Dienstleistern geteilt werden (Hosting, Analysen, Kommunikation), jedoch nur unter DSGVO-konformen Vereinbarungen."
       },
       "dataRetention": {
-        "heading": "6. Aufbewahrung von Daten",
-        "text": "Wir speichern personenbezogene Daten nur so lange, wie sie für legitime Zwecke, gesetzliche Verpflichtungen oder bis zum Widerruf der Einwilligung erforderlich sind. Danach werden die Daten sicher gelöscht oder anonymisiert."
+        "heading": "6. Datenaufbewahrung",
+        "text": "Wir speichern personenbezogene Daten nur so lange wie nötig – danach werden sie sicher gelöscht oder anonymisiert."
       },
       "gdprRights": {
         "heading": "7. Ihre Rechte nach DSGVO",
@@ -133,25 +205,25 @@
         "rightsList": [
           "Zugang zu Ihren Daten",
           "Berichtigung von Ungenauigkeiten",
-          "Löschung Ihrer Daten (\"Recht auf Vergessenwerden\")",
+          "Löschung Ihrer Daten",
           "Einschränkung oder Widerspruch gegen die Verarbeitung",
           "Datenübertragbarkeit",
-          "Jederzeitiger Widerruf der Einwilligung"
+          "Widerruf der Einwilligung jederzeit"
         ],
-        "footer": "Reichen Sie solche Anfragen über den Kontaktmechanismus der Website ein."
+        "footer": "Stellen Sie solche Anfragen über das Kontaktformular der Website."
       },
       "security": {
         "heading": "8. Sicherheitsmaßnahmen",
-        "text": "Wir ergreifen angemessene technische und organisatorische Maßnahmen, um Ihre Daten zu schützen – Verschlüsselung, Zugriffskontrollen und regelmäßige Überprüfungen."
+        "text": "Wir ergreifen angemessene technische und organisatorische Maßnahmen, um Ihre Daten zu schützen."
       },
       "policyUpdates": {
-        "heading": "9. Aktualisierungen der Richtlinie",
-        "text": "Wir können diese Richtlinie aktualisieren. Die neueste Version wird immer auf der Website verfügbar sein, und wesentliche Änderungen können per E-Mail oder Website-Ankündigungen mitgeteilt werden."
+        "heading": "9. Aktualisierung der Richtlinie",
+        "text": "Wir können diese Richtlinie aktualisieren. Die neueste Version wird auf der Website veröffentlicht."
       }
     },
     "contact": {
       "heading": "10. Kontakt",
-      "text": "Bei Datenschutzanliegen oder -anfragen wenden Sie sich bitte über das Kontaktformular unserer Website oder die dort angegebene E-Mail-Adresse an uns."
+      "text": "Bei Datenschutzanliegen wenden Sie sich über das Kontaktformular oder die angegebene E-Mail an uns."
     }
   },
   "TermsOfUsePage": {
@@ -159,45 +231,45 @@
     "sections": {
       "acceptance": {
         "heading": "1. Annahme der Bedingungen",
-        "text": "Durch den Zugriff auf oder die Nutzung dieser Website stimmen Sie den Nutzungsbedingungen in vollem Umfang zu. Wenn Sie nicht einverstanden sind, hören Sie hier auf."
+        "text": "Durch Nutzung dieser Website erklären Sie sich mit den Nutzungsbedingungen einverstanden."
       },
       "purpose": {
         "heading": "2. Zweck und Umfang",
-        "text": "Diese Website widmet sich der Präsentation interkontinentaler Werte, Kulturaustausch, Tourismus, Sport, Wissensaustausch, Kreativität, Sprachaustausch, Klimawandel, humanitären Aktivitäten, Inklusion, Innovation und allen Themen, die unter unseren „ARBEITSBEREICHEN“ aufgeführt sind—durch Ausstellungen, Veranstaltungen, Veröffentlichungen und Dialoge. Bitte respektvoll nutzen."
+        "text": "Diese Seite präsentiert interkontinentale Werte, Kulturaustausch, Tourismus, Sport, Kreativität, Sprachaustausch und mehr."
       },
       "conduct": {
         "heading": "3. Nutzerverhalten",
-        "text": "Sie dürfen die Website nicht missbrauchen—kein illegaler Inhalt, Hacking, Identitätsdiebstahl oder Verletzung geistigen Eigentums oder der Privatsphäre anderer."
+        "text": "Sie dürfen die Website nicht missbrauchen – kein illegaler Inhalt, Hacking oder Datenschutzverletzungen."
       },
       "intellectualProperty": {
         "heading": "4. Geistiges Eigentum",
-        "text": "Alle Inhalte dieser Website—Texte, Bilder, Videos, Logos—sind urheberrechtlich geschützt. Drucken oder Herunterladen für persönliche oder kommerzielle Zwecke ist nicht gestattet. Jegliche Nutzung erfordert eine ausdrückliche schriftliche Zustimmung."
+        "text": "Alle Inhalte dieser Seite sind urheberrechtlich geschützt. Nutzung nur mit schriftlicher Zustimmung."
       },
       "registration": {
         "heading": "5. Registrierung und Formulare",
-        "text": "Wenn Sie sich für Veranstaltungen oder Mailinglisten registrieren, müssen Sie korrekte Angaben machen. Das Absenden eines Formulars bedeutet die Zustimmung zu diesen Bedingungen und zu allen zusätzlichen Bedingungen, die bei der Einreichung mitgeteilt werden."
+        "text": "Wenn Sie sich für Veranstaltungen anmelden, müssen Sie korrekte Angaben machen."
       },
       "disclaimers": {
-        "heading": "6. Haftungsausschlüsse & Änderungen",
-        "text": "Inhalte können sich von Zeit zu Zeit ändern. Wir bemühen uns um Genauigkeit. Änderungen werden per E-Mail mitgeteilt, wenn Sie unseren Newsletter abonniert haben."
+        "heading": "6. Haftungsausschluss & Änderungen",
+        "text": "Inhalte können sich ändern. Änderungen werden ggf. per E-Mail mitgeteilt."
       },
       "law": {
         "heading": "7. Anwendbares Recht",
-        "text": "Diese Bedingungen unterliegen den geltenden Gesetzen der Europäischen Union."
+        "text": "Diese Bedingungen unterliegen den Gesetzen der Europäischen Union."
       },
       "amendments": {
         "heading": "8. Änderungen",
-        "text": "Wir können diese Bedingungen jederzeit aktualisieren. Die weitere Nutzung nach Änderungen bedeutet, dass Sie diese akzeptieren."
+        "text": "Wir können diese Bedingungen jederzeit ändern. Fortgesetzte Nutzung bedeutet Zustimmung."
       }
     }
   },
   "TopLanguagesPage": {
     "header": {
       "title": "Unsere Sprachkurse",
-      "subtitle": "Ein kurzer Überblick über die Sprachkurse und Gebärdensprachkurse, die wir anbieten"
+      "subtitle": "Ein schneller Überblick über die Sprach- und Gebärdensprachkurse, die wir anbieten"
     },
     "languagesSection": {
-      "title": "Sprachkurse, die wir anbieten"
+      "title": "Angebotene Sprachkurse"
     },
     "languages": [
       "Englisch",
@@ -261,22 +333,22 @@
     "getInvolved": {
       "title": "Mitmachen",
       "apply": "Für Programme bewerben",
-      "partner": "Mit uns zusammenarbeiten",
-      "volunteer": "Freiwilligenarbeit",
+      "partner": "Mit uns kooperieren",
+      "volunteer": "Freiwillig helfen",
       "donate": "Spenden"
     },
     "resources": {
       "title": "Ressourcen",
       "events": "Veranstaltungskalender",
       "news": "Neuigkeiten & Updates",
-      "contact": "Kontaktieren Sie uns"
+      "contact": "Kontakt"
     }
   },
   "Footer": {
-    "brandDesc": "Brücken zwischen Kulturen bauen, Verständnis fördern und die Zusammenarbeit zwischen Europa, Afrika und dem Rest der Welt durch Bildung, Kunst und kulturellen Austausch stärken.",
+    "brandDesc": "Kulturen verbinden, Verständnis fördern und Zusammenarbeit zwischen Europa, Afrika und der Welt durch Bildung, Kunst und kulturellen Austausch stärken.",
     "newsLetterH3": "Bleiben Sie verbunden",
     "newsLetterP": "Abonnieren Sie unseren Newsletter für die neuesten Updates, Veranstaltungen und Möglichkeiten.",
-    "inputPlaceholder": "Geben Sie Ihre E-Mail ein",
+    "inputPlaceholder": "Ihre E-Mail eingeben",
     "copyRight": "Europäisches Kulturzentrum Nigeria. Alle Rechte vorbehalten.",
     "termsOfUser": "Nutzungsbedingungen",
     "privacyPolicy": "Datenschutzrichtlinie"

@@ -13,101 +13,107 @@ import { useScrollAnimation } from "@/hooks/use-scroll-animation"
 import HeaderSlider2 from "@/components/CustomSlider/HeaderSlider2"
 import { EventsPageCarouselData } from "@/lib/EventsPageCarouselData"
 import { useState, useMemo } from "react"
+import { useTranslations } from "next-intl"
 
-const upcomingEvents = [
-  {
-    title: "African Heritage Festival 2026",
-    date: "March 15-17, 2026",
-    time: "9:00 AM - 6:00 PM",
-    location: "Lagos Cultural Center",
-    type: "Cultural Festival",
-    description:
-      "A three-day celebration of African heritage featuring art exhibitions, traditional music, dance performances, and cultural workshops.",
-    capacity: "5,000 attendees",
-    status: "Open Registration",
-    image: "/culture/culture-slider3.png",
-  },
-  {
-    title: "Youth Innovation Summit",
-    date: "April 8-10, 2026",
-    time: "10:00 AM - 5:00 PM",
-    location: "Abuja Tech Hub",
-    type: "Innovation Conference",
-    description:
-      "Bringing together young innovators, entrepreneurs, and tech leaders to explore the future of technology in cultural preservation.",
-    capacity: "500 participants",
-    status: "Early Bird",
-    image: "/youth-development/youth-dev-5.png",
-  },
-  {
-    title: "International Sports Tournament",
-    date: "May 20-25, 2026",
-    time: "8:00 AM - 8:00 PM",
-    location: "National Stadium, Lagos",
-    type: "Sports Event",
-    description:
-      "Multi-sport tournament featuring teams from across Africa and Europe, promoting unity through sports.",
-    capacity: "10,000 spectators",
-    status: "Tickets Available",
-    image: "/sports/sports-slide-2.png",
-  },
-  {
-    title: "Digital Heritage Workshop",
-    date: "June 12-14, 2026",
-    time: "9:00 AM - 4:00 PM",
-    location: "University of Lagos",
-    type: "Training Workshop",
-    description: "Hands-on workshop on digital preservation techniques for cultural heritage sites and artifacts.",
-    capacity: "100 participants",
-    status: "Limited Spots",
-    image: "/programs/program3.png",
-  },
-  {
-    title: "European-African Art Exchange",
-    date: "July 5-20, 2026",
-    time: "All Day",
-    location: "Multiple Galleries",
-    type: "Art Exhibition",
-    description: "Two-week art exchange featuring contemporary works from European and African artists.",
-    capacity: "Unlimited",
-    status: "Free Entry",
-    image: "/programs/program1.jpg",
-  },
-  {
-    title: "Cultural Diplomacy Forum",
-    date: "August 15-16, 2026",
-    time: "9:00 AM - 6:00 PM",
-    location: "Transcorp Hilton, Abuja",
-    type: "Diplomatic Forum",
-    description: "High-level forum bringing together cultural diplomats, policymakers, and cultural leaders.",
-    capacity: "200 delegates",
-    status: "Invitation Only",
-    image: "/culture/culture-slider18.png",
-  },
-]
-
-// Compute category counts dynamically
-const computeCategories = () => {
-  const categories = [
-    { name: "All Events", key: "all" },
-    { name: "Cultural Festivals", key: "Cultural Festival" },
-    { name: "Training & Workshop", key: "Training & Workshop" },
-    { name: "Sports", key: "Sports Event" },
-    { name: "Innovation", key: "Innovation Conference" },
-    { name: "Arts", key: "Art Exhibition" },
-    { name: "Diplomacy", key: "Diplomatic Forum" },
-  ]
-
-  return categories.map((cat) => ({
-    ...cat,
-    count:
-      cat.key === "all"
-        ? upcomingEvents.length
-        : upcomingEvents.filter((event) => event.type === cat.key).length,
-  }))
-}
 
 export default function EventsPage() {
+  const t = useTranslations("EventsPage")
+  
+  
+  const upcomingEvents = [
+    {
+      title: "African Heritage Festival 2026",
+      date: "March 15-17, 2026",
+      time: "9:00 AM - 6:00 PM",
+      location: "Lagos Cultural Center",
+      type: "Cultural Festival",
+      description:
+        "A three-day celebration of African heritage featuring art exhibitions, traditional music, dance performances, and cultural workshops.",
+      capacity: "5,000 attendees",
+      status: "Open Registration",
+      image: "/culture/culture-slider3.png",
+    },
+    {
+      title: "Youth Innovation Summit",
+      date: "April 8-10, 2026",
+      time: "10:00 AM - 5:00 PM",
+      location: "Abuja Tech Hub",
+      type: "Innovation Conference",
+      description:
+        "Bringing together young innovators, entrepreneurs, and tech leaders to explore the future of technology in cultural preservation.",
+      capacity: "500 participants",
+      status: "Early Bird",
+      image: "/youth-development/youth-dev-5.png",
+    },
+    {
+      title: "International Sports Tournament",
+      date: "May 20-25, 2026",
+      time: "8:00 AM - 8:00 PM",
+      location: "National Stadium, Lagos",
+      type: "Sports Event",
+      description:
+        "Multi-sport tournament featuring teams from across Africa and Europe, promoting unity through sports.",
+      capacity: "10,000 spectators",
+      status: "Tickets Available",
+      image: "/sports/sports-slide-2.png",
+    },
+    {
+      title: "Digital Heritage Workshop",
+      date: "June 12-14, 2026",
+      time: "9:00 AM - 4:00 PM",
+      location: "University of Lagos",
+      type: "Training Workshop",
+      description: "Hands-on workshop on digital preservation techniques for cultural heritage sites and artifacts.",
+      capacity: "100 participants",
+      status: "Limited Spots",
+      image: "/programs/program3.png",
+    },
+    {
+      title: "European-African Art Exchange",
+      date: "July 5-20, 2026",
+      time: "All Day",
+      location: "Multiple Galleries",
+      type: "Art Exhibition",
+      description: "Two-week art exchange featuring contemporary works from European and African artists.",
+      capacity: "Unlimited",
+      status: "Free Entry",
+      image: "/programs/program1.jpg",
+    },
+    {
+      title: "Cultural Diplomacy Forum",
+      date: "August 15-16, 2026",
+      time: "9:00 AM - 6:00 PM",
+      location: "Transcorp Hilton, Abuja",
+      type: "Diplomatic Forum",
+      description: "High-level forum bringing together cultural diplomats, policymakers, and cultural leaders.",
+      capacity: "200 delegates",
+      status: "Invitation Only",
+      image: "/culture/culture-slider18.png",
+    },
+  ]
+  
+  // Compute category counts dynamically
+  const computeCategories = () => {
+    const categories = [
+      { name: t("categories.all"), key: "all" },
+      { name: "Cultural Festivals", key: "Cultural Festival" },
+      { name: "Training & Workshop", key: "Training & Workshop" },
+      { name: "Sports", key: "Sports Event" },
+      { name: "Innovation", key: "Innovation Conference" },
+      { name: "Arts", key: "Art Exhibition" },
+      { name: "Diplomacy", key: "Diplomatic Forum" },
+    ]
+  
+    return categories.map((cat) => ({
+      ...cat,
+      count:
+        cat.key === "all"
+          ? upcomingEvents.length
+          : upcomingEvents.filter((event) => event.type === cat.key).length,
+    }))
+  }
+
+
   const { ref: heroRef, isInView: heroInView } = useScrollAnimation()
   const { ref: eventsRef, isInView: eventsInView } = useScrollAnimation()
   const hoverScale = { scale: 1.05 }

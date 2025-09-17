@@ -9,92 +9,164 @@
     "areasWork": {
       "title": "Domaines d'activité",
       "subMenu": {
-        "education": "Éducation et échange de connaissances",
+        "education": "Éducation & Échange de connaissances",
         "humanitarian": "Humanitaire",
-        "exhibition": "Expositions et conférences",
-        "youthDevelopment": "Développement de la jeunesse",
-        "training": "Formation et ateliers",
+        "exhibition": "Expositions & Conférences",
+        "youthDevelopment": "Développement des jeunes",
+        "training": "Formations & Ateliers",
         "scholarship": "Programmes de bourses",
         "grantSourcing": "Recherche de financements",
         "healthcare": "Soins de santé",
         "languageCourses": "Cours de langues",
-        "culture": "Culture, arts et patrimoine",
-        "environment": "Environnement et action climatique",
-        "inclusion": "Inclusion et accessibilité",
-        "cooperation": "Coopération interpersonnelle",
-        "research": "Recherche créative et culturelle",
+        "culture": "Culture, arts & patrimoine",
+        "environment": "Environnement & Action climatique",
+        "inclusion": "Inclusion & Accessibilité",
+        "cooperation": "Coopération entre les peuples",
+        "research": "Recherche créative & culturelle",
         "sports": "Sports",
         "events": "Événements",
         "tourism": "Tourisme",
-        "innovation": "Innovation et nouveaux médias"
+        "innovation": "Innovation & Nouveaux médias"
       }
     },
-    "toursExchange": "Voyages et échanges",
+    "toursExchange": "Voyages & Échanges",
     "tours&Exchange": {
       "subMenu": {
-        "culturalHeritageTours": "Voyages sur le patrimoine culturel",
+        "culturalHeritageTours": "Voyages patrimoniaux",
         "governmentTours": "Visites gouvernementales",
-        "nigeriaDomesticTours": "Voyages domestiques au Nigéria",
+        "nigeriaDomesticTours": "Voyages domestiques au Nigeria",
         "researchTours": "Voyages de recherche",
         "schoolExchangeTours": "Échanges scolaires",
         "sportTours": "Voyages sportifs",
-        "study&FieldTrips": "Voyages d'étude et excursions"
+        "study&FieldTrips": "Voyages d’étude et de terrain"
       }
     },
     "events": "Événements",
     "videos": "Vidéos",
     "contact": "Contact",
     "gallery": "Galerie",
-    "getInvolved": "S'impliquer"
+    "getInvolved": "S’impliquer"
+  },
+  "EventsPage": {
+    "categories": {
+      "all": "Tous les événements",
+      "culturalFestival": "Festivals culturels",
+      "trainingWorkshop": "Formations & Ateliers",
+      "sportsEvent": "Sports",
+      "innovationConference": "Innovation",
+      "artExhibition": "Arts",
+      "diplomaticForum": "Diplomatie"
+    },
+    "section": {
+      "title": "Événements à venir",
+      "subtitle": "Ne manquez pas ces opportunités passionnantes pour vous connecter, apprendre et célébrer la diversité culturelle."
+    },
+    "buttons": {
+      "learnMore": "En savoir plus",
+      "requestInvitation": "Demander une invitation",
+      "registerNow": "S'inscrire maintenant"
+    },
+    "badges": {
+      "openRegistration": "Inscriptions ouvertes",
+      "earlyBird": "Tarif réduit",
+      "limitedSpots": "Places limitées",
+      "ticketsAvailable": "Billets disponibles",
+      "freeEntry": "Entrée gratuite",
+      "invitationOnly": "Sur invitation uniquement"
+    },
+    "upcomingEvents": [
+      {
+        "title": "Festival du patrimoine africain 2026",
+        "type": "Festival culturel",
+        "description": "Une célébration de trois jours du patrimoine africain avec des expositions d’art, de la musique traditionnelle, des spectacles de danse et des ateliers culturels.",
+        "capacity": "5 000 participants",
+        "status": "Inscriptions ouvertes"
+      },
+      {
+        "title": "Sommet de l’innovation des jeunes",
+        "type": "Conférence sur l’innovation",
+        "description": "Rassemblement de jeunes innovateurs, entrepreneurs et leaders technologiques pour explorer l’avenir de la technologie dans la préservation culturelle.",
+        "capacity": "500 participants",
+        "status": "Tarif réduit"
+      },
+      {
+        "title": "Tournoi sportif international",
+        "type": "Événement sportif",
+        "description": "Tournoi multisports réunissant des équipes d’Afrique et d’Europe, promouvant l’unité par le sport.",
+        "capacity": "10 000 spectateurs",
+        "status": "Billets disponibles"
+      },
+      {
+        "title": "Atelier sur le patrimoine numérique",
+        "type": "Formation & Atelier",
+        "description": "Atelier pratique sur les techniques de préservation numérique des sites et artefacts culturels.",
+        "capacity": "100 participants",
+        "status": "Places limitées"
+      },
+      {
+        "title": "Échange artistique Europe-Afrique",
+        "type": "Exposition d’art",
+        "description": "Échange artistique de deux semaines présentant des œuvres contemporaines d’artistes européens et africains.",
+        "capacity": "Illimité",
+        "status": "Entrée gratuite"
+      },
+      {
+        "title": "Forum de diplomatie culturelle",
+        "type": "Forum diplomatique",
+        "description": "Forum de haut niveau réunissant diplomates culturels, décideurs et responsables culturels.",
+        "capacity": "200 délégués",
+        "status": "Sur invitation uniquement"
+      }
+    ]
   },
   "ContactPage": {
     "hero": {
-      "badge": "Contactez-nous",
+      "badge": "Nous contacter",
       "title": "Entrer en contact",
       "description": "Prêt à commencer votre voyage culturel ? Vous avez des questions sur nos programmes ? Nous sommes là pour vous aider à chaque étape."
     },
     "form": {
       "title": "Envoyez-nous un message",
-      "description": "Remplissez le formulaire ci-dessous et nous vous répondrons dans les 24 heures.",
+      "description": "Remplissez le formulaire ci-dessous et nous vous répondrons sous 24 heures.",
       "firstName": "Prénom",
-      "lastName": "Nom de famille",
+      "lastName": "Nom",
       "email": "Adresse e-mail",
       "phone": "Numéro de téléphone",
-      "department": "Sélectionner un département",
+      "department": "Sélectionnez un département",
       "message": "Votre message",
       "button": "Envoyer le message"
     },
     "info": {
       "email": {
         "title": "Envoyez-nous un e-mail",
-        "description": "Contactez-nous pour des demandes générales ou des informations sur les programmes"
+        "description": "Contactez-nous pour toute question générale ou information sur nos programmes"
       },
       "phone": {
         "title": "Appelez-nous",
-        "description": "Parlez directement à notre équipe pendant les heures de bureau"
+        "description": "Parlez directement avec notre équipe pendant les heures de bureau"
       },
       "address": {
         "title": "Venez nous voir",
-        "description": "Venez visiter nos bureaux pour des consultations en personne"
+        "description": "Rendez-nous visite dans nos bureaux pour des consultations en personne"
       },
       "hours": {
-        "title": "Heures d'ouverture",
-        "description": "Nous sommes disponibles pendant ces horaires"
+        "title": "Heures d’ouverture",
+        "description": "Nous sommes disponibles durant ces horaires"
       }
     },
     "departments": {
       "general": "Demandes générales",
       "programs": "Candidatures aux programmes",
       "partnerships": "Opportunités de partenariat",
-      "media": "Médias et presse"
+      "media": "Médias & Presse"
     },
     "map": {
       "title": "Nous trouver",
-      "description": "Situé au cœur d'Abuja, nous sommes facilement accessibles par les transports en commun."
+      "description": "Situés au cœur d’Abuja, nous sommes facilement accessibles en transports publics."
     },
     "cta": {
       "title": "Prêt à commencer ?",
-      "description": "N'attendez plus – contactez-nous dès aujourd'hui et commencez votre aventure avec le Centre Culturel Européen Nigeria.",
+      "description": "N’attendez plus – contactez-nous dès aujourd’hui et commencez votre voyage avec le Centre Culturel Européen Nigeria.",
       "primary": "Envoyez-nous un e-mail",
       "secondary": "Appelez-nous"
     }
@@ -104,45 +176,45 @@
     "sections": {
       "overview": {
         "heading": "1. Aperçu",
-        "text": "Nous respectons votre vie privée et nous nous conformons au RGPD et aux réglementations européennes pertinentes."
+        "text": "Nous respectons votre vie privée et nous conformons au RGPD et aux réglementations européennes pertinentes."
       },
       "personalData": {
-        "heading": "2. Données personnelles que nous collectons",
-        "voluntary": "Soumission volontaire : noms, e-mails, données organisationnelles, détails d'inscription aux événements.",
-        "automatic": "Collecte automatique : adresse IP, type d'appareil/navigateur, parcours de navigation (via une analyse minimale et respectueuse de la vie privée)."
+        "heading": "2. Données personnelles collectées",
+        "voluntary": "Soumission volontaire : noms, e-mails, données organisationnelles, détails d’inscription aux événements.",
+        "automatic": "Collecte automatique : adresse IP, type d’appareil/navigateur, parcours de navigation (via une analyse minimale respectueuse de la vie privée)."
       },
       "useOfInformation": {
         "heading": "3. Utilisation des informations",
-        "text": "Vos données nous aident à gérer les inscriptions, envoyer des mises à jour, organiser des événements et améliorer nos services."
+        "text": "Vos données nous aident à gérer les inscriptions, envoyer des mises à jour, organiser les événements et améliorer nos services."
       },
       "cookies": {
-        "heading": "4. Cookies et analyses",
-        "text": "Nous utilisons des cookies essentiels pour la fonctionnalité et pouvons déployer des analyses respectueuses de la vie privée pour comprendre les tendances d'utilisation sans compromettre l'anonymat."
+        "heading": "4. Cookies & Analyses",
+        "text": "Nous utilisons des cookies essentiels pour la fonctionnalité et pouvons déployer des analyses respectueuses de la vie privée afin de comprendre les tendances d’utilisation sans compromettre l’anonymat."
       },
       "dataSharing": {
-        "heading": "5. Partage et transferts de données",
-        "text": "Nous ne vendons pas vos données. Nous pouvons les partager avec des prestataires de services (hébergement, analyses, communications), mais uniquement dans le cadre d'accords conformes au RGPD. Les données ne quittent pas l'EEE sauf si cela est strictement nécessaire et légalement permis."
+        "heading": "5. Partage & Transferts de données",
+        "text": "Nous ne vendons pas vos données. Nous pouvons les partager avec des prestataires de services (hébergement, analyses, communications), uniquement dans le cadre d’accords conformes au RGPD. Les données ne quittent pas l’EEE sauf si cela est strictement nécessaire et légalement permis."
       },
       "dataRetention": {
         "heading": "6. Conservation des données",
-        "text": "Nous conservons les données personnelles uniquement aussi longtemps que nécessaire — pour des finalités légitimes, obligations légales, ou jusqu'au retrait du consentement. Après cela, les données sont supprimées ou anonymisées en toute sécurité."
+        "text": "Nous conservons les données personnelles uniquement aussi longtemps que nécessaire—à des fins légitimes, obligations légales ou jusqu’au retrait du consentement. Après quoi, elles sont supprimées ou anonymisées en toute sécurité."
       },
       "gdprRights": {
-        "heading": "7. Vos droits selon le RGPD",
+        "heading": "7. Vos droits en vertu du RGPD",
         "text": "Vous avez le droit de :",
         "rightsList": [
           "Accéder à vos données",
           "Rectifier les inexactitudes",
-          "Effacer vos données (\"droit à l'oubli\")",
+          "Effacer vos données (\"droit à l’oubli\")",
           "Limiter ou vous opposer au traitement",
           "Portabilité des données",
           "Retirer votre consentement à tout moment"
         ],
-        "footer": "Soumettez ces demandes via le mécanisme de contact du site."
+        "footer": "Soumettez vos demandes via le mécanisme de contact du site."
       },
       "security": {
         "heading": "8. Mesures de sécurité",
-        "text": "Nous prenons des mesures techniques et organisationnelles raisonnables pour protéger vos données — cryptage, contrôles d'accès et examens réguliers."
+        "text": "Nous prenons des mesures techniques et organisationnelles raisonnables pour protéger vos données—cryptage, contrôles d’accès et examens réguliers."
       },
       "policyUpdates": {
         "heading": "9. Mises à jour de la politique",
@@ -151,43 +223,43 @@
     },
     "contact": {
       "heading": "10. Contact",
-      "text": "Pour toute question ou demande relative à la confidentialité, contactez-nous via le formulaire de contact du site ou l'adresse e-mail fournie."
+      "text": "Pour toute préoccupation ou demande liée à la confidentialité, contactez-nous via le formulaire du site ou l’e-mail indiqué."
     }
   },
   "TermsOfUsePage": {
-    "title": "Conditions d'utilisation",
+    "title": "Conditions d’utilisation",
     "sections": {
       "acceptance": {
         "heading": "1. Acceptation des conditions",
-        "text": "En accédant ou en utilisant ce site Web, vous acceptez de respecter ces conditions d'utilisation dans leur intégralité. Si vous n'êtes pas d'accord, arrêtez ici."
+        "text": "En accédant ou en utilisant ce site web, vous acceptez de respecter pleinement ces conditions d’utilisation. Si vous n’êtes pas d’accord, arrêtez ici."
       },
       "purpose": {
-        "heading": "2. Objectif et portée",
-        "text": "Ce site est dédié à la promotion des valeurs interculturelles, des échanges culturels, du tourisme, du sport, de l'échange de connaissances, de la créativité, de l'échange linguistique, du changement climatique, des activités humanitaires, de l'inclusion, de l'innovation et de chaque sujet affiché dans nos « DOMAINES D'ACTIVITÉ » — via des expositions, événements, publications et dialogues. Utilisez-le avec respect."
+        "heading": "2. Objet et portée",
+        "text": "Ce site est dédié à la mise en valeur des valeurs interculturelles, des échanges culturels, du tourisme, des sports, de l’échange de connaissances, de la créativité, des langues, du changement climatique, des activités humanitaires, de l’inclusion, de l’innovation et de tous les thèmes affichés dans nos \"DOMAINES D’ACTIVITÉ\"—via expositions, événements, publications et dialogues. Utilisez-le de manière respectueuse."
       },
       "conduct": {
-        "heading": "3. Conduite de l'utilisateur",
-        "text": "Vous ne devez pas faire un mauvais usage du site Web — pas de contenu illégal, piratage, usurpation d'identité ou violation de la propriété intellectuelle ou de la vie privée d'autrui."
+        "heading": "3. Conduite de l’utilisateur",
+        "text": "Vous ne devez pas abuser du site—pas de contenu illégal, piratage, usurpation d’identité ou atteinte à la propriété intellectuelle et à la vie privée d’autrui."
       },
       "intellectualProperty": {
         "heading": "4. Propriété intellectuelle",
-        "text": "Tout le contenu de ce site — textes, images, vidéos, logos — est protégé par le droit d'auteur. Vous ne pouvez pas l'imprimer ni le télécharger pour un usage personnel ou commercial sans autorisation écrite explicite."
+        "text": "Tout le contenu de ce site—textes, images, vidéos, logos—est protégé par le droit d’auteur. Vous ne pouvez pas l’imprimer ni le télécharger pour un usage personnel ou commercial sans consentement écrit explicite."
       },
       "registration": {
-        "heading": "5. Inscription et formulaires",
-        "text": "Si vous vous inscrivez à des événements ou listes de diffusion, vous devez fournir des informations exactes. La soumission d'un formulaire implique l'acceptation de ces conditions et de toute condition annexe communiquée au moment de la soumission."
+        "heading": "5. Inscriptions et formulaires",
+        "text": "Si vous vous inscrivez à des événements ou newsletters, vous devez fournir des informations exactes. La soumission d’un formulaire implique l’acceptation de ces conditions et de toute condition annexe."
       },
       "disclaimers": {
-        "heading": "6. Avertissements et modifications",
-        "text": "Le contenu peut changer de temps à autre. Nous nous efforçons d'être précis. Les changements seront communiqués par e-mail si vous êtes abonné à notre newsletter."
+        "heading": "6. Avertissements & Modifications",
+        "text": "Le contenu peut évoluer. Nous nous efforçons d’être exacts. Les changements seront communiqués par e-mail si vous êtes abonné à notre newsletter."
       },
       "law": {
         "heading": "7. Droit applicable",
-        "text": "Ces conditions sont régies par les lois pertinentes de l'Union européenne."
+        "text": "Ces conditions sont régies par les lois pertinentes de l’Union européenne."
       },
       "amendments": {
         "heading": "8. Modifications",
-        "text": "Nous pouvons mettre à jour ces conditions à tout moment. L'utilisation continue après modification signifie que vous les acceptez."
+        "text": "Nous pouvons mettre à jour ces conditions à tout moment. L’utilisation continue après les changements signifie que vous les acceptez."
       }
     }
   },
@@ -205,7 +277,7 @@
       "Yoruba",
       "Igbo",
       "Peul",
-      "Kanouri",
+      "Kanuri",
       "Tiv",
       "Ibibio",
       "Ijaw",
@@ -246,39 +318,39 @@
   },
   "footerLink": {
     "about": {
-      "title": "À propos de l'ECC",
+      "title": "À propos du CCE",
       "mission": "Notre mission",
       "programs": "Nos programmes",
       "careers": "Carrières"
     },
     "programs": {
       "title": "Programmes",
-      "education": "Éducation et échanges",
+      "education": "Éducation & Échanges",
       "culture": "Patrimoine culturel",
-      "innovation": "Laboratoire d'innovation",
+      "innovation": "Laboratoire d’innovation",
       "all": "Tous les programmes"
     },
     "getInvolved": {
-      "title": "S'impliquer",
-      "apply": "Postuler à nos programmes",
+      "title": "S’impliquer",
+      "apply": "Postuler aux programmes",
       "partner": "Devenez partenaire",
-      "volunteer": "Bénévolat",
+      "volunteer": "Bénévole",
       "donate": "Faire un don"
     },
     "resources": {
       "title": "Ressources",
       "events": "Calendrier des événements",
-      "news": "Actualités et mises à jour",
-      "contact": "Contactez-nous"
+      "news": "Actualités & mises à jour",
+      "contact": "Nous contacter"
     }
   },
   "Footer": {
-    "brandDesc": "Relier les cultures, favoriser la compréhension et promouvoir la coopération entre l'Europe, l'Afrique et le reste du monde à travers l'éducation, les arts et les échanges culturels.",
-    "newsLetterH3": "Restez connecté",
-    "newsLetterP": "Abonnez-vous à notre newsletter pour recevoir les dernières mises à jour, événements et opportunités.",
+    "brandDesc": "Relier les cultures, favoriser la compréhension et promouvoir la coopération entre l’Europe, l’Afrique et le reste du monde par l’éducation, les arts et les échanges culturels.",
+    "newsLetterH3": "Restez connectés",
+    "newsLetterP": "Abonnez-vous à notre newsletter pour recevoir les dernières nouvelles, événements et opportunités.",
     "inputPlaceholder": "Entrez votre e-mail",
     "copyRight": "Centre Culturel Européen Nigeria. Tous droits réservés.",
-    "termsOfUser": "Conditions d'utilisation",
+    "termsOfUser": "Conditions d’utilisation",
     "privacyPolicy": "Politique de confidentialité"
   }
 }
