@@ -239,11 +239,12 @@ export default function EventsPage() {
                       <Button asChild className="w-full bg-[#68b684] hover:bg-[#8F770A] text-white font-semibold">
                         <Link href="/contact">
                           {event.status === "Free Entry"
-                            ? "Learn More"
+                            ? t("buttons.learnMore")
                             : event.status === "Invitation Only"
-                              ? "Request Invitation"
-                              : "Register Now"}
+                              ? t("buttons.requestInvitation")
+                              : t("buttons.registerNow")}
                         </Link>
+
                       </Button>
                     </motion.div>
                   </CardContent>

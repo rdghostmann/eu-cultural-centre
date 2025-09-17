@@ -50,7 +50,7 @@
   "EventsPage": {
     "h2": "Upcoming Events",
     "p": "Don't miss out on these exciting opportunities to connect, learn, and celebrate cultural diversity.",
-    "categories": {
+      "categories": {
       "all": "All Events",
       "culturalFestival": "Cultural Festivals",
       "trainingWorkshop": "Training & Workshop",
