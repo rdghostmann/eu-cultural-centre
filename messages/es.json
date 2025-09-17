@@ -47,6 +47,99 @@
     "gallery": "Galería",
     "getInvolved": "Involúcrate"
   },
+  "SportsTours": {
+  "badge": "Giras Deportivas & Torneos",
+  "heroTitle": "Excelencia Deportiva & Intercambio Cultural",
+  "heroDescription": "Programas deportivos de élite que combinan desarrollo atlético con intercambio cultural, reuniendo equipos y atletas de Europa y África.",
+  "exploreButton": "Ver programas",
+  "registerButton": "Registrar un equipo",
+
+  "quickInfo": {
+    "seasonTitle": "Temporada",
+    "seasonValue": "Todo el año",
+    "participantsTitle": "Participantes",
+    "participantsValue": "500+ anuales",
+    "tournamentsTitle": "Torneos",
+    "tournamentsValue": "12+ eventos",
+    "safetyTitle": "Seguridad",
+    "safetyValue": "Entrenadores certificados"
+  },
+
+  "programs": {
+    "title": "Programas Deportivos",
+    "description": "Programas deportivos integrales diseñados para desarrollar habilidades atléticas y fomentar amistades internacionales y comprensión cultural.",
+    "items": [
+      {
+        "title": "Academia Europea de Fútbol ECC",
+        "description": "Entrenamiento de élite con entrenadores europeos y participación en torneos internacionales.",
+        "icon": "⚽",
+        "duration": "2-4 semanas",
+        "features": ["Entrenamiento profesional", "Juegos de torneo", "Intercambio cultural", "Desarrollo de habilidades"],
+        "ageGroup": "12-18 años"
+      },
+      {
+        "title": "Torneos Deportivos Internacionales",
+        "description": "Torneos competitivos que reúnen equipos de Europa y África.",
+        "icon": "🏆",
+        "duration": "1-2 semanas",
+        "features": ["Eventos multideportivos", "Competiciones en equipo", "Ceremonias de premiación", "Actividades culturales"],
+        "ageGroup": "Todas las edades"
+      },
+      {
+        "title": "Programas de Intercambio Deportivo",
+        "description": "Programas de intercambio deportivo y cultural para equipos y atletas individuales.",
+        "icon": "🤝",
+        "duration": "1-3 semanas",
+        "features": ["Intercambios de equipos", "Campamentos de entrenamiento", "Partidos amistosos", "Inmersión cultural"],
+        "ageGroup": "Juventud & Adultos"
+      },
+      {
+        "title": "Paquetes de Turismo Deportivo",
+        "description": "Paquetes completos de viajes deportivos que incluyen entrenamiento, competición y turismo.",
+        "icon": "✈️",
+        "duration": "1-2 semanas",
+        "features": ["Organización de viajes", "Alojamiento", "Instalaciones de entrenamiento", "Actividades turísticas"],
+        "ageGroup": "Todos los niveles"
+      }
+    ],
+    "learnMoreButton": "Más información"
+  },
+
+  "tournaments": {
+    "title": "Próximos Torneos",
+    "description": "Únete a competiciones deportivas y eventos internacionales organizados en África y Europa.",
+    "items": [
+      {
+        "name": "Campeonato Juvenil de Fútbol ECC",
+        "date": "15-22 julio 2026",
+        "location": "Lagos, Nigeria",
+        "participants": "16 equipos",
+        "status": "Inscripción abierta"
+      },
+      {
+        "name": "Intercambio de Baloncesto África-Europa",
+        "date": "5-12 agosto 2026",
+        "location": "Abuja, Nigeria",
+        "participants": "12 equipos",
+        "status": "Plazo de solicitudes"
+      },
+      {
+        "name": "Encuentro Internacional de Atletismo",
+        "date": "10-15 septiembre 2026",
+        "location": "Kano, Nigeria",
+        "participants": "200+ atletas",
+        "status": "Próximamente"
+      }
+    ]
+  },
+
+  "cta": {
+    "title": "¿Listo para Entrar al Juego?",
+    "description": "Lleva tu trayectoria deportiva al siguiente nivel con nuestro entrenamiento de élite, torneos y programas de intercambio.",
+    "primaryLabel": "Registrarse ahora",
+    "secondaryLabel": "Solicitar información"
+  }
+},
   "StudyFieldTrips": {
     "badge": "Viajes de estudio y excursiones",
     "heroTitle": "Estudios de campo educativos y expediciones de aprendizaje",

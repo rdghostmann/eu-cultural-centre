@@ -47,6 +47,99 @@
     "gallery": "Gallery",
     "getInvolved": "Get Involved"
   },
+  "SportsTours": {
+  "badge": "Sports Tours & Tournaments",
+  "heroTitle": "Sports Excellence & Cultural Exchange",
+  "heroDescription": "Elite sports programs combining athletic development with cultural exchange, bringing together teams and athletes from Europe and Africa.",
+  "exploreButton": "View Programs",
+  "registerButton": "Register a Team",
+
+  "quickInfo": {
+    "seasonTitle": "Season",
+    "seasonValue": "Year-round",
+    "participantsTitle": "Participants",
+    "participantsValue": "500+ annually",
+    "tournamentsTitle": "Tournaments",
+    "tournamentsValue": "12+ events",
+    "safetyTitle": "Safety",
+    "safetyValue": "Certified coaches"
+  },
+
+  "programs": {
+    "title": "Sports Programs",
+    "description": "Comprehensive sports programs designed to develop athletic skills while fostering international friendships and cultural understanding.",
+    "items": [
+      {
+        "title": "ECC European Soccer Academy",
+        "description": "Elite football training with European coaches and international tournament participation.",
+        "icon": "⚽",
+        "duration": "2-4 weeks",
+        "features": ["Professional coaching", "Tournament play", "Cultural exchange", "Skill development"],
+        "ageGroup": "12-18 years"
+      },
+      {
+        "title": "International Sports Tournaments",
+        "description": "Competitive tournaments bringing together teams from across Europe and Africa.",
+        "icon": "🏆",
+        "duration": "1-2 weeks",
+        "features": ["Multi-sport events", "Team competitions", "Awards ceremonies", "Cultural activities"],
+        "ageGroup": "All ages"
+      },
+      {
+        "title": "Sports Exchange Programs",
+        "description": "Athletic and cultural exchange programs for sports teams and individual athletes.",
+        "icon": "🤝",
+        "duration": "1-3 weeks",
+        "features": ["Team exchanges", "Training camps", "Friendly matches", "Cultural immersion"],
+        "ageGroup": "Youth & Adult"
+      },
+      {
+        "title": "Sports Tourism Packages",
+        "description": "Comprehensive sports travel packages including training, competition, and sightseeing.",
+        "icon": "✈️",
+        "duration": "1-2 weeks",
+        "features": ["Travel arrangements", "Accommodation", "Training facilities", "Tourist activities"],
+        "ageGroup": "All levels"
+      }
+    ],
+    "learnMoreButton": "Learn More"
+  },
+
+  "tournaments": {
+    "title": "Upcoming Tournaments",
+    "description": "Join exciting sports competitions and international events hosted across Africa and Europe.",
+    "items": [
+      {
+        "name": "ECC Youth Football Championship",
+        "date": "July 15-22, 2026",
+        "location": "Lagos, Nigeria",
+        "participants": "16 teams",
+        "status": "Registration Open"
+      },
+      {
+        "name": "Africa-Europe Basketball Exchange",
+        "date": "August 5-12, 2026",
+        "location": "Abuja, Nigeria",
+        "participants": "12 teams",
+        "status": "Applications Due"
+      },
+      {
+        "name": "International Athletics Meet",
+        "date": "September 10-15, 2026",
+        "location": "Kano, Nigeria",
+        "participants": "200+ athletes",
+        "status": "Coming Soon"
+      }
+    ]
+  },
+
+  "cta": {
+    "title": "Ready to Join the Game?",
+    "description": "Take your sports journey to the next level with our elite training, tournaments, and exchange programs.",
+    "primaryLabel": "Register Now",
+    "secondaryLabel": "Request Info"
+  }
+},
   "StudyFieldTrips": {
     "badge": "Study & Field Trips",
     "heroTitle": "Educational Field Studies & Learning Expeditions",

@@ -17,7 +17,7 @@ export type Slide = {
 export const AboutPageCarouselData: Slide[] = [
   {
     image: "/images/slider1.jpg",
-    badge: "Connecting Cultures",
+    badge: "About Us",
     title: "Join Our Network,",
     subtitle: "Transform Communities",
     description: "Promoting intercultural dialogue between Africa, Europe, and the world.",
@@ -26,7 +26,7 @@ export const AboutPageCarouselData: Slide[] = [
   },
   {
     image: "/images/slider2.jpg",
-    badge: "Building Bridges",
+    badge: "About Us",
     title: "Strengthen Partnerships,",
     subtitle: "Across Borders",
     description: "Creating sustainable cultural and educational partnerships worldwide.",
@@ -35,7 +35,7 @@ export const AboutPageCarouselData: Slide[] = [
   },
   {
     image: "/images/slider3.jpg",
-    badge: "Celebrating Diversity",
+    badge: "About Us",
     title: "Advance Understanding,",
     subtitle: "Through Culture",
     description: "Celebrating diversity and encouraging global intercultural dialogue.",
@@ -44,7 +44,7 @@ export const AboutPageCarouselData: Slide[] = [
   },
   {
     image: "/images/slider4.jpg",
-    badge: "Art as a Universal Language",
+    badge: "About Us",
     title: "Unite Through Art,",
     subtitle: "Inspire Generations",
     description: "Art as a bridge fostering creativity, empathy, and global exchange.",
