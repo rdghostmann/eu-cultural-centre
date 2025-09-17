@@ -1,4 +1,4 @@
-// app/(legal)/video-page/VideoPage.tsx
+// VideoPage.tsx
 "use client"
 
 import { motion } from "framer-motion"
@@ -8,45 +8,19 @@ import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import { fadeInUp, staggerContainer, staggerItem } from "@/lib/animations"
 import { useScrollAnimation } from "@/hooks/use-scroll-animation"
+import { useTranslations } from "next-intl"
 
 type Video = {
-  title: string
-  description: string
+  key: string
   src: string
-  type: string
 }
 
 const videos: Video[] = [
-  {
-    title: "Cultural Festival Highlights",
-    description: "Experience the best moments from our annual cultural festival.",
-    src: "/videos/video-1.mp4",
-    type: "Festival",
-  },
-  {
-    title: "Traditional Dance Showcase",
-    description: "A look into Africa’s rich dance heritage performed live.",
-    src: "/videos/video-2.mp4",
-    type: "Dance",
-  },
-  {
-    title: "Heritage Documentary",
-    description: "Preserving cultural sites through film and storytelling.",
-    src: "/videos/video-3.mp4",
-    type: "Documentary",
-  },
-  {
-    title: "Music Fusion Concert",
-    description: "Bringing together traditional and contemporary soundscapes.",
-    src: "/videos/video-4.mp4",
-    type: "Music",
-  },
-  {
-    title: "Art Exhibition Tour",
-    description: "A walk-through of our latest visual arts exhibition.",
-    src: "/videos/video-5.mp4",
-    type: "Exhibition",
-  },
+  { key: "festival", src: "/videos/video-1.mp4" },
+  { key: "dance", src: "/videos/video-2.mp4" },
+  { key: "documentary", src: "/videos/video-3.mp4" },
+  { key: "music", src: "/videos/video-4.mp4" },
+  { key: "exhibition", src: "/videos/video-5.mp4" },
 ]
 
 // Simple reusable video embed
@@ -66,6 +40,7 @@ function VideoEmbed({ src, title }: { src: string; title: string }) {
 
 export default function VideoPage() {
   const { ref: videosRef, isInView: videosInView } = useScrollAnimation()
+  const t = useTranslations("VideoPage")
 
   return (
     <div className="flex flex-col overflow-hidden">
@@ -77,10 +52,10 @@ export default function VideoPage() {
           initial="hidden"
           animate="visible"
         >
-          Cultural Video Gallery
+          {t("hero.title")}
         </motion.h1>
         <p className="text-lg lg:text-xl max-w-3xl mx-auto text-purple-100">
-          Discover our curated collection of cultural programs, performances, and heritage documentaries.
+          {t("hero.subtitle")}
         </p>
       </section>
 
@@ -93,9 +68,11 @@ export default function VideoPage() {
             initial="hidden"
             animate={videosInView ? "visible" : "hidden"}
           >
-            <h2 className="text-3xl lg:text-4xl font-bold text-ecc-slate mb-4">Featured Videos</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold text-ecc-slate mb-4">
+              {t("featured.title")}
+            </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Watch highlights from our cultural exchange initiatives and creative programs.
+              {t("featured.subtitle")}
             </p>
           </motion.div>
 
@@ -110,17 +87,26 @@ export default function VideoPage() {
                 <Card className="overflow-hidden hover:shadow-lg transition-shadow duration-300">
                   <CardHeader>
                     <div className="flex items-center justify-between mb-2">
-                      <Badge variant="secondary">{video.type}</Badge>
+                      <Badge variant="secondary">{t(`videos.${video.key}.type`)}</Badge>
                     </div>
-                    <CardTitle className="text-xl">{video.title}</CardTitle>
-                    <CardDescription>{video.description}</CardDescription>
+                    <CardTitle className="text-xl">
+                      {t(`videos.${video.key}.title`)}
+                    </CardTitle>
+                    <CardDescription>
+                      {t(`videos.${video.key}.description`)}
+                    </CardDescription>
                   </CardHeader>
                   <CardContent className="space-y-4">
                     <div className="mb-5 relative aspect-video rounded-lg overflow-hidden shadow">
-                      <VideoEmbed src={video.src} title={video.title} />
+                      <VideoEmbed
+                        src={video.src}
+                        title={t(`videos.${video.key}.title`)}
+                      />
                     </div>
                     <Link className="hidden" href="/contact">
-                      <Button className="w-full bg-purple-600 hover:bg-purple-700">Get Involved</Button>
+                      <Button className="w-full bg-purple-600 hover:bg-purple-700">
+                        {t("button.getInvolved")}
+                      </Button>
                     </Link>
                   </CardContent>
                 </Card>

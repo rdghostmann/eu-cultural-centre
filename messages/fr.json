@@ -47,6 +47,56 @@
     "gallery": "Galerie",
     "getInvolved": "S’impliquer"
   },
+  "VideoPage": {
+  "hero": {
+    "title": "Galerie vidéo culturelle",
+    "subtitle": "Découvrez notre collection de programmes culturels, de performances et de documentaires patrimoniaux."
+  },
+  "featured": {
+    "title": "Vidéos à la une",
+    "subtitle": "Regardez les moments forts de nos initiatives d’échanges culturels et programmes créatifs."
+  },
+  "videos": {
+    "festival": {
+      "title": "Moments forts du festival culturel",
+      "description": "Revivez les meilleurs instants de notre festival culturel annuel.",
+      "type": "Festival"
+    },
+    "dance": {
+      "title": "Spectacle de danse traditionnelle",
+      "description": "Un aperçu du riche patrimoine dansé de l’Afrique présenté en direct.",
+      "type": "Danse"
+    },
+    "documentary": {
+      "title": "Documentaire sur le patrimoine",
+      "description": "Préserver les sites culturels grâce au film et à la narration.",
+      "type": "Documentaire"
+    },
+    "music": {
+      "title": "Concert de fusion musicale",
+      "description": "Allier sonorités traditionnelles et contemporaines.",
+      "type": "Musique"
+    },
+    "exhibition": {
+      "title": "Visite d’exposition d’art",
+      "description": "Une promenade à travers notre dernière exposition d’arts visuels.",
+      "type": "Exposition"
+    }
+  },
+  "button": {
+    "getInvolved": "S’impliquer"
+  }
+},
+  "GalleryPage": {
+  "title": "Galerie",
+  "images": {
+    "culturalDance": "Danse culturelle",
+    "humanitarian": "Humanitaire",
+    "artExhibition": "Art & Exposition",
+    "events": "Événements",
+    "governmentDelegation": "Délégation gouvernementale"
+  }
+},
   "EventsPage": {
     "h2": "Événements à Venir",
     "p": "Ne manquez pas ces occasions passionnantes de vous connecter, d’apprendre et de célébrer la diversité culturelle.",

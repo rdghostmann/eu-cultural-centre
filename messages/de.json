@@ -47,6 +47,56 @@
     "gallery": "Galerie",
     "getInvolved": "Mitmachen"
   },
+  "VideoPage": {
+  "hero": {
+    "title": "Kulturelle Videogalerie",
+    "subtitle": "Entdecken Sie unsere Sammlung kultureller Programme, Aufführungen und Dokumentationen über Kulturerbe."
+  },
+  "featured": {
+    "title": "Ausgewählte Videos",
+    "subtitle": "Sehen Sie Highlights unserer kulturellen Austauschinitiativen und kreativen Programme."
+  },
+  "videos": {
+    "festival": {
+      "title": "Höhepunkte des Kulturfestivals",
+      "description": "Erleben Sie die besten Momente unseres jährlichen Kulturfestivals.",
+      "type": "Festival"
+    },
+    "dance": {
+      "title": "Traditionelle Tanzaufführung",
+      "description": "Ein Einblick in Afrikas reiche Tanztradition, live aufgeführt.",
+      "type": "Tanz"
+    },
+    "documentary": {
+      "title": "Kulturerbe-Dokumentation",
+      "description": "Bewahrung kultureller Stätten durch Film und Erzählung.",
+      "type": "Dokumentation"
+    },
+    "music": {
+      "title": "Musik-Fusion-Konzert",
+      "description": "Traditionelle und zeitgenössische Klangwelten vereint.",
+      "type": "Musik"
+    },
+    "exhibition": {
+      "title": "Kunstausstellungstour",
+      "description": "Ein Rundgang durch unsere neueste Kunstausstellung.",
+      "type": "Ausstellung"
+    }
+  },
+  "button": {
+    "getInvolved": "Mitmachen"
+  }
+},
+  "GalleryPage": {
+  "title": "Galerie",
+  "images": {
+    "culturalDance": "Kultureller Tanz",
+    "humanitarian": "Humanitär",
+    "artExhibition": "Kunst & Ausstellung",
+    "events": "Veranstaltungen",
+    "governmentDelegation": "Regierungsdelegation"
+  }
+},
   "EventsPage": {
     "h2": "Bevorstehende Veranstaltungen",
     "p": "Verpassen Sie nicht diese spannenden Gelegenheiten, sich zu vernetzen, zu lernen und die kulturelle Vielfalt zu feiern.",

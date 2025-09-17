@@ -47,6 +47,56 @@
     "gallery": "Gallery",
     "getInvolved": "Get Involved"
   },
+  "VideoPage": {
+  "hero": {
+    "title": "Cultural Video Gallery",
+    "subtitle": "Discover our curated collection of cultural programs, performances, and heritage documentaries."
+  },
+  "featured": {
+    "title": "Featured Videos",
+    "subtitle": "Watch highlights from our cultural exchange initiatives and creative programs."
+  },
+  "videos": {
+    "festival": {
+      "title": "Cultural Festival Highlights",
+      "description": "Experience the best moments from our annual cultural festival.",
+      "type": "Festival"
+    },
+    "dance": {
+      "title": "Traditional Dance Showcase",
+      "description": "A look into Africa’s rich dance heritage performed live.",
+      "type": "Dance"
+    },
+    "documentary": {
+      "title": "Heritage Documentary",
+      "description": "Preserving cultural sites through film and storytelling.",
+      "type": "Documentary"
+    },
+    "music": {
+      "title": "Music Fusion Concert",
+      "description": "Bringing together traditional and contemporary soundscapes.",
+      "type": "Music"
+    },
+    "exhibition": {
+      "title": "Art Exhibition Tour",
+      "description": "A walk-through of our latest visual arts exhibition.",
+      "type": "Exhibition"
+    }
+  },
+  "button": {
+    "getInvolved": "Get Involved"
+  }
+},
+ "GalleryPage": {
+  "title": "Gallery",
+  "images": {
+    "culturalDance": "Cultural Dance",
+    "humanitarian": "Humanitarian",
+    "artExhibition": "Art & Exhibition",
+    "events": "Events",
+    "governmentDelegation": "Government Delegation"
+  }
+},
   "EventsPage": {
     "h2": "Upcoming Events",
     "p": "Don't miss out on these exciting opportunities to connect, learn, and celebrate cultural diversity.",

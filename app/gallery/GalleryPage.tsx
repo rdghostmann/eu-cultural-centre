@@ -1,35 +1,38 @@
+// GalleryPage.tsx
 "use client";
 
 import { useState } from "react";
 import PictureFrame from "./PictureFrame";
 import Image from "next/image";
-
-const images = [
-  { id: 1, src: "/culture/culture-slider1.png", title: "Cultural Dance" },
-  { id: 16, src: "/humanitarian/humanitarian-slide1.png", title: "Humanitarian" },
-  { id: 2, src: "/culture/culture-slider3.png", title: "Cultural Dance" },
-  { id: 13, src: "/arts/art-slide6.png", title: "Art Slide" },
-  { id: 4, src: "/culture/culture-slider6.png", title: "Cultural Dance" },
-  { id: 5, src: "/culture/culture-slider17.png", title: "Cultural Dance" },
-  { id: 6, src: "/culture/culture-slider18.png", title: "Cultural Dance" },
-  { id: 3, src: "/culture/culture-slider5.png", title: "Cultural Dance" },
-  { id: 9, src: "/culture/culture-slider39.png", title: "Cultural Dance" },
-  { id: 10, src: "/culture/culture-slider41.png", title: "Cultural Dance" },
-  { id: 11, src: "/events/event1.png", title: "Events" },
-  { id: 12, src: "/arts/art-slide1.png", title: "Art Slide" },
-  { id: 14, src: "/exhibitions/exhibition1.png", title: "Exhibition" },
-  { id: 15, src: "/government-delegation/government-delegation-slide1.png", title: "Government Delegation" },
-  { id: 7, src: "/culture/culture-slider19.png", title: "Cultural Dance" },
-  { id: 8, src: "/culture/culture-slider23.png", title: "Cultural Dance" },
-];
+import { useTranslations } from "next-intl";
 
 export default function GalleryPage() {
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
+  const t = useTranslations("GalleryPage");
+
+  const images = [
+    { id: 1, src: "/culture/culture-slider1.png", title: t("images.culturalDance") },
+    { id: 16, src: "/humanitarian/humanitarian-slide1.png", title: t("images.humanitarian") },
+    { id: 2, src: "/culture/culture-slider3.png", title: t("images.culturalDance") },
+    { id: 13, src: "/arts/art-slide6.png", title: t("images.artExhibition") },
+    { id: 4, src: "/culture/culture-slider6.png", title: t("images.culturalDance") },
+    { id: 5, src: "/culture/culture-slider17.png", title: t("images.culturalDance") },
+    { id: 6, src: "/culture/culture-slider18.png", title: t("images.culturalDance") },
+    { id: 3, src: "/culture/culture-slider5.png", title: t("images.culturalDance") },
+    { id: 9, src: "/culture/culture-slider39.png", title: t("images.culturalDance") },
+    { id: 10, src: "/culture/culture-slider41.png", title: t("images.culturalDance") },
+    { id: 11, src: "/events/event1.png", title: t("images.events") },
+    { id: 12, src: "/arts/art-slide1.png", title: t("images.artExhibition") },
+    { id: 14, src: "/exhibitions/exhibition1.png", title: t("images.artExhibition") },
+    { id: 15, src: "/government-delegation/government-delegation-slide1.png", title: t("images.governmentDelegation") },
+    { id: 7, src: "/culture/culture-slider19.png", title: t("images.culturalDance") },
+    { id: 8, src: "/culture/culture-slider23.png", title: t("images.culturalDance") },
+  ];
 
   return (
     <div className="p-6">
       <h1 className="text-2xl md:text-3xl font-bold mb-6 text-center">
-        Gallery
+        {t("title")}
       </h1>
 
       {/* Gallery Grid */}

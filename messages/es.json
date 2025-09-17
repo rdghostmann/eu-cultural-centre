@@ -47,6 +47,56 @@
     "gallery": "Galería",
     "getInvolved": "Involúcrate"
   },
+  "VideoPage": {
+  "hero": {
+    "title": "Galería de videos culturales",
+    "subtitle": "Descubra nuestra colección de programas culturales, actuaciones y documentales sobre el patrimonio."
+  },
+  "featured": {
+    "title": "Videos destacados",
+    "subtitle": "Mire los mejores momentos de nuestras iniciativas de intercambio cultural y programas creativos."
+  },
+  "videos": {
+    "festival": {
+      "title": "Momentos destacados del festival cultural",
+      "description": "Viva los mejores momentos de nuestro festival cultural anual.",
+      "type": "Festival"
+    },
+    "dance": {
+      "title": "Exhibición de danza tradicional",
+      "description": "Una mirada al rico patrimonio de danza africana en vivo.",
+      "type": "Danza"
+    },
+    "documentary": {
+      "title": "Documental de patrimonio",
+      "description": "Preservando sitios culturales a través del cine y la narración.",
+      "type": "Documental"
+    },
+    "music": {
+      "title": "Concierto de fusión musical",
+      "description": "Uniendo paisajes sonoros tradicionales y contemporáneos.",
+      "type": "Música"
+    },
+    "exhibition": {
+      "title": "Recorrido por la exposición de arte",
+      "description": "Un recorrido por nuestra más reciente exposición de artes visuales.",
+      "type": "Exposición"
+    }
+  },
+  "button": {
+    "getInvolved": "Participar"
+  }
+},
+  "GalleryPage": {
+  "title": "Galería",
+  "images": {
+    "culturalDance": "Danza cultural",
+    "humanitarian": "Humanitario",
+    "artExhibition": "Arte y Exposición",
+    "events": "Eventos",
+    "governmentDelegation": "Delegación gubernamental"
+  }
+},
   "EventsPage": {
     "h2": "Próximos Eventos",
     "p": "No te pierdas estas emocionantes oportunidades para conectarte, aprender y celebrar la diversidad cultural.",
