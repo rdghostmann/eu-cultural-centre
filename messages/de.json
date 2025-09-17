@@ -48,6 +48,8 @@
     "getInvolved": "Mitmachen"
   },
   "EventsPage": {
+    "h2": "Bevorstehende Veranstaltungen",
+    "p": "Verpassen Sie nicht diese spannenden Gelegenheiten, sich zu vernetzen, zu lernen und die kulturelle Vielfalt zu feiern.",
     "categories": {
       "all": "Alle Veranstaltungen",
       "culturalFestival": "Kulturfestivals",
@@ -74,50 +76,50 @@
       "freeEntry": "Freier Eintritt",
       "invitationOnly": "Nur auf Einladung"
     },
-    "upcomingEvents": [
-      {
-        "title": "Afrikanisches Kulturerbe-Festival 2026",
+    "upcomingEvents": {
+      "AfricanHeritage": {
+        "title": "Afrikanisches Kulturerbefestival 2026",
         "type": "Kulturfestival",
-        "description": "Eine dreitägige Feier des afrikanischen Erbes mit Kunstausstellungen, traditioneller Musik, Tanzaufführungen und Kulturworkshops.",
+        "description": "Eine dreitägige Feier des afrikanischen Kulturerbes mit Kunstausstellungen, traditioneller Musik, Tanzaufführungen und Kulturworkshops.",
         "capacity": "5.000 Teilnehmer",
         "status": "Offene Anmeldung"
       },
-      {
+      "YouthInnovation": {
         "title": "Jugend-Innovationsgipfel",
         "type": "Innovationskonferenz",
-        "description": "Zusammenkunft junger Innovatoren, Unternehmer und Technologieexperten zur Erforschung der Zukunft der Technologie im Kulturerhalt.",
+        "description": "Zusammenführung junger Innovatoren, Unternehmer und Technologieführer, um die Zukunft der Technologie in der Kulturerhaltung zu erforschen.",
         "capacity": "500 Teilnehmer",
         "status": "Frühbucher"
       },
-      {
+      "InternationalSports": {
         "title": "Internationales Sportturnier",
         "type": "Sportveranstaltung",
-        "description": "Multisportturnier mit Teams aus Afrika und Europa zur Förderung der Einheit durch Sport.",
+        "description": "Multisportturnier mit Teams aus ganz Afrika und Europa zur Förderung der Einheit durch Sport.",
         "capacity": "10.000 Zuschauer",
-        "status": "Tickets verfügbar"
+        "status": "Tickets Verfügbar"
       },
-      {
-        "title": "Digitales Kulturerbe-Workshop",
-        "type": "Workshop",
+      "DigitalHeritage": {
+        "title": "Workshop Digitales Erbe",
+        "type": "Schulung & Workshop",
         "description": "Praktischer Workshop zu digitalen Erhaltungstechniken für Kulturerbestätten und Artefakte.",
         "capacity": "100 Teilnehmer",
         "status": "Begrenzte Plätze"
       },
-      {
-        "title": "Europa-Afrikanischer Kunstaustausch",
+      "ArtExchange": {
+        "title": "Europäisch-Afrikanischer Kunstaustausch",
         "type": "Kunstausstellung",
         "description": "Zweiwöchiger Kunstaustausch mit zeitgenössischen Werken europäischer und afrikanischer Künstler.",
         "capacity": "Unbegrenzt",
         "status": "Freier Eintritt"
       },
-      {
-        "title": "Forum für Kulturdiplomatie",
+      "CulturalDiplomacy": {
+        "title": "Forum für Kulturelle Diplomatie",
         "type": "Diplomatisches Forum",
-        "description": "Hochrangiges Forum für Kulturdiplomaten, politische Entscheidungsträger und Kulturführer.",
+        "description": "Hochrangiges Forum, das Kulturdiplomaten, politische Entscheidungsträger und Kulturführer zusammenbringt.",
         "capacity": "200 Delegierte",
         "status": "Nur auf Einladung"
       }
-    ]
+    }
   },
   "ContactPage": {
     "hero": {

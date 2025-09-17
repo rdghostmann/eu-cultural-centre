@@ -48,6 +48,8 @@
     "getInvolved": "Involúcrate"
   },
   "EventsPage": {
+    "h2": "Próximos Eventos",
+    "p": "No te pierdas estas emocionantes oportunidades para conectarte, aprender y celebrar la diversidad cultural.",
     "categories": {
       "all": "Todos los Eventos",
       "culturalFestival": "Festivales Culturales",
@@ -74,7 +76,50 @@
       "freeEntry": "Entrada Gratuita",
       "invitationOnly": "Solo con Invitación"
     },
-    "upcomingEvents": []
+    "upcomingEvents": {
+      "AfricanHeritage": {
+        "title": "Festival del Patrimonio Africano 2026",
+        "type": "Festival Cultural",
+        "description": "Una celebración de tres días del patrimonio africano con exposiciones de arte, música tradicional, espectáculos de danza y talleres culturales.",
+        "capacity": "5.000 asistentes",
+        "status": "Registro Abierto"
+      },
+      "YouthInnovation": {
+        "title": "Cumbre de Innovación Juvenil",
+        "type": "Conferencia de Innovación",
+        "description": "Reuniendo a jóvenes innovadores, emprendedores y líderes tecnológicos para explorar el futuro de la tecnología en la preservación cultural.",
+        "capacity": "500 participantes",
+        "status": "Inscripción Anticipada"
+      },
+      "InternationalSports": {
+        "title": "Torneo Deportivo Internacional",
+        "type": "Evento Deportivo",
+        "description": "Torneo multideportivo con equipos de toda África y Europa, promoviendo la unidad a través del deporte.",
+        "capacity": "10.000 espectadores",
+        "status": "Entradas Disponibles"
+      },
+      "DigitalHeritage": {
+        "title": "Taller de Patrimonio Digital",
+        "type": "Taller de Formación",
+        "description": "Taller práctico sobre técnicas de preservación digital de sitios y artefactos culturales.",
+        "capacity": "100 participantes",
+        "status": "Cupos Limitados"
+      },
+      "ArtExchange": {
+        "title": "Intercambio Artístico Europa-África",
+        "type": "Exposición de Arte",
+        "description": "Intercambio artístico de dos semanas con obras contemporáneas de artistas europeos y africanos.",
+        "capacity": "Ilimitado",
+        "status": "Entrada Gratuita"
+      },
+      "CulturalDiplomacy": {
+        "title": "Foro de Diplomacia Cultural",
+        "type": "Foro Diplomático",
+        "description": "Foro de alto nivel que reúne a diplomáticos culturales, responsables políticos y líderes culturales.",
+        "capacity": "200 delegados",
+        "status": "Solo por Invitación"
+      }
+    }
   },
   "ContactPage": {
     "hero": {

@@ -48,6 +48,8 @@
     "getInvolved": "S’impliquer"
   },
   "EventsPage": {
+    "h2": "Événements à Venir",
+    "p": "Ne manquez pas ces occasions passionnantes de vous connecter, d’apprendre et de célébrer la diversité culturelle.",
     "categories": {
       "all": "Tous les événements",
       "culturalFestival": "Festivals culturels",
@@ -74,50 +76,50 @@
       "freeEntry": "Entrée gratuite",
       "invitationOnly": "Sur invitation uniquement"
     },
-    "upcomingEvents": [
-      {
-        "title": "Festival du patrimoine africain 2026",
-        "type": "Festival culturel",
+    "upcomingEvents": {
+      "AfricanHeritage": {
+        "title": "Festival du Patrimoine Africain 2026",
+        "type": "Festival Culturel",
         "description": "Une célébration de trois jours du patrimoine africain avec des expositions d’art, de la musique traditionnelle, des spectacles de danse et des ateliers culturels.",
         "capacity": "5 000 participants",
-        "status": "Inscriptions ouvertes"
+        "status": "Inscriptions Ouvertes"
       },
-      {
-        "title": "Sommet de l’innovation des jeunes",
-        "type": "Conférence sur l’innovation",
-        "description": "Rassemblement de jeunes innovateurs, entrepreneurs et leaders technologiques pour explorer l’avenir de la technologie dans la préservation culturelle.",
+      "YouthInnovation": {
+        "title": "Sommet de l’Innovation Jeunesse",
+        "type": "Conférence sur l’Innovation",
+        "description": "Réunissant de jeunes innovateurs, entrepreneurs et leaders technologiques pour explorer l’avenir de la technologie dans la préservation culturelle.",
         "capacity": "500 participants",
-        "status": "Tarif réduit"
+        "status": "Tarif Préférentiel"
       },
-      {
-        "title": "Tournoi sportif international",
-        "type": "Événement sportif",
+      "InternationalSports": {
+        "title": "Tournoi Sportif International",
+        "type": "Événement Sportif",
         "description": "Tournoi multisports réunissant des équipes d’Afrique et d’Europe, promouvant l’unité par le sport.",
         "capacity": "10 000 spectateurs",
-        "status": "Billets disponibles"
+        "status": "Billets Disponibles"
       },
-      {
-        "title": "Atelier sur le patrimoine numérique",
-        "type": "Formation & Atelier",
+      "DigitalHeritage": {
+        "title": "Atelier sur le Patrimoine Numérique",
+        "type": "Atelier de Formation",
         "description": "Atelier pratique sur les techniques de préservation numérique des sites et artefacts culturels.",
         "capacity": "100 participants",
-        "status": "Places limitées"
+        "status": "Places Limitées"
       },
-      {
-        "title": "Échange artistique Europe-Afrique",
-        "type": "Exposition d’art",
+      "ArtExchange": {
+        "title": "Échange Artistique Europe-Afrique",
+        "type": "Exposition d’Art",
         "description": "Échange artistique de deux semaines présentant des œuvres contemporaines d’artistes européens et africains.",
         "capacity": "Illimité",
-        "status": "Entrée gratuite"
+        "status": "Entrée Gratuite"
       },
-      {
-        "title": "Forum de diplomatie culturelle",
-        "type": "Forum diplomatique",
-        "description": "Forum de haut niveau réunissant diplomates culturels, décideurs et responsables culturels.",
+      "CulturalDiplomacy": {
+        "title": "Forum de Diplomatie Culturelle",
+        "type": "Forum Diplomatique",
+        "description": "Forum de haut niveau réunissant des diplomates culturels, des décideurs politiques et des leaders culturels.",
         "capacity": "200 délégués",
-        "status": "Sur invitation uniquement"
+        "status": "Sur Invitation"
       }
-    ]
+    }
   },
   "ContactPage": {
     "hero": {

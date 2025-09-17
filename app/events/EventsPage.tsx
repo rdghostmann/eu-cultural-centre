@@ -18,92 +18,90 @@ import { useTranslations } from "next-intl"
 
 export default function EventsPage() {
   const t = useTranslations("EventsPage")
-  
-  
+
+
   const upcomingEvents = [
     {
-      title: "African Heritage Festival 2026",
+      title: t("upcomingEvents.AfricanHeritage.title"),
       date: "March 15-17, 2026",
       time: "9:00 AM - 6:00 PM",
       location: "Lagos Cultural Center",
-      type: "Cultural Festival",
-      description:
-        "A three-day celebration of African heritage featuring art exhibitions, traditional music, dance performances, and cultural workshops.",
-      capacity: "5,000 attendees",
-      status: "Open Registration",
+      type: t("upcomingEvents.AfricanHeritage.type"),
+      description: t("upcomingEvents.AfricanHeritage.description"),
+      capacity: t("upcomingEvents.AfricanHeritage.capacity"),
+      status: t("upcomingEvents.AfricanHeritage.status"),
       image: "/culture/culture-slider3.png",
     },
     {
-      title: "Youth Innovation Summit",
+      title: t("upcomingEvents.YouthInnovation.title"),
       date: "April 8-10, 2026",
       time: "10:00 AM - 5:00 PM",
       location: "Abuja Tech Hub",
-      type: "Innovation Conference",
-      description:
-        "Bringing together young innovators, entrepreneurs, and tech leaders to explore the future of technology in cultural preservation.",
-      capacity: "500 participants",
-      status: "Early Bird",
+      type: t("upcomingEvents.YouthInnovation.type"),
+      description: t("upcomingEvents.YouthInnovation.description"),
+      capacity: t("upcomingEvents.YouthInnovation.capacity"),
+      status: t("upcomingEvents.YouthInnovation.status"),
       image: "/youth-development/youth-dev-5.png",
     },
     {
-      title: "International Sports Tournament",
+      title: t("upcomingEvents.InternationalSports.title"),
       date: "May 20-25, 2026",
       time: "8:00 AM - 8:00 PM",
       location: "National Stadium, Lagos",
-      type: "Sports Event",
-      description:
-        "Multi-sport tournament featuring teams from across Africa and Europe, promoting unity through sports.",
-      capacity: "10,000 spectators",
-      status: "Tickets Available",
+      type: t("upcomingEvents.InternationalSports.type"),
+      description: t("upcomingEvents.InternationalSports.description"),
+      capacity: t("upcomingEvents.InternationalSports.capacity"),
+      status: t("upcomingEvents.InternationalSports.status"),
       image: "/sports/sports-slide-2.png",
     },
     {
-      title: "Digital Heritage Workshop",
+      title: t("upcomingEvents.DigitalHeritage.title"),
       date: "June 12-14, 2026",
       time: "9:00 AM - 4:00 PM",
       location: "University of Lagos",
-      type: "Training Workshop",
-      description: "Hands-on workshop on digital preservation techniques for cultural heritage sites and artifacts.",
-      capacity: "100 participants",
-      status: "Limited Spots",
+      type: t("upcomingEvents.DigitalHeritage.type"),
+      description: t("upcomingEvents.DigitalHeritage.description"),
+      capacity: t("upcomingEvents.DigitalHeritage.capacity"),
+      status: t("upcomingEvents.DigitalHeritage.status"),
       image: "/programs/program3.png",
     },
     {
-      title: "European-African Art Exchange",
+      title: t("upcomingEvents.ArtExchange.title"),
       date: "July 5-20, 2026",
       time: "All Day",
       location: "Multiple Galleries",
-      type: "Art Exhibition",
-      description: "Two-week art exchange featuring contemporary works from European and African artists.",
-      capacity: "Unlimited",
-      status: "Free Entry",
+      type: t("upcomingEvents.ArtExchange.type"),
+      description: t("upcomingEvents.ArtExchange.description"),
+      capacity: t("upcomingEvents.ArtExchange.capacity"),
+      status: t("upcomingEvents.ArtExchange.status"),
       image: "/programs/program1.jpg",
     },
     {
-      title: "Cultural Diplomacy Forum",
+      title: t("upcomingEvents.CulturalDiplomacy.title"),
       date: "August 15-16, 2026",
       time: "9:00 AM - 6:00 PM",
       location: "Transcorp Hilton, Abuja",
-      type: "Diplomatic Forum",
-      description: "High-level forum bringing together cultural diplomats, policymakers, and cultural leaders.",
-      capacity: "200 delegates",
-      status: "Invitation Only",
+      type: t("upcomingEvents.CulturalDiplomacy.type"),
+      description: t("upcomingEvents.CulturalDiplomacy.description"),
+      capacity: t("upcomingEvents.CulturalDiplomacy.capacity"),
+      status: t("upcomingEvents.CulturalDiplomacy.status"),
       image: "/culture/culture-slider18.png",
     },
-  ]
-  
+  ];
+
+
   // Compute category counts dynamically
   const computeCategories = () => {
     const categories = [
       { name: t("categories.all"), key: "all" },
-      { name: "Cultural Festivals", key: "Cultural Festival" },
-      { name: "Training & Workshop", key: "Training & Workshop" },
-      { name: "Sports", key: "Sports Event" },
-      { name: "Innovation", key: "Innovation Conference" },
-      { name: "Arts", key: "Art Exhibition" },
-      { name: "Diplomacy", key: "Diplomatic Forum" },
+      { name: t("categories.culturalFestival"), key: "Cultural Festival" },
+      { name: t("categories.trainingWorkshop"), key: "Training & Workshop" },
+      { name: t("categories.sportsEvent"), key: "Sports Event" },
+      { name: t("categories.innovationConference"), key: "Innovation Conference" },
+      { name: t("categories.artExhibition"), key: "Art Exhibition" },
+      { name: t("categories.diplomaticForum"), key: "Diplomatic Forum" },
     ]
-  
+
     return categories.map((cat) => ({
       ...cat,
       count:
@@ -114,7 +112,6 @@ export default function EventsPage() {
   }
 
 
-  const { ref: heroRef, isInView: heroInView } = useScrollAnimation()
   const { ref: eventsRef, isInView: eventsInView } = useScrollAnimation()
   const hoverScale = { scale: 1.05 }
   const hoverLift = { y: -5, scale: 1.05 }
@@ -176,10 +173,10 @@ export default function EventsPage() {
             animate={eventsInView ? "visible" : "hidden"}
           >
             <h2 className="text-3xl lg:text-4xl font-bold text-white mb-4 drop-shadow-[0_4px_16px_rgba(0,0,0,0.7)]">
-              Upcoming Events
+              {t("h2")}
             </h2>
             <p className="text-xl text-gray-200 max-w-3xl mx-auto">
-              Don't miss out on these exciting opportunities to connect, learn, and celebrate cultural diversity.
+              {t("p")}
             </p>
           </motion.div>
           <motion.div
