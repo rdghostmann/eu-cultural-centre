@@ -27,11 +27,23 @@ import HeaderSlider from "@/components/CustomSlider/HeaderSlider"
 import CTASection from "@/components/CTASection/CTASection"
 import { AboutPageCarouselData } from "@/lib/AboutPageCarouselData"
 import Image from "next/image";
-import missionImage from "../../public/front-page1.jpg"
-import Partners2 from "@/components/Partners/Partners2";
 import Partners from "@/components/Partners/Partners";
+import { useTranslations } from "next-intl"
 
-const values = [
+
+
+export default function AboutPage() {
+	const { ref: heroRef, isInView: heroInView } = useScrollAnimation()
+	const { ref: valuesRef, isInView: valuesInView } = useScrollAnimation()
+	const { ref: teamRef, isInView: teamInView } = useScrollAnimation()
+	const hoverScale = { scale: 1.05 }
+	const hoverLift = { y: -5, scale: 1.05 }
+
+
+  const t = useTranslations("AboutPage")
+
+
+	const values = [
 	{
 		title: "Art and the Creative Industries",
 		description: "Promoting creativity and supporting artists across Africa and Europe.",
@@ -131,14 +143,6 @@ const teamMembers = [
 	},
 ]
 
-
-
-export default function AboutPage() {
-	const { ref: heroRef, isInView: heroInView } = useScrollAnimation()
-	const { ref: valuesRef, isInView: valuesInView } = useScrollAnimation()
-	const { ref: teamRef, isInView: teamInView } = useScrollAnimation()
-	const hoverScale = { scale: 1.05 }
-	const hoverLift = { y: -5, scale: 1.05 }
 
 	return (
 		<div className="flex flex-col overflow-hidden">
