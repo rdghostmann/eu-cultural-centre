@@ -6,63 +6,13 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge"
 import Link from "next/link"
 import { ArrowRight, GraduationCap, Users, Calendar, MapPin, Clock } from "lucide-react"
-import { fadeInUp, staggerContainer, staggerItem, hoverScale, hoverLift } from "@/lib/animations"
+import { fadeInUp, staggerContainer, staggerItem } from "@/lib/animations"
 import { useScrollAnimation } from "@/hooks/use-scroll-animation"
 import CTASection from "@/components/CTASection/CTASection"
 import HeaderSlider2 from "@/components/CustomSlider/HeaderSlider2"
-import { CooperationPageCarouselData } from "@/lib/CooperationPageCarouselData"
 import { SchoolExchangeToursData } from "@/lib/SchoolExchangeTourData"
+import { useTranslations } from "next-intl"
 
-const exchangePrograms = [
-    {
-        title: "European University Exchange",
-        description: "Semester-long academic exchanges with top European universities.",
-        duration: "4-6 months",
-        participants: "50+ students annually",
-        destinations: ["Germany", "France", "Netherlands", "Italy"],
-        features: ["Full academic credit", "Language immersion", "Cultural activities", "Mentorship program"],
-    },
-    {
-        title: "High School Cultural Immersion",
-        description: "Short-term cultural exchange programs for secondary school students.",
-        duration: "2-4 weeks",
-        participants: "200+ students annually",
-        destinations: ["UK", "Spain", "Belgium", "Austria"],
-        features: ["Host family stay", "School partnerships", "Cultural workshops", "Certificate program"],
-    },
-    {
-        title: "Teacher Training Exchange",
-        description: "Professional development programs for educators in European institutions.",
-        duration: "1-3 months",
-        participants: "30+ teachers annually",
-        destinations: ["Finland", "Denmark", "Sweden", "Norway"],
-        features: ["Pedagogical training", "Best practices sharing", "Certification", "Network building"],
-    },
-]
-
-const upcomingExchanges = [
-    {
-        program: "Summer University Program",
-        destination: "Berlin, Germany",
-        date: "June 15 - August 15, 2026",
-        spots: "25 available",
-        deadline: "March 30, 2026",
-    },
-    {
-        program: "Cultural Heritage Tour",
-        destination: "Rome, Italy",
-        date: "September 10 - September 24, 2026",
-        spots: "30 available",
-        deadline: "June 15, 2026",
-    },
-    {
-        program: "Language Immersion Program",
-        destination: "Paris, France",
-        date: "October 5 - November 5, 2026",
-        spots: "20 available",
-        deadline: "July 20, 2026",
-    },
-]
 
 export default function SchoolExchangePage() {
     const { ref: heroRef, isInView: heroInView } = useScrollAnimation()
@@ -70,6 +20,60 @@ export default function SchoolExchangePage() {
     const { ref: upcomingRef, isInView: upcomingInView } = useScrollAnimation()
     const hoverScale = { scale: 1.05 };
     const hoverLift = { y: -5, scale: 1.05 }; // lift slightly and scale up
+   
+    // const t = useTranslations("SchoolExchange")
+
+   
+    const exchangePrograms = [
+        {
+            title: "European University Exchange",
+            description: "Semester-long academic exchanges with top European universities.",
+            duration: "4-6 months",
+            participants: "50+ students annually",
+            destinations: ["Germany", "France", "Netherlands", "Italy"],
+            features: ["Full academic credit", "Language immersion", "Cultural activities", "Mentorship program"],
+        },
+        {
+            title: "High School Cultural Immersion",
+            description: "Short-term cultural exchange programs for secondary school students.",
+            duration: "2-4 weeks",
+            participants: "200+ students annually",
+            destinations: ["UK", "Spain", "Belgium", "Austria"],
+            features: ["Host family stay", "School partnerships", "Cultural workshops", "Certificate program"],
+        },
+        {
+            title: "Teacher Training Exchange",
+            description: "Professional development programs for educators in European institutions.",
+            duration: "1-3 months",
+            participants: "30+ teachers annually",
+            destinations: ["Finland", "Denmark", "Sweden", "Norway"],
+            features: ["Pedagogical training", "Best practices sharing", "Certification", "Network building"],
+        },
+    ]
+    
+    const upcomingExchanges = [
+        {
+            program: "Summer University Program",
+            destination: "Berlin, Germany",
+            date: "June 15 - August 15, 2026",
+            spots: "25 available",
+            deadline: "March 30, 2026",
+        },
+        {
+            program: "Cultural Heritage Tour",
+            destination: "Rome, Italy",
+            date: "September 10 - September 24, 2026",
+            spots: "30 available",
+            deadline: "June 15, 2026",
+        },
+        {
+            program: "Language Immersion Program",
+            destination: "Paris, France",
+            date: "October 5 - November 5, 2026",
+            spots: "20 available",
+            deadline: "July 20, 2026",
+        },
+    ]
 
     return (
         <div className="flex flex-col overflow-hidden">
