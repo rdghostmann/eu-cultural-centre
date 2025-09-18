@@ -3,6 +3,58 @@
     "areaofworkh2": "Unsere Arbeitsbereiche",
     "areaofworkp": "Wir schaffen bedeutungsvolle kulturelle Austausche und nachhaltige Partnerschaften in acht Schlüsselbereichen."
   },
+  "AboutPage": {
+  "mission": {
+    "title": "Unsere Mission",
+    "paragraph1": "Das Europäische Kulturzentrum Nigeria/Westafrika ist eine gemeinnützige Institution, die als Plattform dient, um vielfältige europäische Kulturen zu fördern und bedeutungsvollen Kulturaustausch in Zusammenarbeit mit unseren Partnern zu ermöglichen.",
+    "paragraph2": "Wir verbinden Menschen durch Kulturaustausch und setzen uns für die wichtige Rolle der Kultur in den internationalen Beziehungen ein. Wir machen die europäische kulturelle Zusammenarbeit lebendig und stärken ihre Rolle in den internationalen Beziehungen.",
+    "paragraph3": "Unser Zentrum bietet eine dynamische Plattform für Wissensaustausch, Kapazitätsaufbau und Austauschprogramme – und verbindet Nigeria, Afrika, Europa und die Weltgemeinschaft.",
+    "button": "Erfahren Sie mehr über unsere Arbeit"
+  },
+  "vision": {
+    "title": "Unsere Vision",
+    "paragraph1": "Durch Kultur, Bildung, Innovation und Austausch strebt das Europäische Kulturzentrum Nigeria/Westafrika danach, Vertrauen und gegenseitiges Verständnis zwischen europäischen Ländern und Afrika aufzubauen.",
+    "paragraph2": "Wir setzen uns dafür ein, Kultur zu einem Schlüsselelement der internationalen Beziehungen zu machen. Wir arbeiten in fairen Partnerschaften, die auf Zuhören, Lernen und gemeinsamen Handeln basieren – sowohl lokal als auch international.",
+    "button": "Erfahren Sie mehr über unsere Arbeit"
+  },
+  "values": {
+    "title": "Unsere Werte",
+    "description": "Wir glauben, dass Kultur eine treibende Kraft für integratives Wachstum, gegenseitiges Verständnis und nachhaltige Entwicklung lokal, in Afrika und weltweit ist.",
+    "button": "Erfahren Sie mehr über unsere Arbeit",
+    "items": [
+      { "title": "Kunst und Kreativwirtschaft", "description": "Förderung von Kreativität und Unterstützung von Künstlern in Afrika und Europa." },
+      { "title": "Digitalisierung und Innovation", "description": "Technologie und Innovation für kulturellen Fortschritt nutzen." },
+      { "title": "Bildung, Ausbildung und Kompetenzentwicklung", "description": "Gemeinschaften durch Lernen und Kapazitätsaufbau stärken." },
+      { "title": "Geschlechtergleichstellung und Stärkung von Frauen", "description": "Gleiche Chancen und Führungsrollen für Frauen fördern." },
+      { "title": "Kulturerbe und Bewahrung", "description": "Unser gemeinsames kulturelles Erbe schützen und feiern." },
+      { "title": "Menschenrechte und soziale Inklusion", "description": "Für Gerechtigkeit, Fairness und inklusive Gesellschaften eintreten." },
+      { "title": "Sprachen und Mehrsprachigkeit", "description": "Sprachlernen und interkulturelle Kommunikation fördern." },
+      { "title": "Internationale Schüleraustauschprogramme", "description": "Studierende weltweit für gemeinsame Lernerfahrungen verbinden." },
+      { "title": "Jugendbeteiligung und -förderung", "description": "Junge Führungskräfte und Veränderungsträger unterstützen." },
+      { "title": "Sport und Tourismus", "description": "Brücken bauen durch Sport und kulturelle Reisen." },
+      { "title": "Umweltverträglichkeit", "description": "Klimaschutz und nachhaltiges Umweltmanagement fördern." },
+      { "title": "Hilfe und humanitäre Unterstützung", "description": "Hilfe und Unterstützung für Bedürftige leisten." },
+      { "title": "Europa-Afrika Austauschprojekte", "description": "Zusammenarbeit und kulturellen Austausch zwischen Kontinenten fördern." },
+      { "title": "Anwerbung ausländischer Investoren für Projektentwicklung", "description": "Investitionen für wirkungsvolle Projekte in Nigeria und Afrika gewinnen." }
+    ]
+  },
+  "team": {
+    "title": "Unser Führungsteam",
+    "description": "Lernen Sie die engagierten Fachleute kennen, die unsere Mission zur Verbindung von Kulturen und zum Brückenbau leiten.",
+    "members": [
+      { "name": "Dr. Amina Hassan", "role": "Geschäftsführerin", "bio": "Kulturdiplomatin mit über 15 Jahren Erfahrung in internationaler Zusammenarbeit." },
+      { "name": "Prof. John Smith", "role": "Forschungsdirektor", "bio": "Anerkannter Forscher in Kulturwissenschaften und Kulturerhalt." },
+      { "name": "Sarah Johnson", "role": "Programm-Managerin", "bio": "Expertin für Programmentwicklung und internationalen Bildungsaustausch." },
+      { "name": "Dr. Kwame Asante", "role": "Leiter Innovation", "bio": "Technologieinnovator, spezialisiert auf digitale Lösungen für Kulturerhalt." }
+    ]
+  },
+  "cta": {
+    "title": "Bereit, sich unserer Mission anzuschließen?",
+    "description": "Werden Sie Teil unserer wachsenden Gemeinschaft, die Brücken zwischen Kulturen baut und positive, nachhaltige Wirkung schafft.",
+    "primaryLabel": "Jetzt mitmachen",
+    "secondaryLabel": "Kontaktieren Sie uns"
+  }
+},
   "Navigation": {
     "about": "Über uns",
     "areasOfWork": "Arbeitsbereiche",

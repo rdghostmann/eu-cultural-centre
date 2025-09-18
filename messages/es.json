@@ -3,6 +3,58 @@
     "areaofworkh2": "Nuestras Áreas de Trabajo",
     "areaofworkp": "Creamos intercambios culturales significativos y asociaciones sostenibles en ocho áreas clave."
   },
+  "AboutPage": {
+  "mission": {
+    "title": "Nuestra Misión",
+    "paragraph1": "El Centro Cultural Europeo Nigeria/África Occidental es una institución sin fines de lucro que sirve como marco para promover diversas culturas europeas y fomentar un intercambio cultural significativo en colaboración con nuestros socios.",
+    "paragraph2": "Conectamos a través de intercambios culturales y defendemos el papel vital de la cultura en las relaciones internacionales. Damos vida a la colaboración cultural europea y defendemos su papel clave en las relaciones internacionales.",
+    "paragraph3": "Nuestro Centro ofrece una plataforma dinámica para compartir conocimientos, fortalecer capacidades y programas de intercambio, conectando Nigeria, África, Europa y la comunidad mundial.",
+    "button": "Conozca más sobre nuestro trabajo"
+  },
+  "vision": {
+    "title": "Nuestra Visión",
+    "paragraph1": "A través de la cultura, la educación, la innovación y los intercambios culturales, el Centro Cultural Europeo Nigeria/África Occidental busca construir confianza y entendimiento mutuo entre los países europeos y África en su conjunto.",
+    "paragraph2": "Estamos dedicados a hacer de la cultura un elemento clave en las relaciones internacionales. Trabajamos mediante asociaciones justas, basadas en la escucha mutua, el aprendizaje y la acción conjunta a nivel local e internacional.",
+    "button": "Conozca más sobre nuestro trabajo"
+  },
+  "values": {
+    "title": "Nuestros Valores",
+    "description": "Creemos que la cultura es una fuerza vital para el crecimiento inclusivo, el entendimiento mutuo y el desarrollo sostenible a nivel local, en África y en todo el mundo.",
+    "button": "Conozca más sobre nuestro trabajo",
+    "items": [
+      { "title": "Arte e Industrias Creativas", "description": "Promover la creatividad y apoyar a los artistas en África y Europa." },
+      { "title": "Digitalización e Innovación", "description": "Adoptar la tecnología y la innovación para el avance cultural." },
+      { "title": "Educación, Formación y Desarrollo de Habilidades", "description": "Empoderar a las comunidades a través del aprendizaje y la capacitación." },
+      { "title": "Igualdad de Género y Empoderamiento de la Mujer", "description": "Promover igualdad de oportunidades y liderazgo femenino." },
+      { "title": "Patrimonio Cultural y Preservación", "description": "Proteger y celebrar nuestro legado cultural compartido." },
+      { "title": "Derechos Humanos e Inclusión Social", "description": "Defender la justicia, la equidad y sociedades inclusivas." },
+      { "title": "Idiomas y Multilingüismo", "description": "Fomentar el aprendizaje de idiomas y la comunicación intercultural." },
+      { "title": "Programas de Intercambio Estudiantil Internacional", "description": "Conectar a estudiantes de todo el mundo para experiencias compartidas." },
+      { "title": "Participación y Empoderamiento Juvenil", "description": "Apoyar a jóvenes líderes y agentes de cambio." },
+      { "title": "Deportes y Turismo", "description": "Construir puentes a través del deporte y los viajes culturales." },
+      { "title": "Sostenibilidad Ambiental", "description": "Impulsar la acción climática y la gestión ambiental." },
+      { "title": "Ayuda y Apoyo Humanitario", "description": "Brindar ayuda y apoyo a quienes lo necesiten." },
+      { "title": "Proyectos de Intercambio Europa-África", "description": "Facilitar la colaboración y el intercambio cultural entre continentes." },
+      { "title": "Atracción de Inversores Extranjeros para el Desarrollo de Proyectos", "description": "Atraer inversiones para proyectos de impacto en Nigeria y África." }
+    ]
+  },
+  "team": {
+    "title": "Nuestro Equipo Directivo",
+    "description": "Conozca a los profesionales dedicados que lideran nuestra misión de conectar culturas y construir puentes.",
+    "members": [
+      { "name": "Dr. Amina Hassan", "role": "Directora Ejecutiva", "bio": "Diplomática cultural con más de 15 años de experiencia en cooperación internacional." },
+      { "name": "Prof. John Smith", "role": "Director de Investigación", "bio": "Investigador reconocido en estudios culturales y preservación del patrimonio." },
+      { "name": "Sarah Johnson", "role": "Gerente de Programas", "bio": "Experta en desarrollo de programas e intercambios educativos internacionales." },
+      { "name": "Dr. Kwame Asante", "role": "Líder de Innovación", "bio": "Innovador tecnológico enfocado en soluciones digitales para la preservación cultural." }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para unirse a nuestra misión?",
+    "description": "Sea parte de nuestra creciente comunidad que construye puentes entre culturas y genera un impacto positivo duradero.",
+    "primaryLabel": "Involúcrese hoy",
+    "secondaryLabel": "Contáctenos"
+  }
+},
   "Navigation": {
     "about": "Acerca de",
     "areasOfWork": "Áreas de Trabajo",

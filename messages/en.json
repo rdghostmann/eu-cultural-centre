@@ -3,6 +3,116 @@
     "areaofworkh2": "Our Areas of Work",
     "areaofworkp": "We create meaningful cultural exchanges and sustainable partnerships across eight key areas."
   },
+  "AboutPage": {
+    "mission": {
+      "title": "Our Mission",
+      "paragraph1": "The European Cultural Centre Nigeria/West Africa is a non-profit institution and serves as the umbrella for promoting diverse European cultures and fostering meaningful cultural exchange in collaboration with our partners.",
+      "paragraph2": "We connect more than through cultural exchanges and advocate for the vital role of culture in international relations. We bring European cultural collaboration to life connecting more than through cultural exchanges and advocate for a prominent role of culture in international relations.",
+      "paragraph3": "Our Centre provides a dynamic platform for knowledge sharing, capacity building, and exchange programs — linking Nigeria, Africa, Europe, and the wider global community.",
+      "button": "Learn More About Our Work"
+    },
+    "vision": {
+      "title": "Our Vision",
+      "paragraph1": "Through culture, education, innovation, and cultural exchange, the European Cultural Centre Nigeria/West Africa strives to build trust and mutual understanding between European countries and Africa as a whole.",
+      "paragraph2": "We are dedicated to making culture a key element in international relations. We work through fair partnerships, grounded in mutual listening, learning, and action engaging in cultural exchanges and joint capacity-building efforts both locally and internationally.",
+      "button": "Learn More About Our Work"
+    },
+    "values": {
+      "title": "Our Values",
+      "description": "We believe that culture is a vital force for inclusive growth, mutual understanding, and sustainable development locally, across Africa, and around the world.",
+      "button": "Learn More About Our Work",
+      "items": [
+        {
+          "title": "Art and the Creative Industries",
+          "description": "Promoting creativity and supporting artists across Africa and Europe."
+        },
+        {
+          "title": "Digitalization and Innovation",
+          "description": "Embracing technology and innovation for cultural advancement."
+        },
+        {
+          "title": "Education, Training, and Skills Development",
+          "description": "Empowering communities through learning and capacity building."
+        },
+        {
+          "title": "Gender Equality and Women’s Empowerment",
+          "description": "Championing equal opportunities and leadership for women."
+        },
+        {
+          "title": "Cultural Heritage and Preservation",
+          "description": "Safeguarding and celebrating our shared cultural legacy."
+        },
+        {
+          "title": "Human Rights and Social Inclusion",
+          "description": "Advocating for justice, equity, and inclusive societies."
+        },
+        {
+          "title": "Languages and Multilingualism",
+          "description": "Promoting language learning and cross-cultural communication."
+        },
+        {
+          "title": "International Student Exchange Programs",
+          "description": "Connecting students globally for shared learning experiences."
+        },
+        {
+          "title": "Youth Engagement and Empowerment",
+          "description": "Supporting young leaders and changemakers."
+        },
+        {
+          "title": "Sports and Tourism",
+          "description": "Building bridges through sports and cultural travel."
+        },
+        {
+          "title": "Environmental Sustainability",
+          "description": "Driving climate action and environmental stewardship."
+        },
+        {
+          "title": "Aid and Humanitarian Support",
+          "description": "Providing relief and support to those in need."
+        },
+        {
+          "title": "European-African Exchange Projects",
+          "description": "Facilitating collaboration and cultural exchange between continents."
+        },
+        {
+          "title": "Sourcing Foreign Investors for Project Development",
+          "description": "Attracting investment for impactful projects in Nigeria and Africa."
+        }
+      ]
+    },
+    "team": {
+      "title": "Our Leadership Team",
+      "description": "Meet the dedicated professionals leading our mission to connect cultures and build bridges.",
+      "members": [
+        {
+          "name": "Dr. Amina Hassan",
+          "role": "Executive Director",
+          "bio": "Leading cultural diplomat with 15+ years experience in international cooperation."
+        },
+        {
+          "name": "Prof. John Smith",
+          "role": "Research Director",
+          "bio": "Renowned researcher in cultural studies and heritage preservation."
+        },
+        {
+          "name": "Sarah Johnson",
+          "role": "Programs Manager",
+          "bio": "Expert in program development and international educational exchanges."
+        },
+        {
+          "name": "Dr. Kwame Asante",
+          "role": "Innovation Lead",
+          "bio": "Technology innovator focused on digital solutions for cultural preservation."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ready to Join Our Mission?",
+      "description": "Be part of our growing community working to build bridges between cultures and create lasting positive impact.",
+      "primaryLabel": "Get Involved Today",
+      "secondaryLabel": "Contact Us"
+    }
+  },
   "Navigation": {
     "about": "About",
     "areasOfWork": "Areas of Work",
