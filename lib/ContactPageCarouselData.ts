@@ -17,7 +17,7 @@ export const ContactPageCarouselData: Slide[] = [
   {
     image: "/contact-us/contact-us-1.png",
     badge: "Get In Touch",
-    title: "Connect With Us,",
+    title: "Connect With Us",
     subtitle: "We're Here For You",
     description: "Reach out for partnership, support, or general inquiries. Our team is ready to assist you.",
     primaryLink: { href: "#contact-form", text: "Contact Now" },

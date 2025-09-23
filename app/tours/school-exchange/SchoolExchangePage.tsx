@@ -1,3 +1,4 @@
+// SchoolExchangePage.tsx 
 "use client"
 
 import { motion } from "framer-motion"
@@ -20,60 +21,60 @@ export default function SchoolExchangePage() {
     const { ref: upcomingRef, isInView: upcomingInView } = useScrollAnimation()
     const hoverScale = { scale: 1.05 };
     const hoverLift = { y: -5, scale: 1.05 }; // lift slightly and scale up
-   
-    // const t = useTranslations("SchoolExchange")
 
-   
-    const exchangePrograms = [
-        {
-            title: "European University Exchange",
-            description: "Semester-long academic exchanges with top European universities.",
-            duration: "4-6 months",
-            participants: "50+ students annually",
-            destinations: ["Germany", "France", "Netherlands", "Italy"],
-            features: ["Full academic credit", "Language immersion", "Cultural activities", "Mentorship program"],
-        },
-        {
-            title: "High School Cultural Immersion",
-            description: "Short-term cultural exchange programs for secondary school students.",
-            duration: "2-4 weeks",
-            participants: "200+ students annually",
-            destinations: ["UK", "Spain", "Belgium", "Austria"],
-            features: ["Host family stay", "School partnerships", "Cultural workshops", "Certificate program"],
-        },
-        {
-            title: "Teacher Training Exchange",
-            description: "Professional development programs for educators in European institutions.",
-            duration: "1-3 months",
-            participants: "30+ teachers annually",
-            destinations: ["Finland", "Denmark", "Sweden", "Norway"],
-            features: ["Pedagogical training", "Best practices sharing", "Certification", "Network building"],
-        },
-    ]
-    
-    const upcomingExchanges = [
-        {
-            program: "Summer University Program",
-            destination: "Berlin, Germany",
-            date: "June 15 - August 15, 2026",
-            spots: "25 available",
-            deadline: "March 30, 2026",
-        },
-        {
-            program: "Cultural Heritage Tour",
-            destination: "Rome, Italy",
-            date: "September 10 - September 24, 2026",
-            spots: "30 available",
-            deadline: "June 15, 2026",
-        },
-        {
-            program: "Language Immersion Program",
-            destination: "Paris, France",
-            date: "October 5 - November 5, 2026",
-            spots: "20 available",
-            deadline: "July 20, 2026",
-        },
-    ]
+    const t = useTranslations("SchoolExchange")
+
+  const exchangePrograms = [
+    {
+      title: t("programs.university.title"),
+      description: t("programs.university.description"),
+      duration: t("programs.university.duration"),
+      participants: t("programs.university.participants"),
+      destinations: t.raw("programs.university.destinations") as string[],
+      features: t.raw("programs.university.features") as string[],
+    },
+    {
+      title: t("programs.highSchool.title"),
+      description: t("programs.highSchool.description"),
+      duration: t("programs.highSchool.duration"),
+      participants: t("programs.highSchool.participants"),
+      destinations: t.raw("programs.highSchool.destinations") as string[],
+      features: t.raw("programs.highSchool.features") as string[],
+    },
+    {
+      title: t("programs.teacher.title"),
+      description: t("programs.teacher.description"),
+      duration: t("programs.teacher.duration"),
+      participants: t("programs.teacher.participants"),
+      destinations: t.raw("programs.teacher.destinations") as string[],
+      features: t.raw("programs.teacher.features") as string[],
+    },
+  ]
+
+   const upcomingExchanges = [
+    {
+      program: t("upcoming.summer.program"),
+      destination: t("upcoming.summer.destination"),
+      date: t("upcoming.summer.date"),
+      spots: t("upcoming.summer.spots"),
+      deadline: t("upcoming.summer.deadline"),
+    },
+    {
+      program: t("upcoming.heritage.program"),
+      destination: t("upcoming.heritage.destination"),
+      date: t("upcoming.heritage.date"),
+      spots: t("upcoming.heritage.spots"),
+      deadline: t("upcoming.heritage.deadline"),
+    },
+    {
+      program: t("upcoming.language.program"),
+      destination: t("upcoming.language.destination"),
+      date: t("upcoming.language.date"),
+      spots: t("upcoming.language.spots"),
+      deadline: t("upcoming.language.deadline"),
+    },
+  ]
+
 
     return (
         <div className="flex flex-col overflow-hidden">
@@ -121,11 +122,10 @@ export default function SchoolExchangePage() {
                         animate={programsInView ? "visible" : "hidden"}
                     >
                         <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-ecc-slate mb-3 sm:mb-4">
-                           School Exchange Programs
+                            {t("programTitle")}
                         </h2>
                         <p className="text-base sm:text-lg md:text-xl text-gray-600 max-w-2xl sm:max-w-3xl mx-auto px-2">
-                            Comprehensive educational exchange programs designed to provide transformative learning experiences across
-                            Europe.
+                            {t("programDescription")}
                         </p>
                     </motion.div>
 
@@ -190,7 +190,7 @@ export default function SchoolExchangePage() {
                                         <motion.div whileHover={hoverScale} whileTap={{ scale: 0.95 }}>
                                             <Link href="/contact">
                                                 <Button className="w-full bg-blue-600 hover:bg-blue-700 text-sm sm:text-base">
-                                                    Learn More
+                                                    {t("learnmore")}
                                                 </Button>
                                             </Link>
                                         </motion.div>
@@ -264,11 +264,11 @@ export default function SchoolExchangePage() {
 
             {/* CTA Section */}
             <CTASection
-                title="Ready to Start Your Exchange Journey?"
-                description="Apply now to join our school exchange programs and experience transformative learning, cultural immersion, and global friendships across Europe and Nigeria."
-                primaryLabel="Apply Today"
+                title={t("cta.title")}
+                description={t("cta.description")}
+                primaryLabel={t("cta.primaryLabel")}
                 primaryHref="/contact"
-                secondaryLabel="Get Information"
+                secondaryLabel={t("cta.secondaryLabel")}
                 secondaryHref="/contact"
             />
         </div>

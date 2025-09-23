@@ -4,57 +4,115 @@
     "areaofworkp": "Creamos intercambios culturales significativos y asociaciones sostenibles en ocho áreas clave."
   },
   "AboutPage": {
-  "mission": {
-    "title": "Nuestra Misión",
-    "paragraph1": "El Centro Cultural Europeo Nigeria/África Occidental es una institución sin fines de lucro que sirve como marco para promover diversas culturas europeas y fomentar un intercambio cultural significativo en colaboración con nuestros socios.",
-    "paragraph2": "Conectamos a través de intercambios culturales y defendemos el papel vital de la cultura en las relaciones internacionales. Damos vida a la colaboración cultural europea y defendemos su papel clave en las relaciones internacionales.",
-    "paragraph3": "Nuestro Centro ofrece una plataforma dinámica para compartir conocimientos, fortalecer capacidades y programas de intercambio, conectando Nigeria, África, Europa y la comunidad mundial.",
-    "button": "Conozca más sobre nuestro trabajo"
+    "mission": {
+      "title": "Nuestra Misión",
+      "paragraph1": "El Centro Cultural Europeo Nigeria/África Occidental es una institución sin fines de lucro que sirve como marco para promover diversas culturas europeas y fomentar un intercambio cultural significativo en colaboración con nuestros socios.",
+      "paragraph2": "Conectamos a través de intercambios culturales y defendemos el papel vital de la cultura en las relaciones internacionales. Damos vida a la colaboración cultural europea y defendemos su papel clave en las relaciones internacionales.",
+      "paragraph3": "Nuestro Centro ofrece una plataforma dinámica para compartir conocimientos, fortalecer capacidades y programas de intercambio, conectando Nigeria, África, Europa y la comunidad mundial.",
+      "button": "Conozca más sobre nuestro trabajo"
+    },
+    "vision": {
+      "title": "Nuestra Visión",
+      "paragraph1": "A través de la cultura, la educación, la innovación y los intercambios culturales, el Centro Cultural Europeo Nigeria/África Occidental busca construir confianza y entendimiento mutuo entre los países europeos y África en su conjunto.",
+      "paragraph2": "Estamos dedicados a hacer de la cultura un elemento clave en las relaciones internacionales. Trabajamos mediante asociaciones justas, basadas en la escucha mutua, el aprendizaje y la acción conjunta a nivel local e internacional.",
+      "button": "Conozca más sobre nuestro trabajo"
+    },
+    "values": {
+      "title": "Nuestros Valores",
+      "description": "Creemos que la cultura es una fuerza vital para el crecimiento inclusivo, el entendimiento mutuo y el desarrollo sostenible a nivel local, en África y en todo el mundo.",
+      "button": "Conozca más sobre nuestro trabajo",
+      "items": [
+        {
+          "title": "Arte e Industrias Creativas",
+          "description": "Promover la creatividad y apoyar a los artistas en África y Europa."
+        },
+        {
+          "title": "Digitalización e Innovación",
+          "description": "Adoptar la tecnología y la innovación para el avance cultural."
+        },
+        {
+          "title": "Educación, Formación y Desarrollo de Habilidades",
+          "description": "Empoderar a las comunidades a través del aprendizaje y la capacitación."
+        },
+        {
+          "title": "Igualdad de Género y Empoderamiento de la Mujer",
+          "description": "Promover igualdad de oportunidades y liderazgo femenino."
+        },
+        {
+          "title": "Patrimonio Cultural y Preservación",
+          "description": "Proteger y celebrar nuestro legado cultural compartido."
+        },
+        {
+          "title": "Derechos Humanos e Inclusión Social",
+          "description": "Defender la justicia, la equidad y sociedades inclusivas."
+        },
+        {
+          "title": "Idiomas y Multilingüismo",
+          "description": "Fomentar el aprendizaje de idiomas y la comunicación intercultural."
+        },
+        {
+          "title": "Programas de Intercambio Estudiantil Internacional",
+          "description": "Conectar a estudiantes de todo el mundo para experiencias compartidas."
+        },
+        {
+          "title": "Participación y Empoderamiento Juvenil",
+          "description": "Apoyar a jóvenes líderes y agentes de cambio."
+        },
+        {
+          "title": "Deportes y Turismo",
+          "description": "Construir puentes a través del deporte y los viajes culturales."
+        },
+        {
+          "title": "Sostenibilidad Ambiental",
+          "description": "Impulsar la acción climática y la gestión ambiental."
+        },
+        {
+          "title": "Ayuda y Apoyo Humanitario",
+          "description": "Brindar ayuda y apoyo a quienes lo necesiten."
+        },
+        {
+          "title": "Proyectos de Intercambio Europa-África",
+          "description": "Facilitar la colaboración y el intercambio cultural entre continentes."
+        },
+        {
+          "title": "Atracción de Inversores Extranjeros para el Desarrollo de Proyectos",
+          "description": "Atraer inversiones para proyectos de impacto en Nigeria y África."
+        }
+      ]
+    },
+    "team": {
+      "title": "Nuestro Equipo Directivo",
+      "description": "Conozca a los profesionales dedicados que lideran nuestra misión de conectar culturas y construir puentes.",
+      "members": [
+        {
+          "name": "Dr. Amina Hassan",
+          "role": "Directora Ejecutiva",
+          "bio": "Diplomática cultural con más de 15 años de experiencia en cooperación internacional."
+        },
+        {
+          "name": "Prof. John Smith",
+          "role": "Director de Investigación",
+          "bio": "Investigador reconocido en estudios culturales y preservación del patrimonio."
+        },
+        {
+          "name": "Sarah Johnson",
+          "role": "Gerente de Programas",
+          "bio": "Experta en desarrollo de programas e intercambios educativos internacionales."
+        },
+        {
+          "name": "Dr. Kwame Asante",
+          "role": "Líder de Innovación",
+          "bio": "Innovador tecnológico enfocado en soluciones digitales para la preservación cultural."
+        }
+      ]
+    },
+    "cta": {
+      "title": "¿Listo para unirse a nuestra misión?",
+      "description": "Sea parte de nuestra creciente comunidad que construye puentes entre culturas y genera un impacto positivo duradero.",
+      "primaryLabel": "Involúcrese hoy",
+      "secondaryLabel": "Contáctenos"
+    }
   },
-  "vision": {
-    "title": "Nuestra Visión",
-    "paragraph1": "A través de la cultura, la educación, la innovación y los intercambios culturales, el Centro Cultural Europeo Nigeria/África Occidental busca construir confianza y entendimiento mutuo entre los países europeos y África en su conjunto.",
-    "paragraph2": "Estamos dedicados a hacer de la cultura un elemento clave en las relaciones internacionales. Trabajamos mediante asociaciones justas, basadas en la escucha mutua, el aprendizaje y la acción conjunta a nivel local e internacional.",
-    "button": "Conozca más sobre nuestro trabajo"
-  },
-  "values": {
-    "title": "Nuestros Valores",
-    "description": "Creemos que la cultura es una fuerza vital para el crecimiento inclusivo, el entendimiento mutuo y el desarrollo sostenible a nivel local, en África y en todo el mundo.",
-    "button": "Conozca más sobre nuestro trabajo",
-    "items": [
-      { "title": "Arte e Industrias Creativas", "description": "Promover la creatividad y apoyar a los artistas en África y Europa." },
-      { "title": "Digitalización e Innovación", "description": "Adoptar la tecnología y la innovación para el avance cultural." },
-      { "title": "Educación, Formación y Desarrollo de Habilidades", "description": "Empoderar a las comunidades a través del aprendizaje y la capacitación." },
-      { "title": "Igualdad de Género y Empoderamiento de la Mujer", "description": "Promover igualdad de oportunidades y liderazgo femenino." },
-      { "title": "Patrimonio Cultural y Preservación", "description": "Proteger y celebrar nuestro legado cultural compartido." },
-      { "title": "Derechos Humanos e Inclusión Social", "description": "Defender la justicia, la equidad y sociedades inclusivas." },
-      { "title": "Idiomas y Multilingüismo", "description": "Fomentar el aprendizaje de idiomas y la comunicación intercultural." },
-      { "title": "Programas de Intercambio Estudiantil Internacional", "description": "Conectar a estudiantes de todo el mundo para experiencias compartidas." },
-      { "title": "Participación y Empoderamiento Juvenil", "description": "Apoyar a jóvenes líderes y agentes de cambio." },
-      { "title": "Deportes y Turismo", "description": "Construir puentes a través del deporte y los viajes culturales." },
-      { "title": "Sostenibilidad Ambiental", "description": "Impulsar la acción climática y la gestión ambiental." },
-      { "title": "Ayuda y Apoyo Humanitario", "description": "Brindar ayuda y apoyo a quienes lo necesiten." },
-      { "title": "Proyectos de Intercambio Europa-África", "description": "Facilitar la colaboración y el intercambio cultural entre continentes." },
-      { "title": "Atracción de Inversores Extranjeros para el Desarrollo de Proyectos", "description": "Atraer inversiones para proyectos de impacto en Nigeria y África." }
-    ]
-  },
-  "team": {
-    "title": "Nuestro Equipo Directivo",
-    "description": "Conozca a los profesionales dedicados que lideran nuestra misión de conectar culturas y construir puentes.",
-    "members": [
-      { "name": "Dr. Amina Hassan", "role": "Directora Ejecutiva", "bio": "Diplomática cultural con más de 15 años de experiencia en cooperación internacional." },
-      { "name": "Prof. John Smith", "role": "Director de Investigación", "bio": "Investigador reconocido en estudios culturales y preservación del patrimonio." },
-      { "name": "Sarah Johnson", "role": "Gerente de Programas", "bio": "Experta en desarrollo de programas e intercambios educativos internacionales." },
-      { "name": "Dr. Kwame Asante", "role": "Líder de Innovación", "bio": "Innovador tecnológico enfocado en soluciones digitales para la preservación cultural." }
-    ]
-  },
-  "cta": {
-    "title": "¿Listo para unirse a nuestra misión?",
-    "description": "Sea parte de nuestra creciente comunidad que construye puentes entre culturas y genera un impacto positivo duradero.",
-    "primaryLabel": "Involúcrese hoy",
-    "secondaryLabel": "Contáctenos"
-  }
-},
   "Navigation": {
     "about": "Acerca de",
     "areasOfWork": "Áreas de Trabajo",
@@ -100,105 +158,422 @@
     "getInvolved": "Involúcrate"
   },
   "SportsTours": {
-  "badge": "Giras Deportivas & Torneos",
-  "heroTitle": "Excelencia Deportiva & Intercambio Cultural",
-  "heroDescription": "Programas deportivos de élite que combinan desarrollo atlético con intercambio cultural, reuniendo equipos y atletas de Europa y África.",
-  "exploreButton": "Ver programas",
-  "registerButton": "Registrar un equipo",
-
-  "quickInfo": {
-    "seasonTitle": "Temporada",
-    "seasonValue": "Todo el año",
-    "participantsTitle": "Participantes",
-    "participantsValue": "500+ anuales",
-    "tournamentsTitle": "Torneos",
-    "tournamentsValue": "12+ eventos",
-    "safetyTitle": "Seguridad",
-    "safetyValue": "Entrenadores certificados"
+    "badge": "Giras Deportivas & Torneos",
+    "heroTitle": "Excelencia Deportiva & Intercambio Cultural",
+    "heroDescription": "Programas deportivos de élite que combinan desarrollo atlético con intercambio cultural, reuniendo equipos y atletas de Europa y África.",
+    "exploreButton": "Ver programas",
+    "registerButton": "Registrar un equipo",
+    "quickInfo": {
+      "seasonTitle": "Temporada",
+      "seasonValue": "Todo el año",
+      "participantsTitle": "Participantes",
+      "participantsValue": "500+ anuales",
+      "tournamentsTitle": "Torneos",
+      "tournamentsValue": "12+ eventos",
+      "safetyTitle": "Seguridad",
+      "safetyValue": "Entrenadores certificados"
+    },
+    "programs": {
+      "title": "Programas Deportivos",
+      "description": "Programas deportivos integrales diseñados para desarrollar habilidades atléticas y fomentar amistades internacionales y comprensión cultural.",
+      "items": [
+        {
+          "title": "Academia Europea de Fútbol ECC",
+          "description": "Entrenamiento de élite con entrenadores europeos y participación en torneos internacionales.",
+          "icon": "⚽",
+          "duration": "2-4 semanas",
+          "features": [
+            "Entrenamiento profesional",
+            "Juegos de torneo",
+            "Intercambio cultural",
+            "Desarrollo de habilidades"
+          ],
+          "ageGroup": "12-18 años"
+        },
+        {
+          "title": "Torneos Deportivos Internacionales",
+          "description": "Torneos competitivos que reúnen equipos de Europa y África.",
+          "icon": "🏆",
+          "duration": "1-2 semanas",
+          "features": [
+            "Eventos multideportivos",
+            "Competiciones en equipo",
+            "Ceremonias de premiación",
+            "Actividades culturales"
+          ],
+          "ageGroup": "Todas las edades"
+        },
+        {
+          "title": "Programas de Intercambio Deportivo",
+          "description": "Programas de intercambio deportivo y cultural para equipos y atletas individuales.",
+          "icon": "🤝",
+          "duration": "1-3 semanas",
+          "features": [
+            "Intercambios de equipos",
+            "Campamentos de entrenamiento",
+            "Partidos amistosos",
+            "Inmersión cultural"
+          ],
+          "ageGroup": "Juventud & Adultos"
+        },
+        {
+          "title": "Paquetes de Turismo Deportivo",
+          "description": "Paquetes completos de viajes deportivos que incluyen entrenamiento, competición y turismo.",
+          "icon": "✈️",
+          "duration": "1-2 semanas",
+          "features": [
+            "Organización de viajes",
+            "Alojamiento",
+            "Instalaciones de entrenamiento",
+            "Actividades turísticas"
+          ],
+          "ageGroup": "Todos los niveles"
+        }
+      ],
+      "learnMoreButton": "Más información"
+    },
+    "tournaments": {
+      "title": "Próximos Torneos",
+      "description": "Únete a competiciones deportivas y eventos internacionales organizados en África y Europa.",
+      "items": [
+        {
+          "name": "Campeonato Juvenil de Fútbol ECC",
+          "date": "15-22 julio 2026",
+          "location": "Lagos, Nigeria",
+          "participants": "16 equipos",
+          "status": "Inscripción abierta"
+        },
+        {
+          "name": "Intercambio de Baloncesto África-Europa",
+          "date": "5-12 agosto 2026",
+          "location": "Abuja, Nigeria",
+          "participants": "12 equipos",
+          "status": "Plazo de solicitudes"
+        },
+        {
+          "name": "Encuentro Internacional de Atletismo",
+          "date": "10-15 septiembre 2026",
+          "location": "Kano, Nigeria",
+          "participants": "200+ atletas",
+          "status": "Próximamente"
+        }
+      ]
+    },
+    "cta": {
+      "title": "¿Listo para Entrar al Juego?",
+      "description": "Lleva tu trayectoria deportiva al siguiente nivel con nuestro entrenamiento de élite, torneos y programas de intercambio.",
+      "primaryLabel": "Registrarse ahora",
+      "secondaryLabel": "Solicitar información"
+    }
   },
-
-  "programs": {
-    "title": "Programas Deportivos",
-    "description": "Programas deportivos integrales diseñados para desarrollar habilidades atléticas y fomentar amistades internacionales y comprensión cultural.",
-    "items": [
+  "GovernmentTour": {
+    "badge": "Visitas gubernamentales",
+    "heroTitle": "Diplomacia cultural & Delegaciones oficiales",
+    "heroDescription": "Apoyo profesional en protocolo y programas culturales para delegaciones gubernamentales, misiones diplomáticas y visitas oficiales de alto nivel, fomentando la cooperación internacional.",
+    "exploreServices": "Explorar servicios",
+    "requestConsultation": "Solicitar consulta",
+    "quickInfo": {
+      "duration": {
+        "title": "Duración",
+        "value": "3–7 días"
+      },
+      "groupSize": {
+        "title": "Tamaño del grupo",
+        "value": "5–50 delegados"
+      },
+      "security": {
+        "title": "Seguridad",
+        "value": "Protocolo completo"
+      },
+      "experience": {
+        "title": "Experiencia",
+        "value": "15+ años"
+      }
+    },
+    "servicesTitle": "Nuestros servicios diplomáticos",
+    "servicesDescription": "Apoyo integral para delegaciones gubernamentales con experiencia en protocolo y programación cultural.",
+    "services": {
+      "delegations": {
+        "title": "Delegaciones de alto nivel",
+        "description": "Apoyo protocolario para visitas ministeriales y diplomáticas con programas culturales.",
+        "features": [
+          "Servicios de protocolo VIP",
+          "Visitas a sitios culturales",
+          "Facilitación de reuniones",
+          "Coordinación de medios"
+        ]
+      },
+      "cultural": {
+        "title": "Programas de diplomacia cultural",
+        "description": "Programas estructurados que promueven la comprensión cultural entre naciones.",
+        "features": [
+          "Intercambios bilaterales",
+          "Presentaciones culturales",
+          "Diálogos políticos",
+          "Desarrollo de asociaciones"
+        ]
+      },
+      "state": {
+        "title": "Visitas oficiales de Estado",
+        "description": "Apoyo completo para intercambios culturales y educativos a nivel estatal.",
+        "features": [
+          "Coordinación de seguridad",
+          "Presentaciones culturales",
+          "Presentaciones educativas",
+          "Cobertura mediática"
+        ]
+      }
+    },
+    "itineraryTitle": "Ejemplo de programa diplomático de 6 días",
+    "itineraryDescription": "Un programa integral de diplomacia cultural diseñado para delegaciones gubernamentales de alto nivel.",
+    "itinerary": [
       {
-        "title": "Academia Europea de Fútbol ECC",
-        "description": "Entrenamiento de élite con entrenadores europeos y participación en torneos internacionales.",
-        "icon": "⚽",
-        "duration": "2-4 semanas",
-        "features": ["Entrenamiento profesional", "Juegos de torneo", "Intercambio cultural", "Desarrollo de habilidades"],
-        "ageGroup": "12-18 años"
+        "day": "Día 1",
+        "title": "Llegada & Recepción",
+        "activities": [
+          "Recepción VIP en el aeropuerto",
+          "Ceremonia de bienvenida",
+          "Presentación cultural",
+          "Cena oficial"
+        ]
       },
       {
-        "title": "Torneos Deportivos Internacionales",
-        "description": "Torneos competitivos que reúnen equipos de Europa y África.",
-        "icon": "🏆",
-        "duration": "1-2 semanas",
-        "features": ["Eventos multideportivos", "Competiciones en equipo", "Ceremonias de premiación", "Actividades culturales"],
-        "ageGroup": "Todas las edades"
+        "day": "Días 2-3",
+        "title": "Inmersión cultural",
+        "activities": [
+          "Visitas a sitios patrimoniales",
+          "Recorridos por galerías",
+          "Espectáculos tradicionales",
+          "Talleres de artesanía"
+        ]
       },
       {
-        "title": "Programas de Intercambio Deportivo",
-        "description": "Programas de intercambio deportivo y cultural para equipos y atletas individuales.",
-        "icon": "🤝",
-        "duration": "1-3 semanas",
-        "features": ["Intercambios de equipos", "Campamentos de entrenamiento", "Partidos amistosos", "Inmersión cultural"],
-        "ageGroup": "Juventud & Adultos"
+        "day": "Días 4-5",
+        "title": "Asociaciones educativas",
+        "activities": [
+          "Visitas universitarias",
+          "Alianzas escolares",
+          "Colaboraciones de investigación",
+          "Foros académicos"
+        ]
       },
       {
-        "title": "Paquetes de Turismo Deportivo",
-        "description": "Paquetes completos de viajes deportivos que incluyen entrenamiento, competición y turismo.",
-        "icon": "✈️",
-        "duration": "1-2 semanas",
-        "features": ["Organización de viajes", "Alojamiento", "Instalaciones de entrenamiento", "Actividades turísticas"],
-        "ageGroup": "Todos los niveles"
+        "day": "Día 6",
+        "title": "Negocios & Innovación",
+        "activities": [
+          "Visitas a centros de innovación",
+          "Mesas redondas económicas",
+          "Demostraciones tecnológicas",
+          "Firma de asociaciones"
+        ]
       }
     ],
-    "learnMoreButton": "Más información"
+    "cta": {
+      "title": "¿Listo para organizar su visita gubernamental?",
+      "description": "Colabore con nosotros para organizar visitas profesionales, seguras y culturalmente enriquecedoras para su delegación.",
+      "primaryLabel": "Solicitar consulta",
+      "secondaryLabel": "Obtener información"
+    }
   },
-
-  "tournaments": {
-    "title": "Próximos Torneos",
-    "description": "Únete a competiciones deportivas y eventos internacionales organizados en África y Europa.",
-    "items": [
-      {
-        "name": "Campeonato Juvenil de Fútbol ECC",
-        "date": "15-22 julio 2026",
-        "location": "Lagos, Nigeria",
-        "participants": "16 equipos",
-        "status": "Inscripción abierta"
+  "ResearchTour": {
+    "badge": "Tours de Investigación",
+    "heroTitle": "Investigación Académica e Intercambio",
+    "heroDescription": "Apoyo integral para académicos, investigadores y estudiantes en trabajo de campo, investigación de archivos y estudios culturales en África con guía local experta.",
+    "heroPrimary": "Explorar Áreas de Investigación",
+    "heroSecondary": "Solicitar Residencia",
+    "quickInfo": {
+      "duration": "Duración",
+      "researchers": "Investigadores",
+      "successRate": "Tasa de Éxito",
+      "archives": "Archivos",
+      "durationValue": "1-8 semanas",
+      "researchersValue": "1-10 personas",
+      "successRateValue": "98%",
+      "archivesValue": "50+ colecciones"
+    },
+    "areasTitle": "Especializaciones de Investigación",
+    "areasDescription": "Programas de investigación adaptados que apoyan diversas disciplinas académicas y proyectos de investigación.",
+    "areas": {
+      "culturalPolicy": {
+        "title": "Investigación en Políticas Culturales",
+        "description": "Estudios profundos sobre políticas culturales, preservación del patrimonio y marcos de desarrollo artístico.",
+        "duration": "2-4 semanas",
+        "features": [
+          "Análisis de políticas",
+          "Entrevistas con actores",
+          "Estudios comparativos",
+          "Redacción de informes"
+        ]
       },
-      {
-        "name": "Intercambio de Baloncesto África-Europa",
-        "date": "5-12 agosto 2026",
-        "location": "Abuja, Nigeria",
-        "participants": "12 equipos",
-        "status": "Plazo de solicitudes"
+      "archaeology": {
+        "title": "Trabajo de Campo Arqueológico",
+        "description": "Investigación arqueológica práctica en sitios de excavación activos con supervisión experta.",
+        "duration": "1-6 semanas",
+        "features": [
+          "Excavación de sitios",
+          "Análisis de artefactos",
+          "Documentación",
+          "Trabajo de laboratorio"
+        ]
       },
-      {
-        "name": "Encuentro Internacional de Atletismo",
-        "date": "10-15 septiembre 2026",
-        "location": "Kano, Nigeria",
-        "participants": "200+ atletas",
-        "status": "Próximamente"
+      "ethnography": {
+        "title": "Estudios Etnográficos",
+        "description": "Investigación cultural inmersiva con comunidades locales y guardianes del conocimiento tradicional.",
+        "duration": "2-8 semanas",
+        "features": [
+          "Interacción comunitaria",
+          "Historia oral",
+          "Mapeo cultural",
+          "Observación participante"
+        ]
+      },
+      "archive": {
+        "title": "Archivos y Documentación",
+        "description": "Acceso a archivos raros, manuscritos y documentos históricos para investigación académica.",
+        "duration": "1-4 semanas",
+        "features": [
+          "Acceso a archivos",
+          "Escaneo digital",
+          "Catalogación",
+          "Asistencia en investigación"
+        ]
       }
-    ]
+    },
+    "supportTitle": "Apoyo Integral a la Investigación",
+    "supportDescription": "Servicios completos para garantizar el éxito de tu proyecto de investigación desde la planificación hasta la publicación.",
+    "supportServices": [
+      "Asistencia con permisos de investigación",
+      "Conexiones con expertos locales",
+      "Servicios de traducción",
+      "Arreglos de alojamiento",
+      "Logística de transporte",
+      "Equipos y materiales",
+      "Apoyo en recopilación de datos",
+      "Asistencia en publicación"
+    ],
+    "processTitle": "Proceso de Solicitud",
+    "processDescription": "Pasos sencillos para comenzar tu viaje de investigación con ECC Nigeria.",
+    "processSteps": {
+      "submit": {
+        "title": "Enviar Propuesta",
+        "description": "Envíanos tu propuesta de investigación con objetivos, metodología y cronograma."
+      },
+      "review": {
+        "title": "Revisión y Planificación",
+        "description": "Nuestro equipo revisa tu propuesta y desarrolla un plan de apoyo personalizado."
+      },
+      "begin": {
+        "title": "Comenzar la Investigación",
+        "description": "Inicia tu investigación con apoyo logístico y académico completo de nuestro equipo."
+      }
+    },
+    "cta": {
+      "title": "¿Listo para Comenzar tu Investigación?",
+      "description": "Únete a académicos e investigadores líderes en el avance de tu trabajo a través de nuestros programas de apoyo a la investigación. Comienza tu trayectoria académica con ECC Nigeria hoy.",
+      "primaryLabel": "Enviar Propuesta de Investigación",
+      "secondaryLabel": "Solicitar Residencia"
+    },
+    "learnmore": "Saber Más"
   },
-
-  "cta": {
-    "title": "¿Listo para Entrar al Juego?",
-    "description": "Lleva tu trayectoria deportiva al siguiente nivel con nuestro entrenamiento de élite, torneos y programas de intercambio.",
-    "primaryLabel": "Registrarse ahora",
-    "secondaryLabel": "Solicitar información"
-  }
-},
+  "SchoolExchange": {
+    "badge": "Tours de Intercambio Escolar",
+    "programTitle": "Programas de Intercambio Escolar",
+    "programDescription": "Programas educativos de intercambio diseñados para ofrecer experiencias de aprendizaje transformadoras en toda Europa.",
+    "upcomingExchangeTitle": "Próximos Intercambios",
+    "upcomingExchangeDescription": "No te pierdas estas emocionantes oportunidades de participar en nuestros próximos programas de intercambio.",
+    "cta": {
+      "title": "¿Listo para comenzar tu viaje de intercambio?",
+      "description": "Aplica ahora para unirte a nuestros programas de intercambio escolar y vive un aprendizaje transformador, inmersión cultural y amistades globales en toda Europa y Nigeria.",
+      "primaryLabel": "Aplica Hoy",
+      "secondaryLabel": "Obtener Información"
+    },
+    "learnmore": "Saber Más",
+    "programs": {
+      "university": {
+        "title": "Intercambio Universitario Europeo",
+        "description": "Intercambios académicos semestrales con universidades europeas de primer nivel.",
+        "duration": "4-6 meses",
+        "participants": "50+ estudiantes anualmente",
+        "destinations": [
+          "Alemania",
+          "Francia",
+          "Países Bajos",
+          "Italia"
+        ],
+        "features": [
+          "Crédito académico completo",
+          "Inmersión lingüística",
+          "Actividades culturales",
+          "Programa de mentoría"
+        ]
+      },
+      "highSchool": {
+        "title": "Inmersión Cultural en Secundaria",
+        "description": "Programas de intercambio cultural a corto plazo para estudiantes de secundaria.",
+        "duration": "2-4 semanas",
+        "participants": "200+ estudiantes anualmente",
+        "destinations": [
+          "Reino Unido",
+          "España",
+          "Bélgica",
+          "Austria"
+        ],
+        "features": [
+          "Alojamiento en familia anfitriona",
+          "Asociaciones escolares",
+          "Talleres culturales",
+          "Programa con certificado"
+        ]
+      },
+      "teacher": {
+        "title": "Intercambio de Formación Docente",
+        "description": "Programas de desarrollo profesional para educadores en instituciones europeas.",
+        "duration": "1-3 meses",
+        "participants": "30+ docentes anualmente",
+        "destinations": [
+          "Finlandia",
+          "Dinamarca",
+          "Suecia",
+          "Noruega"
+        ],
+        "features": [
+          "Formación pedagógica",
+          "Intercambio de buenas prácticas",
+          "Certificación",
+          "Creación de redes"
+        ]
+      }
+    },
+    "upcoming": {
+      "summer": {
+        "program": "Programa Universitario de Verano",
+        "destination": "Berlín, Alemania",
+        "date": "15 de junio - 15 de agosto de 2026",
+        "spots": "25 disponibles",
+        "deadline": "30 de marzo de 2026"
+      },
+      "heritage": {
+        "program": "Tour de Patrimonio Cultural",
+        "destination": "Roma, Italia",
+        "date": "10 - 24 de septiembre de 2026",
+        "spots": "30 disponibles",
+        "deadline": "15 de junio de 2026"
+      },
+      "language": {
+        "program": "Programa de Inmersión Lingüística",
+        "destination": "París, Francia",
+        "date": "5 de octubre - 5 de noviembre de 2026",
+        "spots": "20 disponibles",
+        "deadline": "20 de julio de 2026"
+      }
+    }
+  },
   "StudyFieldTrips": {
     "badge": "Viajes de estudio y excursiones",
     "heroTitle": "Estudios de campo educativos y expediciones de aprendizaje",
     "heroDescription": "Experiencias educativas transformadoras que dan vida al aprendizaje mediante estudios de campo inmersivos, exploración cultural y oportunidades de investigación práctica para estudiantes y educadores.",
     "exploreButton": "Explorar viajes de estudio",
     "planTripButton": "Planificar un viaje de estudio",
-
     "quickInfo": {
       "durationTitle": "Duración",
       "durationValue": "3 días - 4 semanas",
@@ -209,73 +584,129 @@
       "certificationTitle": "Certificación",
       "certificationValue": "Disponible"
     },
-
     "categories": {
       "title": "Categorías de viajes de estudio",
       "description": "Experiencias educativas diversas adaptadas a diferentes objetivos de aprendizaje y niveles académicos."
     },
-
     "tripTypes": {
       "culturalImmersion": {
         "title": "Viajes de inmersión cultural",
         "description": "Experiencias culturales de corta duración para estudiantes y educadores.",
         "duration": "3-7 días",
-        "subjects": ["Historia", "Antropología", "Estudios culturales", "Idiomas"],
-        "features": ["Visitas a museos", "Sitios culturales", "Interacciones locales", "Visitas guiadas"]
+        "subjects": [
+          "Historia",
+          "Antropología",
+          "Estudios culturales",
+          "Idiomas"
+        ],
+        "features": [
+          "Visitas a museos",
+          "Sitios culturales",
+          "Interacciones locales",
+          "Visitas guiadas"
+        ]
       },
       "educationalTours": {
         "title": "Tours de estudio educativos",
         "description": "Viajes académicos alineados con los objetivos curriculares y los resultados de aprendizaje.",
         "duration": "5-10 días",
-        "subjects": ["Geografía", "Ciencias ambientales", "Ciencias sociales", "Artes"],
-        "features": ["Conferencias de expertos", "Actividades prácticas", "Proyectos de investigación", "Debates en grupo"]
+        "subjects": [
+          "Geografía",
+          "Ciencias ambientales",
+          "Ciencias sociales",
+          "Artes"
+        ],
+        "features": [
+          "Conferencias de expertos",
+          "Actividades prácticas",
+          "Proyectos de investigación",
+          "Debates en grupo"
+        ]
       },
       "professionalTrips": {
         "title": "Viajes de desarrollo profesional",
         "description": "Viajes especializados para educadores y profesionales culturales.",
         "duration": "1-2 semanas",
-        "subjects": ["Educación", "Estudios museísticos", "Gestión cultural", "Administración de artes"],
-        "features": ["Redes profesionales", "Buenas prácticas", "Talleres de habilidades", "Certificación"]
+        "subjects": [
+          "Educación",
+          "Estudios museísticos",
+          "Gestión cultural",
+          "Administración de artes"
+        ],
+        "features": [
+          "Redes profesionales",
+          "Buenas prácticas",
+          "Talleres de habilidades",
+          "Certificación"
+        ]
       },
       "researchStudies": {
         "title": "Estudios de investigación de campo",
         "description": "Oportunidades de investigación intensiva para estudiantes avanzados e investigadores.",
         "duration": "2-4 semanas",
-        "subjects": ["Arqueología", "Etnografía", "Estudios ambientales", "Planificación urbana"],
-        "features": ["Recolección de datos", "Métodos de campo", "Alianzas locales", "Apoyo a la investigación"]
+        "subjects": [
+          "Arqueología",
+          "Etnografía",
+          "Estudios ambientales",
+          "Planificación urbana"
+        ],
+        "features": [
+          "Recolección de datos",
+          "Métodos de campo",
+          "Alianzas locales",
+          "Apoyo a la investigación"
+        ]
       },
       "learnMoreButton": "Saber más",
       "subjectAreas": "Áreas de estudio:",
       "keyFeatures": "Características clave:"
     },
-
     "itinerary": {
       "title": "Itinerario de muestra",
       "description": "Un recorrido de aprendizaje estructurado que combina contenido académico con inmersión cultural.",
       "days": {
         "1": {
           "focus": "Llegada y orientación",
-          "activities": ["Sesión de bienvenida", "Panorama cultural", "Orientación de seguridad"]
+          "activities": [
+            "Sesión de bienvenida",
+            "Panorama cultural",
+            "Orientación de seguridad"
+          ]
         },
         "2": {
           "focus": "Historia antigua",
-          "activities": ["Sitios arqueológicos", "Visitas a museos", "Conferencias de expertos"]
+          "activities": [
+            "Sitios arqueológicos",
+            "Visitas a museos",
+            "Conferencias de expertos"
+          ]
         },
         "3": {
           "focus": "Cultura viva",
-          "activities": ["Artesanías tradicionales", "Visitas comunitarias", "Actuaciones culturales"]
+          "activities": [
+            "Artesanías tradicionales",
+            "Visitas comunitarias",
+            "Actuaciones culturales"
+          ]
         },
         "4": {
           "focus": "Contexto moderno",
-          "activities": ["Arte contemporáneo", "Desarrollo urbano", "Presentaciones estudiantiles"]
+          "activities": [
+            "Arte contemporáneo",
+            "Desarrollo urbano",
+            "Presentaciones estudiantiles"
+          ]
         },
         "5": {
           "focus": "Reflexión y salida",
-          "activities": ["Debates en grupo", "Presentaciones finales", "Salida"]
+          "activities": [
+            "Debates en grupo",
+            "Presentaciones finales",
+            "Salida"
+          ]
         }
       }
     },
-
     "learningOutcomes": {
       "title": "Resultados de aprendizaje",
       "description": "Beneficios educativos medibles que mejoran el desarrollo académico y personal.",
@@ -306,7 +737,6 @@
         }
       }
     },
-
     "cta": {
       "title": "¿Listo para planificar tu viaje de estudio?",
       "description": "Crea experiencias de aprendizaje inolvidables para tus estudiantes con nuestros programas de estudio de campo diseñados por expertos. Contáctanos para personalizar tu aventura educativa.",
@@ -315,55 +745,55 @@
     }
   },
   "VideoPage": {
-  "hero": {
-    "title": "Galería de videos culturales",
-    "subtitle": "Descubra nuestra colección de programas culturales, actuaciones y documentales sobre el patrimonio."
-  },
-  "featured": {
-    "title": "Videos destacados",
-    "subtitle": "Mire los mejores momentos de nuestras iniciativas de intercambio cultural y programas creativos."
-  },
-  "videos": {
-    "festival": {
-      "title": "Momentos destacados del festival cultural",
-      "description": "Viva los mejores momentos de nuestro festival cultural anual.",
-      "type": "Festival"
+    "hero": {
+      "title": "Galería de videos culturales",
+      "subtitle": "Descubra nuestra colección de programas culturales, actuaciones y documentales sobre el patrimonio."
     },
-    "dance": {
-      "title": "Exhibición de danza tradicional",
-      "description": "Una mirada al rico patrimonio de danza africana en vivo.",
-      "type": "Danza"
+    "featured": {
+      "title": "Videos destacados",
+      "subtitle": "Mire los mejores momentos de nuestras iniciativas de intercambio cultural y programas creativos."
     },
-    "documentary": {
-      "title": "Documental de patrimonio",
-      "description": "Preservando sitios culturales a través del cine y la narración.",
-      "type": "Documental"
+    "videos": {
+      "festival": {
+        "title": "Momentos destacados del festival cultural",
+        "description": "Viva los mejores momentos de nuestro festival cultural anual.",
+        "type": "Festival"
+      },
+      "dance": {
+        "title": "Exhibición de danza tradicional",
+        "description": "Una mirada al rico patrimonio de danza africana en vivo.",
+        "type": "Danza"
+      },
+      "documentary": {
+        "title": "Documental de patrimonio",
+        "description": "Preservando sitios culturales a través del cine y la narración.",
+        "type": "Documental"
+      },
+      "music": {
+        "title": "Concierto de fusión musical",
+        "description": "Uniendo paisajes sonoros tradicionales y contemporáneos.",
+        "type": "Música"
+      },
+      "exhibition": {
+        "title": "Recorrido por la exposición de arte",
+        "description": "Un recorrido por nuestra más reciente exposición de artes visuales.",
+        "type": "Exposición"
+      }
     },
-    "music": {
-      "title": "Concierto de fusión musical",
-      "description": "Uniendo paisajes sonoros tradicionales y contemporáneos.",
-      "type": "Música"
-    },
-    "exhibition": {
-      "title": "Recorrido por la exposición de arte",
-      "description": "Un recorrido por nuestra más reciente exposición de artes visuales.",
-      "type": "Exposición"
+    "button": {
+      "getInvolved": "Participar"
     }
   },
-  "button": {
-    "getInvolved": "Participar"
-  }
-},
   "GalleryPage": {
-  "title": "Galería",
-  "images": {
-    "culturalDance": "Danza cultural",
-    "humanitarian": "Humanitario",
-    "artExhibition": "Arte y Exposición",
-    "events": "Eventos",
-    "governmentDelegation": "Delegación gubernamental"
-  }
-},
+    "title": "Galería",
+    "images": {
+      "culturalDance": "Danza cultural",
+      "humanitarian": "Humanitario",
+      "artExhibition": "Arte y Exposición",
+      "events": "Eventos",
+      "governmentDelegation": "Delegación gubernamental"
+    }
+  },
   "EventsPage": {
     "h2": "Próximos Eventos",
     "p": "No te pierdas estas emocionantes oportunidades para conectarte, aprender y celebrar la diversidad cultural.",

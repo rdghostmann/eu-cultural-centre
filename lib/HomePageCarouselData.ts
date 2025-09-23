@@ -26,7 +26,7 @@ export const HomePageCarouselData: Slide[] = [
   {
     image: "/homepageslideshow/front-page1.png",
     badge: "Connecting Cultures",
-    title: "Join Our Network,",
+    title: "Join Our Network",
     subtitle: "Transform Healthcare",
     description: "Promoting cultural dialogue and sustainable partnerships across continents.",
     primaryLink: { href: "#programs", text: "Get Involved" },
@@ -35,7 +35,7 @@ export const HomePageCarouselData: Slide[] = [
   {
     image: "/homepageslideshow/front-page2.png",
     badge: "Building Bridges",
-    title: "Empower Patients,",
+    title: "Empower Patients",
     subtitle: "Anytime, Anywhere",
     description: "Bridging Africa and Europe through shared heritage and innovation.",
     primaryLink: { href: "#programs", text: "Get Involved" },
@@ -53,7 +53,7 @@ export const HomePageCarouselData: Slide[] = [
   {
     image: "/homepageslideshow/front-page6.png",
     badge: "Art as a Universal Language",
-    title: "Unite Through Art,",
+    title: "Unite Through Art",
     subtitle: "Inspire Generations",
     description: "Art as a universal language connecting Africa and Europe.",
     primaryLink: { href: "#programs", text: "Explore Programs" },
