@@ -393,51 +393,49 @@
     },
     "areasTitle": "Forschungsspezialisierungen",
     "areasDescription": "Maßgeschneiderte Forschungsprogramme zur Unterstützung verschiedener akademischer Disziplinen und wissenschaftlicher Projekte.",
-    "areas": {
-      "culturalPolicy": {
-        "title": "Forschung zur Kulturpolitik",
-        "description": "Detaillierte Studien zu Kulturpolitik, Denkmalschutz und Rahmenbedingungen der Kunstentwicklung.",
-        "duration": "2-4 Wochen",
-        "features": [
-          "Politikanalyse",
-          "Interviews mit Beteiligten",
-          "Vergleichsstudien",
-          "Berichtserstellung"
-        ]
-      },
-      "archaeology": {
-        "title": "Archäologische Feldarbeit",
-        "description": "Praktische archäologische Forschung an aktiven Ausgrabungsstätten unter fachkundiger Aufsicht.",
-        "duration": "1-6 Wochen",
-        "features": [
-          "Ausgrabungen",
-          "Artefaktanalyse",
-          "Dokumentation",
-          "Laborarbeit"
-        ]
-      },
-      "ethnography": {
-        "title": "Ethnographische Studien",
-        "description": "Immersive Kulturforschung mit lokalen Gemeinschaften und Bewahrern traditionellen Wissens.",
-        "duration": "2-8 Wochen",
-        "features": [
-          "Gemeinschaftsarbeit",
-          "Mündliche Überlieferung",
-          "Kulturelles Mapping",
-          "Teilnehmende Beobachtung"
-        ]
-      },
-      "archive": {
-        "title": "Archive & Dokumentation",
-        "description": "Zugang zu seltenen Archiven, Manuskripten und historischen Dokumenten für wissenschaftliche Forschung.",
-        "duration": "1-4 Wochen",
-        "features": [
-          "Archivzugang",
-          "Digitalisierung",
-          "Katalogisierung",
-          "Forschungsunterstützung"
-        ]
-      }
+    "culturalPolicy": {
+      "title": "Forschung zur Kulturpolitik",
+      "description": "Detaillierte Studien zu Kulturpolitik, Denkmalschutz und Rahmenbedingungen der Kunstentwicklung.",
+      "duration": "2-4 Wochen",
+      "features": [
+        "Politikanalyse",
+        "Interviews mit Beteiligten",
+        "Vergleichsstudien",
+        "Berichtserstellung"
+      ]
+    },
+    "archaeology": {
+      "title": "Archäologische Feldarbeit",
+      "description": "Praktische archäologische Forschung an aktiven Ausgrabungsstätten unter fachkundiger Aufsicht.",
+      "duration": "1-6 Wochen",
+      "features": [
+        "Ausgrabungen",
+        "Artefaktanalyse",
+        "Dokumentation",
+        "Laborarbeit"
+      ]
+    },
+    "ethnography": {
+      "title": "Ethnographische Studien",
+      "description": "Immersive Kulturforschung mit lokalen Gemeinschaften und Bewahrern traditionellen Wissens.",
+      "duration": "2-8 Wochen",
+      "features": [
+        "Gemeinschaftsarbeit",
+        "Mündliche Überlieferung",
+        "Kulturelles Mapping",
+        "Teilnehmende Beobachtung"
+      ]
+    },
+    "archive": {
+      "title": "Archive & Dokumentation",
+      "description": "Zugang zu seltenen Archiven, Manuskripten und historischen Dokumenten für wissenschaftliche Forschung.",
+      "duration": "1-4 Wochen",
+      "features": [
+        "Archivzugang",
+        "Digitalisierung",
+        "Katalogisierung",
+        "Forschungsunterstützung"
+      ]
     },
     "supportTitle": "Umfassende Forschungsunterstützung",
     "supportDescription": "End-to-End-Services, um den Erfolg Ihres Forschungsprojekts von der Planung bis zur Veröffentlichung sicherzustellen.",

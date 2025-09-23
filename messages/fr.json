@@ -393,51 +393,49 @@
     },
     "areasTitle": "Spécialisations de Recherche",
     "areasDescription": "Programmes de recherche adaptés soutenant diverses disciplines académiques et projets scientifiques.",
-    "areas": {
-      "culturalPolicy": {
-        "title": "Recherche en Politiques Culturelles",
-        "description": "Études approfondies sur les politiques culturelles, la préservation du patrimoine et les cadres de développement artistique.",
-        "duration": "2-4 semaines",
-        "features": [
-          "Analyse des politiques",
-          "Entretiens avec les parties prenantes",
-          "Études comparatives",
-          "Rédaction de rapports"
-        ]
-      },
-      "archaeology": {
-        "title": "Travaux de Terrain Archéologiques",
-        "description": "Recherche archéologique pratique sur des sites de fouilles actifs avec supervision experte.",
-        "duration": "1-6 semaines",
-        "features": [
-          "Fouilles de sites",
-          "Analyse d’artefacts",
-          "Documentation",
-          "Travaux de laboratoire"
-        ]
-      },
-      "ethnography": {
-        "title": "Études Ethnographiques",
-        "description": "Recherche culturelle immersive avec les communautés locales et gardiens du savoir traditionnel.",
-        "duration": "2-8 semaines",
-        "features": [
-          "Engagement communautaire",
-          "Histoire orale",
-          "Cartographie culturelle",
-          "Observation participante"
-        ]
-      },
-      "archive": {
-        "title": "Archives et Documentation",
-        "description": "Accès à des archives rares, manuscrits et documents historiques pour la recherche académique.",
-        "duration": "1-4 semaines",
-        "features": [
-          "Accès aux archives",
-          "Numérisation",
-          "Catalogage",
-          "Assistance à la recherche"
-        ]
-      }
+    "culturalPolicy": {
+      "title": "Recherche en Politiques Culturelles",
+      "description": "Études approfondies sur les politiques culturelles, la préservation du patrimoine et les cadres de développement artistique.",
+      "duration": "2-4 semaines",
+      "features": [
+        "Analyse des politiques",
+        "Entretiens avec les parties prenantes",
+        "Études comparatives",
+        "Rédaction de rapports"
+      ]
+    },
+    "archaeology": {
+      "title": "Travaux de Terrain Archéologiques",
+      "description": "Recherche archéologique pratique sur des sites de fouilles actifs avec supervision experte.",
+      "duration": "1-6 semaines",
+      "features": [
+        "Fouilles de sites",
+        "Analyse d’artefacts",
+        "Documentation",
+        "Travaux de laboratoire"
+      ]
+    },
+    "ethnography": {
+      "title": "Études Ethnographiques",
+      "description": "Recherche culturelle immersive avec les communautés locales et gardiens du savoir traditionnel.",
+      "duration": "2-8 semaines",
+      "features": [
+        "Engagement communautaire",
+        "Histoire orale",
+        "Cartographie culturelle",
+        "Observation participante"
+      ]
+    },
+    "archive": {
+      "title": "Archives et Documentation",
+      "description": "Accès à des archives rares, manuscrits et documents historiques pour la recherche académique.",
+      "duration": "1-4 semaines",
+      "features": [
+        "Accès aux archives",
+        "Numérisation",
+        "Catalogage",
+        "Assistance à la recherche"
+      ]
     },
     "supportTitle": "Soutien Complet à la Recherche",
     "supportDescription": "Services de bout en bout pour garantir le succès de votre projet de recherche, de la planification à la publication.",

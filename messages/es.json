@@ -393,51 +393,49 @@
     },
     "areasTitle": "Especializaciones de Investigación",
     "areasDescription": "Programas de investigación adaptados que apoyan diversas disciplinas académicas y proyectos de investigación.",
-    "areas": {
-      "culturalPolicy": {
-        "title": "Investigación en Políticas Culturales",
-        "description": "Estudios profundos sobre políticas culturales, preservación del patrimonio y marcos de desarrollo artístico.",
-        "duration": "2-4 semanas",
-        "features": [
-          "Análisis de políticas",
-          "Entrevistas con actores",
-          "Estudios comparativos",
-          "Redacción de informes"
-        ]
-      },
-      "archaeology": {
-        "title": "Trabajo de Campo Arqueológico",
-        "description": "Investigación arqueológica práctica en sitios de excavación activos con supervisión experta.",
-        "duration": "1-6 semanas",
-        "features": [
-          "Excavación de sitios",
-          "Análisis de artefactos",
-          "Documentación",
-          "Trabajo de laboratorio"
-        ]
-      },
-      "ethnography": {
-        "title": "Estudios Etnográficos",
-        "description": "Investigación cultural inmersiva con comunidades locales y guardianes del conocimiento tradicional.",
-        "duration": "2-8 semanas",
-        "features": [
-          "Interacción comunitaria",
-          "Historia oral",
-          "Mapeo cultural",
-          "Observación participante"
-        ]
-      },
-      "archive": {
-        "title": "Archivos y Documentación",
-        "description": "Acceso a archivos raros, manuscritos y documentos históricos para investigación académica.",
-        "duration": "1-4 semanas",
-        "features": [
-          "Acceso a archivos",
-          "Escaneo digital",
-          "Catalogación",
-          "Asistencia en investigación"
-        ]
-      }
+    "culturalPolicy": {
+      "title": "Investigación en Políticas Culturales",
+      "description": "Estudios profundos sobre políticas culturales, preservación del patrimonio y marcos de desarrollo artístico.",
+      "duration": "2-4 semanas",
+      "features": [
+        "Análisis de políticas",
+        "Entrevistas con actores",
+        "Estudios comparativos",
+        "Redacción de informes"
+      ]
+    },
+    "archaeology": {
+      "title": "Trabajo de Campo Arqueológico",
+      "description": "Investigación arqueológica práctica en sitios de excavación activos con supervisión experta.",
+      "duration": "1-6 semanas",
+      "features": [
+        "Excavación de sitios",
+        "Análisis de artefactos",
+        "Documentación",
+        "Trabajo de laboratorio"
+      ]
+    },
+    "ethnography": {
+      "title": "Estudios Etnográficos",
+      "description": "Investigación cultural inmersiva con comunidades locales y guardianes del conocimiento tradicional.",
+      "duration": "2-8 semanas",
+      "features": [
+        "Interacción comunitaria",
+        "Historia oral",
+        "Mapeo cultural",
+        "Observación participante"
+      ]
+    },
+    "archive": {
+      "title": "Archivos y Documentación",
+      "description": "Acceso a archivos raros, manuscritos y documentos históricos para investigación académica.",
+      "duration": "1-4 semanas",
+      "features": [
+        "Acceso a archivos",
+        "Escaneo digital",
+        "Catalogación",
+        "Asistencia en investigación"
+      ]
     },
     "supportTitle": "Apoyo Integral a la Investigación",
     "supportDescription": "Servicios completos para garantizar el éxito de tu proyecto de investigación desde la planificación hasta la publicación.",
