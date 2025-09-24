@@ -589,48 +589,48 @@
     "areasTitle": "Spécialisations en recherche",
     "areasDescription": "Programmes de recherche adaptés soutenant diverses disciplines académiques et projets scientifiques.",
     "culturalPolicy": {
-      "title": "Recherche sur les politiques culturelles",
+      "title": "Recherche en politique culturelle",
       "description": "Études approfondies sur les politiques culturelles, la préservation du patrimoine et les cadres de développement artistique.",
       "duration": "2-4 semaines",
-      "features": [
-        "Analyse des politiques",
-        "Entretiens avec les acteurs",
-        "Études comparatives",
-        "Rédaction de rapports"
-      ]
+      "features": {
+        "analysis": "Analyse des politiques",
+        "interviews": "Entretiens avec les parties prenantes",
+        "comparative": "Études comparatives",
+        "report": "Compilation de rapports"
+      }
     },
     "archaeology": {
-      "title": "Travaux de terrain archéologiques",
-      "description": "Recherche archéologique pratique sur des sites de fouilles actifs avec encadrement d’experts.",
+      "title": "Travaux archéologiques",
+      "description": "Recherche archéologique pratique sur des sites de fouilles actives avec supervision d'experts.",
       "duration": "1-6 semaines",
-      "features": [
-        "Fouilles sur site",
-        "Analyse des artefacts",
-        "Documentation",
-        "Travaux de laboratoire"
-      ]
+      "features": {
+        "excavation": "Fouilles sur site",
+        "artifacts": "Analyse des artefacts",
+        "documentation": "Documentation",
+        "lab": "Travail en laboratoire"
+      }
     },
     "ethnography": {
       "title": "Études ethnographiques",
-      "description": "Recherche culturelle immersive auprès des communautés locales et des détenteurs de savoirs traditionnels.",
+      "description": "Recherche culturelle immersive avec des communautés locales et des gardiens de savoir traditionnel.",
       "duration": "2-8 semaines",
-      "features": [
-        "Engagement communautaire",
-        "Histoire orale",
-        "Cartographie culturelle",
-        "Observation participante"
-      ]
+      "features": {
+        "community": "Engagement communautaire",
+        "history": "Histoire orale",
+        "mapping": "Cartographie culturelle",
+        "observation": "Observation participante"
+      }
     },
     "archives": {
-      "title": "Archives & documentation",
+      "title": "Archives et documentation",
       "description": "Accès à des archives rares, manuscrits et documents historiques pour la recherche académique.",
       "duration": "1-4 semaines",
-      "features": [
-        "Accès aux archives",
-        "Numérisation",
-        "Catalogage",
-        "Assistance à la recherche"
-      ]
+      "features": {
+        "access": "Accès aux archives",
+        "scanning": "Numérisation",
+        "cataloguing": "Catalogage",
+        "assistance": "Assistance à la recherche"
+      }
     },
     "learnMore": "En savoir plus",
     "supportTitle": "Soutien complet à la recherche",

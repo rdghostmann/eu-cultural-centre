@@ -31,42 +31,53 @@ export default function ResearchToursPage() {
       description: t("culturalPolicy.description"),
       icon: <BookOpen className="h-6 w-6" />,
       duration: t("culturalPolicy.duration"),
-      features: ["Policy analysis", "Stakeholder interviews", "Comparative studies", "Report compilation"],
+      features: [
+        t("culturalPolicy.features.analysis"),
+        t("culturalPolicy.features.interviews"),
+        t("culturalPolicy.features.studies"),
+        t("culturalPolicy.features.report"),
+      ],
     },
     {
       title: t("archaeology.title"),
       description: t("archaeology.description"),
       icon: <Microscope className="h-6 w-6" />,
       duration: t("archaeology.duration"),
-      features: ["Site excavation", "Artifact analysis", "Documentation", "Lab work"],
+      features: [
+        t("culturalPolicy.features.analysis"),
+        t("culturalPolicy.features.interviews"),
+        t("culturalPolicy.features.studies"),
+        t("culturalPolicy.features.report"),
+      ],
     },
     {
       title: t("ethnography.title"),
       description: t("ethnography.description"),
       icon: <Users className="h-6 w-6" />,
       duration: t("ethnography.duration"),
-      features: ["Community engagement", "Oral history", "Cultural mapping", "Participant observation"],
+      features: [
+        t("ethnography.features.community"),
+        t("ethnography.features.history"),
+        t("ethnography.features.mapping"),
+        t("ethnography.features.observation"),
+      ],
     },
     {
       title: t("ethnography.title"),
       description: t("ethnography.description"),
       icon: <Users className="h-6 w-6" />,
       duration: t("ethnography.duration"),
-      features: ["Archive access", "Digital scanning", "Cataloguing", "Research assistance"],
+      features: [
+        t("archives.features.access"),
+        t("archives.features.scanning"),
+        t("archives.features.cataloguing"),
+        t("archives.features.assistance"),
+      ],
     },
   ]
 
-  const supportServices = [
-    "Research permit assistance",
-    "Local expert connections",
-    "Translation services",
-    "Accommodation arrangements",
-    "Transportation logistics",
-    "Equipment and materials",
-    "Data collection support",
-    "Publication assistance",
-  ]
-  
+  const supportServices = t.raw("supportServices")
+
   return (
     <div className="flex flex-col overflow-hidden">
       {/* Hero Section */}
@@ -248,7 +259,7 @@ export default function ResearchToursPage() {
             initial="hidden"
             animate={supportInView ? "visible" : "hidden"}
           >
-            {supportServices.map((service, index) => (
+            {supportServices.map((service:any, index:number) => (
               <motion.div
                 key={index}
                 className="bg-white flex flex-col items-center justify-center p-6 rounded-lg shadow-sm text-center"

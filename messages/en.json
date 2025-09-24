@@ -592,45 +592,45 @@
       "title": "Cultural Policy Research",
       "description": "In-depth studies on cultural policies, heritage preservation, and arts development frameworks.",
       "duration": "2-4 weeks",
-      "features": [
-        "Policy analysis",
-        "Stakeholder interviews",
-        "Comparative studies",
-        "Report compilation"
-      ]
+      "features": {
+        "analysis": "Policy analysis",
+        "interviews": "Stakeholder interviews",
+        "comparative": "Comparative studies",
+        "report": "Report compilation"
+      }
     },
     "archaeology": {
       "title": "Archaeological Fieldwork",
       "description": "Hands-on archaeological research at active excavation sites with expert supervision.",
       "duration": "1-6 weeks",
-      "features": [
-        "Site excavation",
-        "Artifact analysis",
-        "Documentation",
-        "Lab work"
-      ]
+      "features": {
+        "excavation": "Site excavation",
+        "artifacts": "Artifact analysis",
+        "documentation": "Documentation",
+        "lab": "Lab work"
+      }
     },
     "ethnography": {
       "title": "Ethnographic Studies",
       "description": "Immersive cultural research with local communities and traditional knowledge keepers.",
       "duration": "2-8 weeks",
-      "features": [
-        "Community engagement",
-        "Oral history",
-        "Cultural mapping",
-        "Participant observation"
-      ]
+      "features": {
+        "community": "Community engagement",
+        "history": "Oral history",
+        "mapping": "Cultural mapping",
+        "observation": "Participant observation"
+      }
     },
     "archives": {
       "title": "Archive & Documentation",
       "description": "Access to rare archives, manuscripts, and historical documents for scholarly research.",
       "duration": "1-4 weeks",
-      "features": [
-        "Archive access",
-        "Digital scanning",
-        "Cataloguing",
-        "Research assistance"
-      ]
+      "features": {
+        "access": "Archive access",
+        "scanning": "Digital scanning",
+        "cataloguing": "Cataloguing",
+        "assistance": "Research assistance"
+      }
     },
     "learnMore": "Learn More",
     "supportTitle": "Comprehensive Research Support",
