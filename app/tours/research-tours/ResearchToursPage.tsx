@@ -34,7 +34,7 @@ export default function ResearchToursPage() {
       features: [
         t("culturalPolicy.features.analysis"),
         t("culturalPolicy.features.interviews"),
-        t("culturalPolicy.features.studies"),
+        t("culturalPolicy.features.comparative"),
         t("culturalPolicy.features.report"),
       ],
     },
@@ -44,10 +44,10 @@ export default function ResearchToursPage() {
       icon: <Microscope className="h-6 w-6" />,
       duration: t("archaeology.duration"),
       features: [
-        t("culturalPolicy.features.analysis"),
-        t("culturalPolicy.features.interviews"),
-        t("culturalPolicy.features.studies"),
-        t("culturalPolicy.features.report"),
+        t("archaeology.features.excavation"),
+        t("archaeology.features.artifacts"),
+        t("archaeology.features.documentation"),
+        t("archaeology.features.lab"),
       ],
     },
     {
