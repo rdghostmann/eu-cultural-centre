@@ -281,9 +281,9 @@ export default function ResearchToursPage() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-3xl lg:text-4xl font-bold text-ecc-slate mb-4">Application Process</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold text-ecc-slate mb-4">{t("processTitle")}</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Simple steps to begin your research journey with ECC Nigeria.
+              {t("processDescription")}
             </p>
           </motion.div>
 
@@ -297,18 +297,18 @@ export default function ResearchToursPage() {
             {[
               {
                 step: "1",
-                title: "Submit Proposal",
-                description: "Send us your research proposal with objectives, methodology, and timeline.",
+                title: t("processSteps.step1.title"),
+                description: t("processSteps.step1.description"),
               },
               {
                 step: "2",
-                title: "Review & Planning",
-                description: "Our team reviews your proposal and develops a customized support plan.",
+                title: t("processSteps.step2.title"),
+                description: t("processSteps.step2.description"),
               },
               {
                 step: "3",
-                title: "Begin Research",
-                description: "Start your research with full logistical and academic support from our team.",
+                title: t("processSteps.step3.title"),
+                description: t("processSteps.step3.description"),
               },
             ].map((step, index) => (
               <motion.div key={index} variants={staggerItem} whileHover={hoverLift}>
@@ -333,13 +333,13 @@ export default function ResearchToursPage() {
         </div>
       </section>
 
-      {/* CTA Section */}
+      {/* CTASection */}
       <CTASection
-        title="Ready to Begin Your Research?"
-        description="Join leading scholars and researchers in advancing your work through our comprehensive research support programs. Start your academic journey with ECC Nigeria today."
-        primaryLabel="Submit Research Proposal"
+        title={t("ctaTitle")}
+        description={t("ctaDescription")}
+        primaryLabel={t("ctaPrimary")}
         primaryHref="/contact"
-        secondaryLabel="Apply for Residency"
+        secondaryLabel={t("ctaSecondary")}
         secondaryHref="/contact"
       />
     </div>
