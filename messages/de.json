@@ -157,7 +157,116 @@
     "gallery": "Galerie",
     "getInvolved": "Mitmachen"
   },
-   "ExhibitionPage": {
+  "CooperationPage": {
+    "programs": {
+      "title": "Kooperationsprogramme",
+      "subtitle": "Umfassende Programme, die Verbindungen zwischen Menschen und institutionelle Partnerschaften über Kontinente hinweg fördern."
+    },
+    "culturalDiplomacy": {
+      "title": "Kulturelle Diplomatie & Dialogforen",
+      "description": "Hochrangige kulturelle Diplomatieinitiativen zur Förderung des Verständnisses zwischen Nationen und Völkern.",
+      "impact": "25+ diplomatische Missionen",
+      "features": {
+        "exchanges": "Diplomatische Austausche",
+        "dialogues": "Politische Dialoge",
+        "showcases": "Kulturelle Präsentationen",
+        "forums": "Internationale Foren"
+      }
+    },
+    "internationalPartnerships": {
+      "title": "Internationale Partnerschaften",
+      "description": "Strategische Partnerschaften mit Botschaften, Kulturinstituten und internationalen Organisationen.",
+      "impact": "50+ aktive Partnerschaften",
+      "features": {
+        "embassy": "Botschaftspartnerschaften",
+        "institutes": "Kulturinstitute",
+        "ngos": "NGO-Kooperationen",
+        "academic": "Akademische Partnerschaften"
+      }
+    },
+    "peacebuilding": {
+      "title": "Friedensförderung durch Kultur",
+      "description": "Nutzung kultureller Aktivitäten und Austausche zur Förderung von Frieden und Versöhnung.",
+      "impact": "10+ Friedensinitiativen",
+      "features": {
+        "conflict": "Konfliktlösung",
+        "education": "Friedenserziehung",
+        "healing": "Kulturelle Heilung",
+        "dialogue": "Gemeindedialog"
+      }
+    },
+    "communityNetworking": {
+      "title": "Community-Netzwerkplattformen",
+      "description": "Digitale und physische Plattformen, die Gemeinschaften in Europa und Afrika verbinden.",
+      "impact": "5.000+ Gemeinschaftsmitglieder",
+      "features": {
+        "platforms": "Online-Plattformen",
+        "events": "Gemeinschaftsveranstaltungen",
+        "sessions": "Netzwerksitzungen",
+        "sharing": "Wissensaustausch"
+      }
+    },
+    "civilSociety": {
+      "title": "Verbindungen zur Zivilgesellschaft",
+      "description": "Verknüpfung von zivilgesellschaftlichen Organisationen über Kontinente hinweg für gemeinsame Aktionen.",
+      "impact": "100+ Organisationen verbunden",
+      "features": {
+        "networks": "NGO-Netzwerke",
+        "campaigns": "Advocacy-Kampagnen",
+        "capacity": "Kapazitätsaufbau",
+        "resources": "Ressourcenaustausch"
+      }
+    },
+    "governmentTours": {
+      "title": "Regierungsreisen & Delegationen",
+      "description": "Unterstützung offizieller Regierungsbesuche und kultureller Diplomatiemissionen.",
+      "impact": "30+ Regierungsdelegationen",
+      "features": {
+        "visits": "Offizielle Besuche",
+        "protocol": "Protokollunterstützung",
+        "programming": "Kulturelle Programme",
+        "agreements": "Bilaterale Abkommen"
+      }
+    },
+    "partnerships": {
+      "title": "Wichtige Partnerschaften",
+      "subtitle": "Strategische Partnerschaften mit führenden Institutionen, Botschaften und Organisationen, die internationale Zusammenarbeit fördern.",
+      "list": {
+        "euDelegation": {
+          "name": "Delegation der Europäischen Union",
+          "type": "Diplomatische Mission",
+          "focus": "Kulturpolitik & Austausch",
+          "established": "Seit 2020"
+        },
+        "britishCouncil": {
+          "name": "British Council Nigeria",
+          "type": "Kulturinstitut",
+          "focus": "Bildung & Kunst",
+          "established": "Seit 2019"
+        },
+        "goetheInstitut": {
+          "name": "Goethe-Institut",
+          "type": "Kulturinstitut",
+          "focus": "Sprache & Kultur",
+          "established": "Seit 2021"
+        },
+        "africanUnion": {
+          "name": "Kommission der Afrikanischen Union",
+          "type": "Internationale Organisation",
+          "focus": "Kontinentale Integration",
+          "established": "Seit 2022"
+        }
+      }
+    },
+    "cta": {
+      "title": "Bereit, Partnerschaften aufzubauen?",
+      "description": "Treten Sie unserem Netzwerk von Partnern bei, die daran arbeiten, Verbindungen zwischen Menschen über Kontinente hinweg zu stärken.",
+      "primaryLabel": "Partnerschaft beginnen",
+      "secondaryLabel": "Delegation arrangieren"
+    },
+    "learnMore": "Mehr erfahren"
+  },
+  "ExhibitionPage": {
     "hero": {
       "title": "Ausstellung & Konferenz",
       "subtitle": "Unsere Veranstaltung, Ausstellung und Konferenz zur Präsentation des Kulturerbes."

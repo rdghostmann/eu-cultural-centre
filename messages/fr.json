@@ -157,6 +157,115 @@
     "gallery": "Galerie",
     "getInvolved": "S’impliquer"
   },
+  "CooperationPage": {
+    "programs": {
+      "title": "Programmes de coopération",
+      "subtitle": "Programmes complets favorisant les connexions entre les peuples et les partenariats institutionnels à travers les continents."
+    },
+    "culturalDiplomacy": {
+      "title": "Diplomatie culturelle et forums de dialogue",
+      "description": "Initiatives de diplomatie culturelle de haut niveau favorisant la compréhension entre nations et peuples.",
+      "impact": "25+ missions diplomatiques",
+      "features": {
+        "exchanges": "Échanges diplomatiques",
+        "dialogues": "Dialogues politiques",
+        "showcases": "Présentations culturelles",
+        "forums": "Forums internationaux"
+      }
+    },
+    "internationalPartnerships": {
+      "title": "Partenariats internationaux",
+      "description": "Partenariats stratégiques avec les ambassades, instituts culturels et organisations internationales.",
+      "impact": "50+ partenariats actifs",
+      "features": {
+        "embassy": "Partenariats avec les ambassades",
+        "institutes": "Instituts culturels",
+        "ngos": "Collaborations ONG",
+        "academic": "Partenariats académiques"
+      }
+    },
+    "peacebuilding": {
+      "title": "Consolidation de la paix par la culture",
+      "description": "Utiliser les activités culturelles et les échanges pour promouvoir la paix et la réconciliation.",
+      "impact": "10+ initiatives de paix",
+      "features": {
+        "conflict": "Résolution des conflits",
+        "education": "Éducation à la paix",
+        "healing": "Guérison culturelle",
+        "dialogue": "Dialogue communautaire"
+      }
+    },
+    "communityNetworking": {
+      "title": "Plateformes de mise en réseau communautaire",
+      "description": "Plateformes numériques et physiques connectant les communautés d’Europe et d’Afrique.",
+      "impact": "5 000+ membres communautaires",
+      "features": {
+        "platforms": "Plateformes en ligne",
+        "events": "Événements communautaires",
+        "sessions": "Sessions de réseautage",
+        "sharing": "Partage de connaissances"
+      }
+    },
+    "civilSociety": {
+      "title": "Liens avec la société civile",
+      "description": "Connecter les organisations de la société civile à travers les continents pour des actions collaboratives.",
+      "impact": "100+ organisations connectées",
+      "features": {
+        "networks": "Réseaux d’ONG",
+        "campaigns": "Campagnes de plaidoyer",
+        "capacity": "Renforcement des capacités",
+        "resources": "Partage de ressources"
+      }
+    },
+    "governmentTours": {
+      "title": "Visites et délégations gouvernementales",
+      "description": "Facilitation des visites officielles et des missions de diplomatie culturelle.",
+      "impact": "30+ délégations gouvernementales",
+      "features": {
+        "visits": "Visites officielles",
+        "protocol": "Soutien au protocole",
+        "programming": "Programmation culturelle",
+        "agreements": "Accords bilatéraux"
+      }
+    },
+    "partnerships": {
+      "title": "Partenariats clés",
+      "subtitle": "Partenariats stratégiques avec des institutions, ambassades et organisations de premier plan favorisant la coopération internationale.",
+      "list": {
+        "euDelegation": {
+          "name": "Délégation de l’Union européenne",
+          "type": "Mission diplomatique",
+          "focus": "Politique culturelle & échanges",
+          "established": "Établi en 2020"
+        },
+        "britishCouncil": {
+          "name": "British Council Nigeria",
+          "type": "Institut culturel",
+          "focus": "Éducation & arts",
+          "established": "Établi en 2019"
+        },
+        "goetheInstitut": {
+          "name": "Goethe Institut",
+          "type": "Institut culturel",
+          "focus": "Langue & culture",
+          "established": "Établi en 2021"
+        },
+        "africanUnion": {
+          "name": "Commission de l’Union africaine",
+          "type": "Organisation internationale",
+          "focus": "Intégration continentale",
+          "established": "Établi en 2022"
+        }
+      }
+    },
+    "cta": {
+      "title": "Prêt à construire des partenariats ?",
+      "description": "Rejoignez notre réseau de partenaires travaillant à renforcer les connexions entre les peuples à travers les continents.",
+      "primaryLabel": "Commencer un partenariat",
+      "secondaryLabel": "Organiser une délégation"
+    },
+    "learnMore": "En savoir plus"
+  },
   "ExhibitionPage": {
     "hero": {
       "title": "Exposition & Conférence",

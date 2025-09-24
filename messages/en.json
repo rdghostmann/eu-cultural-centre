@@ -157,6 +157,115 @@
     "gallery": "Gallery",
     "getInvolved": "Get Involved"
   },
+  "CooperationPage": {
+    "programs": {
+      "title": "Cooperation Programs",
+      "subtitle": "Comprehensive programs fostering people-to-people connections and institutional partnerships across continents."
+    },
+    "culturalDiplomacy": {
+      "title": "Cultural Diplomacy & Dialogue Forums",
+      "description": "High-level cultural diplomacy initiatives fostering understanding between nations and peoples.",
+      "impact": "25+ diplomatic missions",
+      "features": {
+        "exchanges": "Diplomatic exchanges",
+        "dialogues": "Policy dialogues",
+        "showcases": "Cultural showcases",
+        "forums": "International forums"
+      }
+    },
+    "internationalPartnerships": {
+      "title": "International Partnerships",
+      "description": "Strategic partnerships with embassies, cultural institutes, and international organizations.",
+      "impact": "50+ active partnerships",
+      "features": {
+        "embassy": "Embassy partnerships",
+        "institutes": "Cultural institutes",
+        "ngos": "NGO collaborations",
+        "academic": "Academic partnerships"
+      }
+    },
+    "peacebuilding": {
+      "title": "Peacebuilding through Culture",
+      "description": "Using cultural activities and exchanges to promote peace and reconciliation.",
+      "impact": "10+ peace initiatives",
+      "features": {
+        "conflict": "Conflict resolution",
+        "education": "Peace education",
+        "healing": "Cultural healing",
+        "dialogue": "Community dialogue"
+      }
+    },
+    "communityNetworking": {
+      "title": "Community Networking Platforms",
+      "description": "Digital and physical platforms connecting communities across Europe and Africa.",
+      "impact": "5,000+ community members",
+      "features": {
+        "platforms": "Online platforms",
+        "events": "Community events",
+        "sessions": "Networking sessions",
+        "sharing": "Knowledge sharing"
+      }
+    },
+    "civilSociety": {
+      "title": "Civil Society Linkages",
+      "description": "Connecting civil society organizations across continents for collaborative action.",
+      "impact": "100+ organizations connected",
+      "features": {
+        "networks": "NGO networks",
+        "campaigns": "Advocacy campaigns",
+        "capacity": "Capacity building",
+        "resources": "Resource sharing"
+      }
+    },
+    "governmentTours": {
+      "title": "Government Tours & Delegations",
+      "description": "Facilitating official government visits and cultural diplomacy missions.",
+      "impact": "30+ government delegations",
+      "features": {
+        "visits": "Official visits",
+        "protocol": "Protocol support",
+        "programming": "Cultural programming",
+        "agreements": "Bilateral agreements"
+      }
+    },
+    "partnerships": {
+      "title": "Key Partnerships",
+      "subtitle": "Strategic partnerships with leading institutions, embassies, and organizations driving international cooperation.",
+      "list": {
+        "euDelegation": {
+          "name": "European Union Delegation",
+          "type": "Diplomatic Mission",
+          "focus": "Cultural Policy & Exchange",
+          "established": "Est. 2020"
+        },
+        "britishCouncil": {
+          "name": "British Council Nigeria",
+          "type": "Cultural Institute",
+          "focus": "Education & Arts",
+          "established": "Est. 2019"
+        },
+        "goetheInstitut": {
+          "name": "Goethe Institut",
+          "type": "Cultural Institute",
+          "focus": "Language & Culture",
+          "established": "Est. 2021"
+        },
+        "africanUnion": {
+          "name": "African Union Commission",
+          "type": "International Organization",
+          "focus": "Continental Integration",
+          "established": "Est. 2022"
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready to Build Partnerships?",
+      "description": "Join our network of partners working to strengthen people-to-people connections across continents.",
+      "primaryLabel": "Start a Partnership",
+      "secondaryLabel": "Arrange a Delegation"
+    },
+    "learnMore": "Learn More"
+  },
   "ExhibitionPage": {
     "hero": {
       "title": "Exhibition & Conference",
