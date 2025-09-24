@@ -158,115 +158,139 @@
     "getInvolved": "Mitmachen"
   },
   "CulturalHeritageTours": {
-  "heroBadge": "Kulturelle Erbtouren",
-  "heroTitle": "Entdecken Sie lebendiges Erbe und alte Traditionen",
-  "heroDescription": "Reisen Sie durch die Zeit mit fachkundig geführten Touren zu UNESCO-Welterbestätten, traditionellen Festen und kulturellen Wahrzeichen, die Afrikas reiches Erbe bewahren.",
-  "heroPrimary": "Touren erkunden",
-  "heroSecondary": "Eine Erbtour buchen",
-  "quickInfo": {
-    "duration": {
-      "title": "Dauer",
-      "value": "1-5 Tage"
-    },
-    "groupSize": {
-      "title": "Gruppengröße",
-      "value": "8-25 Personen"
-    },
-    "photography": {
-      "title": "Fotografie",
-      "value": "Erlaubt"
-    },
-    "insurance": {
-      "title": "Versicherung",
-      "value": "Inklusive"
-    }
-  },
-  "tours": {
-    "title": "Kategorien von Erbtouren",
-    "description": "Wählen Sie aus unserer kuratierten Auswahl an Kulturerlebnissen.",
-    "items": [
-      {
-        "title": "Alte Kulturerbestätten",
-        "description": "Erkunden Sie jahrtausendealte archäologische Stätten mit erfahrenen Historikern und Archäologen.",
-        "duration": "3-5 Tage",
-        "highlights": [
-          "Archäologische Ausgrabungen",
-          "Antike Artefakte",
-          "Historische Erzählungen",
-          "Konservierungsbemühungen"
-        ]
+    "heroBadge": "Kulturelle Erbtouren",
+    "heroTitle": "Entdecken Sie lebendiges Erbe und alte Traditionen",
+    "heroDescription": "Reisen Sie durch die Zeit mit fachkundig geführten Touren zu UNESCO-Welterbestätten, traditionellen Festen und kulturellen Wahrzeichen, die Afrikas reiches Erbe bewahren.",
+    "heroPrimary": "Touren erkunden",
+    "heroSecondary": "Eine Erbtour buchen",
+    "quickInfo": {
+      "duration": {
+        "title": "Dauer",
+        "value": "1-5 Tage"
       },
-      {
-        "title": "Kulturelle Feste & Traditionen",
-        "description": "Tauchen Sie ein in lebendige Traditionen durch Feste, Zeremonien und kulturelle Feiern.",
-        "duration": "2-4 Tage",
-        "highlights": [
-          "Traditionelle Zeremonien",
-          "Lokale Handwerker",
-          "Kulturelle Aufführungen",
-          "Gemeinschaftliche Beteiligung"
-        ]
+      "groupSize": {
+        "title": "Gruppengröße",
+        "value": "8-25 Personen"
       },
-      {
-        "title": "Kunst- & Handwerkserbe",
-        "description": "Entdecken Sie traditionelle Handwerke, künstlerische Techniken und kreative Erhaltung des Erbes.",
-        "duration": "2-3 Tage",
-        "highlights": [
-          "Meisterhandwerker",
-          "Traditionelle Techniken",
-          "Praktische Workshops",
-          "Kunstsammlungen"
-        ]
+      "photography": {
+        "title": "Fotografie",
+        "value": "Erlaubt"
       },
-      {
-        "title": "Heilige & spirituelle Stätten",
-        "description": "Besuchen Sie heilige Orte und lernen Sie spirituelle Traditionen und religiöses Erbe kennen.",
-        "duration": "1-3 Tage",
-        "highlights": [
-          "Heilige Architektur",
-          "Spirituelle Praktiken",
-          "Religiöse Kunst",
-          "Pilgerwege"
-        ]
+      "insurance": {
+        "title": "Versicherung",
+        "value": "Inklusive"
       }
-    ],
-    "learnMore": "Mehr erfahren"
-  },
-  "itinerary": {
-    "title": "Beispieltagestour: Osun-Osogbo Sacred Grove",
-    "description": "Erleben Sie Nigerias UNESCO-Welterbestätte mit erfahrenen Guides und kultureller Immersion.",
-    "items": [
-      { "time": "8:00", "activity": "Abholung im Hotel und Abfahrt", "location": "Stadtzentrum Lagos" },
-      { "time": "10:30", "activity": "Ankunft im Osun-Osogbo Sacred Grove", "location": "Osogbo, Bundesstaat Osun" },
-      { "time": "11:00", "activity": "Geführte Tour mit UNESCO-Erbe-Experte", "location": "Sacred Grove" },
-      { "time": "13:00", "activity": "Traditionelles Mittagessen mit der lokalen Gemeinschaft", "location": "Osogbo-Palast" },
-      { "time": "15:00", "activity": "Osogbo Kunstgalerie und Handwerksworkshops", "location": "Nike Art Gallery" },
-      { "time": "17:00", "activity": "Kulturelle Aufführung und Geschichtenerzählen", "location": "Gemeindezentrum" },
-      { "time": "19:00", "activity": "Rückfahrt nach Lagos", "location": "Abfahrt" }
-    ]
-  },
-  "testimonials": {
-    "title": "Was unsere Gäste sagen",
-    "items": [
-      {
+    },
+    "tours": {
+      "title": "Kategorien von Erbtouren",
+      "description": "Wählen Sie aus unserer kuratierten Auswahl an Kulturerlebnissen.",
+      "items": [
+        {
+          "title": "Alte Kulturerbestätten",
+          "description": "Erkunden Sie jahrtausendealte archäologische Stätten mit erfahrenen Historikern und Archäologen.",
+          "duration": "3-5 Tage",
+          "highlights": [
+            "Archäologische Ausgrabungen",
+            "Antike Artefakte",
+            "Historische Erzählungen",
+            "Konservierungsbemühungen"
+          ]
+        },
+        {
+          "title": "Kulturelle Feste & Traditionen",
+          "description": "Tauchen Sie ein in lebendige Traditionen durch Feste, Zeremonien und kulturelle Feiern.",
+          "duration": "2-4 Tage",
+          "highlights": [
+            "Traditionelle Zeremonien",
+            "Lokale Handwerker",
+            "Kulturelle Aufführungen",
+            "Gemeinschaftliche Beteiligung"
+          ]
+        },
+        {
+          "title": "Kunst- & Handwerkserbe",
+          "description": "Entdecken Sie traditionelle Handwerke, künstlerische Techniken und kreative Erhaltung des Erbes.",
+          "duration": "2-3 Tage",
+          "highlights": [
+            "Meisterhandwerker",
+            "Traditionelle Techniken",
+            "Praktische Workshops",
+            "Kunstsammlungen"
+          ]
+        },
+        {
+          "title": "Heilige & spirituelle Stätten",
+          "description": "Besuchen Sie heilige Orte und lernen Sie spirituelle Traditionen und religiöses Erbe kennen.",
+          "duration": "1-3 Tage",
+          "highlights": [
+            "Heilige Architektur",
+            "Spirituelle Praktiken",
+            "Religiöse Kunst",
+            "Pilgerwege"
+          ]
+        }
+      ],
+      "learnMore": "Mehr erfahren"
+    },
+    "itinerary": {
+      "title": "Beispieltagestour: Osun-Osogbo Sacred Grove",
+      "description": "Erleben Sie Nigerias UNESCO-Welterbestätte mit erfahrenen Guides und kultureller Immersion.",
+      "items": [
+        {
+          "time": "8:00",
+          "activity": "Abholung im Hotel und Abfahrt",
+          "location": "Stadtzentrum Lagos"
+        },
+        {
+          "time": "10:30",
+          "activity": "Ankunft im Osun-Osogbo Sacred Grove",
+          "location": "Osogbo, Bundesstaat Osun"
+        },
+        {
+          "time": "11:00",
+          "activity": "Geführte Tour mit UNESCO-Erbe-Experte",
+          "location": "Sacred Grove"
+        },
+        {
+          "time": "13:00",
+          "activity": "Traditionelles Mittagessen mit der lokalen Gemeinschaft",
+          "location": "Osogbo-Palast"
+        },
+        {
+          "time": "15:00",
+          "activity": "Osogbo Kunstgalerie und Handwerksworkshops",
+          "location": "Nike Art Gallery"
+        },
+        {
+          "time": "17:00",
+          "activity": "Kulturelle Aufführung und Geschichtenerzählen",
+          "location": "Gemeindezentrum"
+        },
+        {
+          "time": "19:00",
+          "activity": "Rückfahrt nach Lagos",
+          "location": "Abfahrt"
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "Was unsere Gäste sagen",
+      "items": {
         "name": "Dr. Maria Santos",
         "role": "Kulturanthropologin",
-        "text": "Die Erbtour bot unglaubliche Einblicke in die kulturellen Traditionen Nigerias. Die erfahrenen Guides ließen Geschichte lebendig werden."
-      },
-      {
-        "name": "James Mitchell",
-        "role": "Reisefotograf",
-        "text": "Eine unvergessliche Reise durch lebendiges Erbe. Der Zugang zu heiligen Stätten und kulturellen Zeremonien war außergewöhnlich."
+        "text": "Die Erbtour bot unglaubliche Einblicke in die kulturellen Traditionen Nigerias. Die erfahrenen Guides ließen Geschichte lebendig werden.",
+        "name1": "James Mitchell",
+        "role1": "Reisefotograf",
+        "text1": "Eine unvergessliche Reise durch lebendiges Erbe. Der Zugang zu heiligen Stätten und kulturellen Zeremonien war außergewöhnlich."
       }
-    ]
+    },
+    "cta": {
+      "title": "Bereit, das kulturelle Erbe zu erkunden?",
+      "description": "Buchen Sie noch heute Ihre Erbtour und erleben Sie Afrikas lebendige Traditionen, alte Stätten und farbenfrohe Feste mit erfahrenen Guides.",
+      "primary": "Eine Erbtour buchen",
+      "secondary": "Individuelle Touranfrage"
+    }
   },
-  "cta": {
-    "title": "Bereit, das kulturelle Erbe zu erkunden?",
-    "description": "Buchen Sie noch heute Ihre Erbtour und erleben Sie Afrikas lebendige Traditionen, alte Stätten und farbenfrohe Feste mit erfahrenen Guides.",
-    "primary": "Eine Erbtour buchen",
-    "secondary": "Individuelle Touranfrage"
-  }
-},
   "SportsTours": {
     "badge": "Sportreisen & Turniere",
     "heroTitle": "Sportliche Exzellenz & Kulturaustausch",

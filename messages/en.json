@@ -275,18 +275,14 @@
     },
     "testimonials": {
       "title": "What Our Guests Say",
-      "items": [
-        {
-          "name": "Dr. Maria Santos",
-          "role": "Cultural Anthropologist",
-          "text": "The heritage tour provided incredible insights into Nigeria's cultural traditions. The expert guides made history come alive."
-        },
-        {
-          "name": "James Mitchell",
-          "role": "Travel Photographer",
-          "text": "An unforgettable life's journey through living heritage. The access to sacred sites and cultural ceremonies was extraordinary."
-        }
-      ]
+      "items": {
+        "name": "Dr. Maria Santos",
+        "role": "Cultural Anthropologist",
+        "text": "The heritage tour provided incredible insights into Nigeria's cultural traditions. The expert guides made history come alive.",
+        "name1": "James Mitchell",
+        "role1": "Travel Photographer",
+        "text1": "An unforgettable life's journey through living heritage. The access to sacred sites and cultural ceremonies was extraordinary."
+      }
     },
     "cta": {
       "title": "Ready to Explore Cultural Heritage?",

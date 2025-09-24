@@ -158,115 +158,139 @@
     "getInvolved": "S’impliquer"
   },
   "CulturalHeritageTours": {
-  "heroBadge": "Tours du patrimoine culturel",
-  "heroTitle": "Découvrez le patrimoine vivant et les traditions anciennes",
-  "heroDescription": "Voyagez dans le temps avec des visites guidées d’experts vers des sites du patrimoine mondial de l’UNESCO, des festivals traditionnels et des monuments culturels qui préservent la riche histoire de l’Afrique.",
-  "heroPrimary": "Explorer les visites",
-  "heroSecondary": "Réserver une visite patrimoniale",
-  "quickInfo": {
-    "duration": {
-      "title": "Durée",
-      "value": "1-5 jours"
-    },
-    "groupSize": {
-      "title": "Taille du groupe",
-      "value": "8-25 personnes"
-    },
-    "photography": {
-      "title": "Photographie",
-      "value": "Autorisée"
-    },
-    "insurance": {
-      "title": "Assurance",
-      "value": "Incluse"
-    }
-  },
-  "tours": {
-    "title": "Catégories de visites patrimoniales",
-    "description": "Choisissez parmi notre sélection d’expériences de patrimoine culturel.",
-    "items": [
-      {
-        "title": "Sites patrimoniaux anciens",
-        "description": "Explorez des sites archéologiques millénaires avec des historiens et archéologues experts.",
-        "duration": "3-5 jours",
-        "highlights": [
-          "Fouilles archéologiques",
-          "Artefacts anciens",
-          "Récits historiques",
-          "Efforts de conservation"
-        ]
+    "heroBadge": "Tours du patrimoine culturel",
+    "heroTitle": "Découvrez le patrimoine vivant et les traditions anciennes",
+    "heroDescription": "Voyagez dans le temps avec des visites guidées d’experts vers des sites du patrimoine mondial de l’UNESCO, des festivals traditionnels et des monuments culturels qui préservent la riche histoire de l’Afrique.",
+    "heroPrimary": "Explorer les visites",
+    "heroSecondary": "Réserver une visite patrimoniale",
+    "quickInfo": {
+      "duration": {
+        "title": "Durée",
+        "value": "1-5 jours"
       },
-      {
-        "title": "Festivals et traditions culturelles",
-        "description": "Immergez-vous dans les traditions vivantes à travers festivals, cérémonies et célébrations culturelles.",
-        "duration": "2-4 jours",
-        "highlights": [
-          "Cérémonies traditionnelles",
-          "Artisans locaux",
-          "Performances culturelles",
-          "Engagement communautaire"
-        ]
+      "groupSize": {
+        "title": "Taille du groupe",
+        "value": "8-25 personnes"
       },
-      {
-        "title": "Art et artisanat patrimoniaux",
-        "description": "Découvrez les métiers traditionnels, les techniques artistiques et la préservation créative du patrimoine.",
-        "duration": "2-3 jours",
-        "highlights": [
-          "Maîtres artisans",
-          "Techniques traditionnelles",
-          "Ateliers pratiques",
-          "Collections d’art"
-        ]
+      "photography": {
+        "title": "Photographie",
+        "value": "Autorisée"
       },
-      {
-        "title": "Sites sacrés et spirituels",
-        "description": "Visitez des lieux sacrés et découvrez les traditions spirituelles et le patrimoine religieux.",
-        "duration": "1-3 jours",
-        "highlights": [
-          "Architecture sacrée",
-          "Pratiques spirituelles",
-          "Art religieux",
-          "Itinéraires de pèlerinage"
-        ]
+      "insurance": {
+        "title": "Assurance",
+        "value": "Incluse"
       }
-    ],
-    "learnMore": "En savoir plus"
-  },
-  "itinerary": {
-    "title": "Exemple de visite d’une journée : Osun-Osogbo Sacred Grove",
-    "description": "Découvrez le site nigérian du patrimoine mondial de l’UNESCO avec des guides experts et une immersion culturelle.",
-    "items": [
-      { "time": "8:00", "activity": "Prise en charge à l’hôtel et départ", "location": "Centre-ville de Lagos" },
-      { "time": "10:30", "activity": "Arrivée à Osun-Osogbo Sacred Grove", "location": "Osogbo, État d’Osun" },
-      { "time": "11:00", "activity": "Visite guidée avec un expert du patrimoine de l’UNESCO", "location": "Sacred Grove" },
-      { "time": "13:00", "activity": "Déjeuner traditionnel avec la communauté locale", "location": "Palais d’Osogbo" },
-      { "time": "15:00", "activity": "Galerie d’art d’Osogbo et ateliers artisanaux", "location": "Nike Art Gallery" },
-      { "time": "17:00", "activity": "Spectacle culturel et contes traditionnels", "location": "Centre communautaire" },
-      { "time": "19:00", "activity": "Retour à Lagos", "location": "Départ" }
-    ]
-  },
-  "testimonials": {
-    "title": "Ce que disent nos invités",
-    "items": [
-      {
+    },
+    "tours": {
+      "title": "Catégories de visites patrimoniales",
+      "description": "Choisissez parmi notre sélection d’expériences de patrimoine culturel.",
+      "items": [
+        {
+          "title": "Sites patrimoniaux anciens",
+          "description": "Explorez des sites archéologiques millénaires avec des historiens et archéologues experts.",
+          "duration": "3-5 jours",
+          "highlights": [
+            "Fouilles archéologiques",
+            "Artefacts anciens",
+            "Récits historiques",
+            "Efforts de conservation"
+          ]
+        },
+        {
+          "title": "Festivals et traditions culturelles",
+          "description": "Immergez-vous dans les traditions vivantes à travers festivals, cérémonies et célébrations culturelles.",
+          "duration": "2-4 jours",
+          "highlights": [
+            "Cérémonies traditionnelles",
+            "Artisans locaux",
+            "Performances culturelles",
+            "Engagement communautaire"
+          ]
+        },
+        {
+          "title": "Art et artisanat patrimoniaux",
+          "description": "Découvrez les métiers traditionnels, les techniques artistiques et la préservation créative du patrimoine.",
+          "duration": "2-3 jours",
+          "highlights": [
+            "Maîtres artisans",
+            "Techniques traditionnelles",
+            "Ateliers pratiques",
+            "Collections d’art"
+          ]
+        },
+        {
+          "title": "Sites sacrés et spirituels",
+          "description": "Visitez des lieux sacrés et découvrez les traditions spirituelles et le patrimoine religieux.",
+          "duration": "1-3 jours",
+          "highlights": [
+            "Architecture sacrée",
+            "Pratiques spirituelles",
+            "Art religieux",
+            "Itinéraires de pèlerinage"
+          ]
+        }
+      ],
+      "learnMore": "En savoir plus"
+    },
+    "itinerary": {
+      "title": "Exemple de visite d’une journée : Osun-Osogbo Sacred Grove",
+      "description": "Découvrez le site nigérian du patrimoine mondial de l’UNESCO avec des guides experts et une immersion culturelle.",
+      "items": [
+        {
+          "time": "8:00",
+          "activity": "Prise en charge à l’hôtel et départ",
+          "location": "Centre-ville de Lagos"
+        },
+        {
+          "time": "10:30",
+          "activity": "Arrivée à Osun-Osogbo Sacred Grove",
+          "location": "Osogbo, État d’Osun"
+        },
+        {
+          "time": "11:00",
+          "activity": "Visite guidée avec un expert du patrimoine de l’UNESCO",
+          "location": "Sacred Grove"
+        },
+        {
+          "time": "13:00",
+          "activity": "Déjeuner traditionnel avec la communauté locale",
+          "location": "Palais d’Osogbo"
+        },
+        {
+          "time": "15:00",
+          "activity": "Galerie d’art d’Osogbo et ateliers artisanaux",
+          "location": "Nike Art Gallery"
+        },
+        {
+          "time": "17:00",
+          "activity": "Spectacle culturel et contes traditionnels",
+          "location": "Centre communautaire"
+        },
+        {
+          "time": "19:00",
+          "activity": "Retour à Lagos",
+          "location": "Départ"
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "Ce que disent nos invités",
+      "items": {
         "name": "Dr. Maria Santos",
         "role": "Anthropologue culturelle",
-        "text": "La visite patrimoniale a offert des perspectives incroyables sur les traditions culturelles du Nigeria. Les guides experts ont fait revivre l’histoire."
-      },
-      {
-        "name": "James Mitchell",
-        "role": "Photographe de voyage",
-        "text": "Un voyage inoubliable à travers le patrimoine vivant. L’accès aux sites sacrés et aux cérémonies culturelles était extraordinaire."
+        "text": "La visite patrimoniale a offert des perspectives incroyables sur les traditions culturelles du Nigeria. Les guides experts ont fait revivre l’histoire.",
+        "name1": "James Mitchell",
+        "role1": "Photographe de voyage",
+        "text1": "Un voyage inoubliable à travers le patrimoine vivant. L’accès aux sites sacrés et aux cérémonies culturelles était extraordinaire."
       }
-    ]
+    },
+    "cta": {
+      "title": "Prêt à explorer le patrimoine culturel ?",
+      "description": "Réservez votre visite patrimoniale dès aujourd’hui et découvrez les traditions vivantes, les sites anciens et les festivals vibrants de l’Afrique avec des guides experts.",
+      "primary": "Réserver une visite patrimoniale",
+      "secondary": "Demande de visite personnalisée"
+    }
   },
-  "cta": {
-    "title": "Prêt à explorer le patrimoine culturel ?",
-    "description": "Réservez votre visite patrimoniale dès aujourd’hui et découvrez les traditions vivantes, les sites anciens et les festivals vibrants de l’Afrique avec des guides experts.",
-    "primary": "Réserver une visite patrimoniale",
-    "secondary": "Demande de visite personnalisée"
-  }
-},
   "SportsTours": {
     "badge": "Voyages Sportifs & Tournois",
     "heroTitle": "Excellence Sportive & Échange Culturel",

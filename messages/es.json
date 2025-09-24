@@ -158,115 +158,139 @@
     "getInvolved": "Involúcrate"
   },
   "CulturalHeritageTours": {
-  "heroBadge": "Tours de patrimonio cultural",
-  "heroTitle": "Descubre el patrimonio vivo y las tradiciones antiguas",
-  "heroDescription": "Viaja en el tiempo con visitas guiadas por expertos a sitios del Patrimonio Mundial de la UNESCO, festivales tradicionales y monumentos culturales que preservan la rica herencia de África.",
-  "heroPrimary": "Explorar tours",
-  "heroSecondary": "Reservar un tour patrimonial",
-  "quickInfo": {
-    "duration": {
-      "title": "Duración",
-      "value": "1-5 días"
-    },
-    "groupSize": {
-      "title": "Tamaño del grupo",
-      "value": "8-25 personas"
-    },
-    "photography": {
-      "title": "Fotografía",
-      "value": "Permitida"
-    },
-    "insurance": {
-      "title": "Seguro",
-      "value": "Incluido"
-    }
-  },
-  "tours": {
-    "title": "Categorías de tours patrimoniales",
-    "description": "Elige entre nuestra selección de experiencias de patrimonio cultural.",
-    "items": [
-      {
-        "title": "Sitios patrimoniales antiguos",
-        "description": "Explora sitios arqueológicos milenarios con historiadores y arqueólogos expertos.",
-        "duration": "3-5 días",
-        "highlights": [
-          "Excavaciones arqueológicas",
-          "Artefactos antiguos",
-          "Narrativas históricas",
-          "Esfuerzos de conservación"
-        ]
+    "heroBadge": "Tours de patrimonio cultural",
+    "heroTitle": "Descubre el patrimonio vivo y las tradiciones antiguas",
+    "heroDescription": "Viaja en el tiempo con visitas guiadas por expertos a sitios del Patrimonio Mundial de la UNESCO, festivales tradicionales y monumentos culturales que preservan la rica herencia de África.",
+    "heroPrimary": "Explorar tours",
+    "heroSecondary": "Reservar un tour patrimonial",
+    "quickInfo": {
+      "duration": {
+        "title": "Duración",
+        "value": "1-5 días"
       },
-      {
-        "title": "Festivales y tradiciones culturales",
-        "description": "Sumérgete en tradiciones vivas a través de festivales, ceremonias y celebraciones culturales.",
-        "duration": "2-4 días",
-        "highlights": [
-          "Ceremonias tradicionales",
-          "Artesanos locales",
-          "Presentaciones culturales",
-          "Participación comunitaria"
-        ]
+      "groupSize": {
+        "title": "Tamaño del grupo",
+        "value": "8-25 personas"
       },
-      {
-        "title": "Arte y artesanía patrimonial",
-        "description": "Descubre oficios tradicionales, técnicas artísticas y la preservación creativa del patrimonio.",
-        "duration": "2-3 días",
-        "highlights": [
-          "Maestros artesanos",
-          "Técnicas tradicionales",
-          "Talleres prácticos",
-          "Colecciones de arte"
-        ]
+      "photography": {
+        "title": "Fotografía",
+        "value": "Permitida"
       },
-      {
-        "title": "Sitios sagrados y espirituales",
-        "description": "Visita lugares sagrados y aprende sobre tradiciones espirituales y patrimonio religioso.",
-        "duration": "1-3 días",
-        "highlights": [
-          "Arquitectura sagrada",
-          "Prácticas espirituales",
-          "Arte religioso",
-          "Rutas de peregrinación"
-        ]
+      "insurance": {
+        "title": "Seguro",
+        "value": "Incluido"
       }
-    ],
-    "learnMore": "Saber más"
-  },
-  "itinerary": {
-    "title": "Ejemplo de tour de un día: Osun-Osogbo Sacred Grove",
-    "description": "Vive el sitio nigeriano Patrimonio de la Humanidad de la UNESCO con guías expertos e inmersión cultural.",
-    "items": [
-      { "time": "8:00", "activity": "Recogida en el hotel y salida", "location": "Centro de Lagos" },
-      { "time": "10:30", "activity": "Llegada a Osun-Osogbo Sacred Grove", "location": "Osogbo, Estado de Osun" },
-      { "time": "11:00", "activity": "Visita guiada con experto en patrimonio de la UNESCO", "location": "Sacred Grove" },
-      { "time": "13:00", "activity": "Almuerzo tradicional con la comunidad local", "location": "Palacio de Osogbo" },
-      { "time": "15:00", "activity": "Galería de arte de Osogbo y talleres artesanales", "location": "Nike Art Gallery" },
-      { "time": "17:00", "activity": "Espectáculo cultural y narración de historias", "location": "Centro comunitario" },
-      { "time": "19:00", "activity": "Regreso a Lagos", "location": "Salida" }
-    ]
-  },
-  "testimonials": {
-    "title": "Lo que dicen nuestros invitados",
-    "items": [
-      {
+    },
+    "tours": {
+      "title": "Categorías de tours patrimoniales",
+      "description": "Elige entre nuestra selección de experiencias de patrimonio cultural.",
+      "items": [
+        {
+          "title": "Sitios patrimoniales antiguos",
+          "description": "Explora sitios arqueológicos milenarios con historiadores y arqueólogos expertos.",
+          "duration": "3-5 días",
+          "highlights": [
+            "Excavaciones arqueológicas",
+            "Artefactos antiguos",
+            "Narrativas históricas",
+            "Esfuerzos de conservación"
+          ]
+        },
+        {
+          "title": "Festivales y tradiciones culturales",
+          "description": "Sumérgete en tradiciones vivas a través de festivales, ceremonias y celebraciones culturales.",
+          "duration": "2-4 días",
+          "highlights": [
+            "Ceremonias tradicionales",
+            "Artesanos locales",
+            "Presentaciones culturales",
+            "Participación comunitaria"
+          ]
+        },
+        {
+          "title": "Arte y artesanía patrimonial",
+          "description": "Descubre oficios tradicionales, técnicas artísticas y la preservación creativa del patrimonio.",
+          "duration": "2-3 días",
+          "highlights": [
+            "Maestros artesanos",
+            "Técnicas tradicionales",
+            "Talleres prácticos",
+            "Colecciones de arte"
+          ]
+        },
+        {
+          "title": "Sitios sagrados y espirituales",
+          "description": "Visita lugares sagrados y aprende sobre tradiciones espirituales y patrimonio religioso.",
+          "duration": "1-3 días",
+          "highlights": [
+            "Arquitectura sagrada",
+            "Prácticas espirituales",
+            "Arte religioso",
+            "Rutas de peregrinación"
+          ]
+        }
+      ],
+      "learnMore": "Saber más"
+    },
+    "itinerary": {
+      "title": "Ejemplo de tour de un día: Osun-Osogbo Sacred Grove",
+      "description": "Vive el sitio nigeriano Patrimonio de la Humanidad de la UNESCO con guías expertos e inmersión cultural.",
+      "items": [
+        {
+          "time": "8:00",
+          "activity": "Recogida en el hotel y salida",
+          "location": "Centro de Lagos"
+        },
+        {
+          "time": "10:30",
+          "activity": "Llegada a Osun-Osogbo Sacred Grove",
+          "location": "Osogbo, Estado de Osun"
+        },
+        {
+          "time": "11:00",
+          "activity": "Visita guiada con experto en patrimonio de la UNESCO",
+          "location": "Sacred Grove"
+        },
+        {
+          "time": "13:00",
+          "activity": "Almuerzo tradicional con la comunidad local",
+          "location": "Palacio de Osogbo"
+        },
+        {
+          "time": "15:00",
+          "activity": "Galería de arte de Osogbo y talleres artesanales",
+          "location": "Nike Art Gallery"
+        },
+        {
+          "time": "17:00",
+          "activity": "Espectáculo cultural y narración de historias",
+          "location": "Centro comunitario"
+        },
+        {
+          "time": "19:00",
+          "activity": "Regreso a Lagos",
+          "location": "Salida"
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "Lo que dicen nuestros invitados",
+      "items": {
         "name": "Dra. Maria Santos",
         "role": "Antropóloga cultural",
-        "text": "El tour patrimonial ofreció perspectivas increíbles sobre las tradiciones culturales de Nigeria. Los guías expertos hicieron que la historia cobrara vida."
-      },
-      {
-        "name": "James Mitchell",
-        "role": "Fotógrafo de viajes",
-        "text": "Un viaje inolvidable a través del patrimonio vivo. El acceso a sitios sagrados y ceremonias culturales fue extraordinario."
+        "text": "El tour patrimonial ofreció perspectivas increíbles sobre las tradiciones culturales de Nigeria. Los guías expertos hicieron que la historia cobrara vida.",
+        "name1": "James Mitchell",
+        "role1": "Fotógrafo de viajes",
+        "text1": "Un viaje inolvidable a través del patrimonio vivo. El acceso a sitios sagrados y ceremonias culturales fue extraordinario."
       }
-    ]
+    },
+    "cta": {
+      "title": "¿Listo para explorar el patrimonio cultural?",
+      "description": "Reserva tu tour patrimonial hoy y experimenta las tradiciones vivas, los sitios antiguos y los vibrantes festivales de África con guías expertos.",
+      "primary": "Reservar un tour patrimonial",
+      "secondary": "Solicitud de tour personalizado"
+    }
   },
-  "cta": {
-    "title": "¿Listo para explorar el patrimonio cultural?",
-    "description": "Reserva tu tour patrimonial hoy y experimenta las tradiciones vivas, los sitios antiguos y los vibrantes festivales de África con guías expertos.",
-    "primary": "Reservar un tour patrimonial",
-    "secondary": "Solicitud de tour personalizado"
-  }
-},
   "SportsTours": {
     "badge": "Giras Deportivas & Torneos",
     "heroTitle": "Excelencia Deportiva & Intercambio Cultural",
@@ -486,99 +510,99 @@
     }
   },
   "ResearchTour": {
-  "heroBadge": "Viajes de investigación",
-  "heroTitle": "Investigación académica & intercambio",
-  "heroDescription": "Apoyo integral para académicos, investigadores y estudiantes que realizan trabajo de campo, investigación en archivos y estudios culturales en África con la orientación de expertos locales.",
-  "heroPrimary": "Explorar áreas de investigación",
-  "heroSecondary": "Solicitar residencia",
-  "durationTitle": "Duración",
-  "durationValue": "1-8 semanas",
-  "researchersTitle": "Investigadores",
-  "researchersValue": "1-10 personas",
-  "successTitle": "Tasa de éxito",
-  "successValue": "98%",
-  "archivesTitle": "Archivos",
-  "archivesValue": "50+ colecciones",
-  "areasTitle": "Especializaciones de investigación",
-  "areasDescription": "Programas de investigación adaptados que apoyan diversas disciplinas académicas y proyectos científicos.",
-  "culturalPolicy": {
-    "title": "Investigación en políticas culturales",
-    "description": "Estudios profundos sobre políticas culturales, preservación del patrimonio y marcos de desarrollo artístico.",
-    "duration": "2-4 semanas",
-    "features": [
-      "Análisis de políticas",
-      "Entrevistas con actores clave",
-      "Estudios comparativos",
-      "Redacción de informes"
-    ]
-  },
-  "archaeology": {
-    "title": "Trabajo de campo arqueológico",
-    "description": "Investigación arqueológica práctica en sitios de excavación activos con supervisión experta.",
-    "duration": "1-6 semanas",
-    "features": [
-      "Excavación en sitio",
-      "Análisis de artefactos",
-      "Documentación",
-      "Trabajo de laboratorio"
-    ]
-  },
-  "ethnography": {
-    "title": "Estudios etnográficos",
-    "description": "Investigación cultural inmersiva con comunidades locales y guardianes del conocimiento tradicional.",
-    "duration": "2-8 semanas",
-    "features": [
-      "Participación comunitaria",
-      "Historia oral",
-      "Mapeo cultural",
-      "Observación participante"
-    ]
-  },
-  "archives": {
-    "title": "Archivos & documentación",
-    "description": "Acceso a archivos raros, manuscritos y documentos históricos para la investigación académica.",
-    "duration": "1-4 semanas",
-    "features": [
-      "Acceso a archivos",
-      "Digitalización",
-      "Catalogación",
-      "Asistencia de investigación"
-    ]
-  },
-  "learnMore": "Saber más",
-  "supportTitle": "Apoyo integral a la investigación",
-  "supportDescription": "Servicios completos para garantizar el éxito de su proyecto de investigación, desde la planificación hasta la publicación.",
-  "supportServices": [
-    "Asistencia para permisos de investigación",
-    "Conexiones con expertos locales",
-    "Servicios de traducción",
-    "Organización de alojamiento",
-    "Logística de transporte",
-    "Equipos y materiales",
-    "Apoyo en la recolección de datos",
-    "Asistencia en publicaciones"
-  ],
-  "processTitle": "Proceso de solicitud",
-  "processDescription": "Pasos sencillos para iniciar su camino de investigación con ECC Nigeria.",
-  "processSteps": {
-    "step1": {
-      "title": "Enviar propuesta",
-      "description": "Envíenos su propuesta de investigación con objetivos, metodología y cronograma."
+    "heroBadge": "Viajes de investigación",
+    "heroTitle": "Investigación académica & intercambio",
+    "heroDescription": "Apoyo integral para académicos, investigadores y estudiantes que realizan trabajo de campo, investigación en archivos y estudios culturales en África con la orientación de expertos locales.",
+    "heroPrimary": "Explorar áreas de investigación",
+    "heroSecondary": "Solicitar residencia",
+    "durationTitle": "Duración",
+    "durationValue": "1-8 semanas",
+    "researchersTitle": "Investigadores",
+    "researchersValue": "1-10 personas",
+    "successTitle": "Tasa de éxito",
+    "successValue": "98%",
+    "archivesTitle": "Archivos",
+    "archivesValue": "50+ colecciones",
+    "areasTitle": "Especializaciones de investigación",
+    "areasDescription": "Programas de investigación adaptados que apoyan diversas disciplinas académicas y proyectos científicos.",
+    "culturalPolicy": {
+      "title": "Investigación en políticas culturales",
+      "description": "Estudios profundos sobre políticas culturales, preservación del patrimonio y marcos de desarrollo artístico.",
+      "duration": "2-4 semanas",
+      "features": [
+        "Análisis de políticas",
+        "Entrevistas con actores clave",
+        "Estudios comparativos",
+        "Redacción de informes"
+      ]
     },
-    "step2": {
-      "title": "Revisión & planificación",
-      "description": "Nuestro equipo revisa su propuesta y desarrolla un plan de apoyo personalizado."
+    "archaeology": {
+      "title": "Trabajo de campo arqueológico",
+      "description": "Investigación arqueológica práctica en sitios de excavación activos con supervisión experta.",
+      "duration": "1-6 semanas",
+      "features": [
+        "Excavación en sitio",
+        "Análisis de artefactos",
+        "Documentación",
+        "Trabajo de laboratorio"
+      ]
     },
-    "step3": {
-      "title": "Comenzar investigación",
-      "description": "Inicie su investigación con pleno apoyo logístico y académico de nuestro equipo."
-    }
+    "ethnography": {
+      "title": "Estudios etnográficos",
+      "description": "Investigación cultural inmersiva con comunidades locales y guardianes del conocimiento tradicional.",
+      "duration": "2-8 semanas",
+      "features": [
+        "Participación comunitaria",
+        "Historia oral",
+        "Mapeo cultural",
+        "Observación participante"
+      ]
+    },
+    "archives": {
+      "title": "Archivos & documentación",
+      "description": "Acceso a archivos raros, manuscritos y documentos históricos para la investigación académica.",
+      "duration": "1-4 semanas",
+      "features": [
+        "Acceso a archivos",
+        "Digitalización",
+        "Catalogación",
+        "Asistencia de investigación"
+      ]
+    },
+    "learnMore": "Saber más",
+    "supportTitle": "Apoyo integral a la investigación",
+    "supportDescription": "Servicios completos para garantizar el éxito de su proyecto de investigación, desde la planificación hasta la publicación.",
+    "supportServices": [
+      "Asistencia para permisos de investigación",
+      "Conexiones con expertos locales",
+      "Servicios de traducción",
+      "Organización de alojamiento",
+      "Logística de transporte",
+      "Equipos y materiales",
+      "Apoyo en la recolección de datos",
+      "Asistencia en publicaciones"
+    ],
+    "processTitle": "Proceso de solicitud",
+    "processDescription": "Pasos sencillos para iniciar su camino de investigación con ECC Nigeria.",
+    "processSteps": {
+      "step1": {
+        "title": "Enviar propuesta",
+        "description": "Envíenos su propuesta de investigación con objetivos, metodología y cronograma."
+      },
+      "step2": {
+        "title": "Revisión & planificación",
+        "description": "Nuestro equipo revisa su propuesta y desarrolla un plan de apoyo personalizado."
+      },
+      "step3": {
+        "title": "Comenzar investigación",
+        "description": "Inicie su investigación con pleno apoyo logístico y académico de nuestro equipo."
+      }
+    },
+    "ctaTitle": "¿Listo para comenzar su investigación?",
+    "ctaDescription": "Únase a investigadores destacados y avance en su trabajo a través de nuestros completos programas de apoyo. Inicie su viaje académico con ECC Nigeria hoy mismo.",
+    "ctaPrimary": "Enviar propuesta de investigación",
+    "ctaSecondary": "Solicitar residencia"
   },
-  "ctaTitle": "¿Listo para comenzar su investigación?",
-  "ctaDescription": "Únase a investigadores destacados y avance en su trabajo a través de nuestros completos programas de apoyo. Inicie su viaje académico con ECC Nigeria hoy mismo.",
-  "ctaPrimary": "Enviar propuesta de investigación",
-  "ctaSecondary": "Solicitar residencia"
-},
   "SchoolExchange": {
     "badge": "Tours de Intercambio Escolar",
     "programTitle": "Programas de Intercambio Escolar",

@@ -235,10 +235,10 @@ export default function CulturalHeritageToursPage() {
                         animate={itineraryInView ? "visible" : "hidden"}
                     >
                         <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-ecc-slate mb-3 sm:mb-4 leading-tight">
-                            Sample Day Tour: Osun-Osogbo Sacred Grove
+                             {t("itinerary.title")}
                         </h2>
                         <p className="text-base sm:text-lg lg:text-xl text-gray-600 max-w-2xl sm:max-w-3xl mx-auto">
-                            Experience Nigeria's UNESCO World Heritage site with expert guides and cultural immersion.
+                            {t("itinerary.description")}
                         </p>
                     </motion.div>
 
@@ -289,7 +289,7 @@ export default function CulturalHeritageToursPage() {
                         viewport={{ once: true }}
                     >
                         <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-ecc-slate mb-4">
-                            What Our Guests Say
+                           {t("testimonials.title")}
                         </h2>
                     </motion.div>
 
@@ -302,15 +302,15 @@ export default function CulturalHeritageToursPage() {
                     >
                         {[
                             {
-                                name: "Dr. Maria Santos",
-                                role: "Cultural Anthropologist",
-                                text: "The heritage tour provided incredible insights into Nigeria's cultural traditions. The expert guides made history come alive.",
+                                name: t("testimonials.items.name"),
+                                role: t("testimonials.items.role"),
+                                text: t("testimonials.items.text"),
                                 rating: 5,
                             },
                             {
-                                name: "James Mitchell",
-                                role: "Travel Photographer",
-                                text: "An unforgettable life's journey through living heritage. The access to sacred sites and cultural ceremonies was extraordinary.",
+                                name: t("testimonials.items.name1"),
+                                role: t("testimonials.items.role1"),
+                                text: t("testimonials.items.text1"),
                                 rating: 5,
                             },
                         ].map((testimonial, index) => (
@@ -339,9 +339,9 @@ export default function CulturalHeritageToursPage() {
             <CTASection
                 title={t("cta.title")}
                 description={t("cta.description")}
-                primaryLabel={t("cta.primaryLabel")}
+                primaryLabel={t("cta.primary")}
                 primaryHref="/contact"
-                secondaryLabel={t("cta.secondaryLabel")}
+                secondaryLabel={t("cta.secondary")}
                 secondaryHref="/contact"
             />
 
