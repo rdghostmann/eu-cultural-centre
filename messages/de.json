@@ -486,6 +486,12 @@
       "secondaryLabel": "Informationen Anfordern"
     },
     "learnmore": "Mehr Erfahren",
+    "duration": "Dauer",
+    "participants": "Teilnehmer",
+    "destinationsT": "Reiseziele",
+    "features": "Funktionen",
+    "deadline": "Frist",
+    "applyNow": "Jetzt bewerben",
     "programs": {
       "university": {
         "title": "Europäischer Universitätsaustausch",

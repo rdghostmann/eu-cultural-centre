@@ -484,6 +484,12 @@
       "secondaryLabel": "Get Information"
     },
     "learnmore": "Learn More",
+    "duration": "Destination",
+    "participants": "Participations",
+    "destinationsT": "Destinations",
+    "features": "Features",
+    "deadline": "Deadline",
+    "applyNow": "Apply Now",
     "programs": {
       "university": {
         "title": "European University Exchange",

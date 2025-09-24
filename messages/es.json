@@ -486,6 +486,12 @@
       "secondaryLabel": "Obtener Información"
     },
     "learnmore": "Saber Más",
+    "duration": "Duración",
+    "participants": "Participantes",
+    "destinationsT": "Destinos",
+    "features": "Características",
+    "deadline": "Fecha límite",
+    "applyNow": "Aplicar ahora",
     "programs": {
       "university": {
         "title": "Intercambio Universitario Europeo",

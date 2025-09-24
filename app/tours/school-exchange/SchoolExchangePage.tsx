@@ -24,56 +24,56 @@ export default function SchoolExchangePage() {
 
     const t = useTranslations("SchoolExchange")
 
-  const exchangePrograms = [
-    {
-      title: t("programs.university.title"),
-      description: t("programs.university.description"),
-      duration: t("programs.university.duration"),
-      participants: t("programs.university.participants"),
-      destinations: t.raw("programs.university.destinations") as string[],
-      features: t.raw("programs.university.features") as string[],
-    },
-    {
-      title: t("programs.highSchool.title"),
-      description: t("programs.highSchool.description"),
-      duration: t("programs.highSchool.duration"),
-      participants: t("programs.highSchool.participants"),
-      destinations: t.raw("programs.highSchool.destinations") as string[],
-      features: t.raw("programs.highSchool.features") as string[],
-    },
-    {
-      title: t("programs.teacher.title"),
-      description: t("programs.teacher.description"),
-      duration: t("programs.teacher.duration"),
-      participants: t("programs.teacher.participants"),
-      destinations: t.raw("programs.teacher.destinations") as string[],
-      features: t.raw("programs.teacher.features") as string[],
-    },
-  ]
+    const exchangePrograms = [
+        {
+            title: t("programs.university.title"),
+            description: t("programs.university.description"),
+            duration: t("programs.university.duration"),
+            participants: t("programs.university.participants"),
+            destinations: t.raw("programs.university.destinations") as string[],
+            features: t.raw("programs.university.features") as string[],
+        },
+        {
+            title: t("programs.highSchool.title"),
+            description: t("programs.highSchool.description"),
+            duration: t("programs.highSchool.duration"),
+            participants: t("programs.highSchool.participants"),
+            destinations: t.raw("programs.highSchool.destinations") as string[],
+            features: t.raw("programs.highSchool.features") as string[],
+        },
+        {
+            title: t("programs.teacher.title"),
+            description: t("programs.teacher.description"),
+            duration: t("programs.teacher.duration"),
+            participants: t("programs.teacher.participants"),
+            destinations: t.raw("programs.teacher.destinations") as string[],
+            features: t.raw("programs.teacher.features") as string[],
+        },
+    ]
 
-   const upcomingExchanges = [
-    {
-      program: t("upcoming.summer.program"),
-      destination: t("upcoming.summer.destination"),
-      date: t("upcoming.summer.date"),
-      spots: t("upcoming.summer.spots"),
-      deadline: t("upcoming.summer.deadline"),
-    },
-    {
-      program: t("upcoming.heritage.program"),
-      destination: t("upcoming.heritage.destination"),
-      date: t("upcoming.heritage.date"),
-      spots: t("upcoming.heritage.spots"),
-      deadline: t("upcoming.heritage.deadline"),
-    },
-    {
-      program: t("upcoming.language.program"),
-      destination: t("upcoming.language.destination"),
-      date: t("upcoming.language.date"),
-      spots: t("upcoming.language.spots"),
-      deadline: t("upcoming.language.deadline"),
-    },
-  ]
+    const upcomingExchanges = [
+        {
+            program: t("upcoming.summer.program"),
+            destination: t("upcoming.summer.destination"),
+            date: t("upcoming.summer.date"),
+            spots: t("upcoming.summer.spots"),
+            deadline: t("upcoming.summer.deadline"),
+        },
+        {
+            program: t("upcoming.heritage.program"),
+            destination: t("upcoming.heritage.destination"),
+            date: t("upcoming.heritage.date"),
+            spots: t("upcoming.heritage.spots"),
+            deadline: t("upcoming.heritage.deadline"),
+        },
+        {
+            program: t("upcoming.language.program"),
+            destination: t("upcoming.language.destination"),
+            date: t("upcoming.language.date"),
+            spots: t("upcoming.language.spots"),
+            deadline: t("upcoming.language.deadline"),
+        },
+    ]
 
 
     return (
@@ -152,15 +152,15 @@ export default function SchoolExchangePage() {
                                     <CardContent>
                                         <div className="space-y-4 mb-6">
                                             <div className="flex items-center justify-between text-sm sm:text-base">
-                                                <span className="text-gray-600">Duration:</span>
+                                                <span className="text-gray-600">{t("duration")}:</span>
                                                 <Badge variant="secondary">{program.duration}</Badge>
                                             </div>
                                             <div className="flex items-center justify-between text-sm sm:text-base">
-                                                <span className="text-gray-600">Participants:</span>
+                                                <span className="text-gray-600">{t("participants")}:</span>
                                                 <Badge variant="outline">{program.participants}</Badge>
                                             </div>
                                             <div>
-                                                <span className="text-sm text-gray-600 block mb-2">Destinations:</span>
+                                                <span className="text-sm text-gray-600 block mb-2">{t("destinationsT")}:</span>
                                                 <div className="flex flex-wrap gap-1">
                                                     {program.destinations.map((dest, idx) => (
                                                         <Badge key={idx} variant="secondary" className="text-xs sm:text-sm">
@@ -170,7 +170,7 @@ export default function SchoolExchangePage() {
                                                 </div>
                                             </div>
                                             <div>
-                                                <span className="text-sm text-gray-600 block mb-2">Features:</span>
+                                                <span className="text-sm text-gray-600 block mb-2">{t("features")}:</span>
                                                 <motion.div
                                                     className="space-y-2"
                                                     variants={staggerContainer}
@@ -214,7 +214,7 @@ export default function SchoolExchangePage() {
                     >
                         <h2 className="text-3xl lg:text-4xl font-bold text-ecc-slate mb-4">{t("upcomingExchangeTitle")}</h2>
                         <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                           {}
+                            { }
                         </p>
                     </motion.div>
 
@@ -248,11 +248,11 @@ export default function SchoolExchangePage() {
                                             </div>
                                             <div className="flex items-center space-x-2">
                                                 <Clock className="h-4 w-4 text-red-600" />
-                                                <span className="text-sm text-red-600">Deadline: {exchange.deadline}</span>
+                                                <span className="text-sm text-red-600">{t("deadline")}: {exchange.deadline}</span>
                                             </div>
                                         </div>
                                         <motion.div className="mt-4" whileHover={hoverScale} whileTap={{ scale: 0.95 }}>
-                                            <Button className="w-full bg-blue-600 hover:bg-blue-700">Apply Now</Button>
+                                            <Button className="w-full bg-blue-600 hover:bg-blue-700">{t("applyNow")}</Button>
                                         </motion.div>
                                     </CardContent>
                                 </Card>
