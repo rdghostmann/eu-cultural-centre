@@ -214,7 +214,7 @@ export default function CulturalHeritageToursPage() {
                                         </motion.div>
                                         <motion.div whileHover={hoverScale} whileTap={{ scale: 0.95 }}>
                                             <Link href="/contact">
-                                                <Button className="w-full bg-amber-600 hover:bg-amber-700">{t("learnMore")}</Button>
+                                                <Button className="w-full bg-amber-600 hover:bg-amber-700">{t("tours.learnMore")}</Button>
                                             </Link>
                                         </motion.div>
                                     </CardContent>
