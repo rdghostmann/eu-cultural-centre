@@ -219,7 +219,7 @@ export default function SchoolExchangePage() {
                     </motion.div>
 
                     <motion.div
-                        className="grid grid-cols-2 lg:grid-cols-3 gap-6 px-4"
+                        className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 px-4"
                         variants={staggerContainer}
                         initial="hidden"
                         animate={upcomingInView ? "visible" : "hidden"}
