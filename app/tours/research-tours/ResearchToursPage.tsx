@@ -66,6 +66,7 @@ export default function ResearchToursPage() {
     "Data collection support",
     "Publication assistance",
   ]
+  
   return (
     <div className="flex flex-col overflow-hidden">
       {/* Hero Section */}
@@ -115,23 +116,23 @@ export default function ResearchToursPage() {
             {[
               {
                 icon: Clock,
-                title: t("quickInfo.durationTitle"),
-                value: t("quickInfo.durationValue"),
+                title: t("durationTitle"),
+                value: t("durationValue"),
               },
               {
                 icon: Users,
-                title: t("quickInfo.researchersTitle"),
-                value: t("quickInfo.researchersValue"),
+                title: t("researchersTitle"),
+                value: t("researchersValue"),
               },
               {
                 icon: Award,
-                title: t("quickInfo.successTitle"),
-                value: t("quickInfo.successValue"),
+                title: t("successTitle"),
+                value: t("successValue"),
               },
               {
                 icon: Database,
-                title: t("quickInfo.archivesTitle"),
-                value: t("quickInfo.archivesValue"),
+                title: t("archivesTitle"),
+                value: t("archivesValue"),
               },
             ].map((item, index) => (
               <motion.div
@@ -165,9 +166,9 @@ export default function ResearchToursPage() {
             initial="hidden"
             animate={areasInView ? "visible" : "hidden"}
           >
-            <h2 className="text-3xl lg:text-4xl font-bold text-ecc-slate mb-4">Research Specializations</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold text-ecc-slate mb-4">{t("areasTitle")}</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Tailored research programs supporting diverse academic disciplines and scholarly pursuits.
+              {t("areasDescription")}
             </p>
           </motion.div>
 
@@ -215,7 +216,7 @@ export default function ResearchToursPage() {
                     </motion.div>
                     <motion.div whileHover={hoverScale} whileTap={{ scale: 0.95 }}>
                       <Link href="/contact">
-                        <Button className="w-full bg-indigo-600 hover:bg-indigo-700">Learn More</Button>
+                        <Button className="w-full bg-indigo-600 hover:bg-indigo-700">{t("learnMore")}</Button>
                       </Link>
                     </motion.div>
                   </CardContent>
@@ -235,9 +236,9 @@ export default function ResearchToursPage() {
             initial="hidden"
             animate={supportInView ? "visible" : "hidden"}
           >
-            <h2 className="text-3xl lg:text-4xl font-bold text-ecc-slate mb-4">Comprehensive Research Support</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold text-ecc-slate mb-4">{t("supportTitle")}</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              End-to-end support services to ensure your research project's success from planning to publication.
+              {t("supportDescription")}
             </p>
           </motion.div>
 

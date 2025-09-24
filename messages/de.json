@@ -157,6 +157,116 @@
     "gallery": "Galerie",
     "getInvolved": "Mitmachen"
   },
+  "CulturalHeritageTours": {
+  "heroBadge": "Kulturelle Erbtouren",
+  "heroTitle": "Entdecken Sie lebendiges Erbe und alte Traditionen",
+  "heroDescription": "Reisen Sie durch die Zeit mit fachkundig geführten Touren zu UNESCO-Welterbestätten, traditionellen Festen und kulturellen Wahrzeichen, die Afrikas reiches Erbe bewahren.",
+  "heroPrimary": "Touren erkunden",
+  "heroSecondary": "Eine Erbtour buchen",
+  "quickInfo": {
+    "duration": {
+      "title": "Dauer",
+      "value": "1-5 Tage"
+    },
+    "groupSize": {
+      "title": "Gruppengröße",
+      "value": "8-25 Personen"
+    },
+    "photography": {
+      "title": "Fotografie",
+      "value": "Erlaubt"
+    },
+    "insurance": {
+      "title": "Versicherung",
+      "value": "Inklusive"
+    }
+  },
+  "tours": {
+    "title": "Kategorien von Erbtouren",
+    "description": "Wählen Sie aus unserer kuratierten Auswahl an Kulturerlebnissen.",
+    "items": [
+      {
+        "title": "Alte Kulturerbestätten",
+        "description": "Erkunden Sie jahrtausendealte archäologische Stätten mit erfahrenen Historikern und Archäologen.",
+        "duration": "3-5 Tage",
+        "highlights": [
+          "Archäologische Ausgrabungen",
+          "Antike Artefakte",
+          "Historische Erzählungen",
+          "Konservierungsbemühungen"
+        ]
+      },
+      {
+        "title": "Kulturelle Feste & Traditionen",
+        "description": "Tauchen Sie ein in lebendige Traditionen durch Feste, Zeremonien und kulturelle Feiern.",
+        "duration": "2-4 Tage",
+        "highlights": [
+          "Traditionelle Zeremonien",
+          "Lokale Handwerker",
+          "Kulturelle Aufführungen",
+          "Gemeinschaftliche Beteiligung"
+        ]
+      },
+      {
+        "title": "Kunst- & Handwerkserbe",
+        "description": "Entdecken Sie traditionelle Handwerke, künstlerische Techniken und kreative Erhaltung des Erbes.",
+        "duration": "2-3 Tage",
+        "highlights": [
+          "Meisterhandwerker",
+          "Traditionelle Techniken",
+          "Praktische Workshops",
+          "Kunstsammlungen"
+        ]
+      },
+      {
+        "title": "Heilige & spirituelle Stätten",
+        "description": "Besuchen Sie heilige Orte und lernen Sie spirituelle Traditionen und religiöses Erbe kennen.",
+        "duration": "1-3 Tage",
+        "highlights": [
+          "Heilige Architektur",
+          "Spirituelle Praktiken",
+          "Religiöse Kunst",
+          "Pilgerwege"
+        ]
+      }
+    ],
+    "learnMore": "Mehr erfahren"
+  },
+  "itinerary": {
+    "title": "Beispieltagestour: Osun-Osogbo Sacred Grove",
+    "description": "Erleben Sie Nigerias UNESCO-Welterbestätte mit erfahrenen Guides und kultureller Immersion.",
+    "items": [
+      { "time": "8:00", "activity": "Abholung im Hotel und Abfahrt", "location": "Stadtzentrum Lagos" },
+      { "time": "10:30", "activity": "Ankunft im Osun-Osogbo Sacred Grove", "location": "Osogbo, Bundesstaat Osun" },
+      { "time": "11:00", "activity": "Geführte Tour mit UNESCO-Erbe-Experte", "location": "Sacred Grove" },
+      { "time": "13:00", "activity": "Traditionelles Mittagessen mit der lokalen Gemeinschaft", "location": "Osogbo-Palast" },
+      { "time": "15:00", "activity": "Osogbo Kunstgalerie und Handwerksworkshops", "location": "Nike Art Gallery" },
+      { "time": "17:00", "activity": "Kulturelle Aufführung und Geschichtenerzählen", "location": "Gemeindezentrum" },
+      { "time": "19:00", "activity": "Rückfahrt nach Lagos", "location": "Abfahrt" }
+    ]
+  },
+  "testimonials": {
+    "title": "Was unsere Gäste sagen",
+    "items": [
+      {
+        "name": "Dr. Maria Santos",
+        "role": "Kulturanthropologin",
+        "text": "Die Erbtour bot unglaubliche Einblicke in die kulturellen Traditionen Nigerias. Die erfahrenen Guides ließen Geschichte lebendig werden."
+      },
+      {
+        "name": "James Mitchell",
+        "role": "Reisefotograf",
+        "text": "Eine unvergessliche Reise durch lebendiges Erbe. Der Zugang zu heiligen Stätten und kulturellen Zeremonien war außergewöhnlich."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Bereit, das kulturelle Erbe zu erkunden?",
+    "description": "Buchen Sie noch heute Ihre Erbtour und erleben Sie Afrikas lebendige Traditionen, alte Stätten und farbenfrohe Feste mit erfahrenen Guides.",
+    "primary": "Eine Erbtour buchen",
+    "secondary": "Individuelle Touranfrage"
+  }
+},
   "SportsTours": {
     "badge": "Sportreisen & Turniere",
     "heroTitle": "Sportliche Exzellenz & Kulturaustausch",
@@ -376,32 +486,30 @@
     }
   },
   "ResearchTour": {
-    "badge": "Forschungsreisen",
+    "heroBadge": "Forschungsreisen",
     "heroTitle": "Akademische Forschung & Austausch",
-    "heroDescription": "Umfassende Unterstützung für Akademiker, Forscher und Studierende bei Feldforschung, Archivarbeit und Kulturstudien in Afrika mit fachkundiger lokaler Begleitung.",
-    "heroPrimary": "Forschungsbereiche Erkunden",
-    "heroSecondary": "Für Residenz Bewerben",
-    "quickInfo": {
-      "duration": "Dauer",
-      "researchers": "Forscher",
-      "successRate": "Erfolgsquote",
-      "archives": "Archive",
-      "durationValue": "1-8 Wochen",
-      "researchersValue": "1-10 Personen",
-      "successRateValue": "98%",
-      "archivesValue": "50+ Sammlungen"
-    },
-    "areasTitle": "Forschungsspezialisierungen",
-    "areasDescription": "Maßgeschneiderte Forschungsprogramme zur Unterstützung verschiedener akademischer Disziplinen und wissenschaftlicher Projekte.",
+    "heroDescription": "Umfassende Forschungsunterstützung für Akademiker, Wissenschaftler und Studierende bei Feldforschung, Archivarbeit und Kulturstudien in ganz Afrika mit fachkundiger lokaler Begleitung.",
+    "heroPrimary": "Forschungsbereiche entdecken",
+    "heroSecondary": "Für Residenz bewerben",
+    "durationTitle": "Dauer",
+    "durationValue": "1-8 Wochen",
+    "researchersTitle": "Forscher",
+    "researchersValue": "1-10 Personen",
+    "successTitle": "Erfolgsquote",
+    "successValue": "98%",
+    "archivesTitle": "Archive",
+    "archivesValue": "50+ Sammlungen",
+    "areasTitle": "Forschungsschwerpunkte",
+    "areasDescription": "Maßgeschneiderte Forschungsprogramme zur Unterstützung verschiedener akademischer Disziplinen und wissenschaftlicher Tätigkeiten.",
     "culturalPolicy": {
-      "title": "Forschung zur Kulturpolitik",
-      "description": "Detaillierte Studien zu Kulturpolitik, Denkmalschutz und Rahmenbedingungen der Kunstentwicklung.",
+      "title": "Kulturpolitische Forschung",
+      "description": "Detaillierte Studien zu Kulturpolitik, Kulturerhalt und Rahmenwerken für die Kunstentwicklung.",
       "duration": "2-4 Wochen",
       "features": [
         "Politikanalyse",
-        "Interviews mit Beteiligten",
+        "Befragungen von Interessengruppen",
         "Vergleichsstudien",
-        "Berichtserstellung"
+        "Berichtszusammenstellung"
       ]
     },
     "archaeology": {
@@ -417,61 +525,59 @@
     },
     "ethnography": {
       "title": "Ethnographische Studien",
-      "description": "Immersive Kulturforschung mit lokalen Gemeinschaften und Bewahrern traditionellen Wissens.",
+      "description": "Eintauchen in die Kulturforschung mit lokalen Gemeinschaften und traditionellen Wissensträgern.",
       "duration": "2-8 Wochen",
       "features": [
         "Gemeinschaftsarbeit",
-        "Mündliche Überlieferung",
-        "Kulturelles Mapping",
+        "Mündliche Überlieferungen",
+        "Kulturelle Kartierung",
         "Teilnehmende Beobachtung"
       ]
     },
-    "archive": {
-      "title": "Archive & Dokumentation",
+    "archives": {
+      "title": "Archiv & Dokumentation",
       "description": "Zugang zu seltenen Archiven, Manuskripten und historischen Dokumenten für wissenschaftliche Forschung.",
       "duration": "1-4 Wochen",
       "features": [
         "Archivzugang",
-        "Digitalisierung",
+        "Digitales Scannen",
         "Katalogisierung",
         "Forschungsunterstützung"
       ]
     },
+    "learnMore": "Mehr erfahren",
     "supportTitle": "Umfassende Forschungsunterstützung",
-    "supportDescription": "End-to-End-Services, um den Erfolg Ihres Forschungsprojekts von der Planung bis zur Veröffentlichung sicherzustellen.",
+    "supportDescription": "Rundum-Betreuung, um den Erfolg Ihres Forschungsprojekts von der Planung bis zur Veröffentlichung zu gewährleisten.",
     "supportServices": [
       "Unterstützung bei Forschungsgenehmigungen",
-      "Verbindungen zu lokalen Experten",
+      "Lokale Expertenkontakte",
       "Übersetzungsdienste",
       "Unterkunftsorganisation",
       "Transportlogistik",
       "Ausrüstung und Materialien",
-      "Unterstützung bei Datensammlung",
-      "Publikationshilfe"
+      "Unterstützung bei der Datenerhebung",
+      "Veröffentlichungshilfe"
     ],
     "processTitle": "Bewerbungsprozess",
     "processDescription": "Einfache Schritte, um Ihre Forschungsreise mit ECC Nigeria zu beginnen.",
     "processSteps": {
-      "submit": {
-        "title": "Vorschlag Einreichen",
+      "step1": {
+        "title": "Vorschlag einreichen",
         "description": "Senden Sie uns Ihren Forschungsvorschlag mit Zielen, Methodik und Zeitplan."
       },
-      "review": {
+      "step2": {
         "title": "Überprüfung & Planung",
         "description": "Unser Team prüft Ihren Vorschlag und entwickelt einen individuellen Unterstützungsplan."
       },
-      "begin": {
-        "title": "Forschung Beginnen",
-        "description": "Beginnen Sie Ihre Forschung mit voller logistischer und akademischer Unterstützung durch unser Team."
+      "step3": {
+        "title": "Forschung beginnen",
+        "description": "Starten Sie Ihre Forschung mit voller logistischer und akademischer Unterstützung durch unser Team."
       }
     },
-    "cta": {
-      "title": "Bereit, Ihre Forschung zu Beginnen?",
-      "description": "Schließen Sie sich führenden Wissenschaftlern und Forschern an, um Ihre Arbeit durch unsere umfassenden Unterstützungsprogramme voranzubringen. Starten Sie Ihre akademische Reise noch heute mit ECC Nigeria.",
-      "primaryLabel": "Forschungsvorschlag Einreichen",
-      "secondaryLabel": "Für Residenz Bewerben"
-    },
-    "learnmore": "Mehr Erfahren"
+    "ctaTitle": "Bereit, Ihre Forschung zu beginnen?",
+    "ctaDescription": "Schließen Sie sich führenden Wissenschaftlern und Forschern an, um Ihre Arbeit durch unsere umfassenden Forschungsunterstützungsprogramme voranzubringen. Starten Sie Ihre akademische Reise noch heute mit ECC Nigeria.",
+    "ctaPrimary": "Forschungsvorschlag einreichen",
+    "ctaSecondary": "Für Residenz bewerben"
   },
   "SchoolExchange": {
     "badge": "Schulaustauschreisen",

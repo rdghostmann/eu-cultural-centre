@@ -1,3 +1,4 @@
+//tours/CulturalHeritageToursPage.tsx
 "use client"
 
 import { motion } from "framer-motion"
@@ -7,87 +8,27 @@ import { Badge } from "@/components/ui/badge"
 import Link from "next/link"
 import { ArrowRight, Camera, MapPin, Clock, Users, Star, Shield } from "lucide-react"
 import { fadeInUp, staggerContainer, staggerItem, hoverScale, hoverLift } from "@/lib/animations"
-import { useScrollAnimation, scrollVariants } from "@/hooks/use-scroll-animation"
+import { useScrollAnimation } from "@/hooks/use-scroll-animation"
 import CTASection from "@/components/CTASection/CTASection"
 import HeaderSlider2 from "@/components/CustomSlider/HeaderSlider2"
 import { CulturalPageCarouselData } from "@/lib/CulturalPageCarouseData"
+import { useTranslations } from "next-intl";
 
-const tourTypes = [
-    {
-        title: "Ancient Heritage Sites",
-        description: "Explore millennia-old archaeological sites with expert historians and archaeologists.",
-        icon: "🏛️",
-        duration: "3-5 days",
-        highlights: ["Archaeological excavations", "Ancient artifacts", "Historical narratives", "Conservation efforts"],
-    },
-    {
-        title: "Cultural Festivals & Traditions",
-        description: "Immerse in living traditions through festivals, ceremonies, and cultural celebrations.",
-        icon: "🎭",
-        duration: "2-4 days",
-        highlights: ["Traditional ceremonies", "Local artisans", "Cultural performances", "Community engagement"],
-    },
-    {
-        title: "Art & Craft Heritage",
-        description: "Discover traditional crafts, artistic techniques, and creative heritage preservation.",
-        icon: "🎨",
-        duration: "2-3 days",
-        highlights: ["Master craftspeople", "Traditional techniques", "Hands-on workshops", "Art collections"],
-    },
-    {
-        title: "Sacred & Spiritual Sites",
-        description: "Visit sacred places and learn about spiritual traditions and religious heritage.",
-        icon: "⛪",
-        duration: "1-3 days",
-        highlights: ["Sacred architecture", "Spiritual practices", "Religious art", "Pilgrimage routes"],
-    },
-]
 
-const sampleItinerary = [
-    {
-        time: "8:00 AM",
-        activity: "Hotel pickup and departure",
-        location: "Lagos City Center",
-    },
-    {
-        time: "10:30 AM",
-        activity: "Arrival at Osun-Osogbo Sacred Grove",
-        location: "Osogbo, Osun State",
-    },
-    {
-        time: "11:00 AM",
-        activity: "Guided tour with UNESCO heritage expert",
-        location: "Sacred Grove",
-    },
-    {
-        time: "1:00 PM",
-        activity: "Traditional lunch with local community",
-        location: "Osogbo Palace",
-    },
-    {
-        time: "3:00 PM",
-        activity: "Osogbo Art Gallery and craft workshops",
-        location: "Nike Art Gallery",
-    },
-    {
-        time: "5:00 PM",
-        activity: "Cultural performance and storytelling",
-        location: "Community Center",
-    },
-    {
-        time: "7:00 PM",
-        activity: "Return journey to Lagos",
-        location: "Departure",
-    },
-]
+
 
 export default function CulturalHeritageToursPage() {
     const { ref: heroRef, isInView: heroInView } = useScrollAnimation()
     const { ref: toursRef, isInView: toursInView } = useScrollAnimation()
     const { ref: itineraryRef, isInView: itineraryInView } = useScrollAnimation()
-
     const hoverScale = { scale: 1.05 }
     const hoverLift = { y: -5, scale: 1.05 }
+
+    const t = useTranslations("CulturalHeritageTours")
+
+    const tourTypes = t.raw("tours.items")
+
+    const sampleItinerary = t.raw("itinerary.items")
 
 
     return (
@@ -235,7 +176,7 @@ export default function CulturalHeritageToursPage() {
                         initial="hidden"
                         animate={toursInView ? "visible" : "hidden"}
                     >
-                        {tourTypes.map((tour, index) => (
+                        {tourTypes.map((tour: any, index: number) => (
                             <motion.div key={index} variants={staggerItem} whileHover={hoverLift}>
                                 <Card className="h-full hover:shadow-lg transition-all duration-300">
                                     <CardHeader>
@@ -264,7 +205,7 @@ export default function CulturalHeritageToursPage() {
                                             whileInView="visible"
                                             viewport={{ once: true }}
                                         >
-                                            {tour.highlights.map((highlight, idx) => (
+                                            {tour.highlights.map((highlight: any, idx: number) => (
                                                 <motion.div key={idx} className="flex items-center space-x-2" variants={staggerItem}>
                                                     <motion.div className="w-2 h-2 bg-amber-600 rounded-full" whileHover={{ scale: 1.5 }} />
                                                     <span className="text-sm sm:text-base text-gray-600">{highlight}</span>
@@ -308,7 +249,7 @@ export default function CulturalHeritageToursPage() {
                         animate={itineraryInView ? "visible" : "hidden"}
                     >
                         <div className="space-y-3 sm:space-y-4">
-                            {sampleItinerary.map((item, index) => (
+                            {sampleItinerary.map((item: any, index: number) => (
                                 <motion.div
                                     key={index}
                                     className="flex flex-col sm:flex-row sm:items-start sm:space-x-4 p-4 bg-white rounded-lg shadow-sm"
@@ -394,60 +335,15 @@ export default function CulturalHeritageToursPage() {
                 </div>
             </section>
 
-            {/* CTA Section */}
-            {/* <section className="py-12 sm:py-20 bg-ecc-slate text-white">
-        <div className="container text-center px-4 sm:px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.8 }}
-          >
-            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6">
-              Ready to Explore Cultural Heritage?
-            </h2>
-            <p className="text-base sm:text-xl mb-6 sm:mb-8 text-gray-300 max-w-2xl mx-auto">
-              Book your heritage tour today and discover the living traditions that connect past, present, and future.
-            </p>
-            <motion.div
-              className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center"
-              variants={staggerContainer}
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true }}
-            >
-              <motion.div variants={staggerItem} whileHover={hoverScale} whileTap={{ scale: 0.95 }}>
-                <Button asChild size="lg" className="bg-ecc-green hover:bg-ecc-green/90 w-full sm:w-auto">
-                  <Link href="/contact">
-                    Book a Heritage Tour <ArrowRight className="ml-2 h-5 w-5" />
-                  </Link>
-                </Button>
-              </motion.div>
-              <motion.div variants={staggerItem} whileHover={hoverScale} whileTap={{ scale: 0.95 }}>
-                <Button
-                  asChild
-                  size="lg"
-                  variant="outline"
-                  className="border-white text-white hover:bg-white hover:text-ecc-slate bg-transparent w-full sm:w-auto"
-                >
-                  <Link href="/contact">Custom Tour Request</Link>
-                </Button>
-              </motion.div>
-            </motion.div>
-          </motion.div>
-        </div>
-      </section> */}
+            {/* CTASection */}
             <CTASection
-                title="Ready to Explore Cultural Heritage?"
-                description="Book your heritage tour today and experience Africa’s living traditions, ancient sites, and vibrant festivals with expert guides. Discover the stories that connect past, present, and future."
-                primaryLabel="Book a Heritage Tour"
+                title={t("cta.title")}
+                description={t("cta.description")}
+                primaryLabel={t("cta.primaryLabel")}
                 primaryHref="/contact"
-                secondaryLabel="Custom Tour Request"
+                secondaryLabel={t("cta.secondaryLabel")}
                 secondaryHref="/contact"
             />
-
-
-
 
         </div>
     )

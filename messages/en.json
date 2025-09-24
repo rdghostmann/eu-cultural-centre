@@ -157,6 +157,144 @@
     "gallery": "Gallery",
     "getInvolved": "Get Involved"
   },
+  "CulturalHeritageTours": {
+    "heroBadge": "Cultural Heritage Tours",
+    "heroTitle": "Discover Living Heritage & Ancient Traditions",
+    "heroDescription": "Journey through time with expert-guided tours to UNESCO World Heritage sites, traditional festivals, and cultural landmarks that preserve Africa's rich heritage.",
+    "heroPrimary": "Explore Tours",
+    "heroSecondary": "Book a Heritage Tour",
+    "quickInfo": {
+      "duration": {
+        "title": "Duration",
+        "value": "1-5 days"
+      },
+      "groupSize": {
+        "title": "Group Size",
+        "value": "8-25 people"
+      },
+      "photography": {
+        "title": "Photography",
+        "value": "Allowed"
+      },
+      "insurance": {
+        "title": "Insurance",
+        "value": "Included"
+      }
+    },
+    "tours": {
+      "title": "Heritage Tour Categories",
+      "description": "Choose from our curated selection of cultural heritage experiences.",
+      "items": [
+        {
+          "title": "Ancient Heritage Sites",
+          "description": "Explore millennia-old archaeological sites with expert historians and archaeologists.",
+          "duration": "3-5 days",
+          "highlights": [
+            "Archaeological excavations",
+            "Ancient artifacts",
+            "Historical narratives",
+            "Conservation efforts"
+          ]
+        },
+        {
+          "title": "Cultural Festivals & Traditions",
+          "description": "Immerse in living traditions through festivals, ceremonies, and cultural celebrations.",
+          "duration": "2-4 days",
+          "highlights": [
+            "Traditional ceremonies",
+            "Local artisans",
+            "Cultural performances",
+            "Community engagement"
+          ]
+        },
+        {
+          "title": "Art & Craft Heritage",
+          "description": "Discover traditional crafts, artistic techniques, and creative heritage preservation.",
+          "duration": "2-3 days",
+          "highlights": [
+            "Master craftspeople",
+            "Traditional techniques",
+            "Hands-on workshops",
+            "Art collections"
+          ]
+        },
+        {
+          "title": "Sacred & Spiritual Sites",
+          "description": "Visit sacred places and learn about spiritual traditions and religious heritage.",
+          "duration": "1-3 days",
+          "highlights": [
+            "Sacred architecture",
+            "Spiritual practices",
+            "Religious art",
+            "Pilgrimage routes"
+          ]
+        }
+      ],
+      "learnMore": "Learn More"
+    },
+    "itinerary": {
+      "title": "Sample Day Tour: Osun-Osogbo Sacred Grove",
+      "description": "Experience Nigeria's UNESCO World Heritage site with expert guides and cultural immersion.",
+      "items": [
+        {
+          "time": "8:00 AM",
+          "activity": "Hotel pickup and departure",
+          "location": "Lagos City Center"
+        },
+        {
+          "time": "10:30 AM",
+          "activity": "Arrival at Osun-Osogbo Sacred Grove",
+          "location": "Osogbo, Osun State"
+        },
+        {
+          "time": "11:00 AM",
+          "activity": "Guided tour with UNESCO heritage expert",
+          "location": "Sacred Grove"
+        },
+        {
+          "time": "1:00 PM",
+          "activity": "Traditional lunch with local community",
+          "location": "Osogbo Palace"
+        },
+        {
+          "time": "3:00 PM",
+          "activity": "Osogbo Art Gallery and craft workshops",
+          "location": "Nike Art Gallery"
+        },
+        {
+          "time": "5:00 PM",
+          "activity": "Cultural performance and storytelling",
+          "location": "Community Center"
+        },
+        {
+          "time": "7:00 PM",
+          "activity": "Return journey to Lagos",
+          "location": "Departure"
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "What Our Guests Say",
+      "items": [
+        {
+          "name": "Dr. Maria Santos",
+          "role": "Cultural Anthropologist",
+          "text": "The heritage tour provided incredible insights into Nigeria's cultural traditions. The expert guides made history come alive."
+        },
+        {
+          "name": "James Mitchell",
+          "role": "Travel Photographer",
+          "text": "An unforgettable life's journey through living heritage. The access to sacred sites and cultural ceremonies was extraordinary."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ready to Explore Cultural Heritage?",
+      "description": "Book your heritage tour today and experience Africa’s living traditions, ancient sites, and vibrant festivals with expert guides. Discover the stories that connect past, present, and future.",
+      "primary": "Book a Heritage Tour",
+      "secondary": "Custom Tour Request"
+    }
+  },
   "SportsTours": {
     "badge": "Sports Tours & Tournaments",
     "heroTitle": "Sports Excellence & Cultural Exchange",
@@ -381,16 +519,14 @@
     "heroDescription": "Comprehensive research support for academics, scholars, and students conducting fieldwork, archival research, and cultural studies across Africa with expert local guidance.",
     "heroPrimary": "Explore Research Areas",
     "heroSecondary": "Apply for Residency",
-    "quickInfo": {
-      "durationTitle": "Duration",
-      "durationValue": "1-8 weeks",
-      "researchersTitle": "Researchers",
-      "researchersValue": "1-10 people",
-      "successTitle": "Success Rate",
-      "successValue": "98%",
-      "archivesTitle": "Archives",
-      "archivesValue": "50+ collections"
-    },
+    "durationTitle": "Duration",
+    "durationValue": "1-8 weeks",
+    "researchersTitle": "Researchers",
+    "researchersValue": "1-10 people",
+    "successTitle": "Success Rate",
+    "successValue": "98%",
+    "archivesTitle": "Archives",
+    "archivesValue": "50+ collections",
     "areasTitle": "Research Specializations",
     "areasDescription": "Tailored research programs supporting diverse academic disciplines and scholarly pursuits.",
     "culturalPolicy": {
