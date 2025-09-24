@@ -1,4 +1,4 @@
-
+// tours/nigeria-local-tourism
 "use client"
 
 import { motion } from "framer-motion"
@@ -6,83 +6,61 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import Link from "next/link"
-import { ArrowRight, MapPin } from "lucide-react"
+import { MapPin } from "lucide-react"
 import { fadeInUp, staggerContainer, staggerItem } from "@/lib/animations"
 import { useScrollAnimation } from "@/hooks/use-scroll-animation"
 import CTASection from "@/components/CTASection/CTASection"
 import HeaderSlider2 from "@/components/CustomSlider/HeaderSlider2"
 import { NigerianDomesticTourData } from "@/lib/NigerianDomesticTour"
 import Image from "next/image"
-
-// Nigeria Local Tourism Attractions
-const attractions = [
-  {
-    title: "Obudu Mountain Resort",
-    description: "A paradise in the clouds with cable cars, mountain views, and eco-tourism lodges.",
-    location: "Cross River State",
-    date: "April 12–15, 2026",
-    image: "/nigerian-domestic-tour/obudu-mountain-resort.jpg",
-  },
-  {
-    title: "Ogbunike Caves",
-    description: "Ancient caves with spiritual history, lush greenery, and natural tunnels.",
-    location: "Anambra State",
-    date: "May 18, 2026",
-    image: "/nigerian-domestic-tour/Ogbunike-Cave.jpg",
-  },
-  {
-    title: "Calabar Carnival",
-    description: "Africa’s biggest street party with dance, costumes, and cultural showcases.",
-    location: "Calabar, Cross River",
-    date: "December 1–31, 2026",
-    image: "/nigerian-domestic-tour/calabar-carnival.jpg",
-  },
-  {
-    title: "Yankari Game Reserve",
-    description: "Safari adventures, natural warm springs, and Nigeria’s best wildlife park.",
-    location: "Bauchi State",
-    date: "July 8–12, 2026",
-    image: "/nigerian-domestic-tour/First-Gate-of-Yankari-Game-Rerserve-at-Mainamaji.jpg",
-  },
-  {
-    title: "Erin-Ijesha Waterfalls",
-    description: "Seven layers of waterfalls cascading through tropical forest trails.",
-    location: "Osun State",
-    date: "August 22, 2026",
-    image: "/nigerian-domestic-tour/erin-ijesha-waterfalls.jpg",
-  },
-  {
-    title: "Awhum Waterfall & Cave",
-    description: "Sacred natural wonder with religious significance and serene landscapes.",
-    location: "Enugu State",
-    date: "September 14, 2026",
-    image: "/nigerian-domestic-tour/Awhum-Waterfall.jpg",
-  },
-  {
-    title: "Sukur Cultural Landscape",
-    description: "UNESCO heritage site with ancient terraces, palaces, and cultural heritage.",
-    location: "Adamawa State",
-    date: "October 10–13, 2026",
-    image: "/nigerian-domestic-tour/sukur-cultural-landscape.jpg",
-  },
-  {
-    title: "Yobe Desert Safari",
-    description: "Explore Nigeria’s desert dunes and Fulani cultural heritage.",
-    location: "Yobe State",
-    date: "November 4–7, 2026",
-    image: "/nigerian-domestic-tour/Yobe-Desert-Safari.jpg",
-  },
-]
+import { useTranslations } from "next-intl"
 
 export default function NigeriaLocalTourismPage() {
-  const { ref: heroRef, isInView: heroInView } = useScrollAnimation()
   const { ref: toursRef, isInView: toursInView } = useScrollAnimation()
   const hoverScale = { scale: 1.05 }
   const hoverLift = { y: -5, scale: 1.05 }
 
+  const t = useTranslations("NigeriaLocalTourismPage")
+
+  // Nigeria Local Tourism Attractions (now translation-driven)
+  const attractions = [
+    {
+      key: "obudu",
+      image: "/nigerian-domestic-tour/obudu-mountain-resort.jpg",
+    },
+    {
+      key: "ogbunike",
+      image: "/nigerian-domestic-tour/Ogbunike-Cave.jpg",
+    },
+    {
+      key: "calabar",
+      image: "/nigerian-domestic-tour/calabar-carnival.jpg",
+    },
+    {
+      key: "yankari",
+      image: "/nigerian-domestic-tour/First-Gate-of-Yankari-Game-Rerserve-at-Mainamaji.jpg",
+    },
+    {
+      key: "erin",
+      image: "/nigerian-domestic-tour/erin-ijesha-waterfalls.jpg",
+    },
+    {
+      key: "awhum",
+      image: "/nigerian-domestic-tour/Awhum-Waterfall.jpg",
+    },
+    {
+      key: "sukur",
+      image: "/nigerian-domestic-tour/sukur-cultural-landscape.jpg",
+    },
+    {
+      key: "yobe",
+      image: "/nigerian-domestic-tour/Yobe-Desert-Safari.jpg",
+    },
+  ]
+
   return (
     <div className="flex flex-col overflow-hidden bg-white">
-      {/* Hero Section (kept same) */}
+      {/* Hero Section */}
       <HeaderSlider2 images={NigerianDomesticTourData} />
 
       {/* Attractions Section */}
@@ -95,10 +73,10 @@ export default function NigeriaLocalTourismPage() {
             animate={toursInView ? "visible" : "hidden"}
           >
             <h2 className="text-2xl sm:text-3xl font-bold text-ecc-slate mb-3">
-              Upcoming Tours & Events
+              {t("attractions.title")}
             </h2>
             <p className="text-base sm:text-xl text-gray-600 max-w-xl mx-auto">
-              Join us in 2026 as we explore Nigeria’s top destinations and festivals.
+              {t("attractions.description")}
             </p>
           </motion.div>
 
@@ -109,13 +87,13 @@ export default function NigeriaLocalTourismPage() {
             animate={toursInView ? "visible" : "hidden"}
           >
             {attractions.map((tour, index) => (
-              <motion.div key={index} variants={staggerItem} whileHover={hoverLift}>
+              <motion.div key={tour.key} variants={staggerItem} whileHover={hoverLift}>
                 <Card className="h-full hover:shadow-lg transition-all duration-300 rounded-xl overflow-hidden">
                   {/* Image on Top */}
                   <div className="relative w-full h-48">
                     <Image
                       src={tour.image}
-                      alt={tour.title}
+                      alt={t(`attractions.items.${tour.key}.title`)}
                       fill
                       className="object-cover"
                       priority={index === 0}
@@ -124,21 +102,24 @@ export default function NigeriaLocalTourismPage() {
 
                   {/* Card Content */}
                   <CardHeader>
-                    <CardTitle className="text-lg text-ecc-slate">{tour.title}</CardTitle>
+                    <CardTitle className="text-lg text-ecc-slate">
+                      {t(`attractions.items.${tour.key}.title`)}
+                    </CardTitle>
                     <Badge variant="secondary" className="mt-2">
-                      {tour.date}
+                      {t(`attractions.items.${tour.key}.date`)}
                     </Badge>
                   </CardHeader>
                   <CardContent>
                     <CardDescription className="mb-4 text-gray-600">
-                      {tour.description}
+                      {t(`attractions.items.${tour.key}.description`)}
                     </CardDescription>
                     <p className="flex items-center text-sm text-gray-700 mb-2">
-                      <MapPin className="h-4 w-4 mr-2" /> {tour.location}
+                      <MapPin className="h-4 w-4 mr-2" />{" "}
+                      {t(`attractions.items.${tour.key}.location`)}
                     </p>
                     <motion.div whileHover={hoverScale} whileTap={{ scale: 0.95 }}>
                       <Button asChild className="w-full bg-green-600 hover:bg-green-700">
-                        <Link href="/contact">Book Now</Link>
+                        <Link href="/contact">{t("attractions.bookNow")}</Link>
                       </Button>
                     </motion.div>
                   </CardContent>
@@ -150,11 +131,11 @@ export default function NigeriaLocalTourismPage() {
       </section>
 
       <CTASection
-        title="Ready to Discover Nigeria?"
-        description="Book your spot for upcoming tours and experience Nigeria’s natural wonders, cultural festivals, and heritage sites. Join us for an unforgettable adventure in 2026!"
-        primaryLabel="Book a Tour"
+        title={t("cta.title")}
+        description={t("cta.description")}
+        primaryLabel={t("cta.primary")}
         primaryHref="/contact"
-        secondaryLabel="Request Custom Itinerary"
+        secondaryLabel={t("cta.secondary")}
         secondaryHref="/contact"
       />
     </div>

@@ -291,6 +291,69 @@
       "secondary": "Demande de visite personnalisée"
     }
   },
+  "NigeriaLocalTourismPage": {
+    "attractions": {
+      "title": "Prochaines Visites et Événements",
+      "description": "Rejoignez-nous en 2026 pour explorer les principales destinations et festivals du Nigeria.",
+      "bookNow": "Réserver maintenant",
+      "items": {
+        "obudu": {
+          "title": "Obudu Mountain Resort",
+          "description": "Un paradis dans les nuages avec téléphériques, vues sur les montagnes et lodges écologiques.",
+          "location": "État de Cross River",
+          "date": "12–15 avril 2026"
+        },
+        "ogbunike": {
+          "title": "Grottes d’Ogbunike",
+          "description": "Grottes anciennes avec histoire spirituelle, végétation luxuriante et tunnels naturels.",
+          "location": "État d’Anambra",
+          "date": "18 mai 2026"
+        },
+        "calabar": {
+          "title": "Carnaval de Calabar",
+          "description": "La plus grande fête de rue d’Afrique avec danse, costumes et spectacles culturels.",
+          "location": "Calabar, Cross River",
+          "date": "1–31 décembre 2026"
+        },
+        "yankari": {
+          "title": "Réserve de Yankari",
+          "description": "Aventures de safari, sources chaudes naturelles et meilleur parc animalier du Nigeria.",
+          "location": "État de Bauchi",
+          "date": "8–12 juillet 2026"
+        },
+        "erin": {
+          "title": "Chutes d’Erin-Ijesha",
+          "description": "Sept niveaux de cascades traversant des sentiers forestiers tropicaux.",
+          "location": "État d’Osun",
+          "date": "22 août 2026"
+        },
+        "awhum": {
+          "title": "Cascade et Grotte d’Awhum",
+          "description": "Merveille naturelle sacrée avec signification religieuse et paysages sereins.",
+          "location": "État d’Enugu",
+          "date": "14 septembre 2026"
+        },
+        "sukur": {
+          "title": "Paysage Culturel de Sukur",
+          "description": "Site du patrimoine mondial de l’UNESCO avec anciennes terrasses, palais et héritage culturel.",
+          "location": "État d’Adamawa",
+          "date": "10–13 octobre 2026"
+        },
+        "yobe": {
+          "title": "Safari dans le Désert de Yobe",
+          "description": "Explorez les dunes du désert du Nigeria et le patrimoine culturel peul.",
+          "location": "État de Yobe",
+          "date": "4–7 novembre 2026"
+        }
+      }
+    },
+    "cta": {
+      "title": "Prêt à découvrir le Nigeria ?",
+      "description": "Réservez votre place pour les prochaines visites et découvrez les merveilles naturelles, les festivals culturels et les sites patrimoniaux du Nigeria. Rejoignez-nous pour une aventure inoubliable en 2026 !",
+      "primary": "Réserver une Visite",
+      "secondary": "Demander un Itinéraire Personnalisé"
+    }
+  },
   "SportsTours": {
     "badge": "Voyages Sportifs & Tournois",
     "heroTitle": "Excellence Sportive & Échange Culturel",

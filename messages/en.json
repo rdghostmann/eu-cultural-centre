@@ -291,6 +291,69 @@
       "secondary": "Custom Tour Request"
     }
   },
+  "NigeriaLocalTourismPage": {
+    "attractions": {
+      "title": "Upcoming Tours & Events",
+      "description": "Join us in 2026 as we explore Nigeria’s top destinations and festivals.",
+      "bookNow": "Book Now",
+      "items": {
+        "obudu": {
+          "title": "Obudu Mountain Resort",
+          "description": "A paradise in the clouds with cable cars, mountain views, and eco-tourism lodges.",
+          "location": "Cross River State",
+          "date": "April 12–15, 2026"
+        },
+        "ogbunike": {
+          "title": "Ogbunike Caves",
+          "description": "Ancient caves with spiritual history, lush greenery, and natural tunnels.",
+          "location": "Anambra State",
+          "date": "May 18, 2026"
+        },
+        "calabar": {
+          "title": "Calabar Carnival",
+          "description": "Africa’s biggest street party with dance, costumes, and cultural showcases.",
+          "location": "Calabar, Cross River",
+          "date": "December 1–31, 2026"
+        },
+        "yankari": {
+          "title": "Yankari Game Reserve",
+          "description": "Safari adventures, natural warm springs, and Nigeria’s best wildlife park.",
+          "location": "Bauchi State",
+          "date": "July 8–12, 2026"
+        },
+        "erin": {
+          "title": "Erin-Ijesha Waterfalls",
+          "description": "Seven layers of waterfalls cascading through tropical forest trails.",
+          "location": "Osun State",
+          "date": "August 22, 2026"
+        },
+        "awhum": {
+          "title": "Awhum Waterfall & Cave",
+          "description": "Sacred natural wonder with religious significance and serene landscapes.",
+          "location": "Enugu State",
+          "date": "September 14, 2026"
+        },
+        "sukur": {
+          "title": "Sukur Cultural Landscape",
+          "description": "UNESCO heritage site with ancient terraces, palaces, and cultural heritage.",
+          "location": "Adamawa State",
+          "date": "October 10–13, 2026"
+        },
+        "yobe": {
+          "title": "Yobe Desert Safari",
+          "description": "Explore Nigeria’s desert dunes and Fulani cultural heritage.",
+          "location": "Yobe State",
+          "date": "November 4–7, 2026"
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready to Discover Nigeria?",
+      "description": "Book your spot for upcoming tours and experience Nigeria’s natural wonders, cultural festivals, and heritage sites. Join us for an unforgettable adventure in 2026!",
+      "primary": "Book a Tour",
+      "secondary": "Request Custom Itinerary"
+    }
+  },
   "SportsTours": {
     "badge": "Sports Tours & Tournaments",
     "heroTitle": "Sports Excellence & Cultural Exchange",

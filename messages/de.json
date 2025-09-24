@@ -291,6 +291,69 @@
       "secondary": "Individuelle Touranfrage"
     }
   },
+  "NigeriaLocalTourismPage": {
+  "attractions": {
+    "title": "Bevorstehende Touren & Veranstaltungen",
+    "description": "Begleiten Sie uns 2026, während wir Nigerias Top-Destinationen und Festivals erkunden.",
+    "bookNow": "Jetzt buchen",
+    "items": {
+      "obudu": {
+        "title": "Obudu Mountain Resort",
+        "description": "Ein Paradies in den Wolken mit Seilbahnen, Bergblick und Öko-Lodges.",
+        "location": "Bundesstaat Cross River",
+        "date": "12.–15. April 2026"
+      },
+      "ogbunike": {
+        "title": "Ogbunike-Höhlen",
+        "description": "Antike Höhlen mit spiritueller Geschichte, üppigem Grün und natürlichen Tunneln.",
+        "location": "Bundesstaat Anambra",
+        "date": "18. Mai 2026"
+      },
+      "calabar": {
+        "title": "Calabar-Karneval",
+        "description": "Afrikas größte Straßenparty mit Tanz, Kostümen und kulturellen Darbietungen.",
+        "location": "Calabar, Cross River",
+        "date": "1.–31. Dezember 2026"
+      },
+      "yankari": {
+        "title": "Yankari-Wildreservat",
+        "description": "Safari-Abenteuer, natürliche Thermalquellen und Nigerias bester Wildpark.",
+        "location": "Bundesstaat Bauchi",
+        "date": "8.–12. Juli 2026"
+      },
+      "erin": {
+        "title": "Erin-Ijesha-Wasserfälle",
+        "description": "Sieben Stufen von Wasserfällen, die durch tropische Waldpfade fließen.",
+        "location": "Bundesstaat Osun",
+        "date": "22. August 2026"
+      },
+      "awhum": {
+        "title": "Awhum-Wasserfall & Höhle",
+        "description": "Heiliges Naturwunder mit religiöser Bedeutung und friedlicher Landschaft.",
+        "location": "Bundesstaat Enugu",
+        "date": "14. September 2026"
+      },
+      "sukur": {
+        "title": "Sukur-Kulturlandschaft",
+        "description": "UNESCO-Welterbestätte mit alten Terrassen, Palästen und kulturellem Erbe.",
+        "location": "Bundesstaat Adamawa",
+        "date": "10.–13. Oktober 2026"
+      },
+      "yobe": {
+        "title": "Yobe-Wüstensafari",
+        "description": "Erkunden Sie Nigerias Dünen und das Fulani-Kulturerbe.",
+        "location": "Bundesstaat Yobe",
+        "date": "4.–7. November 2026"
+      }
+    }
+  },
+  "cta": {
+    "title": "Bereit, Nigeria zu entdecken?",
+    "description": "Buchen Sie jetzt Ihren Platz für kommende Touren und erleben Sie Nigerias Naturwunder, Kulturfeste und Kulturerbestätten. Begleiten Sie uns 2026 auf ein unvergessliches Abenteuer!",
+    "primary": "Tour buchen",
+    "secondary": "Individuelle Reiseroute anfordern"
+  }
+},
   "SportsTours": {
     "badge": "Sportreisen & Turniere",
     "heroTitle": "Sportliche Exzellenz & Kulturaustausch",
