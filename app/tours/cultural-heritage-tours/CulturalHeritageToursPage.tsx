@@ -125,10 +125,10 @@ export default function CulturalHeritageToursPage() {
                         viewport={{ once: true }}
                     >
                         {[
-                            { icon: Clock, title: "Duration", value: "1-5 days" },
-                            { icon: Users, title: "Group Size", value: "8-25 people" },
-                            { icon: Camera, title: "Photography", value: "Allowed" },
-                            { icon: Shield, title: "Insurance", value: "Included" },
+                            { icon: Clock, title: t("quickInfo.duration.title"), value: t("quickInfo.duration.value") },
+                            { icon: Users, title: t("quickInfo.groupSize.title"), value: t("quickInfo.groupSize.value") },
+                            { icon: Camera, title: t("quickInfo.photography.title"), value: t("quickInfo.photography.value") },
+                            { icon: Shield, title: t("quickInfo.insurance.title"), value: t("quickInfo.insurance.value") },
                         ].map((item, index) => (
                             <motion.div
                                 key={index}
@@ -163,10 +163,10 @@ export default function CulturalHeritageToursPage() {
                         animate={toursInView ? "visible" : "hidden"}
                     >
                         <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-ecc-slate mb-4">
-                            Heritage Tour Categories
+                            {t("tours.title")}
                         </h2>
                         <p className="text-base sm:text-xl text-gray-600 max-w-2xl sm:max-w-3xl mx-auto">
-                            Choose from our curated selection of cultural heritage experiences.
+                            {t("tours.description")}
                         </p>
                     </motion.div>
 
@@ -214,7 +214,7 @@ export default function CulturalHeritageToursPage() {
                                         </motion.div>
                                         <motion.div whileHover={hoverScale} whileTap={{ scale: 0.95 }}>
                                             <Link href="/contact">
-                                                <Button className="w-full bg-amber-600 hover:bg-amber-700">Learn More</Button>
+                                                <Button className="w-full bg-amber-600 hover:bg-amber-700">{t("learnMore")}</Button>
                                             </Link>
                                         </motion.div>
                                     </CardContent>
