@@ -157,6 +157,18 @@
     "gallery": "Gallery",
     "getInvolved": "Get Involved"
   },
+  "ExhibitionPage": {
+    "hero": {
+      "title": "Exhibition & Conference",
+      "subtitle": "Our event, exhibition, and conference showcasing cultural heritage."
+    },
+    "gallery": {
+      "culturalDance": "Cultural Dance"
+    },
+    "exhibition": {
+      "title": "Cultural Exhibition"
+    }
+  },
   "CulturalHeritageTours": {
     "heroBadge": "Cultural Heritage Tours",
     "heroTitle": "Discover Living Heritage & Ancient Traditions",

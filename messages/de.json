@@ -157,6 +157,18 @@
     "gallery": "Galerie",
     "getInvolved": "Mitmachen"
   },
+   "ExhibitionPage": {
+    "hero": {
+      "title": "Ausstellung & Konferenz",
+      "subtitle": "Unsere Veranstaltung, Ausstellung und Konferenz zur Präsentation des Kulturerbes."
+    },
+    "gallery": {
+      "culturalDance": "Kultureller Tanz"
+    },
+    "exhibition": {
+      "title": "Kulturelle Ausstellung"
+    }
+  },
   "CulturalHeritageTours": {
     "heroBadge": "Kulturelle Erbtouren",
     "heroTitle": "Entdecken Sie lebendiges Erbe und alte Traditionen",

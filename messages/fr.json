@@ -157,6 +157,18 @@
     "gallery": "Galerie",
     "getInvolved": "S’impliquer"
   },
+  "ExhibitionPage": {
+    "hero": {
+      "title": "Exposition & Conférence",
+      "subtitle": "Notre événement, exposition et conférence mettant en valeur le patrimoine culturel."
+    },
+    "gallery": {
+      "culturalDance": "Danse culturelle"
+    },
+    "exhibition": {
+      "title": "Exposition culturelle"
+    }
+  },
   "CulturalHeritageTours": {
     "heroBadge": "Tours du patrimoine culturel",
     "heroTitle": "Découvrez le patrimoine vivant et les traditions anciennes",
