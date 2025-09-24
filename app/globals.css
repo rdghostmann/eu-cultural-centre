@@ -6,6 +6,9 @@
   .text-balance {
     text-wrap: balance;
   }
+  .text-ecc-slate {
+    color: #205375;
+  }
 }
 
 @layer base {

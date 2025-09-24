@@ -212,9 +212,9 @@ export default function SchoolExchangePage() {
                         initial="hidden"
                         animate={upcomingInView ? "visible" : "hidden"}
                     >
-                        <h2 className="text-3xl lg:text-4xl font-bold text-ecc-slate mb-4">Upcoming Exchanges</h2>
+                        <h2 className="text-3xl lg:text-4xl font-bold text-ecc-slate mb-4">{t("upcomingExchangeTitle")}</h2>
                         <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                            Don't miss these exciting opportunities to participate in our upcoming exchange programs.
+                           {}
                         </p>
                     </motion.div>
 
