@@ -290,7 +290,7 @@ export default function HumanitarianPage() {
           </motion.div>
 
           <motion.div
-            className="grid grid-cols-2 lg:grid-cols-3 gap-8 px-5"
+            className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 px-5"
             variants={staggerContainer}
             initial="hidden"
             animate={eventsInView ? "visible" : "hidden"}
