@@ -105,11 +105,46 @@ export default function ResearchToursPage() {
       {/* Quick Info */}
       <section className="py-8 px-4 sm:py-12 sm:px-6 bg-ecc-beige">
         <div className="max-w-4xl mx-auto">
-          <motion.div className="grid grid-cols-2 gap-4 sm:grid-cols-4 sm:gap-6" variants={staggerContainer} initial="hidden" whileInView="visible" viewport={{ once: true }}>
-            {/* ...info cards... */}
-            {[{ icon: Clock, title: "Duration", value: "1-8 weeks" }, { icon: Users, title: "Researchers", value: "1-10 people" }, { icon: Award, title: "Success Rate", value: "98%" }, { icon: Database, title: "Archives", value: "50+ collections" }].map((item, index) => (
-              <motion.div key={index} className="text-center bg-white rounded-lg shadow-sm py-6 px-2 sm:px-4" variants={staggerItem} whileHover={hoverLift}>
-                <motion.div className="inline-flex items-center justify-center w-12 h-12 bg-indigo-600 rounded-full mb-3" whileHover={{ rotate: 360 }} transition={{ duration: 0.5 }}>
+          <motion.div
+            className="grid grid-cols-2 gap-4 sm:grid-cols-4 sm:gap-6"
+            variants={staggerContainer}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+          >
+            {[
+              {
+                icon: Clock,
+                title: t("quickInfo.durationTitle"),
+                value: t("quickInfo.durationValue"),
+              },
+              {
+                icon: Users,
+                title: t("quickInfo.researchersTitle"),
+                value: t("quickInfo.researchersValue"),
+              },
+              {
+                icon: Award,
+                title: t("quickInfo.successTitle"),
+                value: t("quickInfo.successValue"),
+              },
+              {
+                icon: Database,
+                title: t("quickInfo.archivesTitle"),
+                value: t("quickInfo.archivesValue"),
+              },
+            ].map((item, index) => (
+              <motion.div
+                key={index}
+                className="text-center bg-white rounded-lg shadow-sm py-6 px-2 sm:px-4"
+                variants={staggerItem}
+                whileHover={hoverLift}
+              >
+                <motion.div
+                  className="inline-flex items-center justify-center w-12 h-12 bg-indigo-600 rounded-full mb-3"
+                  whileHover={{ rotate: 360 }}
+                  transition={{ duration: 0.5 }}
+                >
                   <item.icon className="h-6 w-6 text-white" />
                 </motion.div>
                 <h3 className="font-semibold text-ecc-slate mb-2">{item.title}</h3>
@@ -118,6 +153,7 @@ export default function ResearchToursPage() {
             ))}
           </motion.div>
         </div>
+
       </section>
 
       {/* Research Areas */}

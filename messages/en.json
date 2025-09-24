@@ -391,8 +391,8 @@
       "archivesTitle": "Archives",
       "archivesValue": "50+ collections"
     },
-    "researchAreasTitle": "Research Specializations",
-    "researchAreasDescription": "Tailored research programs supporting diverse academic disciplines and scholarly pursuits.",
+    "areasTitle": "Research Specializations",
+    "areasDescription": "Tailored research programs supporting diverse academic disciplines and scholarly pursuits.",
     "culturalPolicy": {
       "title": "Cultural Policy Research",
       "description": "In-depth studies on cultural policies, heritage preservation, and arts development frameworks.",
