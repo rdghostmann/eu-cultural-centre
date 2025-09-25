@@ -4,6 +4,7 @@
     "areaofworkp": "Creamos intercambios culturales significativos y asociaciones sostenibles en áreas clave.",
     "readmore": "Leer más",
     "learnMore": "Aprender más",
+    "applyNow": "Aplica ahora",
     "viewAllNews": "Ver todas las noticias",
     "viewAllPrograms": "Ver todos los programas",
     "areas": {
@@ -146,7 +147,7 @@
       "secondary": "Aprender más"
     }
   },
-   "Partners": {
+  "Partners": {
     "title": "Nuestros Socios",
     "description": "Colaboramos con organizaciones líderes para crear intercambios culturales significativos y un impacto duradero.",
     "cta": "Conviértete en socio"

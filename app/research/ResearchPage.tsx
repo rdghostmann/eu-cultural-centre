@@ -14,112 +14,6 @@ import CTASection from "@/components/CTASection/CTASection"
 import HeaderSlider2 from "@/components/CustomSlider/HeaderSlider2"
 import { ResearchPageCarouselData } from "@/lib/ResearchPageCarouselData"
 
-const researchPrograms = [
-  {
-    title: "Cultural Policy Research",
-    description: "In-depth research on cultural policies and their impact on international cooperation.",
-    icon: <FileText className="h-6 w-6" />,
-    features: ["Policy analysis", "Impact studies", "Comparative research", "Recommendations"],
-    impact: "25+ policy papers published",
-  },
-  {
-    title: "Heritage Studies Program",
-    description: "Academic research on cultural heritage preservation and digitization across Africa and Europe.",
-    icon: <BookOpen className="h-6 w-6" />,
-    features: ["Heritage documentation", "Digital preservation", "Community engagement", "Best practices"],
-    impact: "50+ heritage sites studied",
-  },
-  {
-    title: "Cross-Cultural Exchange Research",
-    description: "Studies on the effectiveness and impact of cultural exchange programs.",
-    icon: <Users className="h-6 w-6" />,
-    features: ["Program evaluation", "Impact measurement", "Participant surveys", "Long-term studies"],
-    impact: "10,000+ participants surveyed",
-  },
-  {
-    title: "Innovation in Culture Research",
-    description: "Research on how technology and innovation are transforming cultural sectors.",
-    icon: <TrendingUp className="h-6 w-6" />,
-    features: ["Technology adoption", "Digital transformation", "Innovation metrics", "Future trends"],
-    impact: "15+ innovation reports",
-  },
-  {
-    title: "Community Impact Studies",
-    description: "Research on how cultural programs affect local communities and social development.",
-    icon: <Search className="h-6 w-6" />,
-    features: ["Social impact", "Economic benefits", "Community development", "Sustainability"],
-    impact: "100+ communities studied",
-  },
-  {
-    title: "Academic Partnerships",
-    description: "Collaborative research projects with universities and research institutions.",
-    icon: <Award className="h-6 w-6" />,
-    features: ["Joint research", "Student exchanges", "Faculty collaboration", "Funding opportunities"],
-    impact: "20+ university partnerships",
-  },
-]
-
-const recentPublications = [
-  {
-    title: "Digital Heritage in Africa: Opportunities and Challenges",
-    authors: "Dr. Amina Hassan, Prof. John Smith",
-    journal: "Int'l Journal of Cultural Heritage",
-    year: "2025",
-    type: "Research Paper",
-  },
-  {
-    title: "Cultural Exchange Programs: A Decade of Impact",
-    authors: "ECC Nigeria Research Team",
-    journal: "Cultural Diplomacy Review",
-    year: "2025",
-    type: "Impact Report",
-  },
-  {
-    title: "Innovation in African Cultural Sectors",
-    authors: "Dr. Kwame Asante, Dr. Sarah Johnson",
-    journal: "African Cultural Studies",
-    year: "2026",
-    type: "Research Paper",
-  },
-  {
-    title: "Policy Framework for Cultural Cooperation",
-    authors: "ECC Nigeria Policy Team",
-    journal: "Policy Brief Series",
-    year: "2025",
-    type: "Policy Brief",
-  },
-]
-
-const articles = [
-  {
-    title: "Cultural Exchange Programs",
-    subtitle: "Years of Impact",
-    authors: "ECC Nigeria Research Team",
-    publication: "Cultural Diplomacy Review • 2025",
-    file: "/pdfs/cultural-exchange.pdf",
-  },
-  {
-    title: "Digital Heritage in Africa",
-    subtitle: "Opportunities and Challenges",
-    authors: "Judith Ifezue & Prof. John Smith",
-    publication: "Int'l Journal of Cultural • 2025",
-    file: "/pdfs/digital-heritage.pdf",
-  },
-  {
-    title: "Innovation in European Cultural Sectors",
-    subtitle: "",
-    authors: "Judith Ifezue, Dr. Kwame Asante & Dr. Sarah Johnson",
-    publication: "European Cultural Studies • 2026",
-    file: "/pdfs/innovation-europe.pdf",
-  },
-  {
-    title: "Policy Framework for Cultural Cooperation",
-    subtitle: "",
-    authors: "ECC Nigeria Policy Team",
-    publication: "Policy Brief Series • 2025",
-    file: "/pdfs/policy-framework.pdf",
-  },
-]
 
 export default function ResearchPage() {
   const { ref: heroRef, isInView: heroInView } = useScrollAnimation()
@@ -127,14 +21,121 @@ export default function ResearchPage() {
   const { ref: publicationsRef, isInView: publicationsInView } = useScrollAnimation()
   const hoverScale = { scale: 1.05 };
   const hoverLift = { y: -5, scale: 1.05 }; // lift slightly and scale up
-
+  
   const [open, setOpen] = useState(false)
   const [selectedArticle, setSelectedArticle] = useState<typeof articles[0] | null>(null)
-
+  
   const handleOpen = (article: typeof articles[0]) => {
     setSelectedArticle(article)
     setOpen(true)
   }
+  
+  const researchPrograms = [
+    {
+      title: "Cultural Policy Research",
+      description: "In-depth research on cultural policies and their impact on international cooperation.",
+      icon: <FileText className="h-6 w-6" />,
+      features: ["Policy analysis", "Impact studies", "Comparative research", "Recommendations"],
+      impact: "25+ policy papers published",
+    },
+    {
+      title: "Heritage Studies Program",
+      description: "Academic research on cultural heritage preservation and digitization across Africa and Europe.",
+      icon: <BookOpen className="h-6 w-6" />,
+      features: ["Heritage documentation", "Digital preservation", "Community engagement", "Best practices"],
+      impact: "50+ heritage sites studied",
+    },
+    {
+      title: "Cross-Cultural Exchange Research",
+      description: "Studies on the effectiveness and impact of cultural exchange programs.",
+      icon: <Users className="h-6 w-6" />,
+      features: ["Program evaluation", "Impact measurement", "Participant surveys", "Long-term studies"],
+      impact: "10,000+ participants surveyed",
+    },
+    {
+      title: "Innovation in Culture Research",
+      description: "Research on how technology and innovation are transforming cultural sectors.",
+      icon: <TrendingUp className="h-6 w-6" />,
+      features: ["Technology adoption", "Digital transformation", "Innovation metrics", "Future trends"],
+      impact: "15+ innovation reports",
+    },
+    {
+      title: "Community Impact Studies",
+      description: "Research on how cultural programs affect local communities and social development.",
+      icon: <Search className="h-6 w-6" />,
+      features: ["Social impact", "Economic benefits", "Community development", "Sustainability"],
+      impact: "100+ communities studied",
+    },
+    {
+      title: "Academic Partnerships",
+      description: "Collaborative research projects with universities and research institutions.",
+      icon: <Award className="h-6 w-6" />,
+      features: ["Joint research", "Student exchanges", "Faculty collaboration", "Funding opportunities"],
+      impact: "20+ university partnerships",
+    },
+  ]
+  
+  const recentPublications = [
+    {
+      title: "Digital Heritage in Africa: Opportunities and Challenges",
+      authors: "Dr. Amina Hassan, Prof. John Smith",
+      journal: "Int'l Journal of Cultural Heritage",
+      year: "2025",
+      type: "Research Paper",
+    },
+    {
+      title: "Cultural Exchange Programs: A Decade of Impact",
+      authors: "ECC Nigeria Research Team",
+      journal: "Cultural Diplomacy Review",
+      year: "2025",
+      type: "Impact Report",
+    },
+    {
+      title: "Innovation in African Cultural Sectors",
+      authors: "Dr. Kwame Asante, Dr. Sarah Johnson",
+      journal: "African Cultural Studies",
+      year: "2026",
+      type: "Research Paper",
+    },
+    {
+      title: "Policy Framework for Cultural Cooperation",
+      authors: "ECC Nigeria Policy Team",
+      journal: "Policy Brief Series",
+      year: "2025",
+      type: "Policy Brief",
+    },
+  ]
+  
+  const articles = [
+    {
+      title: "Cultural Exchange Programs",
+      subtitle: "Years of Impact",
+      authors: "ECC Nigeria Research Team",
+      publication: "Cultural Diplomacy Review • 2025",
+      file: "/pdfs/cultural-exchange.pdf",
+    },
+    {
+      title: "Digital Heritage in Africa",
+      subtitle: "Opportunities and Challenges",
+      authors: "Judith Ifezue & Prof. John Smith",
+      publication: "Int'l Journal of Cultural • 2025",
+      file: "/pdfs/digital-heritage.pdf",
+    },
+    {
+      title: "Innovation in European Cultural Sectors",
+      subtitle: "",
+      authors: "Judith Ifezue, Dr. Kwame Asante & Dr. Sarah Johnson",
+      publication: "European Cultural Studies • 2026",
+      file: "/pdfs/innovation-europe.pdf",
+    },
+    {
+      title: "Policy Framework for Cultural Cooperation",
+      subtitle: "",
+      authors: "ECC Nigeria Policy Team",
+      publication: "Policy Brief Series • 2025",
+      file: "/pdfs/policy-framework.pdf",
+    },
+  ]
 
 
   return (

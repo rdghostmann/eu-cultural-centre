@@ -4,6 +4,7 @@
     "areaofworkp": "Nous créons des échanges culturels significatifs et des partenariats durables dans des domaines clés.",
     "readmore": "Lire plus",
     "learnMore": "En savoir plus",
+    "applyNow": "Postuler maintenant",
     "viewAllNews": "Voir toutes les actualités",
     "viewAllPrograms": "Voir tous les programmes",
     "areas": {
@@ -146,7 +147,7 @@
       "secondary": "En savoir plus"
     }
   },
-   "Partners": {
+  "Partners": {
     "title": "Nos Partenaires",
     "description": "Nous collaborons avec des organisations de premier plan pour créer des échanges culturels significatifs et un impact durable.",
     "cta": "Devenir partenaire"

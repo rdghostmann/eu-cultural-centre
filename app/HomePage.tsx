@@ -310,7 +310,7 @@ export default function HomePage() {
                     <motion.div whileHover={hoverScale} whileTap={{ scale: 0.95 }}>
                       <Link href="/contact">
                         <Button className="w-full bg-[#68b684] hover:bg-[#8F770A] text-white font-semibold">
-                          {program.applications === "Open" ? "Apply Now" : "Learn More"}
+                          {program.applications === "Open" ? t("applyNow") : t("learnMore")}
                         </Button>
                       </Link>
                     </motion.div>
