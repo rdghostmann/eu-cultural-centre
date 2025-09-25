@@ -1,7 +1,155 @@
 {
   "HomePage": {
     "areaofworkh2": "Nuestras Áreas de Trabajo",
-    "areaofworkp": "Creamos intercambios culturales significativos y asociaciones sostenibles en ocho áreas clave."
+    "areaofworkp": "Creamos intercambios culturales significativos y asociaciones sostenibles en áreas clave.",
+    "readmore": "Leer más",
+    "learnMore": "Aprender más",
+    "viewAllNews": "Ver todas las noticias",
+    "viewAllPrograms": "Ver todos los programas",
+    "areas": {
+      "education": {
+        "title": "Educación & Intercambio de Conocimientos",
+        "desc": "Aprendizaje, desarrollo de capacidades y asociaciones académicas sin fronteras."
+      },
+      "humanitarian": {
+        "title": "Humanitario",
+        "desc": "Programas que apoyan a las comunidades con compasión, ayuda y dignidad."
+      },
+      "exhibition": {
+        "title": "Exposiciones & Conferencias",
+        "desc": "Plataformas para mostrar ideas, cultura y fomentar el diálogo global."
+      },
+      "youth": {
+        "title": "Desarrollo Juvenil",
+        "desc": "Empoderar a los jóvenes mediante educación, habilidades y liderazgo."
+      },
+      "training": {
+        "title": "Capacitación & Talleres",
+        "desc": "Sesiones prácticas para desarrollar habilidades, compartir conocimientos y promover el crecimiento."
+      },
+      "scholarship": {
+        "title": "Programas de Becas",
+        "desc": "Ampliar el acceso a una educación de calidad mediante apoyo internacional."
+      },
+      "grant": {
+        "title": "Obtención de Subvenciones",
+        "desc": "Identificación y aseguramiento de fondos para iniciativas con impacto."
+      },
+      "healthcare": {
+        "title": "Salud",
+        "desc": "Promover la conciencia sobre la salud, programas de atención y bienestar comunitario."
+      },
+      "language": {
+        "title": "Cursos de Idiomas",
+        "desc": "Romper barreras ofreciendo educación multilingüe inclusiva."
+      },
+      "culture": {
+        "title": "Cultura, Artes & Patrimonio",
+        "desc": "Mostrar, preservar y celebrar diversas tradiciones y creatividad."
+      },
+      "environment": {
+        "title": "Medio Ambiente & Acción Climática",
+        "desc": "Defender la resiliencia climática, la sostenibilidad y un futuro más verde."
+      },
+      "inclusion": {
+        "title": "Inclusión & Accesibilidad",
+        "desc": "Garantizar igualdad de oportunidades y programas accesibles para todos."
+      },
+      "cooperation": {
+        "title": "Cooperación entre los Pueblos",
+        "desc": "Construir confianza, solidaridad y vínculos entre sociedades."
+      },
+      "research": {
+        "title": "Investigación Creativa & Cultural",
+        "desc": "Explorar innovaciones y conocimientos que promueven el crecimiento cultural."
+      },
+      "sports": {
+        "title": "Deportes",
+        "desc": "Aprovechar el poder unificador del deporte para la educación y el intercambio."
+      },
+      "events": {
+        "title": "Eventos",
+        "desc": "Organizar eventos culturales y académicos que unan a las personas."
+      },
+      "tourism": {
+        "title": "Turismo",
+        "desc": "Promover la comprensión intercultural a través de viajes y patrimonio."
+      },
+      "innovation": {
+        "title": "Innovación & Nuevos Medios",
+        "desc": "Impulsar la creatividad con tecnología, startups y medios digitales."
+      }
+    },
+    "stats": {
+      "activePrograms": "Programas Activos",
+      "partnerCountries": "Países Socios",
+      "livesImpacted": "Vidas Impactadas",
+      "innovationProjects": "Proyectos de Innovación"
+    },
+    "events": {
+      "title": "Próximos Eventos",
+      "desc": "Únase a nosotros en emocionantes eventos culturales, festivales y programas educativos durante todo el año.",
+      "heritage": {
+        "title": "Festival del Patrimonio Africano",
+        "type": "Evento Cultural"
+      },
+      "innovation": {
+        "title": "Cumbre de Innovación Juvenil",
+        "type": "Innovación"
+      },
+      "sports": {
+        "title": "Torneo Deportivo Internacional",
+        "type": "Deportes"
+      }
+    },
+    "newsResesearch": {
+      "title": "Noticias & Investigación",
+      "desc": "Manténgase actualizado con nuestras últimas noticias, publicaciones de investigación y perspectivas del sector cultural."
+    },
+    "programs": {
+      "title": "Programas & Residencias",
+      "desc": "Programas inmersivos y oportunidades de residencia para artistas, investigadores y profesionales culturales.",
+      "residency": {
+        "title": "Programa de Residencia Artística",
+        "desc": "Residencias de 3 meses para artistas emergentes de Europa y África"
+      },
+      "fellowship": {
+        "title": "Beca de Investigación Cultural",
+        "desc": "Oportunidades de investigación para académicos en estudios culturales"
+      },
+      "youthAcademy": {
+        "title": "Academia de Liderazgo Juvenil",
+        "desc": "Programa de desarrollo de liderazgo para jóvenes embajadores culturales"
+      }
+    },
+    "news": {
+      "partnership": {
+        "title": "Nueva Alianza con la Fundación Cultural Europea",
+        "excerpt": "ECC Nigeria anuncia una alianza estratégica para ampliar los programas de intercambio cultural...",
+        "category": "Alianza"
+      },
+      "research": {
+        "title": "Publicación de Investigación: Patrimonio Digital en África",
+        "excerpt": "Nuestra última investigación explora la digitalización del patrimonio cultural africano...",
+        "category": "Investigación"
+      },
+      "exchange": {
+        "title": "Programa de Intercambio Juvenil Gradúa a 50 Estudiantes",
+        "excerpt": "Celebramos el éxito de nuestra última cohorte de embajadores culturales...",
+        "category": "Educación"
+      }
+    },
+    "cta": {
+      "title": "¿Listo para Marcar la Diferencia?",
+      "description": "Únase a nuestra comunidad de agentes de cambio, embajadores culturales e innovadores que construyen puentes entre Europa y África.",
+      "primary": "Involúcrese Hoy",
+      "secondary": "Aprender más"
+    }
+  },
+   "Partners": {
+    "title": "Nuestros Socios",
+    "description": "Colaboramos con organizaciones líderes para crear intercambios culturales significativos y un impacto duradero.",
+    "cta": "Conviértete en socio"
   },
   "AboutPage": {
     "mission": {

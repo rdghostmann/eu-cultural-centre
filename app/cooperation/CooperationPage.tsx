@@ -118,7 +118,7 @@ export default function CooperationPage() {
                       whileInView="visible"
                       viewport={{ once: true }}
                     >
-                      {Object.values(t.raw(`${program.key}.features`)).map((feature:any, idx:number) => (
+                      {Object.values(t.raw(`${program.key}.features`)).map((feature: any, idx: number) => (
                         <motion.div key={idx} className="flex items-center space-x-2" variants={staggerItem}>
                           <motion.div className="w-2 h-2 bg-indigo-600 rounded-full" whileHover={{ scale: 1.5 }} />
                           <span className="text-sm text-gray-600">{feature}</span>

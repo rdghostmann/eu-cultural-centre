@@ -1,7 +1,155 @@
 {
   "HomePage": {
     "areaofworkh2": "Our Areas of Work",
-    "areaofworkp": "We create meaningful cultural exchanges and sustainable partnerships across eight key areas."
+    "areaofworkp": "We create meaningful cultural exchanges and sustainable partnerships across key areas.",
+    "readmore": "Read more",
+    "learnMore": "Learn more",
+    "viewAllNews": "View All News",
+    "viewAllPrograms": "View All Programs",
+    "areas": {
+      "education": {
+        "title": "Education & Knowledge Exchange",
+        "desc": "Learning, capacity building, and academic partnerships across borders."
+      },
+      "humanitarian": {
+        "title": "Humanitarian",
+        "desc": "Programs supporting communities with compassion, relief, and dignity."
+      },
+      "exhibition": {
+        "title": "Exhibition & Conferences",
+        "desc": "Platforms for showcasing ideas, culture, and fostering global dialogue."
+      },
+      "youth": {
+        "title": "Youth Development",
+        "desc": "Empowering young people through education, skills, and leadership."
+      },
+      "training": {
+        "title": "Training & Workshop",
+        "desc": "Hands-on sessions to build skills, share knowledge, and drive growth."
+      },
+      "scholarship": {
+        "title": "Scholarship Programs",
+        "desc": "Expanding access to quality education through international support."
+      },
+      "grant": {
+        "title": "Grant Sourcing",
+        "desc": "Identifying and securing funding to sustain impactful initiatives."
+      },
+      "healthcare": {
+        "title": "Healthcare",
+        "desc": "Promoting health awareness, care programs, and community well-being."
+      },
+      "language": {
+        "title": "Language Courses",
+        "desc": "Breaking barriers by providing inclusive multilingual education."
+      },
+      "culture": {
+        "title": "Culture, Arts & Heritage",
+        "desc": "Showcasing, preserving, and celebrating diverse traditions and creativity."
+      },
+      "environment": {
+        "title": "Environment & Climate Action",
+        "desc": "Advocating for climate resilience, sustainability, and greener futures."
+      },
+      "inclusion": {
+        "title": "Inclusion & Accessibility",
+        "desc": "Ensuring equal opportunities and accessible programs for all."
+      },
+      "cooperation": {
+        "title": "People-to-People Cooperation",
+        "desc": "Building trust, solidarity, and connections across societies."
+      },
+      "research": {
+        "title": "Creative & Cultural Research",
+        "desc": "Exploring innovations and insights that advance cultural growth."
+      },
+      "sports": {
+        "title": "Sports",
+        "desc": "Harnessing the unifying power of sports for education and exchange."
+      },
+      "events": {
+        "title": "Events",
+        "desc": "Hosting cultural and academic events that bring people together."
+      },
+      "tourism": {
+        "title": "Tourism",
+        "desc": "Promoting intercultural understanding through travel and heritage."
+      },
+      "innovation": {
+        "title": "Innovation & New Media",
+        "desc": "Driving creativity with technology, startups, and digital media."
+      }
+    },
+    "stats": {
+      "activePrograms": "Active Programs",
+      "partnerCountries": "Partner Countries",
+      "livesImpacted": "Lives Impacted",
+      "innovationProjects": "Innovation Projects"
+    },
+    "events": {
+      "title": "Upcoming Events",
+      "desc": "Join us for exciting cultural events, festivals, and educational programs throughout the year.",
+      "heritage": {
+        "title": "African Heritage Festival",
+        "type": "Cultural Event"
+      },
+      "innovation": {
+        "title": "Youth Innovation Summit",
+        "type": "Innovation"
+      },
+      "sports": {
+        "title": "International Sports Tournament",
+        "type": "Sports"
+      }
+    },
+    "newsResesearch": {
+      "title": "News & Research",
+      "desc": "Stay updated with our latest news, research publications, and insights from the cultural sector."
+    },
+    "programs": {
+      "title": "Programs & Residencies",
+      "desc": "Immersive programs and residency opportunities for artists, researchers, and cultural professionals.",
+      "residency": {
+        "title": "Artist Residency Program",
+        "desc": "3-month residencies for emerging artists from Europe and Africa"
+      },
+      "fellowship": {
+        "title": "Cultural Research Fellowship",
+        "desc": "Research opportunities for scholars in cultural studies"
+      },
+      "youthAcademy": {
+        "title": "Youth Leadership Academy",
+        "desc": "Leadership development program for young cultural ambassadors"
+      }
+    },
+    "news": {
+      "partnership": {
+        "title": "New Partnership with European Cultural Foundation",
+        "excerpt": "ECC Nigeria announces strategic partnership to expand cultural exchange programs...",
+        "category": "Partnership"
+      },
+      "research": {
+        "title": "Research Publication: Digital Heritage in Africa",
+        "excerpt": "Our latest research explores the digitization of African cultural heritage...",
+        "category": "Research"
+      },
+      "exchange": {
+        "title": "Youth Exchange Program Graduates 50 Students",
+        "excerpt": "Celebrating the success of our latest cohort of cultural ambassadors...",
+        "category": "Education"
+      }
+    },
+    "cta": {
+      "title": "Ready to Make a Difference?",
+      "description": "Join our community of changemakers, cultural ambassadors, and innovators working to build bridges between Europe and Africa.",
+      "primary": "Get Involved Today",
+      "secondary": "Learn More"
+    }
+  },
+  "Partners": {
+    "title": "Our Partners",
+    "description": "We collaborate with leading organizations to create meaningful cultural exchanges and lasting impact.",
+    "cta": "Become a Partner"
   },
   "AboutPage": {
     "mission": {

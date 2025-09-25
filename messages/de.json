@@ -1,7 +1,155 @@
 {
   "HomePage": {
     "areaofworkh2": "Unsere Arbeitsbereiche",
-    "areaofworkp": "Wir schaffen bedeutungsvolle kulturelle Austausche und nachhaltige Partnerschaften in acht Schlüsselbereichen."
+    "areaofworkp": "Wir schaffen bedeutungsvolle kulturelle Austauschprogramme und nachhaltige Partnerschaften in wichtigen Bereichen.",
+    "readmore": "Mehr lesen",
+    "learnMore": "Erfahre mehr",
+    "viewAllNews": "Alle Nachrichten anzeigen",
+    "viewAllPrograms": "Alle Programme anzeigen",
+    "areas": {
+      "education": {
+        "title": "Bildung & Wissensaustausch",
+        "desc": "Lernen, Kapazitätsaufbau und akademische Partnerschaften über Grenzen hinweg."
+      },
+      "humanitarian": {
+        "title": "Humanitär",
+        "desc": "Programme zur Unterstützung von Gemeinschaften mit Mitgefühl, Hilfe und Würde."
+      },
+      "exhibition": {
+        "title": "Ausstellungen & Konferenzen",
+        "desc": "Plattformen zur Präsentation von Ideen, Kultur und zur Förderung des globalen Dialogs."
+      },
+      "youth": {
+        "title": "Jugendentwicklung",
+        "desc": "Stärkung junger Menschen durch Bildung, Fähigkeiten und Führung."
+      },
+      "training": {
+        "title": "Schulung & Workshops",
+        "desc": "Praktische Sitzungen zum Aufbau von Fähigkeiten, Wissensaustausch und Wachstum."
+      },
+      "scholarship": {
+        "title": "Stipendienprogramme",
+        "desc": "Erweiterung des Zugangs zu hochwertiger Bildung durch internationale Unterstützung."
+      },
+      "grant": {
+        "title": "Fördermittelbeschaffung",
+        "desc": "Identifizierung und Sicherung von Finanzierungen für nachhaltige Initiativen."
+      },
+      "healthcare": {
+        "title": "Gesundheitswesen",
+        "desc": "Förderung von Gesundheitsbewusstsein, Pflegeprogrammen und Gemeinwohl."
+      },
+      "language": {
+        "title": "Sprachkurse",
+        "desc": "Abbau von Barrieren durch inklusive mehrsprachige Bildung."
+      },
+      "culture": {
+        "title": "Kultur, Kunst & Erbe",
+        "desc": "Präsentation, Bewahrung und Feier vielfältiger Traditionen und Kreativität."
+      },
+      "environment": {
+        "title": "Umwelt & Klimaschutz",
+        "desc": "Eintreten für Klimaresilienz, Nachhaltigkeit und grünere Zukunft."
+      },
+      "inclusion": {
+        "title": "Inklusion & Barrierefreiheit",
+        "desc": "Sicherstellung gleicher Chancen und zugänglicher Programme für alle."
+      },
+      "cooperation": {
+        "title": "Zwischenmenschliche Zusammenarbeit",
+        "desc": "Vertrauen, Solidarität und Verbindungen zwischen Gesellschaften aufbauen."
+      },
+      "research": {
+        "title": "Kreative & Kulturelle Forschung",
+        "desc": "Erforschung von Innovationen und Erkenntnissen zur Förderung kulturellen Wachstums."
+      },
+      "sports": {
+        "title": "Sport",
+        "desc": "Nutzung der einigenden Kraft des Sports für Bildung und Austausch."
+      },
+      "events": {
+        "title": "Veranstaltungen",
+        "desc": "Kulturelle und akademische Veranstaltungen, die Menschen zusammenbringen."
+      },
+      "tourism": {
+        "title": "Tourismus",
+        "desc": "Förderung des interkulturellen Verständnisses durch Reisen und Kulturerbe."
+      },
+      "innovation": {
+        "title": "Innovation & Neue Medien",
+        "desc": "Förderung von Kreativität mit Technologie, Startups und digitalen Medien."
+      }
+    },
+    "stats": {
+      "activePrograms": "Aktive Programme",
+      "partnerCountries": "Partnerländer",
+      "livesImpacted": "Betroffene Leben",
+      "innovationProjects": "Innovationsprojekte"
+    },
+    "events": {
+      "title": "Kommende Veranstaltungen",
+      "desc": "Begleiten Sie uns bei spannenden kulturellen Veranstaltungen, Festivals und Bildungsprogrammen im Laufe des Jahres.",
+      "heritage": {
+        "title": "Afrikanisches Kulturerbe-Festival",
+        "type": "Kulturelles Ereignis"
+      },
+      "innovation": {
+        "title": "Jugend-Innovationsgipfel",
+        "type": "Innovation"
+      },
+      "sports": {
+        "title": "Internationales Sportturnier",
+        "type": "Sport"
+      }
+    },
+    "newsResesearch": {
+      "title": "Nachrichten & Forschung",
+      "desc": "Bleiben Sie auf dem Laufenden mit unseren neuesten Nachrichten, Forschungsarbeiten und Einblicken in den Kulturbereich."
+    },
+    "programs": {
+      "title": "Programme & Residenzen",
+      "desc": "Intensive Programme und Residenzangebote für Künstler, Forscher und Kulturschaffende.",
+      "residency": {
+        "title": "Künstlerresidenz-Programm",
+        "desc": "3-monatige Residenzen für Nachwuchskünstler aus Europa und Afrika"
+      },
+      "fellowship": {
+        "title": "Kulturelles Forschungsstipendium",
+        "desc": "Forschungsmöglichkeiten für Wissenschaftler in Kulturwissenschaften"
+      },
+      "youthAcademy": {
+        "title": "Jugendführungsakademie",
+        "desc": "Führungsentwicklungsprogramm für junge Kultur-Botschafter"
+      }
+    },
+    "news": {
+      "partnership": {
+        "title": "Neue Partnerschaft mit der Europäischen Kulturstiftung",
+        "excerpt": "ECC Nigeria kündigt strategische Partnerschaft an, um Kulturaustauschprogramme auszubauen...",
+        "category": "Partnerschaft"
+      },
+      "research": {
+        "title": "Forschungsveröffentlichung: Digitales Erbe in Afrika",
+        "excerpt": "Unsere neueste Forschung untersucht die Digitalisierung des afrikanischen Kulturerbes...",
+        "category": "Forschung"
+      },
+      "exchange": {
+        "title": "Jugendaustauschprogramm schließt 50 Studenten ab",
+        "excerpt": "Wir feiern den Erfolg unserer jüngsten Gruppe von Kultur-Botschaftern...",
+        "category": "Bildung"
+      }
+    },
+    "cta": {
+      "title": "Bereit, etwas zu bewegen?",
+      "description": "Schließen Sie sich unserer Gemeinschaft von Changemakern, Kulturbotschaftern und Innovatoren an, die Brücken zwischen Europa und Afrika bauen.",
+      "primary": "Mach noch heute mit",
+      "secondary": "Erfahre mehr"
+    }
+  },
+  "Partners": {
+    "title": "Unsere Partner",
+    "description": "Wir arbeiten mit führenden Organisationen zusammen, um bedeutungsvolle Kulturaustausche und nachhaltige Wirkung zu schaffen.",
+    "cta": "Partner werden"
   },
   "AboutPage": {
     "mission": {

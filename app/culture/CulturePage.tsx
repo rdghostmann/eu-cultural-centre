@@ -1,3 +1,4 @@
+// CulturalPage
 "use client"
 
 import { motion } from "framer-motion"
@@ -11,84 +12,88 @@ import { useScrollAnimation } from "@/hooks/use-scroll-animation"
 import CTASection from "@/components/CTASection/CTASection"
 import HeaderSlider2 from "@/components/CustomSlider/HeaderSlider2"
 import { CulturalPageCarouselData } from "@/lib/CulturalPageCarouseData"
+import { useTranslations } from "next-intl"
 
-const culturalPrograms = [
-  {
-    title: "Visual Arts Exhibitions",
-    description: "Contemporary and traditional art exhibitions showcasing African and European artists.",
-    icon: <Palette className="h-6 w-6" />,
-    features: ["Gallery exhibitions", "Artist showcases", "Art fairs", "Cultural exchanges"],
-    impact: "50+ exhibitions annually",
-  },
-  {
-    title: "Performing Arts Festival",
-    description: "Annual festival celebrating music, dance, and theater from across continents.",
-    icon: <Theater className="h-6 w-6" />,
-    features: ["Live performances", "Cultural shows", "Artist residencies", "Community workshops"],
-    impact: "10,000+ audience members",
-  },
-  {
-    title: "Heritage Preservation",
-    description: "Digital and physical preservation of cultural heritage sites and artifacts.",
-    icon: <Camera className="h-6 w-6" />,
-    features: ["Digital archiving", "Site documentation", "Restoration projects", "Community education"],
-    impact: "25+ heritage sites documented",
-  },
-  {
-    title: "Music & Sound Arts",
-    description: "Programs promoting traditional and contemporary music across cultures.",
-    icon: <Music className="h-6 w-6" />,
-    features: ["Music festivals", "Recording projects", "Artist collaborations", "Educational workshops"],
-    impact: "100+ musicians supported",
-  },
-  {
-    title: "Creative Workshops",
-    description: "Hands-on workshops in various artistic disciplines for all skill levels.",
-    icon: <Brush className="h-6 w-6" />,
-    features: ["Art classes", "Craft workshops", "Digital arts", "Traditional techniques"],
-    impact: "500+ participants trained",
-  },
-  {
-    title: "Cultural Documentation",
-    description: "Film and media projects documenting cultural practices and stories.",
-    icon: <Film className="h-6 w-6" />,
-    features: ["Documentary films", "Oral history", "Cultural mapping", "Digital storytelling"],
-    impact: "20+ documentaries produced",
-  },
-]
-
-const upcomingEvents = [
-  {
-    title: "African Heritage Month",
-    date: "February 1-28, 2026",
-    location: "Multiple Venues",
-    type: "Cultural Festival",
-    description: "Month-long celebration of African heritage with exhibitions, performances, and workshops.",
-  },
-  {
-    title: "Contemporary Art Showcase",
-    date: "March 15-30, 2026",
-    location: "Lagos Art Gallery",
-    type: "Exhibition",
-    description: "Featuring emerging artists from Nigeria and Europe in a collaborative exhibition.",
-  },
-  {
-    title: "Traditional Music Festival",
-    date: "April 20-22, 2026",
-    location: "National Theatre",
-    type: "Music Festival",
-    description: "Three-day festival celebrating traditional music from across Africa and Europe.",
-  },
-]
 
 export default function CulturePage() {
   const { ref: heroRef, isInView: heroInView } = useScrollAnimation()
   const { ref: programsRef, isInView: programsInView } = useScrollAnimation()
   const { ref: eventsRef, isInView: eventsInView } = useScrollAnimation()
-
+  
   const hoverScale = { scale: 1.05 };
   const hoverLift = { y: -5, scale: 1.05 }; // lift slightly and scale up
+  
+  const t = useTranslations("CulturalPage")
 
+
+  const culturalPrograms = [
+    {
+      title: "Visual Arts Exhibitions",
+      description: "Contemporary and traditional art exhibitions showcasing African and European artists.",
+      icon: <Palette className="h-6 w-6" />,
+      features: ["Gallery exhibitions", "Artist showcases", "Art fairs", "Cultural exchanges"],
+      impact: "50+ exhibitions annually",
+    },
+    {
+      title: "Performing Arts Festival",
+      description: "Annual festival celebrating music, dance, and theater from across continents.",
+      icon: <Theater className="h-6 w-6" />,
+      features: ["Live performances", "Cultural shows", "Artist residencies", "Community workshops"],
+      impact: "10,000+ audience members",
+    },
+    {
+      title: "Heritage Preservation",
+      description: "Digital and physical preservation of cultural heritage sites and artifacts.",
+      icon: <Camera className="h-6 w-6" />,
+      features: ["Digital archiving", "Site documentation", "Restoration projects", "Community education"],
+      impact: "25+ heritage sites documented",
+    },
+    {
+      title: "Music & Sound Arts",
+      description: "Programs promoting traditional and contemporary music across cultures.",
+      icon: <Music className="h-6 w-6" />,
+      features: ["Music festivals", "Recording projects", "Artist collaborations", "Educational workshops"],
+      impact: "100+ musicians supported",
+    },
+    {
+      title: "Creative Workshops",
+      description: "Hands-on workshops in various artistic disciplines for all skill levels.",
+      icon: <Brush className="h-6 w-6" />,
+      features: ["Art classes", "Craft workshops", "Digital arts", "Traditional techniques"],
+      impact: "500+ participants trained",
+    },
+    {
+      title: "Cultural Documentation",
+      description: "Film and media projects documenting cultural practices and stories.",
+      icon: <Film className="h-6 w-6" />,
+      features: ["Documentary films", "Oral history", "Cultural mapping", "Digital storytelling"],
+      impact: "20+ documentaries produced",
+    },
+  ]
+  
+  const upcomingEvents = [
+    {
+      title: "African Heritage Month",
+      date: "February 1-28, 2026",
+      location: "Multiple Venues",
+      type: "Cultural Festival",
+      description: "Month-long celebration of African heritage with exhibitions, performances, and workshops.",
+    },
+    {
+      title: "Contemporary Art Showcase",
+      date: "March 15-30, 2026",
+      location: "Lagos Art Gallery",
+      type: "Exhibition",
+      description: "Featuring emerging artists from Nigeria and Europe in a collaborative exhibition.",
+    },
+    {
+      title: "Traditional Music Festival",
+      date: "April 20-22, 2026",
+      location: "National Theatre",
+      type: "Music Festival",
+      description: "Three-day festival celebrating traditional music from across Africa and Europe.",
+    },
+  ]
   return (
     <div className="flex flex-col overflow-hidden">
       {/* Hero Section */}

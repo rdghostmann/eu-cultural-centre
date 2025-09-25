@@ -1,3 +1,5 @@
+// HomePage.tsx
+
 "use client"
 
 import { motion } from "framer-motion"
@@ -7,7 +9,7 @@ import { Badge } from "@/components/ui/badge"
 import Link from "next/link"
 import {
   ArrowRight, Users, Globe, Heart, Lightbulb, Calendar, Newspaper, Camera,
-  BookOpen, Palette, HeartHandshake, Landmark, Leaf, Trees, HandCoins , Globe2, Accessibility, Users2, Trophy, FlaskConical, Rocket,
+  BookOpen, Palette, HeartHandshake, Landmark, Leaf, Trees, HandCoins, Globe2, Accessibility, Users2, Trophy, FlaskConical, Rocket,
   GraduationCap,
   Briefcase,
   Activity,
@@ -21,145 +23,8 @@ import HeaderSlider from "@/components/CustomSlider/HeaderSlider"
 import Partners from "@/components/Partners/Partners"
 import { useTranslations } from "next-intl"
 
-const areasOfWork = [
-  {
-    title: "Education & Knowledge Exchange",
-    description: "Learning, capacity building, and academic partnerships across borders.",
-    icon: GraduationCap,
-    href: "/education",
-  },
-  {
-    title: "Humanitarian",
-    description: "Programs supporting communities with compassion, relief, and dignity.",
-    icon: HeartHandshake,
-    href: "/humanitarian",
-  },
-  {
-    title: "Exhibition & Conferences",
-    description: "Platforms for showcasing ideas, culture, and fostering global dialogue.",
-    icon: Landmark,
-    href: "/exhibition",
-  },
-  {
-    title: "Youth Development",
-    description: "Empowering young people through education, skills, and leadership.",
-    icon: Users,
-    href: "/youth-development",
-  },
-  {
-    title: "Training & Workshop",
-    description: "Hands-on sessions to build skills, share knowledge, and drive growth.",
-    icon: BookOpen,
-    href: "/training-workshop",
-  },
-  {
-    title: "Scholarship Programs",
-    description: "Expanding access to quality education through international support.",
-    icon: GraduationCap,
-    href: "/scholarship-programs",
-  },
-  {
-    title: "Grant Sourcing",
-    description: "Identifying and securing funding to sustain impactful initiatives.",
-    icon: Briefcase,
-    href: "/grant-sourcing",
-  },
-  {
-    title: "Healthcare",
-    description: "Promoting health awareness, care programs, and community well-being.",
-    icon: Activity,
-    href: "/healthcare",
-  },
-  {
-    title: "Language Courses",
-    description: "Breaking barriers by providing inclusive multilingual education.",
-    icon: BookOpen,
-    href: "/language-courses",
-  },
-  {
-    title: "Culture, Arts & Heritage",
-    description: "Showcasing, preserving, and celebrating diverse traditions and creativity.",
-    icon: Palette,
-    href: "/culture",
-  },
-  {
-    title: "Environment & Climate Action",
-    description: "Advocating for climate resilience, sustainability, and greener futures.",
-    icon: Trees,
-    href: "/environment",
-  },
-  {
-    title: "Inclusion & Accessibility",
-    description: "Ensuring equal opportunities and accessible programs for all.",
-    icon: Accessibility,
-    href: "/inclusion",
-  },
-  {
-    title: "People-to-People Cooperation",
-    description: "Building trust, solidarity, and connections across societies.",
-    icon: Handshake,
-    href: "/cooperation",
-  },
-  {
-    title: "Creative & Cultural Research",
-    description: "Exploring innovations and insights that advance cultural growth.",
-    icon: Lightbulb,
-    href: "/research",
-  },
-  {
-    title: "Sports",
-    description: "Harnessing the unifying power of sports for education and exchange.",
-    icon: Trophy,
-    href: "/sports",
-  },
-  {
-    title: "Events",
-    description: "Hosting cultural and academic events that bring people together.",
-    icon: Calendar,
-    href: "/events",
-  },
-  {
-    title: "Tourism",
-    description: "Promoting intercultural understanding through travel and heritage.",
-    icon: Globe2,
-    href: "/tourism",
-  },
-  {
-    title: "Innovation & New Media",
-    description: "Driving creativity with technology, startups, and digital media.",
-    icon: Lightbulb,
-    href: "/innovation",
-  },
-];
-
-
-const stats = [
-  { label: "Active Programs", value: "50+", icon: Users },
-  { label: "Partner Countries", value: "25+", icon: Globe },
-  { label: "Lives Impacted", value: "10K+", icon: Heart },
-  { label: "Innovation Projects", value: "100+", icon: Lightbulb },
-]
-
-const upcomingEvents = [
-  { title: "African Heritage Festival", date: "March 15-17, 2026", location: "Lagos Cultural Center", type: "Cultural Event", image: "/events/event2.png" },
-  { title: "Youth Innovation Summit", date: "April 8-10, 2026", location: "Abuja Tech Hub", type: "Innovation", image: "/events/event3.png" },
-  { title: "International Sports Tournament", date: "May 20-25, 2026", location: "National Stadium", type: "Sports", image: "/events/event4.png" },
-]
-
-const programs = [
-  { title: "Artist Residency Program", description: "3-month residencies for emerging artists from Europe and Africa", duration: "3 months", applications: "Open", image: "/programs/program1.jpg" },
-  { title: "Cultural Research Fellowship", description: "Research opportunities for scholars in cultural studies", duration: "6 months", applications: "Closing Soon", image: "/programs/program2.png" },
-  { title: "Youth Leadership Academy", description: "Leadership development program for young cultural ambassadors", duration: "4 weeks", applications: "Open", image: "/programs/program3.png" },
-]
-
-const newsItems = [
-  { title: "New Partnership with European Cultural Foundation", excerpt: "ECC Nigeria announces strategic partnership to expand cultural exchange programs...", date: "January 15, 2026", category: "Partnership", image: "/news/news1.jpg" },
-  { title: "Research Publication: Digital Heritage in Africa", excerpt: "Our latest research explores the digitization of African cultural heritage...", date: "January 10, 2026", category: "Research", image: "/news/news2.jpg" },
-  { title: "Youth Exchange Program Graduates 50 Students", excerpt: "Celebrating the success of our latest cohort of cultural ambassadors...", date: "January 5, 2026", category: "Education", image: "/news/news3.jpg" },
-]
 
 export default function HomePage() {
-  const { ref: heroRef, isInView: heroInView } = useScrollAnimation()
   const { ref: statsRef, isInView: statsInView } = useScrollAnimation()
   const { ref: areasRef, isInView: areasInView } = useScrollAnimation()
   const { ref: eventsRef, isInView: eventsInView } = useScrollAnimation()
@@ -171,17 +36,61 @@ export default function HomePage() {
 
   const t = useTranslations("HomePage")
 
+  const areasOfWork = [
+    { title: t("areas.education.title"), description: t("areas.education.desc"), icon: GraduationCap, href: "/education" },
+    { title: t("areas.humanitarian.title"), description: t("areas.humanitarian.desc"), icon: HeartHandshake, href: "/humanitarian" },
+    { title: t("areas.exhibition.title"), description: t("areas.exhibition.desc"), icon: Landmark, href: "/exhibition" },
+    { title: t("areas.youth.title"), description: t("areas.youth.desc"), icon: Users, href: "/youth-development" },
+    { title: t("areas.training.title"), description: t("areas.training.desc"), icon: BookOpen, href: "/training-workshop" },
+    { title: t("areas.scholarship.title"), description: t("areas.scholarship.desc"), icon: GraduationCap, href: "/scholarship-programs" },
+    { title: t("areas.grant.title"), description: t("areas.grant.desc"), icon: Briefcase, href: "/grant-sourcing" },
+    { title: t("areas.healthcare.title"), description: t("areas.healthcare.desc"), icon: Activity, href: "/healthcare" },
+    { title: t("areas.language.title"), description: t("areas.language.desc"), icon: BookOpen, href: "/language-courses" },
+    { title: t("areas.culture.title"), description: t("areas.culture.desc"), icon: Palette, href: "/culture" },
+    { title: t("areas.environment.title"), description: t("areas.environment.desc"), icon: Trees, href: "/environment" },
+    { title: t("areas.inclusion.title"), description: t("areas.inclusion.desc"), icon: Accessibility, href: "/inclusion" },
+    { title: t("areas.cooperation.title"), description: t("areas.cooperation.desc"), icon: Handshake, href: "/cooperation" },
+    { title: t("areas.research.title"), description: t("areas.research.desc"), icon: Lightbulb, href: "/research" },
+    { title: t("areas.sports.title"), description: t("areas.sports.desc"), icon: Trophy, href: "/sports" },
+    { title: t("areas.events.title"), description: t("areas.events.desc"), icon: Calendar, href: "/events" },
+    { title: t("areas.tourism.title"), description: t("areas.tourism.desc"), icon: Globe2, href: "/tourism" },
+    { title: t("areas.innovation.title"), description: t("areas.innovation.desc"), icon: Lightbulb, href: "/innovation" },
+  ]
+
+  const stats = [
+    { label: t("stats.activePrograms"), value: "50+", icon: Users },
+    { label: t("stats.partnerCountries"), value: "25+", icon: Globe },
+    { label: t("stats.livesImpacted"), value: "10K+", icon: Heart },
+    { label: t("stats.innovationProjects"), value: "100+", icon: Lightbulb },
+  ]
+
+  const upcomingEvents = [
+    { title: t("events.heritage.title"), date: "March 15-17, 2026", location: "Lagos Cultural Center", type: t("events.heritage.type"), image: "/events/event2.png" },
+    { title: t("events.innovation.title"), date: "April 8-10, 2026", location: "Abuja Tech Hub", type: t("events.innovation.type"), image: "/events/event3.png" },
+    { title: t("events.sports.title"), date: "May 20-25, 2026", location: "National Stadium", type: t("events.sports.type"), image: "/events/event4.png" },
+  ]
+
+  const programs = [
+    { title: t("programs.residency.title"), description: t("programs.residency.desc"), duration: "3 months", applications: "Open", image: "/programs/program1.jpg" },
+    { title: t("programs.fellowship.title"), description: t("programs.fellowship.desc"), duration: "6 months", applications: "Closing Soon", image: "/programs/program2.png" },
+    { title: t("programs.youthAcademy.title"), description: t("programs.youthAcademy.desc"), duration: "4 weeks", applications: "Open", image: "/programs/program3.png" },
+  ]
+
+  const newsItems = [
+    { title: t("news.partnership.title"), excerpt: t("news.partnership.excerpt"), date: "January 15, 2026", category: t("news.partnership.category"), image: "/news/news1.jpg" },
+    { title: t("news.research.title"), excerpt: t("news.research.excerpt"), date: "January 10, 2026", category: t("news.research.category"), image: "/news/news2.jpg" },
+    { title: t("news.exchange.title"), excerpt: t("news.exchange.excerpt"), date: "January 5, 2026", category: t("news.exchange.category"), image: "/news/news3.jpg" },
+  ]
+
   return (
     <div className="flex flex-col overflow-hidden">
       {/* Hero Section */}
       <HeaderSlider images={HomePageCarouselData} />
 
       {/* Stats Section */}
-      <section
-        className="py-16 relative transition-colors duration-300
+      <section className="py-16 relative transition-colors duration-300
           bg-gradient-to-br from-[#f8fafc] via-[#e0e7ef] to-[#68b684]"
-        ref={statsRef}
-      >
+        ref={statsRef}   >
         <div className="container mx-auto relative z-10">
           <motion.div
             className="grid grid-cols-2 lg:grid-cols-4 gap-8"
@@ -267,7 +176,7 @@ export default function HomePage() {
                       className="text-[#8F770A] bg-white hover:text-[#68b684] font-semibold"
                     >
                       <Link href={area.href}>
-                        Learn More <ArrowRight className="ml-1 h-4 w-4" />
+                        {t("learnMore")} <ArrowRight className="ml-1 h-4 w-4" />
                       </Link>
                     </Button>
                   </motion.div>
@@ -291,9 +200,9 @@ export default function HomePage() {
             initial="hidden"
             animate={eventsInView ? "visible" : "hidden"}
           >
-            <h2 className="text-3xl lg:text-4xl font-bold text-[#205375] mb-4 drop-shadow-[0_4px_16px_rgba(0,0,0,0.7)]">Upcoming Events</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold text-[#205375] mb-4 drop-shadow-[0_4px_16px_rgba(0,0,0,0.7)]">{t("events.title")}</h2>
             <p className="text-xl text-[#68b684] max-w-3xl mx-auto">
-              Join us for exciting cultural events, festivals, and educational programs throughout the year.
+              {t("events.desc")}
             </p>
           </motion.div>
           <motion.div
@@ -302,7 +211,7 @@ export default function HomePage() {
             initial="hidden"
             animate={eventsInView ? "visible" : "hidden"}
           >
-            {upcomingEvents.map((event, index) => (
+            {upcomingEvents.map((event: any, index: number) => (
               <motion.div key={index} variants={staggerItem} whileHover={hoverLift}>
                 <Card className="overflow-hidden h-full bg-white/10 border border-white/20 rounded-2xl shadow-xl backdrop-blur-md hover:bg-[#68b684]/10 hover:border-[#68b684]">
                   <motion.div
@@ -329,7 +238,7 @@ export default function HomePage() {
                     <motion.div whileHover={hoverScale} whileTap={{ scale: 0.95 }}>
                       <Link href="/contact">
                         <Button className="w-full bg-[#68b684] hover:bg-[#205375] text-white font-semibold">
-                          Learn More
+                          {t("learnMore")}
                         </Button>
                       </Link>
                     </motion.div>
@@ -347,7 +256,7 @@ export default function HomePage() {
             <motion.div whileHover={hoverScale} whileTap={{ scale: 0.95 }}>
               <Button asChild size="lg" variant="outline" className="border-[#205375] text-[#205375] hover:bg-[#205375] hover:text-white bg-transparent font-semibold shadow">
                 <Link href="/events">
-                  View All Events <ArrowRight className="ml-2 h-5 w-5" />
+                  {t("viewAllNews")} <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>
               </Button>
             </motion.div>
@@ -367,9 +276,9 @@ export default function HomePage() {
             initial="hidden"
             animate={programsInView ? "visible" : "hidden"}
           >
-            <h2 className="text-3xl lg:text-4xl font-bold text-white mb-4 drop-shadow-[0_4px_16px_rgba(0,0,0,0.7)]">Programs & Residencies</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold text-white mb-4 drop-shadow-[0_4px_16px_rgba(0,0,0,0.7)]">{t("programs.title")}</h2>
             <p className="text-xl text-gray-200 max-w-3xl mx-auto px-7">
-              Immersive programs and residency opportunities for artists, researchers, and cultural professionals.
+              {t("programs.desc")}
             </p>
           </motion.div>
           <motion.div
@@ -378,7 +287,7 @@ export default function HomePage() {
             initial="hidden"
             animate={programsInView ? "visible" : "hidden"}
           >
-            {programs.map((program, index) => (
+            {programs.map((program: any, index: number) => (
               <motion.div key={index} variants={staggerItem} whileHover={hoverLift}>
                 <Card className="overflow-hidden h-full bg-[#1a2332]/80 border border-[#205375]/40 rounded-2xl shadow-xl backdrop-blur-md hover:bg-[#68b684]/10 hover:border-[#68b684]">
                   <motion.div
@@ -419,7 +328,7 @@ export default function HomePage() {
             <motion.div whileHover={hoverScale} whileTap={{ scale: 0.95 }}>
               <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-[#205375] bg-transparent font-semibold shadow">
                 <Link href="/#programs">
-                  View All Programs <ArrowRight className="ml-2 h-5 w-5" />
+                 {t("viewAllPrograms")} <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>
               </Button>
             </motion.div>
@@ -446,11 +355,10 @@ export default function HomePage() {
             animate={newsInView ? "visible" : "hidden"}
           >
             <h2 className="text-3xl lg:text-4xl font-bold text-[#205375] mb-4 drop-shadow-[0_4px_16px_rgba(0,0,0,0.7)]">
-              News & Research
+              {t("newsResesearch.title")}
             </h2>
             <p className="text-xl text-gray-700 max-w-3xl mx-auto">
-              Stay updated with our latest news, research publications, and insights
-              from the cultural sector.
+              {t("newsResesearch.desc")}
             </p>
           </motion.div>
 
@@ -461,7 +369,7 @@ export default function HomePage() {
             initial="hidden"
             animate={newsInView ? "visible" : "hidden"}
           >
-            {newsItems.map((item, index) => (
+            {newsItems.map((item: any, index: number) => (
               <motion.div
                 key={index}
                 variants={staggerItem}
@@ -495,7 +403,7 @@ export default function HomePage() {
                           variant="ghost"
                           className="py-2 px-4 h-auto bg-[#205375] text-white font-semibold hover:from-[#68b684] hover:to-[#205375]"
                         >
-                          Read More <ArrowRight className="ml-1 h-4 w-4" />
+                          {t("readmore")} <ArrowRight className="ml-1 h-4 w-4" />
                         </Button>
                       </Link>
                     </motion.div>
@@ -520,7 +428,7 @@ export default function HomePage() {
               >
                 <Link href="/news-research">
                   <Newspaper className="mr-2 h-5 w-5" />
-                  View All News
+                  {t("viewAllNews")}
                 </Link>
               </Button>
             </motion.div>
@@ -531,12 +439,11 @@ export default function HomePage() {
 
       {/* CTA Section */}
       <CTASection
-        title="Ready to Make a Difference?"
-        description=" Join our community of changemakers, cultural ambassadors, and innovators working to build bridges between
-        Europe and Africa."
-        primaryLabel="Get Involved Today"
+        title={t("cta.title")}
+        description={t("cta.description")}
+        primaryLabel={t("cta.primary")}
         primaryHref="/contact"
-        secondaryLabel="Learn More"
+        secondaryLabel={t("cta.secondary")}
         secondaryHref="/contact"
         className="bg-slate-100 text-white py-16 lg:py-20"
       />

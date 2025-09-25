@@ -1,7 +1,155 @@
 {
   "HomePage": {
-    "areaofworkh2": "Nos domaines d'activité",
-    "areaofworkp": "Nous créons des échanges culturels significatifs et des partenariats durables dans huit domaines clés."
+    "areaofworkh2": "Nos Domaines d’Action",
+    "areaofworkp": "Nous créons des échanges culturels significatifs et des partenariats durables dans des domaines clés.",
+    "readmore": "Lire plus",
+    "learnMore": "En savoir plus",
+    "viewAllNews": "Voir toutes les actualités",
+    "viewAllPrograms": "Voir tous les programmes",
+    "areas": {
+      "education": {
+        "title": "Éducation & Échange de Connaissances",
+        "desc": "Apprentissage, renforcement des capacités et partenariats académiques au-delà des frontières."
+      },
+      "humanitarian": {
+        "title": "Humanitaire",
+        "desc": "Programmes soutenant les communautés avec compassion, aide et dignité."
+      },
+      "exhibition": {
+        "title": "Expositions & Conférences",
+        "desc": "Des plateformes pour présenter des idées, la culture et favoriser le dialogue mondial."
+      },
+      "youth": {
+        "title": "Développement de la Jeunesse",
+        "desc": "Autonomiser les jeunes grâce à l’éducation, aux compétences et au leadership."
+      },
+      "training": {
+        "title": "Formations & Ateliers",
+        "desc": "Sessions pratiques pour développer des compétences, partager des connaissances et stimuler la croissance."
+      },
+      "scholarship": {
+        "title": "Programmes de Bourses",
+        "desc": "Élargir l’accès à une éducation de qualité grâce au soutien international."
+      },
+      "grant": {
+        "title": "Recherche de Subventions",
+        "desc": "Identifier et obtenir des financements pour soutenir des initiatives percutantes."
+      },
+      "healthcare": {
+        "title": "Santé",
+        "desc": "Promouvoir la sensibilisation à la santé, les programmes de soins et le bien-être communautaire."
+      },
+      "language": {
+        "title": "Cours de Langues",
+        "desc": "Briser les barrières en offrant une éducation multilingue inclusive."
+      },
+      "culture": {
+        "title": "Culture, Arts & Patrimoine",
+        "desc": "Mettre en valeur, préserver et célébrer la diversité des traditions et de la créativité."
+      },
+      "environment": {
+        "title": "Environnement & Action Climatique",
+        "desc": "Plaider pour la résilience climatique, la durabilité et un avenir plus vert."
+      },
+      "inclusion": {
+        "title": "Inclusion & Accessibilité",
+        "desc": "Garantir l’égalité des chances et des programmes accessibles à tous."
+      },
+      "cooperation": {
+        "title": "Coopération entre les Peuples",
+        "desc": "Construire la confiance, la solidarité et les liens entre les sociétés."
+      },
+      "research": {
+        "title": "Recherche Créative & Culturelle",
+        "desc": "Explorer les innovations et connaissances qui font progresser la croissance culturelle."
+      },
+      "sports": {
+        "title": "Sports",
+        "desc": "Exploiter le pouvoir unificateur du sport pour l’éducation et les échanges."
+      },
+      "events": {
+        "title": "Événements",
+        "desc": "Organiser des événements culturels et académiques qui rassemblent les gens."
+      },
+      "tourism": {
+        "title": "Tourisme",
+        "desc": "Favoriser la compréhension interculturelle grâce aux voyages et au patrimoine."
+      },
+      "innovation": {
+        "title": "Innovation & Nouveaux Médias",
+        "desc": "Stimuler la créativité grâce à la technologie, aux startups et aux médias numériques."
+      }
+    },
+    "stats": {
+      "activePrograms": "Programmes Actifs",
+      "partnerCountries": "Pays Partenaires",
+      "livesImpacted": "Vies Impactées",
+      "innovationProjects": "Projets d’Innovation"
+    },
+    "events": {
+      "title": "Événements à Venir",
+      "desc": "Rejoignez-nous pour des événements culturels, festivals et programmes éducatifs tout au long de l’année.",
+      "heritage": {
+        "title": "Festival du Patrimoine Africain",
+        "type": "Événement Culturel"
+      },
+      "innovation": {
+        "title": "Sommet de l’Innovation des Jeunes",
+        "type": "Innovation"
+      },
+      "sports": {
+        "title": "Tournoi Sportif International",
+        "type": "Sports"
+      }
+    },
+    "newsResesearch": {
+      "title": "Actualités & Recherches",
+      "desc": "Restez informés de nos dernières actualités, publications de recherche et analyses du secteur culturel."
+    },
+    "programs": {
+      "title": "Programmes & Résidences",
+      "desc": "Programmes immersifs et opportunités de résidence pour artistes, chercheurs et professionnels de la culture.",
+      "residency": {
+        "title": "Programme de Résidence d’Artistes",
+        "desc": "Résidences de 3 mois pour les artistes émergents d’Europe et d’Afrique"
+      },
+      "fellowship": {
+        "title": "Bourse de Recherche Culturelle",
+        "desc": "Opportunités de recherche pour les chercheurs en études culturelles"
+      },
+      "youthAcademy": {
+        "title": "Académie de Leadership Jeunesse",
+        "desc": "Programme de développement du leadership pour jeunes ambassadeurs culturels"
+      }
+    },
+    "news": {
+      "partnership": {
+        "title": "Nouveau Partenariat avec la Fondation Culturelle Européenne",
+        "excerpt": "ECC Nigeria annonce un partenariat stratégique pour élargir les programmes d’échanges culturels...",
+        "category": "Partenariat"
+      },
+      "research": {
+        "title": "Publication de Recherche : Patrimoine Numérique en Afrique",
+        "excerpt": "Notre dernière recherche explore la numérisation du patrimoine culturel africain...",
+        "category": "Recherche"
+      },
+      "exchange": {
+        "title": "Programme d’Échange Jeunesse Diplôme 50 Étudiants",
+        "excerpt": "Célébration de la réussite de notre dernière cohorte d’ambassadeurs culturels...",
+        "category": "Éducation"
+      }
+    },
+    "cta": {
+      "title": "Prêt à Faire la Différence ?",
+      "description": "Rejoignez notre communauté d’acteurs du changement, d’ambassadeurs culturels et d’innovateurs qui construisent des ponts entre l’Europe et l’Afrique.",
+      "primary": "Impliquez-vous dès Aujourd’hui",
+      "secondary": "En savoir plus"
+    }
+  },
+   "Partners": {
+    "title": "Nos Partenaires",
+    "description": "Nous collaborons avec des organisations de premier plan pour créer des échanges culturels significatifs et un impact durable.",
+    "cta": "Devenir partenaire"
   },
   "AboutPage": {
     "mission": {
